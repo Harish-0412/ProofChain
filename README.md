@@ -1,0 +1,74 @@
+# ProofChain
+
+ProofChain is an accreditation evidence integrity and governance system for educational institutions.
+
+The MVP focuses on one complete evidence workflow:
+
+```text
+Requirement -> Claim -> Evidence -> Extraction -> Mapping -> Verification -> Gap -> Task -> Approval -> Audit Package
+```
+
+The first version should prove that an institution can upload or ingest evidence, extract useful facts, map documents to accreditation requirements, detect missing or inconsistent proof, create corrective tasks, and generate an audit-ready package with traceability.
+
+## MVP Focus
+
+The MVP is intentionally narrow:
+
+- Five departments
+- Five accreditation requirements
+- Manual upload first
+- Google Drive connector planned as optional ingestion
+- Deterministic rules first
+- One strong end-to-end workflow before advanced AI
+- PostgreSQL or SQLite first
+- Qdrant and Neo4j postponed
+
+## First Workflow
+
+The first demo workflow should use the CSE department and a student or industry activity requirement.
+
+Example:
+
+```text
+CSE claims 120 students attended an industry workshop.
+ProofChain checks the event report, attendance spreadsheet, approval document, certificates, and photos.
+The system detects a count mismatch, missing signature, duplicate evidence, and missing documents.
+It creates tasks, drafts a department notification, and generates an audit package after approval.
+```
+
+## Core MVP Modules
+
+- Evidence registry
+- Ingestion source tracking
+- Document extraction
+- Evidence mapping
+- Integrity rule engine
+- Gap analysis
+- Corrective task generation
+- Department notification draft workflow
+- Human approval center
+- Dashboard metrics
+- Audit package generator
+- Traceability log
+
+## Documentation
+
+- [MVP Modified Architecture](ProofChain_MVP_Modified_Project_Architecture.md)
+- [MVP Build Phases and Workflow](docs/ProofChain_MVP_Phases_and_Workflow.md)
+- [Phase 0 Foundation](docs/Phase_0_Project_Foundation.md)
+- [Phase 1 Evidence Registry and Ingestion](docs/Phase_1_Evidence_Registry_and_Ingestion.md)
+- [Phase 2 Sample Dataset Creation](docs/Phase_2_Sample_Dataset_Creation.md)
+- [Phase 3 Document Extraction](docs/Phase_3_Document_Extraction.md)
+- [Initial Data Schema Draft](docs/Initial_Data_Schema_Draft.md)
+- [Sample Dataset Structure](sample_data/README.md)
+
+## Current Build Priority
+
+Complete these first:
+
+1. Phase 0: Project foundation
+2. Phase 1: Evidence registry and ingestion
+3. Phase 2: Sample dataset creation
+4. Phase 3: Document extraction
+
+After those are stable, move to evidence mapping and deterministic validation rules.

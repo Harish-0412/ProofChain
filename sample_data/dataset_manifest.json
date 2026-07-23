@@ -1,0 +1,505 @@
+{
+  "departments": {
+    "CSE": "Computer Science and Engineering",
+    "ECE": "Electronics and Communication Engineering",
+    "EEE": "Electrical and Electronics Engineering",
+    "Mechanical": "Mechanical Engineering",
+    "Civil": "Civil Engineering"
+  },
+  "requirements": {
+    "C3.2.1": "Industry interaction activities",
+    "C5.1.3": "Student enrichment programmes",
+    "C6.3.2": "Faculty development activities",
+    "C7.1.1": "Extension and outreach activities",
+    "C1.2.1": "Value-added courses"
+  },
+  "events": [
+    {
+      "event_id": "EVT-CSE-001",
+      "department": "CSE",
+      "requirement_id": "C3.2.1",
+      "mapped_requirement_id": "C3.2.1",
+      "title": "Agentic AI Industry Workshop",
+      "event_date": "2025-09-11",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Kavya Srinivasan",
+      "reported_participant_count": 120,
+      "attendance_unique_students": 108,
+      "approval_expected": true,
+      "approval_signed": false,
+      "injected_issues": [
+        "count_mismatch",
+        "missing_signature",
+        "duplicate_student_rows"
+      ],
+      "files": {
+        "event_report": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.pdf",
+        "approval_document": "sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-001_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-002",
+      "department": "CSE",
+      "requirement_id": "C5.1.3",
+      "mapped_requirement_id": "C5.1.3",
+      "title": "Cloud Native Application Bootcamp",
+      "event_date": "2025-10-12",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Kavya Srinivasan",
+      "reported_participant_count": 60,
+      "attendance_unique_students": 60,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-002_CSE_C5.1.3_event_report.pdf",
+        "approval_document": "sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-002_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-003",
+      "department": "CSE",
+      "requirement_id": "C6.3.2",
+      "mapped_requirement_id": "C6.3.2",
+      "title": "Research Publication Writing Clinic",
+      "event_date": "2025-11-13",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Kavya Srinivasan",
+      "reported_participant_count": 66,
+      "attendance_unique_students": 66,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-003_CSE_C6.3.2_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-CSE-004",
+      "department": "CSE",
+      "requirement_id": "C7.1.1",
+      "mapped_requirement_id": "C7.1.1",
+      "title": "Smart Village Outreach Camp",
+      "event_date": "2025-12-14",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Kavya Srinivasan",
+      "reported_participant_count": 72,
+      "attendance_unique_students": 72,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-004_CSE_C7.1.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-CSE-005",
+      "department": "CSE",
+      "requirement_id": "C1.2.1",
+      "mapped_requirement_id": "C1.2.1",
+      "title": "Data Analytics Value Added Course",
+      "event_date": "2026-01-15",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Kavya Srinivasan",
+      "reported_participant_count": 78,
+      "attendance_unique_students": 78,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-ECE-006",
+      "department": "ECE",
+      "requirement_id": "C3.2.1",
+      "mapped_requirement_id": "C3.2.1",
+      "title": "Agentic AI Industry Workshop",
+      "event_date": "2025-09-11",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Nikhil Varadarajan",
+      "reported_participant_count": 54,
+      "attendance_unique_students": 54,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\ECE\\event_reports\\EVT-ECE-006_ECE_C3.2.1_event_report.pdf",
+        "approval_document": "sample_data\\departments\\ECE\\approval_documents\\APR_EVT-ECE-006_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-ECE-007",
+      "department": "ECE",
+      "requirement_id": "C5.1.3",
+      "mapped_requirement_id": "C5.1.3",
+      "title": "Cloud Native Application Bootcamp",
+      "event_date": "2025-10-12",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Nikhil Varadarajan",
+      "reported_participant_count": 60,
+      "attendance_unique_students": 60,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [
+        "missing_approval"
+      ],
+      "files": {
+        "event_report": "sample_data\\departments\\ECE\\event_reports\\EVT-ECE-007_ECE_C5.1.3_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-ECE-008",
+      "department": "ECE",
+      "requirement_id": "C6.3.2",
+      "mapped_requirement_id": "C6.3.2",
+      "title": "Research Publication Writing Clinic",
+      "event_date": "2025-11-13",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Nikhil Varadarajan",
+      "reported_participant_count": 66,
+      "attendance_unique_students": 66,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\ECE\\event_reports\\EVT-ECE-008_ECE_C6.3.2_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-ECE-009",
+      "department": "ECE",
+      "requirement_id": "C7.1.1",
+      "mapped_requirement_id": "C7.1.1",
+      "title": "Smart Village Outreach Camp",
+      "event_date": "2025-12-14",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Nikhil Varadarajan",
+      "reported_participant_count": 72,
+      "attendance_unique_students": 72,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\ECE\\event_reports\\EVT-ECE-009_ECE_C7.1.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-ECE-010",
+      "department": "ECE",
+      "requirement_id": "C1.2.1",
+      "mapped_requirement_id": "C1.2.1",
+      "title": "Data Analytics Value Added Course",
+      "event_date": "2026-01-15",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Nikhil Varadarajan",
+      "reported_participant_count": 78,
+      "attendance_unique_students": 78,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\ECE\\event_reports\\EVT-ECE-010_ECE_C1.2.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-EEE-011",
+      "department": "EEE",
+      "requirement_id": "C3.2.1",
+      "mapped_requirement_id": "C3.2.1",
+      "title": "Agentic AI Industry Workshop",
+      "event_date": "2025-09-11",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Meera Krishnamurthy",
+      "reported_participant_count": 54,
+      "attendance_unique_students": 54,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\EEE\\event_reports\\EVT-EEE-011_EEE_C3.2.1_event_report.pdf",
+        "approval_document": "sample_data\\departments\\EEE\\approval_documents\\APR_EVT-EEE-011_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-EEE-012",
+      "department": "EEE",
+      "requirement_id": "C5.1.3",
+      "mapped_requirement_id": "C5.1.3",
+      "title": "Cloud Native Application Bootcamp",
+      "event_date": "2025-10-12",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Meera Krishnamurthy",
+      "reported_participant_count": 60,
+      "attendance_unique_students": 60,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\EEE\\event_reports\\EVT-EEE-012_EEE_C5.1.3_event_report.pdf",
+        "approval_document": "sample_data\\departments\\EEE\\approval_documents\\APR_EVT-EEE-012_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-EEE-013",
+      "department": "EEE",
+      "requirement_id": "C6.3.2",
+      "mapped_requirement_id": "C6.3.2",
+      "title": "Research Publication Writing Clinic",
+      "event_date": "2024-11-18",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Meera Krishnamurthy",
+      "reported_participant_count": 66,
+      "attendance_unique_students": 66,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [
+        "wrong_academic_year"
+      ],
+      "files": {
+        "event_report": "sample_data\\departments\\EEE\\event_reports\\EVT-EEE-013_EEE_C6.3.2_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-EEE-014",
+      "department": "EEE",
+      "requirement_id": "C7.1.1",
+      "mapped_requirement_id": "C7.1.1",
+      "title": "Smart Village Outreach Camp",
+      "event_date": "2025-12-14",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Meera Krishnamurthy",
+      "reported_participant_count": 72,
+      "attendance_unique_students": 72,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\EEE\\event_reports\\EVT-EEE-014_EEE_C7.1.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-EEE-015",
+      "department": "EEE",
+      "requirement_id": "C1.2.1",
+      "mapped_requirement_id": "C1.2.1",
+      "title": "Data Analytics Value Added Course",
+      "event_date": "2026-01-15",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Meera Krishnamurthy",
+      "reported_participant_count": 78,
+      "attendance_unique_students": 78,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\EEE\\event_reports\\EVT-EEE-015_EEE_C1.2.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-MEC-016",
+      "department": "Mechanical",
+      "requirement_id": "C3.2.1",
+      "mapped_requirement_id": "C3.2.1",
+      "title": "Agentic AI Industry Workshop",
+      "event_date": "2025-09-11",
+      "academic_year": "2025-2026",
+      "coordinator": "Prof. Aditya Narayanan",
+      "reported_participant_count": 54,
+      "attendance_unique_students": 54,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Mechanical\\event_reports\\EVT-MEC-016_Mechanical_C3.2.1_event_report.pdf",
+        "approval_document": "sample_data\\departments\\Mechanical\\approval_documents\\APR_EVT-MEC-016_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-MEC-017",
+      "department": "Mechanical",
+      "requirement_id": "C5.1.3",
+      "mapped_requirement_id": "C5.1.3",
+      "title": "Cloud Native Application Bootcamp",
+      "event_date": "2025-10-12",
+      "academic_year": "2025-2026",
+      "coordinator": "Prof. Aditya Narayanan",
+      "reported_participant_count": 60,
+      "attendance_unique_students": 60,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Mechanical\\event_reports\\EVT-MEC-017_Mechanical_C5.1.3_event_report.pdf",
+        "approval_document": "sample_data\\departments\\Mechanical\\approval_documents\\APR_EVT-MEC-017_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-MEC-018",
+      "department": "Mechanical",
+      "requirement_id": "C6.3.2",
+      "mapped_requirement_id": "C6.3.2",
+      "title": "Research Publication Writing Clinic",
+      "event_date": "2025-11-13",
+      "academic_year": "2025-2026",
+      "coordinator": "Prof. Aditya Narayanan",
+      "reported_participant_count": 66,
+      "attendance_unique_students": 66,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Mechanical\\event_reports\\EVT-MEC-018_Mechanical_C6.3.2_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-MEC-019",
+      "department": "Mechanical",
+      "requirement_id": "C7.1.1",
+      "mapped_requirement_id": "C3.2.1",
+      "title": "Smart Village Outreach Camp",
+      "event_date": "2025-12-14",
+      "academic_year": "2025-2026",
+      "coordinator": "Prof. Aditya Narayanan",
+      "reported_participant_count": 72,
+      "attendance_unique_students": 72,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [
+        "incorrect_mapping"
+      ],
+      "files": {
+        "event_report": "sample_data\\departments\\Mechanical\\event_reports\\EVT-MEC-019_Mechanical_C3.2.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-MEC-020",
+      "department": "Mechanical",
+      "requirement_id": "C1.2.1",
+      "mapped_requirement_id": "C1.2.1",
+      "title": "Data Analytics Value Added Course",
+      "event_date": "2026-01-15",
+      "academic_year": "2025-2026",
+      "coordinator": "Prof. Aditya Narayanan",
+      "reported_participant_count": 78,
+      "attendance_unique_students": 78,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Mechanical\\event_reports\\EVT-MEC-020_Mechanical_C1.2.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-CIV-021",
+      "department": "Civil",
+      "requirement_id": "C3.2.1",
+      "mapped_requirement_id": "C3.2.1",
+      "title": "Agentic AI Industry Workshop",
+      "event_date": "2025-09-11",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Ishwarya Ramesh",
+      "reported_participant_count": 54,
+      "attendance_unique_students": 54,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Civil\\event_reports\\EVT-CIV-021_Civil_C3.2.1_event_report.pdf",
+        "approval_document": "sample_data\\departments\\Civil\\approval_documents\\APR_EVT-CIV-021_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-CIV-022",
+      "department": "Civil",
+      "requirement_id": "C5.1.3",
+      "mapped_requirement_id": "C5.1.3",
+      "title": "Cloud Native Application Bootcamp",
+      "event_date": "2025-10-12",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Ishwarya Ramesh",
+      "reported_participant_count": 60,
+      "attendance_unique_students": 60,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Civil\\event_reports\\EVT-CIV-022_Civil_C5.1.3_event_report.pdf",
+        "approval_document": "sample_data\\departments\\Civil\\approval_documents\\APR_EVT-CIV-022_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-CIV-023",
+      "department": "Civil",
+      "requirement_id": "C6.3.2",
+      "mapped_requirement_id": "C6.3.2",
+      "title": "Research Publication Writing Clinic",
+      "event_date": "2025-11-13",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Ishwarya Ramesh",
+      "reported_participant_count": 66,
+      "attendance_unique_students": 66,
+      "approval_expected": true,
+      "approval_signed": true,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Civil\\event_reports\\EVT-CIV-023_Civil_C6.3.2_event_report.pdf",
+        "approval_document": "sample_data\\departments\\Civil\\approval_documents\\APR_EVT-CIV-023_approval.pdf"
+      }
+    },
+    {
+      "event_id": "EVT-CIV-024",
+      "department": "Civil",
+      "requirement_id": "C7.1.1",
+      "mapped_requirement_id": "C7.1.1",
+      "title": "Smart Village Outreach Camp",
+      "event_date": "2025-12-14",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Ishwarya Ramesh",
+      "reported_participant_count": 72,
+      "attendance_unique_students": 72,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [],
+      "files": {
+        "event_report": "sample_data\\departments\\Civil\\event_reports\\EVT-CIV-024_Civil_C7.1.1_event_report.pdf",
+        "approval_document": null
+      }
+    },
+    {
+      "event_id": "EVT-CIV-025",
+      "department": "Civil",
+      "requirement_id": "C1.2.1",
+      "mapped_requirement_id": "C1.2.1",
+      "title": "Data Analytics Value Added Course",
+      "event_date": "2026-01-15",
+      "academic_year": "2025-2026",
+      "coordinator": "Dr. Ishwarya Ramesh",
+      "reported_participant_count": 78,
+      "attendance_unique_students": 78,
+      "approval_expected": false,
+      "approval_signed": null,
+      "injected_issues": [
+        "wrong_department"
+      ],
+      "files": {
+        "event_report": "sample_data\\departments\\Civil\\event_reports\\EVT-CIV-025_Civil_C1.2.1_event_report.pdf",
+        "approval_document": null
+      }
+    }
+  ]
+}

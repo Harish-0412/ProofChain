@@ -1,0 +1,63 @@
+[
+  {
+    "issue": "duplicate_report",
+    "department": "CSE",
+    "file": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_duplicate_event_report.pdf",
+    "duplicate_of": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.pdf"
+  },
+  {
+    "issue": "count_mismatch",
+    "event_id": "EVT-CSE-001",
+    "department": "CSE",
+    "requirement_id": "C3.2.1",
+    "description": "Event report claims 120, but attendance has 108 unique students."
+  },
+  {
+    "issue": "missing_signature",
+    "event_id": "EVT-CSE-001",
+    "department": "CSE",
+    "requirement_id": "C3.2.1",
+    "description": "Approval document exists but signature is intentionally marked as absent."
+  },
+  {
+    "issue": "duplicate_student_rows",
+    "event_id": "EVT-CSE-001",
+    "department": "CSE",
+    "requirement_id": "C3.2.1",
+    "description": "Attendance sheet includes repeated student rows."
+  },
+  {
+    "issue": "missing_approval",
+    "event_id": "EVT-ECE-007",
+    "department": "ECE",
+    "requirement_id": "C5.1.3",
+    "description": "Approval document is intentionally omitted."
+  },
+  {
+    "issue": "duplicate_photo",
+    "department": "ECE",
+    "file": "sample_data\\departments\\ECE\\photos\\PHOTO_EVT-ECE-009.png",
+    "duplicate_of": "sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-001.png"
+  },
+  {
+    "issue": "wrong_academic_year",
+    "event_id": "EVT-EEE-013",
+    "department": "EEE",
+    "requirement_id": "C6.3.2",
+    "description": "Event date 2024-11-18 is outside academic year 2025-2026."
+  },
+  {
+    "issue": "incorrect_mapping",
+    "event_id": "EVT-MEC-019",
+    "department": "Mechanical",
+    "requirement_id": "C7.1.1",
+    "description": "Evidence is mapped to C3.2.1 instead of C7.1.1."
+  },
+  {
+    "issue": "wrong_department",
+    "event_id": "EVT-CIV-025",
+    "department": "Civil",
+    "requirement_id": "C1.2.1",
+    "description": "A report copy contains the wrong department value."
+  }
+]

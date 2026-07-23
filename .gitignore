@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated inspection sidecars
+*.inspect.ndjson
+

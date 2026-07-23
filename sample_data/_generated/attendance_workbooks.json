@@ -1,0 +1,3307 @@
+[
+  {
+    "department": "CSE",
+    "event_id": "EVT-CSE-001",
+    "title": "Agentic AI Industry Workshop",
+    "csv_path": "sample_data\\_generated\\EVT-CSE-001_attendance.csv",
+    "xlsx_path": "sample_data\\departments\\CSE\\attendance_sheets\\EVT-CSE-001_attendance.xlsx",
+    "rows": [
+      {
+        "S.No": "1",
+        "Roll Number": "CSE25001",
+        "Student Name": "Arjun Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "2",
+        "Roll Number": "CSE25002",
+        "Student Name": "Kishore Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Raman"
+      },
+      {
+        "S.No": "3",
+        "Roll Number": "CSE25003",
+        "Student Name": "Aishwarya Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "4",
+        "Roll Number": "CSE25004",
+        "Student Name": "Charvi Natarajan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Natarajan"
+      },
+      {
+        "S.No": "5",
+        "Roll Number": "CSE25005",
+        "Student Name": "Rithika Anand",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Anand"
+      },
+      {
+        "S.No": "6",
+        "Roll Number": "CSE25006",
+        "Student Name": "Vikram Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Raman"
+      },
+      {
+        "S.No": "7",
+        "Roll Number": "CSE25007",
+        "Student Name": "Ishaan Raghavan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "I. Raghavan"
+      },
+      {
+        "S.No": "8",
+        "Roll Number": "CSE25008",
+        "Student Name": "Rithika Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Raman"
+      },
+      {
+        "S.No": "9",
+        "Roll Number": "CSE25009",
+        "Student Name": "Meghana Rajendran",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Rajendran"
+      },
+      {
+        "S.No": "10",
+        "Roll Number": "CSE25010",
+        "Student Name": "Akshay Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "11",
+        "Roll Number": "CSE25011",
+        "Student Name": "Madhav Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Raman"
+      },
+      {
+        "S.No": "12",
+        "Roll Number": "CSE25012",
+        "Student Name": "Diya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Raman"
+      },
+      {
+        "S.No": "13",
+        "Roll Number": "CSE25013",
+        "Student Name": "Sai Charan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Charan"
+      },
+      {
+        "S.No": "14",
+        "Roll Number": "CSE25014",
+        "Student Name": "Aadhya Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "15",
+        "Roll Number": "CSE25015",
+        "Student Name": "Rohan Subbu",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Subbu"
+      },
+      {
+        "S.No": "16",
+        "Roll Number": "CSE25016",
+        "Student Name": "Bharath Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Raman"
+      },
+      {
+        "S.No": "17",
+        "Roll Number": "CSE25017",
+        "Student Name": "Nandhini Venkataraman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Venkataraman"
+      },
+      {
+        "S.No": "18",
+        "Roll Number": "CSE25018",
+        "Student Name": "Charvi Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Suresh"
+      },
+      {
+        "S.No": "19",
+        "Roll Number": "CSE25019",
+        "Student Name": "Gautham Menon",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "G. Menon"
+      },
+      {
+        "S.No": "20",
+        "Roll Number": "CSE25020",
+        "Student Name": "Shruthi Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "21",
+        "Roll Number": "CSE25021",
+        "Student Name": "Harini Subramanian",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "H. Subramanian"
+      },
+      {
+        "S.No": "22",
+        "Roll Number": "CSE25022",
+        "Student Name": "Pavithra Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Raman"
+      },
+      {
+        "S.No": "23",
+        "Roll Number": "CSE25023",
+        "Student Name": "Madhav Seshadri",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Seshadri"
+      },
+      {
+        "S.No": "24",
+        "Roll Number": "CSE25024",
+        "Student Name": "Harini Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "H. Raman"
+      },
+      {
+        "S.No": "25",
+        "Roll Number": "CSE25025",
+        "Student Name": "Aishwarya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "26",
+        "Roll Number": "CSE25026",
+        "Student Name": "Yamini Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Raman"
+      },
+      {
+        "S.No": "27",
+        "Roll Number": "CSE25027",
+        "Student Name": "Raghav Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Raman"
+      },
+      {
+        "S.No": "28",
+        "Roll Number": "CSE25028",
+        "Student Name": "Raghavendra Mani",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Mani"
+      },
+      {
+        "S.No": "29",
+        "Roll Number": "CSE25029",
+        "Student Name": "Tejas Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Raman"
+      },
+      {
+        "S.No": "30",
+        "Roll Number": "CSE25030",
+        "Student Name": "Abhinav Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "31",
+        "Roll Number": "CSE25031",
+        "Student Name": "Abhinav Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "32",
+        "Roll Number": "CSE25032",
+        "Student Name": "Lavanya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Raman"
+      },
+      {
+        "S.No": "33",
+        "Roll Number": "CSE25033",
+        "Student Name": "Gautham Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "G. Raman"
+      },
+      {
+        "S.No": "34",
+        "Roll Number": "CSE25034",
+        "Student Name": "Sanjay Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "35",
+        "Roll Number": "CSE25035",
+        "Student Name": "Akshay Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "36",
+        "Roll Number": "CSE25036",
+        "Student Name": "Ananya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "37",
+        "Roll Number": "CSE25037",
+        "Student Name": "Sandhya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "38",
+        "Roll Number": "CSE25038",
+        "Student Name": "Sreeja Balasubramaniam",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Balasubramaniam"
+      },
+      {
+        "S.No": "39",
+        "Roll Number": "CSE25039",
+        "Student Name": "Lakshmi Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Raman"
+      },
+      {
+        "S.No": "40",
+        "Roll Number": "CSE25040",
+        "Student Name": "Sahana Vivek",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vivek"
+      },
+      {
+        "S.No": "41",
+        "Roll Number": "CSE25041",
+        "Student Name": "Ashwin Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "42",
+        "Roll Number": "CSE25042",
+        "Student Name": "Ashwin Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "43",
+        "Roll Number": "CSE25043",
+        "Student Name": "Keerthana Ravi",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Ravi"
+      },
+      {
+        "S.No": "44",
+        "Roll Number": "CSE25044",
+        "Student Name": "Darshan Prakash",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Prakash"
+      },
+      {
+        "S.No": "45",
+        "Roll Number": "CSE25045",
+        "Student Name": "Nithya Shankar",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Shankar"
+      },
+      {
+        "S.No": "46",
+        "Roll Number": "CSE25046",
+        "Student Name": "Aishwarya Prasad",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Prasad"
+      },
+      {
+        "S.No": "47",
+        "Roll Number": "CSE25047",
+        "Student Name": "Janani Gopal",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "J. Gopal"
+      },
+      {
+        "S.No": "48",
+        "Roll Number": "CSE25048",
+        "Student Name": "Tarun Elango",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Elango"
+      },
+      {
+        "S.No": "49",
+        "Roll Number": "CSE25049",
+        "Student Name": "Advik Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "50",
+        "Roll Number": "CSE25050",
+        "Student Name": "Yashika Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Raman"
+      },
+      {
+        "S.No": "51",
+        "Roll Number": "CSE25051",
+        "Student Name": "Shruthi Ganesan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Ganesan"
+      },
+      {
+        "S.No": "52",
+        "Roll Number": "CSE25052",
+        "Student Name": "Nithya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Raman"
+      },
+      {
+        "S.No": "53",
+        "Roll Number": "CSE25053",
+        "Student Name": "Tejas Nandakumar",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Nandakumar"
+      },
+      {
+        "S.No": "54",
+        "Roll Number": "CSE25054",
+        "Student Name": "Karthik Narayan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Narayan"
+      },
+      {
+        "S.No": "55",
+        "Roll Number": "CSE25055",
+        "Student Name": "Diya Chandran",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Chandran"
+      },
+      {
+        "S.No": "56",
+        "Roll Number": "CSE25056",
+        "Student Name": "Advik Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "57",
+        "Roll Number": "CSE25057",
+        "Student Name": "Ishaan Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "I. Raman"
+      },
+      {
+        "S.No": "58",
+        "Roll Number": "CSE25058",
+        "Student Name": "Kavin Senthil",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Senthil"
+      },
+      {
+        "S.No": "59",
+        "Roll Number": "CSE25059",
+        "Student Name": "Rakesh Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Raman"
+      },
+      {
+        "S.No": "60",
+        "Roll Number": "CSE25060",
+        "Student Name": "Sneha Vaidyanathan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vaidyanathan"
+      },
+      {
+        "S.No": "61",
+        "Roll Number": "CSE25061",
+        "Student Name": "Mithun Ramesh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Ramesh"
+      },
+      {
+        "S.No": "62",
+        "Roll Number": "CSE25062",
+        "Student Name": "Janani Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "J. Raman"
+      },
+      {
+        "S.No": "63",
+        "Roll Number": "CSE25063",
+        "Student Name": "Rohan Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Raman"
+      },
+      {
+        "S.No": "64",
+        "Roll Number": "CSE25064",
+        "Student Name": "Rahul Vishwanath",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Vishwanath"
+      },
+      {
+        "S.No": "65",
+        "Roll Number": "CSE25065",
+        "Student Name": "Varsha Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Raman"
+      },
+      {
+        "S.No": "66",
+        "Roll Number": "CSE25066",
+        "Student Name": "Lakshmi Varun",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Varun"
+      },
+      {
+        "S.No": "67",
+        "Roll Number": "CSE25067",
+        "Student Name": "Naveen Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Raman"
+      },
+      {
+        "S.No": "68",
+        "Roll Number": "CSE25068",
+        "Student Name": "Nandhini Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Raman"
+      },
+      {
+        "S.No": "69",
+        "Roll Number": "CSE25069",
+        "Student Name": "Keerthana Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Raman"
+      },
+      {
+        "S.No": "70",
+        "Roll Number": "CSE25070",
+        "Student Name": "Deepika Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Raman"
+      },
+      {
+        "S.No": "71",
+        "Roll Number": "CSE25071",
+        "Student Name": "Aadhya Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "72",
+        "Roll Number": "CSE25072",
+        "Student Name": "Sneha Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "73",
+        "Roll Number": "CSE25073",
+        "Student Name": "Tarun Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Raman"
+      },
+      {
+        "S.No": "74",
+        "Roll Number": "CSE25074",
+        "Student Name": "Pranav Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Raman"
+      },
+      {
+        "S.No": "75",
+        "Roll Number": "CSE25075",
+        "Student Name": "Nila Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Raman"
+      },
+      {
+        "S.No": "76",
+        "Roll Number": "CSE25076",
+        "Student Name": "Karthik Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Raman"
+      },
+      {
+        "S.No": "77",
+        "Roll Number": "CSE25077",
+        "Student Name": "Advik Rajan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Rajan"
+      },
+      {
+        "S.No": "78",
+        "Roll Number": "CSE25078",
+        "Student Name": "Arjun Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "79",
+        "Roll Number": "CSE25079",
+        "Student Name": "Darshan Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Suresh"
+      },
+      {
+        "S.No": "80",
+        "Roll Number": "CSE25080",
+        "Student Name": "Yamini Sekhar",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Sekhar"
+      },
+      {
+        "S.No": "81",
+        "Roll Number": "CSE25081",
+        "Student Name": "Sahana Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "82",
+        "Roll Number": "CSE25082",
+        "Student Name": "Siddharth Mohan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Mohan"
+      },
+      {
+        "S.No": "83",
+        "Roll Number": "CSE25083",
+        "Student Name": "Ananya Murali",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Murali"
+      },
+      {
+        "S.No": "84",
+        "Roll Number": "CSE25084",
+        "Student Name": "Bharath Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Suresh"
+      },
+      {
+        "S.No": "85",
+        "Roll Number": "CSE25085",
+        "Student Name": "Mithun Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Raman"
+      },
+      {
+        "S.No": "86",
+        "Roll Number": "CSE25086",
+        "Student Name": "Ananya Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "87",
+        "Roll Number": "CSE25087",
+        "Student Name": "Deepika Iyer",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Iyer"
+      },
+      {
+        "S.No": "88",
+        "Roll Number": "CSE25088",
+        "Student Name": "Akshay Venkatesh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Venkatesh"
+      },
+      {
+        "S.No": "89",
+        "Roll Number": "CSE25089",
+        "Student Name": "Arjun Balaji",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Balaji"
+      },
+      {
+        "S.No": "90",
+        "Roll Number": "CSE25090",
+        "Student Name": "Siddharth Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "91",
+        "Roll Number": "CSE25091",
+        "Student Name": "Meghana Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Raman"
+      },
+      {
+        "S.No": "92",
+        "Roll Number": "CSE25092",
+        "Student Name": "Kavin Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Raman"
+      },
+      {
+        "S.No": "93",
+        "Roll Number": "CSE25093",
+        "Student Name": "Vignesh Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Raman"
+      },
+      {
+        "S.No": "94",
+        "Roll Number": "CSE25094",
+        "Student Name": "Ashwin Kumar",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Kumar"
+      },
+      {
+        "S.No": "95",
+        "Roll Number": "CSE25095",
+        "Student Name": "Manoj Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Raman"
+      },
+      {
+        "S.No": "96",
+        "Roll Number": "CSE25096",
+        "Student Name": "Naveen Hariharan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Hariharan"
+      },
+      {
+        "S.No": "97",
+        "Roll Number": "CSE25097",
+        "Student Name": "Sreeja Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "98",
+        "Roll Number": "CSE25098",
+        "Student Name": "Pranav Karthikeyan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Karthikeyan"
+      },
+      {
+        "S.No": "99",
+        "Roll Number": "CSE25099",
+        "Student Name": "Vignesh Aravind",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Aravind"
+      },
+      {
+        "S.No": "100",
+        "Roll Number": "CSE25100",
+        "Student Name": "Rahul Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Raman"
+      },
+      {
+        "S.No": "101",
+        "Roll Number": "CSE25101",
+        "Student Name": "Deepika Suresh",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Suresh"
+      },
+      {
+        "S.No": "102",
+        "Roll Number": "CSE25102",
+        "Student Name": "Bharath Kannan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Kannan"
+      },
+      {
+        "S.No": "103",
+        "Roll Number": "CSE25103",
+        "Student Name": "Sai Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Raman"
+      },
+      {
+        "S.No": "104",
+        "Roll Number": "CSE25104",
+        "Student Name": "Varsha Sriram",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Sriram"
+      },
+      {
+        "S.No": "105",
+        "Roll Number": "CSE25105",
+        "Student Name": "Darshan Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Raman"
+      },
+      {
+        "S.No": "106",
+        "Roll Number": "CSE25106",
+        "Student Name": "Sanjay Narasimhan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Narasimhan"
+      },
+      {
+        "S.No": "107",
+        "Roll Number": "CSE25107",
+        "Student Name": "Nila Krishnan",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Krishnan"
+      },
+      {
+        "S.No": "108",
+        "Roll Number": "CSE25108",
+        "Student Name": "Charvi Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Raman"
+      },
+      {
+        "S.No": "5",
+        "Roll Number": "CSE25005",
+        "Student Name": "Rithika Anand",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Anand"
+      },
+      {
+        "S.No": "8",
+        "Roll Number": "CSE25008",
+        "Student Name": "Rithika Raman",
+        "Department": "CSE",
+        "Event ID": "EVT-CSE-001",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Raman"
+      }
+    ]
+  },
+  {
+    "department": "ECE",
+    "event_id": "EVT-ECE-006",
+    "title": "Agentic AI Industry Workshop",
+    "csv_path": "sample_data\\_generated\\EVT-ECE-006_attendance.csv",
+    "xlsx_path": "sample_data\\departments\\ECE\\attendance_sheets\\EVT-ECE-006_attendance.xlsx",
+    "rows": [
+      {
+        "S.No": "1",
+        "Roll Number": "ECE25001",
+        "Student Name": "Charvi Natarajan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Natarajan"
+      },
+      {
+        "S.No": "2",
+        "Roll Number": "ECE25002",
+        "Student Name": "Advik Rajan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Rajan"
+      },
+      {
+        "S.No": "3",
+        "Roll Number": "ECE25003",
+        "Student Name": "Sai Charan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Charan"
+      },
+      {
+        "S.No": "4",
+        "Roll Number": "ECE25004",
+        "Student Name": "Ashwin Kumar",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Kumar"
+      },
+      {
+        "S.No": "5",
+        "Roll Number": "ECE25005",
+        "Student Name": "Tarun Elango",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Elango"
+      },
+      {
+        "S.No": "6",
+        "Roll Number": "ECE25006",
+        "Student Name": "Ananya Murali",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Murali"
+      },
+      {
+        "S.No": "7",
+        "Roll Number": "ECE25007",
+        "Student Name": "Mithun Ramesh",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Ramesh"
+      },
+      {
+        "S.No": "8",
+        "Roll Number": "ECE25008",
+        "Student Name": "Tejas Nandakumar",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Nandakumar"
+      },
+      {
+        "S.No": "9",
+        "Roll Number": "ECE25009",
+        "Student Name": "Rohan Subbu",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Subbu"
+      },
+      {
+        "S.No": "10",
+        "Roll Number": "ECE25010",
+        "Student Name": "Aishwarya Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "11",
+        "Roll Number": "ECE25011",
+        "Student Name": "Aadhya Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "12",
+        "Roll Number": "ECE25012",
+        "Student Name": "Sanjay Narasimhan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Narasimhan"
+      },
+      {
+        "S.No": "13",
+        "Roll Number": "ECE25013",
+        "Student Name": "Siddharth Mohan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Mohan"
+      },
+      {
+        "S.No": "14",
+        "Roll Number": "ECE25014",
+        "Student Name": "Charvi Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Raman"
+      },
+      {
+        "S.No": "15",
+        "Roll Number": "ECE25015",
+        "Student Name": "Sreeja Balasubramaniam",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Balasubramaniam"
+      },
+      {
+        "S.No": "16",
+        "Roll Number": "ECE25016",
+        "Student Name": "Nithya Shankar",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Shankar"
+      },
+      {
+        "S.No": "17",
+        "Roll Number": "ECE25017",
+        "Student Name": "Varsha Sriram",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Sriram"
+      },
+      {
+        "S.No": "18",
+        "Roll Number": "ECE25018",
+        "Student Name": "Ananya Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "19",
+        "Roll Number": "ECE25019",
+        "Student Name": "Raghavendra Mani",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Mani"
+      },
+      {
+        "S.No": "20",
+        "Roll Number": "ECE25020",
+        "Student Name": "Abhinav Suresh",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "21",
+        "Roll Number": "ECE25021",
+        "Student Name": "Arjun Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "22",
+        "Roll Number": "ECE25022",
+        "Student Name": "Aishwarya Prasad",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Prasad"
+      },
+      {
+        "S.No": "23",
+        "Roll Number": "ECE25023",
+        "Student Name": "Arjun Balaji",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Balaji"
+      },
+      {
+        "S.No": "24",
+        "Roll Number": "ECE25024",
+        "Student Name": "Nandhini Venkataraman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Venkataraman"
+      },
+      {
+        "S.No": "25",
+        "Roll Number": "ECE25025",
+        "Student Name": "Madhav Seshadri",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Seshadri"
+      },
+      {
+        "S.No": "26",
+        "Roll Number": "ECE25026",
+        "Student Name": "Harini Subramanian",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "H. Subramanian"
+      },
+      {
+        "S.No": "27",
+        "Roll Number": "ECE25027",
+        "Student Name": "Rahul Vishwanath",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Vishwanath"
+      },
+      {
+        "S.No": "28",
+        "Roll Number": "ECE25028",
+        "Student Name": "Yamini Sekhar",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Sekhar"
+      },
+      {
+        "S.No": "29",
+        "Roll Number": "ECE25029",
+        "Student Name": "Ishaan Raghavan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "I. Raghavan"
+      },
+      {
+        "S.No": "30",
+        "Roll Number": "ECE25030",
+        "Student Name": "Rithika Anand",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Anand"
+      },
+      {
+        "S.No": "31",
+        "Roll Number": "ECE25031",
+        "Student Name": "Akshay Venkatesh",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Venkatesh"
+      },
+      {
+        "S.No": "32",
+        "Roll Number": "ECE25032",
+        "Student Name": "Sahana Vivek",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vivek"
+      },
+      {
+        "S.No": "33",
+        "Roll Number": "ECE25033",
+        "Student Name": "Shruthi Ganesan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Ganesan"
+      },
+      {
+        "S.No": "34",
+        "Roll Number": "ECE25034",
+        "Student Name": "Janani Gopal",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "J. Gopal"
+      },
+      {
+        "S.No": "35",
+        "Roll Number": "ECE25035",
+        "Student Name": "Keerthana Ravi",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Ravi"
+      },
+      {
+        "S.No": "36",
+        "Roll Number": "ECE25036",
+        "Student Name": "Naveen Hariharan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Hariharan"
+      },
+      {
+        "S.No": "37",
+        "Roll Number": "ECE25037",
+        "Student Name": "Nila Krishnan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Krishnan"
+      },
+      {
+        "S.No": "38",
+        "Roll Number": "ECE25038",
+        "Student Name": "Sneha Vaidyanathan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vaidyanathan"
+      },
+      {
+        "S.No": "39",
+        "Roll Number": "ECE25039",
+        "Student Name": "Meghana Rajendran",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Rajendran"
+      },
+      {
+        "S.No": "40",
+        "Roll Number": "ECE25040",
+        "Student Name": "Akshay Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "41",
+        "Roll Number": "ECE25041",
+        "Student Name": "Advik Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "42",
+        "Roll Number": "ECE25042",
+        "Student Name": "Vignesh Aravind",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Aravind"
+      },
+      {
+        "S.No": "43",
+        "Roll Number": "ECE25043",
+        "Student Name": "Bharath Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Raman"
+      },
+      {
+        "S.No": "44",
+        "Roll Number": "ECE25044",
+        "Student Name": "Darshan Prakash",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Prakash"
+      },
+      {
+        "S.No": "45",
+        "Roll Number": "ECE25045",
+        "Student Name": "Kavin Senthil",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Senthil"
+      },
+      {
+        "S.No": "46",
+        "Roll Number": "ECE25046",
+        "Student Name": "Pranav Karthikeyan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Karthikeyan"
+      },
+      {
+        "S.No": "47",
+        "Roll Number": "ECE25047",
+        "Student Name": "Abhinav Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "48",
+        "Roll Number": "ECE25048",
+        "Student Name": "Gautham Menon",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "G. Menon"
+      },
+      {
+        "S.No": "49",
+        "Roll Number": "ECE25049",
+        "Student Name": "Diya Chandran",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Chandran"
+      },
+      {
+        "S.No": "50",
+        "Roll Number": "ECE25050",
+        "Student Name": "Karthik Narayan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Narayan"
+      },
+      {
+        "S.No": "51",
+        "Roll Number": "ECE25051",
+        "Student Name": "Deepika Iyer",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Iyer"
+      },
+      {
+        "S.No": "52",
+        "Roll Number": "ECE25052",
+        "Student Name": "Bharath Kannan",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Kannan"
+      },
+      {
+        "S.No": "53",
+        "Roll Number": "ECE25053",
+        "Student Name": "Ashwin Raman",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "54",
+        "Roll Number": "ECE25054",
+        "Student Name": "Lakshmi Varun",
+        "Department": "ECE",
+        "Event ID": "EVT-ECE-006",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Varun"
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "event_id": "EVT-EEE-011",
+    "title": "Agentic AI Industry Workshop",
+    "csv_path": "sample_data\\_generated\\EVT-EEE-011_attendance.csv",
+    "xlsx_path": "sample_data\\departments\\EEE\\attendance_sheets\\EVT-EEE-011_attendance.xlsx",
+    "rows": [
+      {
+        "S.No": "1",
+        "Roll Number": "EEE25001",
+        "Student Name": "Abhinav Suresh",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "2",
+        "Roll Number": "EEE25002",
+        "Student Name": "Rithika Anand",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Anand"
+      },
+      {
+        "S.No": "3",
+        "Roll Number": "EEE25003",
+        "Student Name": "Abhinav Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "4",
+        "Roll Number": "EEE25004",
+        "Student Name": "Harini Subramanian",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "H. Subramanian"
+      },
+      {
+        "S.No": "5",
+        "Roll Number": "EEE25005",
+        "Student Name": "Shruthi Ganesan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Ganesan"
+      },
+      {
+        "S.No": "6",
+        "Roll Number": "EEE25006",
+        "Student Name": "Lakshmi Varun",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Varun"
+      },
+      {
+        "S.No": "7",
+        "Roll Number": "EEE25007",
+        "Student Name": "Ishaan Raghavan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "I. Raghavan"
+      },
+      {
+        "S.No": "8",
+        "Roll Number": "EEE25008",
+        "Student Name": "Siddharth Mohan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Mohan"
+      },
+      {
+        "S.No": "9",
+        "Roll Number": "EEE25009",
+        "Student Name": "Ashwin Kumar",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Kumar"
+      },
+      {
+        "S.No": "10",
+        "Roll Number": "EEE25010",
+        "Student Name": "Tarun Elango",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Elango"
+      },
+      {
+        "S.No": "11",
+        "Roll Number": "EEE25011",
+        "Student Name": "Rohan Subbu",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Subbu"
+      },
+      {
+        "S.No": "12",
+        "Roll Number": "EEE25012",
+        "Student Name": "Karthik Narayan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Narayan"
+      },
+      {
+        "S.No": "13",
+        "Roll Number": "EEE25013",
+        "Student Name": "Kavin Senthil",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Senthil"
+      },
+      {
+        "S.No": "14",
+        "Roll Number": "EEE25014",
+        "Student Name": "Sahana Vivek",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vivek"
+      },
+      {
+        "S.No": "15",
+        "Roll Number": "EEE25015",
+        "Student Name": "Nila Krishnan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Krishnan"
+      },
+      {
+        "S.No": "16",
+        "Roll Number": "EEE25016",
+        "Student Name": "Pranav Karthikeyan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Karthikeyan"
+      },
+      {
+        "S.No": "17",
+        "Roll Number": "EEE25017",
+        "Student Name": "Rahul Vishwanath",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Vishwanath"
+      },
+      {
+        "S.No": "18",
+        "Roll Number": "EEE25018",
+        "Student Name": "Varsha Sriram",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Sriram"
+      },
+      {
+        "S.No": "19",
+        "Roll Number": "EEE25019",
+        "Student Name": "Arjun Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "20",
+        "Roll Number": "EEE25020",
+        "Student Name": "Gautham Menon",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "G. Menon"
+      },
+      {
+        "S.No": "21",
+        "Roll Number": "EEE25021",
+        "Student Name": "Sneha Vaidyanathan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vaidyanathan"
+      },
+      {
+        "S.No": "22",
+        "Roll Number": "EEE25022",
+        "Student Name": "Akshay Venkatesh",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Venkatesh"
+      },
+      {
+        "S.No": "23",
+        "Roll Number": "EEE25023",
+        "Student Name": "Madhav Seshadri",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Seshadri"
+      },
+      {
+        "S.No": "24",
+        "Roll Number": "EEE25024",
+        "Student Name": "Charvi Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Raman"
+      },
+      {
+        "S.No": "25",
+        "Roll Number": "EEE25025",
+        "Student Name": "Keerthana Ravi",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Ravi"
+      },
+      {
+        "S.No": "26",
+        "Roll Number": "EEE25026",
+        "Student Name": "Aishwarya Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "27",
+        "Roll Number": "EEE25027",
+        "Student Name": "Sanjay Narasimhan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Narasimhan"
+      },
+      {
+        "S.No": "28",
+        "Roll Number": "EEE25028",
+        "Student Name": "Diya Chandran",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Chandran"
+      },
+      {
+        "S.No": "29",
+        "Roll Number": "EEE25029",
+        "Student Name": "Deepika Iyer",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Iyer"
+      },
+      {
+        "S.No": "30",
+        "Roll Number": "EEE25030",
+        "Student Name": "Raghavendra Mani",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Mani"
+      },
+      {
+        "S.No": "31",
+        "Roll Number": "EEE25031",
+        "Student Name": "Mithun Ramesh",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Ramesh"
+      },
+      {
+        "S.No": "32",
+        "Roll Number": "EEE25032",
+        "Student Name": "Advik Rajan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Rajan"
+      },
+      {
+        "S.No": "33",
+        "Roll Number": "EEE25033",
+        "Student Name": "Aadhya Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "34",
+        "Roll Number": "EEE25034",
+        "Student Name": "Janani Gopal",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "J. Gopal"
+      },
+      {
+        "S.No": "35",
+        "Roll Number": "EEE25035",
+        "Student Name": "Bharath Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Raman"
+      },
+      {
+        "S.No": "36",
+        "Roll Number": "EEE25036",
+        "Student Name": "Darshan Prakash",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Prakash"
+      },
+      {
+        "S.No": "37",
+        "Roll Number": "EEE25037",
+        "Student Name": "Arjun Balaji",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Balaji"
+      },
+      {
+        "S.No": "38",
+        "Roll Number": "EEE25038",
+        "Student Name": "Advik Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "39",
+        "Roll Number": "EEE25039",
+        "Student Name": "Aishwarya Prasad",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Prasad"
+      },
+      {
+        "S.No": "40",
+        "Roll Number": "EEE25040",
+        "Student Name": "Vignesh Aravind",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Aravind"
+      },
+      {
+        "S.No": "41",
+        "Roll Number": "EEE25041",
+        "Student Name": "Akshay Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "42",
+        "Roll Number": "EEE25042",
+        "Student Name": "Charvi Natarajan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Natarajan"
+      },
+      {
+        "S.No": "43",
+        "Roll Number": "EEE25043",
+        "Student Name": "Naveen Hariharan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Hariharan"
+      },
+      {
+        "S.No": "44",
+        "Roll Number": "EEE25044",
+        "Student Name": "Meghana Rajendran",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Rajendran"
+      },
+      {
+        "S.No": "45",
+        "Roll Number": "EEE25045",
+        "Student Name": "Nandhini Venkataraman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Venkataraman"
+      },
+      {
+        "S.No": "46",
+        "Roll Number": "EEE25046",
+        "Student Name": "Sai Charan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Charan"
+      },
+      {
+        "S.No": "47",
+        "Roll Number": "EEE25047",
+        "Student Name": "Tejas Nandakumar",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Nandakumar"
+      },
+      {
+        "S.No": "48",
+        "Roll Number": "EEE25048",
+        "Student Name": "Sreeja Balasubramaniam",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Balasubramaniam"
+      },
+      {
+        "S.No": "49",
+        "Roll Number": "EEE25049",
+        "Student Name": "Nithya Shankar",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Shankar"
+      },
+      {
+        "S.No": "50",
+        "Roll Number": "EEE25050",
+        "Student Name": "Yamini Sekhar",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Sekhar"
+      },
+      {
+        "S.No": "51",
+        "Roll Number": "EEE25051",
+        "Student Name": "Bharath Kannan",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Kannan"
+      },
+      {
+        "S.No": "52",
+        "Roll Number": "EEE25052",
+        "Student Name": "Ananya Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "53",
+        "Roll Number": "EEE25053",
+        "Student Name": "Ananya Murali",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Murali"
+      },
+      {
+        "S.No": "54",
+        "Roll Number": "EEE25054",
+        "Student Name": "Ashwin Raman",
+        "Department": "EEE",
+        "Event ID": "EVT-EEE-011",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      }
+    ]
+  },
+  {
+    "department": "Mechanical",
+    "event_id": "EVT-MEC-016",
+    "title": "Agentic AI Industry Workshop",
+    "csv_path": "sample_data\\_generated\\EVT-MEC-016_attendance.csv",
+    "xlsx_path": "sample_data\\departments\\Mechanical\\attendance_sheets\\EVT-MEC-016_attendance.xlsx",
+    "rows": [
+      {
+        "S.No": "1",
+        "Roll Number": "MEC25001",
+        "Student Name": "Abhinav Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "2",
+        "Roll Number": "MEC25002",
+        "Student Name": "Advik Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "3",
+        "Roll Number": "MEC25003",
+        "Student Name": "Nandhini Venkataraman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Venkataraman"
+      },
+      {
+        "S.No": "4",
+        "Roll Number": "MEC25004",
+        "Student Name": "Sanjay Narasimhan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Narasimhan"
+      },
+      {
+        "S.No": "5",
+        "Roll Number": "MEC25005",
+        "Student Name": "Ashwin Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "6",
+        "Roll Number": "MEC25006",
+        "Student Name": "Sreeja Balasubramaniam",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Balasubramaniam"
+      },
+      {
+        "S.No": "7",
+        "Roll Number": "MEC25007",
+        "Student Name": "Raghavendra Mani",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Mani"
+      },
+      {
+        "S.No": "8",
+        "Roll Number": "MEC25008",
+        "Student Name": "Naveen Hariharan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Hariharan"
+      },
+      {
+        "S.No": "9",
+        "Roll Number": "MEC25009",
+        "Student Name": "Deepika Iyer",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Iyer"
+      },
+      {
+        "S.No": "10",
+        "Roll Number": "MEC25010",
+        "Student Name": "Rohan Subbu",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Subbu"
+      },
+      {
+        "S.No": "11",
+        "Roll Number": "MEC25011",
+        "Student Name": "Bharath Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Raman"
+      },
+      {
+        "S.No": "12",
+        "Roll Number": "MEC25012",
+        "Student Name": "Abhinav Suresh",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "13",
+        "Roll Number": "MEC25013",
+        "Student Name": "Akshay Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "14",
+        "Roll Number": "MEC25014",
+        "Student Name": "Diya Chandran",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Chandran"
+      },
+      {
+        "S.No": "15",
+        "Roll Number": "MEC25015",
+        "Student Name": "Arjun Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "16",
+        "Roll Number": "MEC25016",
+        "Student Name": "Darshan Prakash",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Prakash"
+      },
+      {
+        "S.No": "17",
+        "Roll Number": "MEC25017",
+        "Student Name": "Arjun Balaji",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Balaji"
+      },
+      {
+        "S.No": "18",
+        "Roll Number": "MEC25018",
+        "Student Name": "Sneha Vaidyanathan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vaidyanathan"
+      },
+      {
+        "S.No": "19",
+        "Roll Number": "MEC25019",
+        "Student Name": "Janani Gopal",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "J. Gopal"
+      },
+      {
+        "S.No": "20",
+        "Roll Number": "MEC25020",
+        "Student Name": "Ananya Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "21",
+        "Roll Number": "MEC25021",
+        "Student Name": "Aishwarya Prasad",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Prasad"
+      },
+      {
+        "S.No": "22",
+        "Roll Number": "MEC25022",
+        "Student Name": "Lakshmi Varun",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Varun"
+      },
+      {
+        "S.No": "23",
+        "Roll Number": "MEC25023",
+        "Student Name": "Shruthi Ganesan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Ganesan"
+      },
+      {
+        "S.No": "24",
+        "Roll Number": "MEC25024",
+        "Student Name": "Meghana Rajendran",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Rajendran"
+      },
+      {
+        "S.No": "25",
+        "Roll Number": "MEC25025",
+        "Student Name": "Tarun Elango",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Elango"
+      },
+      {
+        "S.No": "26",
+        "Roll Number": "MEC25026",
+        "Student Name": "Pranav Karthikeyan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Karthikeyan"
+      },
+      {
+        "S.No": "27",
+        "Roll Number": "MEC25027",
+        "Student Name": "Aadhya Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "28",
+        "Roll Number": "MEC25028",
+        "Student Name": "Bharath Kannan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Kannan"
+      },
+      {
+        "S.No": "29",
+        "Roll Number": "MEC25029",
+        "Student Name": "Gautham Menon",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "G. Menon"
+      },
+      {
+        "S.No": "30",
+        "Roll Number": "MEC25030",
+        "Student Name": "Madhav Seshadri",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Seshadri"
+      },
+      {
+        "S.No": "31",
+        "Roll Number": "MEC25031",
+        "Student Name": "Yamini Sekhar",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Sekhar"
+      },
+      {
+        "S.No": "32",
+        "Roll Number": "MEC25032",
+        "Student Name": "Charvi Natarajan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Natarajan"
+      },
+      {
+        "S.No": "33",
+        "Roll Number": "MEC25033",
+        "Student Name": "Vignesh Aravind",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Aravind"
+      },
+      {
+        "S.No": "34",
+        "Roll Number": "MEC25034",
+        "Student Name": "Charvi Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Raman"
+      },
+      {
+        "S.No": "35",
+        "Roll Number": "MEC25035",
+        "Student Name": "Advik Rajan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Rajan"
+      },
+      {
+        "S.No": "36",
+        "Roll Number": "MEC25036",
+        "Student Name": "Karthik Narayan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Narayan"
+      },
+      {
+        "S.No": "37",
+        "Roll Number": "MEC25037",
+        "Student Name": "Keerthana Ravi",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Ravi"
+      },
+      {
+        "S.No": "38",
+        "Roll Number": "MEC25038",
+        "Student Name": "Varsha Sriram",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Sriram"
+      },
+      {
+        "S.No": "39",
+        "Roll Number": "MEC25039",
+        "Student Name": "Kavin Senthil",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Senthil"
+      },
+      {
+        "S.No": "40",
+        "Roll Number": "MEC25040",
+        "Student Name": "Ananya Murali",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Murali"
+      },
+      {
+        "S.No": "41",
+        "Roll Number": "MEC25041",
+        "Student Name": "Akshay Venkatesh",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Venkatesh"
+      },
+      {
+        "S.No": "42",
+        "Roll Number": "MEC25042",
+        "Student Name": "Harini Subramanian",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "H. Subramanian"
+      },
+      {
+        "S.No": "43",
+        "Roll Number": "MEC25043",
+        "Student Name": "Ishaan Raghavan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "I. Raghavan"
+      },
+      {
+        "S.No": "44",
+        "Roll Number": "MEC25044",
+        "Student Name": "Sahana Vivek",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vivek"
+      },
+      {
+        "S.No": "45",
+        "Roll Number": "MEC25045",
+        "Student Name": "Mithun Ramesh",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Ramesh"
+      },
+      {
+        "S.No": "46",
+        "Roll Number": "MEC25046",
+        "Student Name": "Nithya Shankar",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Shankar"
+      },
+      {
+        "S.No": "47",
+        "Roll Number": "MEC25047",
+        "Student Name": "Ashwin Kumar",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Kumar"
+      },
+      {
+        "S.No": "48",
+        "Roll Number": "MEC25048",
+        "Student Name": "Rithika Anand",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Anand"
+      },
+      {
+        "S.No": "49",
+        "Roll Number": "MEC25049",
+        "Student Name": "Siddharth Mohan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Mohan"
+      },
+      {
+        "S.No": "50",
+        "Roll Number": "MEC25050",
+        "Student Name": "Nila Krishnan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Krishnan"
+      },
+      {
+        "S.No": "51",
+        "Roll Number": "MEC25051",
+        "Student Name": "Tejas Nandakumar",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Nandakumar"
+      },
+      {
+        "S.No": "52",
+        "Roll Number": "MEC25052",
+        "Student Name": "Sai Charan",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Charan"
+      },
+      {
+        "S.No": "53",
+        "Roll Number": "MEC25053",
+        "Student Name": "Aishwarya Raman",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "54",
+        "Roll Number": "MEC25054",
+        "Student Name": "Rahul Vishwanath",
+        "Department": "Mechanical",
+        "Event ID": "EVT-MEC-016",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Vishwanath"
+      }
+    ]
+  },
+  {
+    "department": "Civil",
+    "event_id": "EVT-CIV-021",
+    "title": "Agentic AI Industry Workshop",
+    "csv_path": "sample_data\\_generated\\EVT-CIV-021_attendance.csv",
+    "xlsx_path": "sample_data\\departments\\Civil\\attendance_sheets\\EVT-CIV-021_attendance.xlsx",
+    "rows": [
+      {
+        "S.No": "1",
+        "Roll Number": "CIV25001",
+        "Student Name": "Aishwarya Prasad",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Prasad"
+      },
+      {
+        "S.No": "2",
+        "Roll Number": "CIV25002",
+        "Student Name": "Lakshmi Varun",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "L. Varun"
+      },
+      {
+        "S.No": "3",
+        "Roll Number": "CIV25003",
+        "Student Name": "Nithya Shankar",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Shankar"
+      },
+      {
+        "S.No": "4",
+        "Roll Number": "CIV25004",
+        "Student Name": "Darshan Prakash",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Prakash"
+      },
+      {
+        "S.No": "5",
+        "Roll Number": "CIV25005",
+        "Student Name": "Sneha Vaidyanathan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vaidyanathan"
+      },
+      {
+        "S.No": "6",
+        "Roll Number": "CIV25006",
+        "Student Name": "Ashwin Kumar",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Kumar"
+      },
+      {
+        "S.No": "7",
+        "Roll Number": "CIV25007",
+        "Student Name": "Deepika Iyer",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Iyer"
+      },
+      {
+        "S.No": "8",
+        "Roll Number": "CIV25008",
+        "Student Name": "Akshay Venkatesh",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Venkatesh"
+      },
+      {
+        "S.No": "9",
+        "Roll Number": "CIV25009",
+        "Student Name": "Kavin Senthil",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Senthil"
+      },
+      {
+        "S.No": "10",
+        "Roll Number": "CIV25010",
+        "Student Name": "Nila Krishnan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Krishnan"
+      },
+      {
+        "S.No": "11",
+        "Roll Number": "CIV25011",
+        "Student Name": "Arjun Balaji",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Balaji"
+      },
+      {
+        "S.No": "12",
+        "Roll Number": "CIV25012",
+        "Student Name": "Ananya Murali",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Murali"
+      },
+      {
+        "S.No": "13",
+        "Roll Number": "CIV25013",
+        "Student Name": "Aadhya Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "14",
+        "Roll Number": "CIV25014",
+        "Student Name": "Harini Subramanian",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "H. Subramanian"
+      },
+      {
+        "S.No": "15",
+        "Roll Number": "CIV25015",
+        "Student Name": "Sai Charan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Charan"
+      },
+      {
+        "S.No": "16",
+        "Roll Number": "CIV25016",
+        "Student Name": "Rahul Vishwanath",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Vishwanath"
+      },
+      {
+        "S.No": "17",
+        "Roll Number": "CIV25017",
+        "Student Name": "Nandhini Venkataraman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Venkataraman"
+      },
+      {
+        "S.No": "18",
+        "Roll Number": "CIV25018",
+        "Student Name": "Sahana Vivek",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Vivek"
+      },
+      {
+        "S.No": "19",
+        "Roll Number": "CIV25019",
+        "Student Name": "Siddharth Mohan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Mohan"
+      },
+      {
+        "S.No": "20",
+        "Roll Number": "CIV25020",
+        "Student Name": "Advik Rajan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Rajan"
+      },
+      {
+        "S.No": "21",
+        "Roll Number": "CIV25021",
+        "Student Name": "Bharath Kannan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Kannan"
+      },
+      {
+        "S.No": "22",
+        "Roll Number": "CIV25022",
+        "Student Name": "Pranav Karthikeyan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "P. Karthikeyan"
+      },
+      {
+        "S.No": "23",
+        "Roll Number": "CIV25023",
+        "Student Name": "Ananya Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "24",
+        "Roll Number": "CIV25024",
+        "Student Name": "Arjun Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "25",
+        "Roll Number": "CIV25025",
+        "Student Name": "Varsha Sriram",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Sriram"
+      },
+      {
+        "S.No": "26",
+        "Roll Number": "CIV25026",
+        "Student Name": "Ishaan Raghavan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "I. Raghavan"
+      },
+      {
+        "S.No": "27",
+        "Roll Number": "CIV25027",
+        "Student Name": "Aishwarya Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "28",
+        "Roll Number": "CIV25028",
+        "Student Name": "Abhinav Suresh",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Suresh"
+      },
+      {
+        "S.No": "29",
+        "Roll Number": "CIV25029",
+        "Student Name": "Naveen Hariharan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "N. Hariharan"
+      },
+      {
+        "S.No": "30",
+        "Roll Number": "CIV25030",
+        "Student Name": "Ashwin Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "31",
+        "Roll Number": "CIV25031",
+        "Student Name": "Mithun Ramesh",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Ramesh"
+      },
+      {
+        "S.No": "32",
+        "Roll Number": "CIV25032",
+        "Student Name": "Madhav Seshadri",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Seshadri"
+      },
+      {
+        "S.No": "33",
+        "Roll Number": "CIV25033",
+        "Student Name": "Raghavendra Mani",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Mani"
+      },
+      {
+        "S.No": "34",
+        "Roll Number": "CIV25034",
+        "Student Name": "Sreeja Balasubramaniam",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Balasubramaniam"
+      },
+      {
+        "S.No": "35",
+        "Roll Number": "CIV25035",
+        "Student Name": "Karthik Narayan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Narayan"
+      },
+      {
+        "S.No": "36",
+        "Roll Number": "CIV25036",
+        "Student Name": "Charvi Natarajan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Natarajan"
+      },
+      {
+        "S.No": "37",
+        "Roll Number": "CIV25037",
+        "Student Name": "Gautham Menon",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "G. Menon"
+      },
+      {
+        "S.No": "38",
+        "Roll Number": "CIV25038",
+        "Student Name": "Tarun Elango",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Elango"
+      },
+      {
+        "S.No": "39",
+        "Roll Number": "CIV25039",
+        "Student Name": "Sanjay Narasimhan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Narasimhan"
+      },
+      {
+        "S.No": "40",
+        "Roll Number": "CIV25040",
+        "Student Name": "Vignesh Aravind",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "V. Aravind"
+      },
+      {
+        "S.No": "41",
+        "Roll Number": "CIV25041",
+        "Student Name": "Abhinav Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "42",
+        "Roll Number": "CIV25042",
+        "Student Name": "Meghana Rajendran",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "M. Rajendran"
+      },
+      {
+        "S.No": "43",
+        "Roll Number": "CIV25043",
+        "Student Name": "Advik Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "44",
+        "Roll Number": "CIV25044",
+        "Student Name": "Bharath Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "B. Raman"
+      },
+      {
+        "S.No": "45",
+        "Roll Number": "CIV25045",
+        "Student Name": "Rithika Anand",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Anand"
+      },
+      {
+        "S.No": "46",
+        "Roll Number": "CIV25046",
+        "Student Name": "Akshay Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "A. Raman"
+      },
+      {
+        "S.No": "47",
+        "Roll Number": "CIV25047",
+        "Student Name": "Tejas Nandakumar",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "T. Nandakumar"
+      },
+      {
+        "S.No": "48",
+        "Roll Number": "CIV25048",
+        "Student Name": "Shruthi Ganesan",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "S. Ganesan"
+      },
+      {
+        "S.No": "49",
+        "Roll Number": "CIV25049",
+        "Student Name": "Charvi Raman",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "C. Raman"
+      },
+      {
+        "S.No": "50",
+        "Roll Number": "CIV25050",
+        "Student Name": "Rohan Subbu",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "R. Subbu"
+      },
+      {
+        "S.No": "51",
+        "Roll Number": "CIV25051",
+        "Student Name": "Diya Chandran",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "D. Chandran"
+      },
+      {
+        "S.No": "52",
+        "Roll Number": "CIV25052",
+        "Student Name": "Yamini Sekhar",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "Y. Sekhar"
+      },
+      {
+        "S.No": "53",
+        "Roll Number": "CIV25053",
+        "Student Name": "Janani Gopal",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "J. Gopal"
+      },
+      {
+        "S.No": "54",
+        "Roll Number": "CIV25054",
+        "Student Name": "Keerthana Ravi",
+        "Department": "Civil",
+        "Event ID": "EVT-CIV-021",
+        "Event Title": "Agentic AI Industry Workshop",
+        "Attendance Status": "Present",
+        "Signature": "K. Ravi"
+      }
+    ]
+  }
+]
