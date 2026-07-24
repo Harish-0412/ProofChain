@@ -1,0 +1,137 @@
+[
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-B3F70B4538-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-B3F70B4538-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-B3F70B4538-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-B3F70B4538-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-B3F70B4538-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-B3F70B4538-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-B3F70B4538-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-B3F70B4538-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLAIM"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-C4648A590F86",
+    "plan_id": "PLAN-RES-33089C8EB6",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Supervisor recorded the informational request in the audit trace.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-739853B234"
+      }
+    ]
+  }
+]

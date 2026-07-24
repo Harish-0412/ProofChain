@@ -1,0 +1,102 @@
+[
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-B422B43BC500",
+    "status": "blocked",
+    "task_id": "TASK-F96E4212F177",
+    "title": "Classification needs additional source context for unresolved evidence."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-371BA431AC0A",
+    "status": "blocked",
+    "task_id": "TASK-9AAE52A74F1C",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-B3CF1B1112FA",
+    "status": "blocked",
+    "task_id": "TASK-1F3FB2431C2A",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-D2C1123D4BB8",
+    "status": "blocked",
+    "task_id": "TASK-6871E8E25871",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-048CF17C0AB9",
+    "status": "blocked",
+    "task_id": "TASK-F88B65F3BEB9",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet."
+  },
+  {
+    "blocking": true,
+    "resolution": "Supervisor recorded the informational request in the audit trace.",
+    "responsible_agent": "evidence_integrity",
+    "round": 1,
+    "source_message_id": "MSG-C4648A590F86",
+    "status": "resolved",
+    "task_id": "TASK-210E596D3379",
+    "title": "Claim CLM-C3.2.1-001 contains material contradictions."
+  },
+  {
+    "blocking": true,
+    "resolution": "Supervisor recorded the informational request in the audit trace.",
+    "responsible_agent": "accountability_ownership",
+    "round": 1,
+    "source_message_id": "MSG-A1273ED57BB4",
+    "status": "resolved",
+    "task_id": "TASK-EEBF6B63DD7D",
+    "title": "Resolution tasks require authorized primary, backup, and approval owners."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-007E91EA63D3",
+    "status": "blocked",
+    "task_id": "TASK-533EF2D901B5",
+    "title": "Locate and upload authoritative evidence"
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-EAB1A3107DEB",
+    "status": "blocked",
+    "task_id": "TASK-4BE2EF897F8D",
+    "title": "Locate and upload authoritative evidence"
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-FE8A7CBFD535",
+    "status": "blocked",
+    "task_id": "TASK-84F21F3E2545",
+    "title": "Locate and upload authoritative evidence"
+  }
+]

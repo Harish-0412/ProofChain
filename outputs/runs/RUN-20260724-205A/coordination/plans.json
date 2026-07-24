@@ -1,0 +1,324 @@
+[
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "A checksum-backed evidence registry and acquisition warnings.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-205A-COLLECT",
+    "plan_id": "PLAN-EVIDENCE_COLLECTOR-F6E1A3DB3F-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-205A",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect approved source scopes, expected evidence coverage, and acquisition constraints.",
+        "proposed_tool": null,
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-F6E1A3DB3F-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "A checksum-backed evidence registry and acquisition warnings.",
+        "objective": "Scan approved sources, checksum files, and register immutable evidence identities.",
+        "proposed_tool": "scan_and_register_evidence",
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-F6E1A3DB3F-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Assess source coverage, skipped files, acquisition uncertainty, and follow-up needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-F6E1A3DB3F-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "A checksum-backed evidence registry and acquisition warnings.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-205A-COLLECT",
+    "plan_id": "PLAN-EVIDENCE_COLLECTOR-F6E1A3DB3F-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-205A",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect approved source scopes, expected evidence coverage, and acquisition constraints.",
+        "proposed_tool": null,
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-F6E1A3DB3F-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "A checksum-backed evidence registry and acquisition warnings.",
+        "objective": "Scan approved sources, checksum files, and register immutable evidence identities.",
+        "proposed_tool": "scan_and_register_evidence",
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-F6E1A3DB3F-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Assess source coverage, skipped files, acquisition uncertainty, and follow-up needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-F6E1A3DB3F-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_classification",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-205A-COLLECT"
+    ],
+    "expected_outputs": [
+      "Classified evidence with extraction and mapping confidence.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-205A-CLASSIFY",
+    "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-0D0021B073-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-205A",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect committed evidence identities and choose bounded extraction strategies.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-0D0021B073-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Classified evidence with extraction and mapping confidence.",
+        "objective": "Extract content, classify document hypotheses, and map evidence to requirements.",
+        "proposed_tool": "extract_classify_and_map_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-0D0021B073-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Compare confidence, unresolved hypotheses, source references, and escalation needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-0D0021B073-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_classification",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-205A-COLLECT"
+    ],
+    "expected_outputs": [
+      "Classified evidence with extraction and mapping confidence.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-205A-CLASSIFY",
+    "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-0D0021B073-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-205A",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect committed evidence identities and choose bounded extraction strategies.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-0D0021B073-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Classified evidence with extraction and mapping confidence.",
+        "objective": "Extract content, classify document hypotheses, and map evidence to requirements.",
+        "proposed_tool": "extract_classify_and_map_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-0D0021B073-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Compare confidence, unresolved hypotheses, source references, and escalation needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-0D0021B073-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-205A-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-205A-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-06CEAAF600-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-205A",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-06CEAAF600-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-06CEAAF600-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-06CEAAF600-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-205A-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-205A-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-06CEAAF600-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-205A",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-06CEAAF600-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-06CEAAF600-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-06CEAAF600-03"
+      }
+    ]
+  }
+]

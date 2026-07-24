@@ -1,0 +1,31 @@
+{
+  "assigned_agent": "adversarial_quality_review",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T18:34:02.527237Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-3A4C-PACKAGE"
+  ],
+  "failure_conditions": [
+    "The package passes despite unsupported material claims."
+  ],
+  "goal_id": "GOAL-RUN-20260724-3A4C-QUALITY",
+  "goal_type": "challenge_audit_package",
+  "input_references": [],
+  "objective": "Challenge the draft package as a skeptical internal auditor before human approval.",
+  "parent_goal_id": "GOAL-RUN-20260724-3A4C-TOP",
+  "priority": "critical",
+  "run_id": "RUN-20260724-3A4C",
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "success_conditions": [
+    "Every material claim is challenged.",
+    "Package references are tested.",
+    "Omissions, reuse risks, and reviewer friction are scored.",
+    "A quality status and correction route are produced."
+  ]
+}

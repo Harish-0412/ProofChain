@@ -1,0 +1,25 @@
+[
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\outputs\\test_tmp\\35cf0fbbaca24a01bde7bd796268cea6\\CSE\\versioned.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-VER1-DD03",
+    "created_at": "2026-07-24T18:39:40.021570Z",
+    "department": "CSE",
+    "discovered_at": "2026-07-24T18:39:40.042590Z",
+    "duplicate_of_evidence_id": null,
+    "duplicate_status": "unique",
+    "evidence_id": "EVD-CSE-2025-2026-00001",
+    "file_extension": ".pdf",
+    "file_size_bytes": 11,
+    "ingestion_status": "registered",
+    "mime_type": "application/pdf",
+    "modified_at": "2026-07-24T18:39:40.021570Z",
+    "original_filename": "versioned.pdf",
+    "relative_path": "outputs\\test_tmp\\35cf0fbbaca24a01bde7bd796268cea6\\CSE\\versioned.pdf",
+    "run_id": "RUN-TEST-VER1",
+    "sha256_checksum": "197c7c60ef8a8470a38d1a9212bdfde9cfe6fd4be910825fe6ac7880ac765d16",
+    "source_type": "department_folder",
+    "version_id": "VER-00001-01",
+    "version_number": 1
+  }
+]

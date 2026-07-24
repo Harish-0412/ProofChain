@@ -1,0 +1,23 @@
+{
+  "agent_name": "audit_package_composer",
+  "blockers": [],
+  "confidence": 0.9,
+  "created_at": "2026-07-24T18:34:07.740606Z",
+  "decision_id": "DEC-CFE083638A45",
+  "explanation": "Generated draft package manifest PKG-RUN-20260724-3A4C with reproducible hash and unresolved warnings disclosed.",
+  "final_status": "completed_with_warnings",
+  "goal_id": "GOAL-RUN-20260724-3A4C-PACKAGE",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-3A4C",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Package scope is frozen.",
+    "Only eligible evidence is included.",
+    "Manifest, checksums, lineage, exclusions, and unresolved warnings are present."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\audit_package_manifest.json"
+  ],
+  "unresolved_questions": []
+}

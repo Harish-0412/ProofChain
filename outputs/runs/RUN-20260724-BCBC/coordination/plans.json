@@ -1,0 +1,1724 @@
+[
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "A checksum-backed evidence registry and acquisition warnings.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-COLLECT",
+    "plan_id": "PLAN-EVIDENCE_COLLECTOR-0D9E91DCE0-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect approved source scopes, expected evidence coverage, and acquisition constraints.",
+        "proposed_tool": null,
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-0D9E91DCE0-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "A checksum-backed evidence registry and acquisition warnings.",
+        "objective": "Scan approved sources, checksum files, and register immutable evidence identities.",
+        "proposed_tool": "scan_and_register_evidence",
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-0D9E91DCE0-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Assess source coverage, skipped files, acquisition uncertainty, and follow-up needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-0D9E91DCE0-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "A checksum-backed evidence registry and acquisition warnings.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-COLLECT",
+    "plan_id": "PLAN-EVIDENCE_COLLECTOR-0D9E91DCE0-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect approved source scopes, expected evidence coverage, and acquisition constraints.",
+        "proposed_tool": null,
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-0D9E91DCE0-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "A checksum-backed evidence registry and acquisition warnings.",
+        "objective": "Scan approved sources, checksum files, and register immutable evidence identities.",
+        "proposed_tool": "scan_and_register_evidence",
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-0D9E91DCE0-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Assess source coverage, skipped files, acquisition uncertainty, and follow-up needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-0D9E91DCE0-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_classification",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-COLLECT"
+    ],
+    "expected_outputs": [
+      "Classified evidence with extraction and mapping confidence.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-CLASSIFY",
+    "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-6B3D7451D4-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect committed evidence identities and choose bounded extraction strategies.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-6B3D7451D4-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Classified evidence with extraction and mapping confidence.",
+        "objective": "Extract content, classify document hypotheses, and map evidence to requirements.",
+        "proposed_tool": "extract_classify_and_map_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-6B3D7451D4-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Compare confidence, unresolved hypotheses, source references, and escalation needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-6B3D7451D4-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_classification",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-COLLECT"
+    ],
+    "expected_outputs": [
+      "Classified evidence with extraction and mapping confidence.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-CLASSIFY",
+    "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-6B3D7451D4-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect committed evidence identities and choose bounded extraction strategies.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-6B3D7451D4-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Classified evidence with extraction and mapping confidence.",
+        "objective": "Extract content, classify document hypotheses, and map evidence to requirements.",
+        "proposed_tool": "extract_classify_and_map_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-6B3D7451D4-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Compare confidence, unresolved hypotheses, source references, and escalation needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-6B3D7451D4-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-B3F70B4538-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-B3F70B4538-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-B3F70B4538-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-B3F70B4538-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-B3F70B4538-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-B3F70B4538-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-B3F70B4538-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-B3F70B4538-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "claim_decisions.json",
+      "claim lineage"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-CLAIM",
+    "plan_id": "PLAN-CLAIM-139EDC57-R1",
+    "rationale": "Validate atomic claims using two-sided evidence and explicit specialist boundaries.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "decompose_claim returns a typed, auditable result.",
+        "objective": "Decompose claims into atomic assertions.",
+        "proposed_tool": "decompose_claim",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-139EDC57-01"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "retrieve_claim_evidence returns a typed, auditable result.",
+        "objective": "Retrieve supporting and counter-evidence.",
+        "proposed_tool": "retrieve_claim_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-139EDC57-02"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "investigate_contradictions returns a typed, auditable result.",
+        "objective": "Explain material value contradictions.",
+        "proposed_tool": "investigate_contradictions",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-139EDC57-03"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "evaluate_claim_sufficiency returns a typed, auditable result.",
+        "objective": "Score coverage, authority, consistency, and independence.",
+        "proposed_tool": "evaluate_claim_sufficiency",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-139EDC57-04"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "judge_claim_defensibility returns a typed, auditable result.",
+        "objective": "Produce claim decisions, repair proposals, and lineage.",
+        "proposed_tool": "judge_claim_defensibility",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-139EDC57-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "claim_decisions.json",
+      "claim lineage"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-CLAIM",
+    "plan_id": "PLAN-CLAIM-139EDC57-R1",
+    "rationale": "Validate atomic claims using two-sided evidence and explicit specialist boundaries.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "decompose_claim returns a typed, auditable result.",
+        "objective": "Decompose claims into atomic assertions.",
+        "proposed_tool": "decompose_claim",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-139EDC57-01"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "retrieve_claim_evidence returns a typed, auditable result.",
+        "objective": "Retrieve supporting and counter-evidence.",
+        "proposed_tool": "retrieve_claim_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-139EDC57-02"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "investigate_contradictions returns a typed, auditable result.",
+        "objective": "Explain material value contradictions.",
+        "proposed_tool": "investigate_contradictions",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-139EDC57-03"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "evaluate_claim_sufficiency returns a typed, auditable result.",
+        "objective": "Score coverage, authority, consistency, and independence.",
+        "proposed_tool": "evaluate_claim_sufficiency",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-139EDC57-04"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "judge_claim_defensibility returns a typed, auditable result.",
+        "objective": "Produce claim decisions, repair proposals, and lineage.",
+        "proposed_tool": "judge_claim_defensibility",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-139EDC57-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLAIM"
+    ],
+    "expected_outputs": [
+      "gap_resolution_portfolio.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-GAP",
+    "plan_id": "PLAN-GAP-F37BF240-R1",
+    "rationale": "Turn every disclosed failure into a unique, actionable, measurable plan.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "detect_gaps returns typed gap-planning state.",
+        "objective": "Normalize findings and unsupported claim components.",
+        "proposed_tool": "detect_gaps",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-F37BF240-01"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "analyze_root_causes returns typed gap-planning state.",
+        "objective": "Generate evidence-backed root-cause hypotheses.",
+        "proposed_tool": "analyze_root_causes",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-F37BF240-02"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "generate_resolution_options returns typed gap-planning state.",
+        "objective": "Create alternative governed strategies.",
+        "proposed_tool": "generate_resolution_options",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-F37BF240-03"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "simulate_readiness returns typed gap-planning state.",
+        "objective": "Estimate readiness deltas without closing gaps.",
+        "proposed_tool": "simulate_readiness",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-F37BF240-04"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "prioritize_gaps returns typed gap-planning state.",
+        "objective": "Build the ordered resolution portfolio.",
+        "proposed_tool": "prioritize_gaps",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-F37BF240-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLAIM"
+    ],
+    "expected_outputs": [
+      "gap_resolution_portfolio.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-GAP",
+    "plan_id": "PLAN-GAP-F37BF240-R1",
+    "rationale": "Turn every disclosed failure into a unique, actionable, measurable plan.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "detect_gaps returns typed gap-planning state.",
+        "objective": "Normalize findings and unsupported claim components.",
+        "proposed_tool": "detect_gaps",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-F37BF240-01"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "analyze_root_causes returns typed gap-planning state.",
+        "objective": "Generate evidence-backed root-cause hypotheses.",
+        "proposed_tool": "analyze_root_causes",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-F37BF240-02"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "generate_resolution_options returns typed gap-planning state.",
+        "objective": "Create alternative governed strategies.",
+        "proposed_tool": "generate_resolution_options",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-F37BF240-03"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "simulate_readiness returns typed gap-planning state.",
+        "objective": "Estimate readiness deltas without closing gaps.",
+        "proposed_tool": "simulate_readiness",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-F37BF240-04"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "prioritize_gaps returns typed gap-planning state.",
+        "objective": "Build the ordered resolution portfolio.",
+        "proposed_tool": "prioritize_gaps",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-F37BF240-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "ownership_assignments.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-OWNERSHIP",
+    "plan_id": "PLAN-OWNER-D395B1EF-R1",
+    "rationale": "Resolve accountable roles through provenance, authority, workload, and conflict checks.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "trace_evidence_provenance returns a bounded assignment artifact.",
+        "objective": "Resolve department and provenance candidates.",
+        "proposed_tool": "trace_evidence_provenance",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-D395B1EF-01"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "match_responsibility returns a bounded assignment artifact.",
+        "objective": "Map gaps to eligible roles and permissions.",
+        "proposed_tool": "match_responsibility",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-D395B1EF-02"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "balance_workload returns a bounded assignment artifact.",
+        "objective": "Select primary, backup, and approver candidates.",
+        "proposed_tool": "balance_workload",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-D395B1EF-03"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "build_escalation_plan returns a bounded assignment artifact.",
+        "objective": "Recommend a controlled escalation path.",
+        "proposed_tool": "build_escalation_plan",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-D395B1EF-04"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "validate_assignments returns a bounded assignment artifact.",
+        "objective": "Check authorization, independence, privacy, and workload.",
+        "proposed_tool": "validate_assignments",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-D395B1EF-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "ownership_assignments.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-OWNERSHIP",
+    "plan_id": "PLAN-OWNER-D395B1EF-R1",
+    "rationale": "Resolve accountable roles through provenance, authority, workload, and conflict checks.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "trace_evidence_provenance returns a bounded assignment artifact.",
+        "objective": "Resolve department and provenance candidates.",
+        "proposed_tool": "trace_evidence_provenance",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-D395B1EF-01"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "match_responsibility returns a bounded assignment artifact.",
+        "objective": "Map gaps to eligible roles and permissions.",
+        "proposed_tool": "match_responsibility",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-D395B1EF-02"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "balance_workload returns a bounded assignment artifact.",
+        "objective": "Select primary, backup, and approver candidates.",
+        "proposed_tool": "balance_workload",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-D395B1EF-03"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "build_escalation_plan returns a bounded assignment artifact.",
+        "objective": "Recommend a controlled escalation path.",
+        "proposed_tool": "build_escalation_plan",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-D395B1EF-04"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "validate_assignments returns a bounded assignment artifact.",
+        "objective": "Check authorization, independence, privacy, and workload.",
+        "proposed_tool": "validate_assignments",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-D395B1EF-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "department_liaison",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-OWNERSHIP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks_detailed.json",
+      "communications.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-LIAISON",
+    "plan_id": "PLAN-LIAISON-1306DB04-R1",
+    "rationale": "Operationalize approved resolution work without changing evidence or claims.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "prepare_task_campaign records governed task state.",
+        "objective": "Compose least-disclosure tasks from approved recommendations.",
+        "proposed_tool": "prepare_task_campaign",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-01"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "draft_task_messages records governed task state.",
+        "objective": "Create governed communication records.",
+        "proposed_tool": "draft_task_messages",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-02"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "apply_approval_gate records governed task state.",
+        "objective": "Block unapproved or unauthorized task activation.",
+        "proposed_tool": "apply_approval_gate",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-03"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "dispatch_allowed_tasks records governed task state.",
+        "objective": "Record controlled in-app delivery only when allowed.",
+        "proposed_tool": "dispatch_allowed_tasks",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-04"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "intake_responses records governed task state.",
+        "objective": "Initialize response tracking for active tasks.",
+        "proposed_tool": "intake_responses",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-05"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "monitor_sla records governed task state.",
+        "objective": "Record overdue or escalation conditions.",
+        "proposed_tool": "monitor_sla",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-06"
+      }
+    ]
+  },
+  {
+    "agent_name": "department_liaison",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-OWNERSHIP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks_detailed.json",
+      "communications.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-LIAISON",
+    "plan_id": "PLAN-LIAISON-1306DB04-R1",
+    "rationale": "Operationalize approved resolution work without changing evidence or claims.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "prepare_task_campaign records governed task state.",
+        "objective": "Compose least-disclosure tasks from approved recommendations.",
+        "proposed_tool": "prepare_task_campaign",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-01"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "draft_task_messages records governed task state.",
+        "objective": "Create governed communication records.",
+        "proposed_tool": "draft_task_messages",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-02"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "apply_approval_gate records governed task state.",
+        "objective": "Block unapproved or unauthorized task activation.",
+        "proposed_tool": "apply_approval_gate",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-03"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "dispatch_allowed_tasks records governed task state.",
+        "objective": "Record controlled in-app delivery only when allowed.",
+        "proposed_tool": "dispatch_allowed_tasks",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-04"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "intake_responses records governed task state.",
+        "objective": "Initialize response tracking for active tasks.",
+        "proposed_tool": "intake_responses",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-05"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "monitor_sla records governed task state.",
+        "objective": "Record overdue or escalation conditions.",
+        "proposed_tool": "monitor_sla",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-06"
+      }
+    ]
+  },
+  {
+    "agent_name": "closure_revalidation",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-LIAISON"
+    ],
+    "expected_outputs": [
+      "closure_revalidation_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-CLOSURE",
+    "plan_id": "PLAN-CLOSURE-A97E8586-R1",
+    "rationale": "A gap closes only after submitted evidence passes targeted revalidation.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "intake_submissions returns closure lifecycle state.",
+        "objective": "Check whether closure evidence was submitted.",
+        "proposed_tool": "intake_submissions",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-A97E8586-01"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "compare_evidence_versions returns closure lifecycle state.",
+        "objective": "Detect registered and classifiable evidence state.",
+        "proposed_tool": "compare_evidence_versions",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-A97E8586-02"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "run_targeted_revalidation returns closure lifecycle state.",
+        "objective": "Evaluate affected integrity blockers.",
+        "proposed_tool": "run_targeted_revalidation",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-A97E8586-03"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "verify_closure_conditions returns closure lifecycle state.",
+        "objective": "Apply closure policy to each issue.",
+        "proposed_tool": "verify_closure_conditions",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-A97E8586-04"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "detect_regressions returns closure lifecycle state.",
+        "objective": "Detect new or remaining contradictions.",
+        "proposed_tool": "detect_regressions",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-A97E8586-05"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "decide_issue_states returns closure lifecycle state.",
+        "objective": "Produce formal issue lifecycle transitions.",
+        "proposed_tool": "decide_issue_states",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-A97E8586-06"
+      }
+    ]
+  },
+  {
+    "agent_name": "closure_revalidation",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-LIAISON"
+    ],
+    "expected_outputs": [
+      "closure_revalidation_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-CLOSURE",
+    "plan_id": "PLAN-CLOSURE-A97E8586-R1",
+    "rationale": "A gap closes only after submitted evidence passes targeted revalidation.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "intake_submissions returns closure lifecycle state.",
+        "objective": "Check whether closure evidence was submitted.",
+        "proposed_tool": "intake_submissions",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-A97E8586-01"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "compare_evidence_versions returns closure lifecycle state.",
+        "objective": "Detect registered and classifiable evidence state.",
+        "proposed_tool": "compare_evidence_versions",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-A97E8586-02"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "run_targeted_revalidation returns closure lifecycle state.",
+        "objective": "Evaluate affected integrity blockers.",
+        "proposed_tool": "run_targeted_revalidation",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-A97E8586-03"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "verify_closure_conditions returns closure lifecycle state.",
+        "objective": "Apply closure policy to each issue.",
+        "proposed_tool": "verify_closure_conditions",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-A97E8586-04"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "detect_regressions returns closure lifecycle state.",
+        "objective": "Detect new or remaining contradictions.",
+        "proposed_tool": "detect_regressions",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-A97E8586-05"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "decide_issue_states returns closure lifecycle state.",
+        "objective": "Produce formal issue lifecycle transitions.",
+        "proposed_tool": "decide_issue_states",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-A97E8586-06"
+      }
+    ]
+  },
+  {
+    "agent_name": "audit_package_composer",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLOSURE"
+    ],
+    "expected_outputs": [
+      "audit_package_manifest.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-PACKAGE",
+    "plan_id": "PLAN-PACKAGE-A8D7E23C-R1",
+    "rationale": "Generate a traceable draft audit package using only eligible evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "resolve_package_scope records package state.",
+        "objective": "Freeze department, requirement, year, and claim scope.",
+        "proposed_tool": "resolve_package_scope",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-01"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "select_package_evidence records package state.",
+        "objective": "Select eligible current evidence and explain exclusions.",
+        "proposed_tool": "select_package_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-02"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "order_evidence records package state.",
+        "objective": "Order evidence for reviewer usability.",
+        "proposed_tool": "order_evidence",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-03"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "compose_narrative records package state.",
+        "objective": "Create grounded claim summaries.",
+        "proposed_tool": "compose_narrative",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-04"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "build_cross_reference_index records package state.",
+        "objective": "Build claim-to-evidence lineage.",
+        "proposed_tool": "build_cross_reference_index",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-05"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "apply_redaction_policy records package state.",
+        "objective": "Record privacy policy without changing originals.",
+        "proposed_tool": "apply_redaction_policy",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-06"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "assemble_manifest records package state.",
+        "objective": "Create reproducible package manifest hash.",
+        "proposed_tool": "assemble_manifest",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-07"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "verify_package_integrity records package state.",
+        "objective": "Validate references, files, and lineage.",
+        "proposed_tool": "verify_package_integrity",
+        "required_inputs": [],
+        "sequence": 8,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-08"
+      }
+    ]
+  },
+  {
+    "agent_name": "audit_package_composer",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLOSURE"
+    ],
+    "expected_outputs": [
+      "audit_package_manifest.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-PACKAGE",
+    "plan_id": "PLAN-PACKAGE-A8D7E23C-R1",
+    "rationale": "Generate a traceable draft audit package using only eligible evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "resolve_package_scope records package state.",
+        "objective": "Freeze department, requirement, year, and claim scope.",
+        "proposed_tool": "resolve_package_scope",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-01"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "select_package_evidence records package state.",
+        "objective": "Select eligible current evidence and explain exclusions.",
+        "proposed_tool": "select_package_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-02"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "order_evidence records package state.",
+        "objective": "Order evidence for reviewer usability.",
+        "proposed_tool": "order_evidence",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-03"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "compose_narrative records package state.",
+        "objective": "Create grounded claim summaries.",
+        "proposed_tool": "compose_narrative",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-04"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "build_cross_reference_index records package state.",
+        "objective": "Build claim-to-evidence lineage.",
+        "proposed_tool": "build_cross_reference_index",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-05"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "apply_redaction_policy records package state.",
+        "objective": "Record privacy policy without changing originals.",
+        "proposed_tool": "apply_redaction_policy",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-06"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "assemble_manifest records package state.",
+        "objective": "Create reproducible package manifest hash.",
+        "proposed_tool": "assemble_manifest",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-07"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "verify_package_integrity records package state.",
+        "objective": "Validate references, files, and lineage.",
+        "proposed_tool": "verify_package_integrity",
+        "required_inputs": [],
+        "sequence": 8,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-08"
+      }
+    ]
+  },
+  {
+    "agent_name": "adversarial_quality_review",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-PACKAGE"
+    ],
+    "expected_outputs": [
+      "quality_review_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-QUALITY",
+    "plan_id": "PLAN-QUALITY-0A859418-R1",
+    "rationale": "Challenge the draft package independently before human approval.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "check_package_completeness records adversarial review state.",
+        "objective": "Check required package components.",
+        "proposed_tool": "check_package_completeness",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-0A859418-01"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "resolve_references records adversarial review state.",
+        "objective": "Test evidence paths, checksums, and claim links.",
+        "proposed_tool": "resolve_references",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-0A859418-02"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "challenge_claims records adversarial review state.",
+        "objective": "Attempt to disprove every material claim.",
+        "proposed_tool": "challenge_claims",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-0A859418-03"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "audit_duplicate_reuse records adversarial review state.",
+        "objective": "Detect duplicate or reused evidence risks.",
+        "proposed_tool": "audit_duplicate_reuse",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-0A859418-04"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "review_package_policy records adversarial review state.",
+        "objective": "Check disclosure and eligibility policy.",
+        "proposed_tool": "review_package_policy",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-0A859418-05"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "simulate_reviewer_journey records adversarial review state.",
+        "objective": "Estimate reviewer friction.",
+        "proposed_tool": "simulate_reviewer_journey",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-0A859418-06"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "score_quality_risk records adversarial review state.",
+        "objective": "Produce final quality status and correction routing.",
+        "proposed_tool": "score_quality_risk",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "pending",
+        "step_id": "STEP-0A859418-07"
+      }
+    ]
+  },
+  {
+    "agent_name": "adversarial_quality_review",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-PACKAGE"
+    ],
+    "expected_outputs": [
+      "quality_review_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-QUALITY",
+    "plan_id": "PLAN-QUALITY-0A859418-R1",
+    "rationale": "Challenge the draft package independently before human approval.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "check_package_completeness records adversarial review state.",
+        "objective": "Check required package components.",
+        "proposed_tool": "check_package_completeness",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-0A859418-01"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "resolve_references records adversarial review state.",
+        "objective": "Test evidence paths, checksums, and claim links.",
+        "proposed_tool": "resolve_references",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-0A859418-02"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "challenge_claims records adversarial review state.",
+        "objective": "Attempt to disprove every material claim.",
+        "proposed_tool": "challenge_claims",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-0A859418-03"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "audit_duplicate_reuse records adversarial review state.",
+        "objective": "Detect duplicate or reused evidence risks.",
+        "proposed_tool": "audit_duplicate_reuse",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-0A859418-04"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "review_package_policy records adversarial review state.",
+        "objective": "Check disclosure and eligibility policy.",
+        "proposed_tool": "review_package_policy",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-0A859418-05"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "simulate_reviewer_journey records adversarial review state.",
+        "objective": "Estimate reviewer friction.",
+        "proposed_tool": "simulate_reviewer_journey",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-0A859418-06"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "score_quality_risk records adversarial review state.",
+        "objective": "Produce final quality status and correction routing.",
+        "proposed_tool": "score_quality_risk",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "completed",
+        "step_id": "STEP-0A859418-07"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-B422B43BC500",
+    "plan_id": "PLAN-RES-5C019C64B4",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-B0DC476E06"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-371BA431AC0A",
+    "plan_id": "PLAN-RES-E4D2C0B558",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-846027BD17"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-B3CF1B1112FA",
+    "plan_id": "PLAN-RES-73CABFB0C1",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-183CF14E09"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-D2C1123D4BB8",
+    "plan_id": "PLAN-RES-7937F923F9",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-6A6CDFD5B3"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-048CF17C0AB9",
+    "plan_id": "PLAN-RES-89B37018C9",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-6EB0F7F69C"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLAIM"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-C4648A590F86",
+    "plan_id": "PLAN-RES-33089C8EB6",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Supervisor recorded the informational request in the audit trace.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-739853B234"
+      }
+    ]
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-A1273ED57BB4",
+    "plan_id": "PLAN-RES-F05124429F",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Supervisor recorded the informational request in the audit trace.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-6A6D4E158D"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-007E91EA63D3",
+    "plan_id": "PLAN-RES-45EE64386C",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-844E27DF61"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-EAB1A3107DEB",
+    "plan_id": "PLAN-RES-71B9248734",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-CE26F5DFD5"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-FE8A7CBFD535",
+    "plan_id": "PLAN-RES-6F0FB49012",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-495BFE0CD1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 6
+  },
+  "goal_id": "GOAL-RUN-20260724-BCBC-LIAISON",
+  "goal_status": "executing",
+  "plan_id": "PLAN-LIAISON-1306DB04-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-E764F2D1397D",
+    "OBS-B3305C28A146",
+    "OBS-D4B98B1E8F50",
+    "OBS-73E1B084203F",
+    "OBS-7A553C8B66A4"
+  ]
+}

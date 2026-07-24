@@ -1,0 +1,52 @@
+[
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-A4E15845F8CB",
+    "status": "blocked",
+    "task_id": "TASK-6C2925E44806",
+    "title": "Classification needs additional source context for unresolved evidence."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-868579C6F374",
+    "status": "blocked",
+    "task_id": "TASK-85152AAD2E53",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-F7ED331C8DA7",
+    "status": "blocked",
+    "task_id": "TASK-C360B2A30B77",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-E73F5F202344",
+    "status": "blocked",
+    "task_id": "TASK-B91D6CE3128A",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet."
+  },
+  {
+    "blocking": true,
+    "resolution": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "responsible_agent": "evidence_collector",
+    "round": 1,
+    "source_message_id": "MSG-C837E1E7E373",
+    "status": "blocked",
+    "task_id": "TASK-E7456B03E689",
+    "title": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet."
+  }
+]

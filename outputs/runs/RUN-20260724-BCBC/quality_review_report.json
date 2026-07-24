@@ -1,0 +1,40 @@
+{
+  "agent_name": "adversarial_quality_review",
+  "agent_run_id": "AGNT-ADVE-BCBC-4958",
+  "agent_version": "1.0.0",
+  "audit_failure_risk": 0.44,
+  "broken_references": 0,
+  "claim_challenges": [
+    {
+      "claim_id": "CLM-C3.2.1-001",
+      "reason": "The claim requires human review and cannot pass package quality.",
+      "result": "failed"
+    }
+  ],
+  "completed_at": "2026-07-24T17:59:06.832038+00:00",
+  "duplicate_evidence_risks": 0,
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 1,
+  "input_count": 1,
+  "input_snapshot_hash": "1a9122e7f092bd616d1541e947e62335e58bddc8f3bbe863e0f272f6c9734028",
+  "omitted_material_findings": 9,
+  "package_hash": "6f76d6b145d39337ae5ae28e55e99a1d66d5979ddbf633a481e23b64b5542f61",
+  "package_id": "PKG-RUN-20260724-BCBC",
+  "privacy_findings": 0,
+  "quality_status": "return_for_correction",
+  "required_corrections": [
+    "The claim requires human review and cannot pass package quality.",
+    "Unresolved issues are disclosed and require reviewer attention."
+  ],
+  "reviewer_friction_score": 47.0,
+  "run_id": "RUN-20260724-BCBC",
+  "started_at": "2026-07-24T17:59:06.831482+00:00",
+  "status": "completed_with_warnings",
+  "success_count": 0,
+  "warning_count": 2,
+  "warnings": [
+    "The claim requires human review and cannot pass package quality.",
+    "Unresolved issues are disclosed and require reviewer attention."
+  ]
+}

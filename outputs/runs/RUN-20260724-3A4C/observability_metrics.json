@@ -1,0 +1,20 @@
+{
+  "canonical_issue_count": 9,
+  "captured_at": "2026-07-24T18:34:10.857882Z",
+  "checkpoint_count": 10,
+  "duration_ms": 8350,
+  "goals_blocked": 10,
+  "goals_completed": 10,
+  "goals_needing_human_review": 1,
+  "goals_total": 21,
+  "open_coordination_messages": 0,
+  "policy_fingerprint": "925316285b385da9439bbd81e717dafbb08f99e905a69578b1675cc782bacb98",
+  "primary_agent_count": 10,
+  "quality_required_corrections": 2,
+  "run_id": "RUN-20260724-3A4C",
+  "specialist_module_count": 43,
+  "status": "blocked",
+  "supervisor_rounds": 1,
+  "unresolved_issue_count": 9,
+  "workflow_event_count": 22
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "agent_name": "department_liaison",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-OWNERSHIP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks_detailed.json",
+      "communications.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-LIAISON",
+    "plan_id": "PLAN-LIAISON-1306DB04-R1",
+    "rationale": "Operationalize approved resolution work without changing evidence or claims.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "prepare_task_campaign records governed task state.",
+        "objective": "Compose least-disclosure tasks from approved recommendations.",
+        "proposed_tool": "prepare_task_campaign",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-01"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "draft_task_messages records governed task state.",
+        "objective": "Create governed communication records.",
+        "proposed_tool": "draft_task_messages",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-02"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "apply_approval_gate records governed task state.",
+        "objective": "Block unapproved or unauthorized task activation.",
+        "proposed_tool": "apply_approval_gate",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-03"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "dispatch_allowed_tasks records governed task state.",
+        "objective": "Record controlled in-app delivery only when allowed.",
+        "proposed_tool": "dispatch_allowed_tasks",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-04"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "intake_responses records governed task state.",
+        "objective": "Initialize response tracking for active tasks.",
+        "proposed_tool": "intake_responses",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-05"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "monitor_sla records governed task state.",
+        "objective": "Record overdue or escalation conditions.",
+        "proposed_tool": "monitor_sla",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-1306DB04-06"
+      }
+    ]
+  },
+  {
+    "agent_name": "department_liaison",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-OWNERSHIP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks_detailed.json",
+      "communications.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-LIAISON",
+    "plan_id": "PLAN-LIAISON-1306DB04-R1",
+    "rationale": "Operationalize approved resolution work without changing evidence or claims.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "prepare_task_campaign records governed task state.",
+        "objective": "Compose least-disclosure tasks from approved recommendations.",
+        "proposed_tool": "prepare_task_campaign",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-01"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "draft_task_messages records governed task state.",
+        "objective": "Create governed communication records.",
+        "proposed_tool": "draft_task_messages",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-02"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "apply_approval_gate records governed task state.",
+        "objective": "Block unapproved or unauthorized task activation.",
+        "proposed_tool": "apply_approval_gate",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-03"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "dispatch_allowed_tasks records governed task state.",
+        "objective": "Record controlled in-app delivery only when allowed.",
+        "proposed_tool": "dispatch_allowed_tasks",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-04"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "intake_responses records governed task state.",
+        "objective": "Initialize response tracking for active tasks.",
+        "proposed_tool": "intake_responses",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-05"
+      },
+      {
+        "completion_condition": "The task campaign remains auditable and policy bounded.",
+        "expected_observation": "monitor_sla records governed task state.",
+        "objective": "Record overdue or escalation conditions.",
+        "proposed_tool": "monitor_sla",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-1306DB04-06"
+      }
+    ]
+  }
+]

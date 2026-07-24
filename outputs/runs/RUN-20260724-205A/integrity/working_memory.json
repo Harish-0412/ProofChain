@@ -1,0 +1,15 @@
+{
+  "extra": {
+    "action_rounds": 3
+  },
+  "goal_id": "GOAL-RUN-20260724-205A-INTEGRITY",
+  "goal_status": "executing",
+  "plan_id": "PLAN-EVIDENCE_INTEGRITY-06CEAAF600-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-45117514727A",
+    "OBS-2FD69CD562D4",
+    "OBS-81D03F233074"
+  ]
+}

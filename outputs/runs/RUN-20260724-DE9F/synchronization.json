@@ -1,0 +1,56 @@
+[
+  {
+    "completed_at": "2026-07-24T16:02:15.541269Z",
+    "input_sha256": "fc6bfd2c3a857c3706a8ec6d06e8ef7badcad53edfa3c3453c1a6118e937c7fa",
+    "output": {
+      "agent_run_id": "AGNT-EVID-DE9F-7C6D",
+      "committed_at": "2026-07-24T16:02:15.541269Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\evidence_registry.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "2f7695502ed3da1175a726b0517b1f26e2fb9da178e1aef0c4740667eba6f2a4",
+      "stage_name": "collection"
+    },
+    "run_id": "RUN-20260724-DE9F",
+    "stage_name": "collection",
+    "started_at": "2026-07-24T16:02:15.446068Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": null
+  },
+  {
+    "completed_at": "2026-07-24T16:02:16.151767Z",
+    "input_sha256": "0c2d03332bbe5866f2e58ea8856ae69b1b7124f95252c3b216e08f9719976dce",
+    "output": {
+      "agent_run_id": "AGNT-EVID-DE9F-D67D",
+      "committed_at": "2026-07-24T16:02:16.151767Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\classified_evidence.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "82132b9bc3d0ef2827d1fcf05a53240dcac2d54eeaf3cbb4adc00faa2bb6cb99",
+      "stage_name": "classification"
+    },
+    "run_id": "RUN-20260724-DE9F",
+    "stage_name": "classification",
+    "started_at": "2026-07-24T16:02:15.588243Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "2f7695502ed3da1175a726b0517b1f26e2fb9da178e1aef0c4740667eba6f2a4"
+  },
+  {
+    "completed_at": "2026-07-24T16:02:16.339038Z",
+    "input_sha256": "d68a2893d5f1cd72cd2cce2a6e274d06e6cd7a763a71cca77257baeec303fd40",
+    "output": {
+      "agent_run_id": "AGNT-EVID-DE9F-51A5",
+      "committed_at": "2026-07-24T16:02:16.339038Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\integrity_result.json",
+      "record_count": 32,
+      "schema_version": "1.0.0",
+      "sha256": "5a221a5f0b02ea2be429d732de2cd8969cd5a3a58c9b3111c76d948f32dd060c",
+      "stage_name": "integrity"
+    },
+    "run_id": "RUN-20260724-DE9F",
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T16:02:16.202822Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "82132b9bc3d0ef2827d1fcf05a53240dcac2d54eeaf3cbb4adc00faa2bb6cb99"
+  }
+]

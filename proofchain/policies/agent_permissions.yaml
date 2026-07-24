@@ -1,0 +1,34 @@
+schema_version: "1.0.0"
+policy_id: agent-permissions
+default_effect: deny
+agents:
+  evidence_collector:
+    allowed_actions: [discover_files, register_evidence, compute_checksum]
+    denied_actions: [interpret_claims, approve_evidence]
+  evidence_classification:
+    allowed_actions: [extract_content, classify_document, map_requirement]
+    denied_actions: [execute_extracted_content, approve_evidence]
+  evidence_integrity:
+    allowed_actions: [apply_integrity_rules, create_findings, create_gaps]
+    denied_actions: [waive_findings, close_issues]
+  claim_intelligence:
+    allowed_actions: [decompose_claims, retrieve_evidence, recommend_wording]
+    denied_actions: [rewrite_original_claims, approve_claims]
+  adaptive_gap_resolution:
+    allowed_actions: [normalize_gaps, plan_resolution, simulate_readiness]
+    denied_actions: [activate_tasks, approve_readiness]
+  accountability_ownership:
+    allowed_actions: [recommend_owners, recommend_escalation]
+    denied_actions: [assign_work, send_messages]
+  department_liaison:
+    allowed_actions: [compose_tasks, draft_messages, record_responses]
+    denied_actions: [activate_without_approval, send_external_messages]
+  closure_revalidation:
+    allowed_actions: [compare_evidence, revalidate_rules, propose_issue_transition]
+    denied_actions: [close_on_upload, alter_original_evidence]
+  audit_package_composer:
+    allowed_actions: [select_evidence, build_manifest, build_internal_bundle]
+    denied_actions: [alter_original_evidence, submit_externally]
+  adversarial_quality_review:
+    allowed_actions: [challenge_claims, score_risk, require_corrections]
+    denied_actions: [modify_package, approve_external_submission]

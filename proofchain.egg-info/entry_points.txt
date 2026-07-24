@@ -1,0 +1,2 @@
+[console_scripts]
+proofchain = proofchain.cli:main

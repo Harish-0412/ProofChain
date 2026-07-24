@@ -1,0 +1,33 @@
+{
+  "active_goals": [],
+  "blocked_goals": [
+    "GOAL-RUN-20260724-205A-INTEGRITY",
+    "GOAL-RUN-20260724-205A-TOP"
+  ],
+  "blockers": [],
+  "completed_goals": [
+    "GOAL-RUN-20260724-205A-COLLECT"
+  ],
+  "completion_claims": [
+    "DEC-AD0BF3A89A72",
+    "DEC-E7B7BDF6811D",
+    "DEC-B41F6AFA2F15",
+    "DEC-E42F16CCFC41"
+  ],
+  "current_plans": {
+    "GOAL-RUN-20260724-205A-CLASSIFY": "PLAN-EVIDENCE_CLASSIFICATION-0D0021B073-R1",
+    "GOAL-RUN-20260724-205A-COLLECT": "PLAN-EVIDENCE_COLLECTOR-F6E1A3DB3F-R1",
+    "GOAL-RUN-20260724-205A-INTEGRITY": "PLAN-EVIDENCE_INTEGRITY-06CEAAF600-R1"
+  },
+  "human_review_goals": [
+    "GOAL-RUN-20260724-205A-CLASSIFY"
+  ],
+  "open_messages": [],
+  "run_id": "RUN-20260724-205A",
+  "schema_version": "1.0.0",
+  "state_version": 24,
+  "supervisor_round": 1,
+  "top_level_goal_id": "GOAL-RUN-20260724-205A-TOP",
+  "unresolved_questions": [],
+  "updated_at": "2026-07-24T16:51:12.157920Z"
+}

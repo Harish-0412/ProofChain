@@ -1,0 +1,88 @@
+{
+  "checkpoints": [
+    {
+      "completed_at": "2026-07-24T16:18:31.706038Z",
+      "input_sha256": "8fb2143f6f39c42695313637aa7934da7416ccb8352c6eede08fb6a1a73e1994",
+      "output": {
+        "agent_run_id": "AGNT-EVID-4DDF-EE65",
+        "committed_at": "2026-07-24T16:18:31.706038Z",
+        "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-4DDF\\evidence_registry.json",
+        "record_count": 15,
+        "schema_version": "1.0.0",
+        "sha256": "bad7411cf11557992ecaf6f37abdacee7eae09f81ccf47fc0be10db6694e801c",
+        "stage_name": "collection"
+      },
+      "run_id": "RUN-20260724-4DDF",
+      "stage_name": "collection",
+      "started_at": "2026-07-24T16:18:31.579726Z",
+      "status": "completed_with_warnings",
+      "upstream_sha256": null
+    },
+    {
+      "completed_at": "2026-07-24T16:18:32.263507Z",
+      "input_sha256": "8404f9117cef9d70d9ef960080a785aa474119f1bb592ae4f88ffd4a63d719ea",
+      "output": {
+        "agent_run_id": "AGNT-EVID-4DDF-5523",
+        "committed_at": "2026-07-24T16:18:32.263507Z",
+        "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-4DDF\\classified_evidence.json",
+        "record_count": 15,
+        "schema_version": "1.0.0",
+        "sha256": "e0f4178840d95580cd7bdb1a182b764842332dc5b6a34650b8f4f7c0d7fb49fd",
+        "stage_name": "classification"
+      },
+      "run_id": "RUN-20260724-4DDF",
+      "stage_name": "classification",
+      "started_at": "2026-07-24T16:18:31.762433Z",
+      "status": "completed_with_warnings",
+      "upstream_sha256": "bad7411cf11557992ecaf6f37abdacee7eae09f81ccf47fc0be10db6694e801c"
+    },
+    {
+      "completed_at": "2026-07-24T16:18:32.414428Z",
+      "input_sha256": "0894385effc2216398d8c0edeade4aa8eb384d411c6d41ed9ce92a532df5f76d",
+      "output": {
+        "agent_run_id": "AGNT-EVID-4DDF-F373",
+        "committed_at": "2026-07-24T16:18:32.414428Z",
+        "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-4DDF\\integrity_result.json",
+        "record_count": 14,
+        "schema_version": "1.0.0",
+        "sha256": "e6a86f663481ec4c4b52d2eb1109c79186e4278396347d915e4610a754eea542",
+        "stage_name": "integrity"
+      },
+      "run_id": "RUN-20260724-4DDF",
+      "stage_name": "integrity",
+      "started_at": "2026-07-24T16:18:32.332501Z",
+      "status": "completed_with_warnings",
+      "upstream_sha256": "e0f4178840d95580cd7bdb1a182b764842332dc5b6a34650b8f4f7c0d7fb49fd"
+    }
+  ],
+  "created_at": "2026-07-24T16:18:31.530938+00:00",
+  "pipeline_result_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-4DDF\\pipeline_result.json",
+  "run_id": "RUN-20260724-4DDF",
+  "run_mode": "full",
+  "schema_version": "1.0.0",
+  "status": "blocked",
+  "updated_at": "2026-07-24T16:18:32.463314+00:00",
+  "workflow": {
+    "academic_year": "2025-2026",
+    "classifier_version": "1.0.0",
+    "configuration_version": "1.0.0",
+    "correlation_id": "ed5808ba-71c9-443f-8627-b4093762d76c",
+    "current_stage": "CREATED",
+    "department_scope": [
+      "CSE"
+    ],
+    "extractor_version": "1.0.0",
+    "requested_by": "cli",
+    "requirement_scope": [
+      "C3.2.1",
+      "C5.1.3",
+      "C6.3.2",
+      "C7.1.1",
+      "C1.2.1"
+    ],
+    "rule_version": "1.0.0",
+    "run_id": "RUN-20260724-4DDF",
+    "started_at": "2026-07-24T16:18:31.530168Z",
+    "upstream_artifact_hash": null
+  }
+}

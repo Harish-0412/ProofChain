@@ -1,0 +1,160 @@
+[
+  {
+    "agent_name": "closure_revalidation",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-3A4C-LIAISON"
+    ],
+    "expected_outputs": [
+      "closure_revalidation_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-3A4C-CLOSURE",
+    "plan_id": "PLAN-CLOSURE-603186AA-R1",
+    "rationale": "A gap closes only after submitted evidence passes targeted revalidation.",
+    "revision": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "intake_submissions returns closure lifecycle state.",
+        "objective": "Check whether closure evidence was submitted.",
+        "proposed_tool": "intake_submissions",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-603186AA-01"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "compare_evidence_versions returns closure lifecycle state.",
+        "objective": "Detect registered and classifiable evidence state.",
+        "proposed_tool": "compare_evidence_versions",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-603186AA-02"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "run_targeted_revalidation returns closure lifecycle state.",
+        "objective": "Evaluate affected integrity blockers.",
+        "proposed_tool": "run_targeted_revalidation",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-603186AA-03"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "verify_closure_conditions returns closure lifecycle state.",
+        "objective": "Apply closure policy to each issue.",
+        "proposed_tool": "verify_closure_conditions",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-603186AA-04"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "detect_regressions returns closure lifecycle state.",
+        "objective": "Detect new or remaining contradictions.",
+        "proposed_tool": "detect_regressions",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-603186AA-05"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "decide_issue_states returns closure lifecycle state.",
+        "objective": "Produce formal issue lifecycle transitions.",
+        "proposed_tool": "decide_issue_states",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-603186AA-06"
+      }
+    ]
+  },
+  {
+    "agent_name": "closure_revalidation",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-3A4C-LIAISON"
+    ],
+    "expected_outputs": [
+      "closure_revalidation_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-3A4C-CLOSURE",
+    "plan_id": "PLAN-CLOSURE-603186AA-R1",
+    "rationale": "A gap closes only after submitted evidence passes targeted revalidation.",
+    "revision": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "intake_submissions returns closure lifecycle state.",
+        "objective": "Check whether closure evidence was submitted.",
+        "proposed_tool": "intake_submissions",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-603186AA-01"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "compare_evidence_versions returns closure lifecycle state.",
+        "objective": "Detect registered and classifiable evidence state.",
+        "proposed_tool": "compare_evidence_versions",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-603186AA-02"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "run_targeted_revalidation returns closure lifecycle state.",
+        "objective": "Evaluate affected integrity blockers.",
+        "proposed_tool": "run_targeted_revalidation",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-603186AA-03"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "verify_closure_conditions returns closure lifecycle state.",
+        "objective": "Apply closure policy to each issue.",
+        "proposed_tool": "verify_closure_conditions",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-603186AA-04"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "detect_regressions returns closure lifecycle state.",
+        "objective": "Detect new or remaining contradictions.",
+        "proposed_tool": "detect_regressions",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-603186AA-05"
+      },
+      {
+        "completion_condition": "Closure state remains evidence backed.",
+        "expected_observation": "decide_issue_states returns closure lifecycle state.",
+        "objective": "Produce formal issue lifecycle transitions.",
+        "proposed_tool": "decide_issue_states",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-603186AA-06"
+      }
+    ]
+  }
+]

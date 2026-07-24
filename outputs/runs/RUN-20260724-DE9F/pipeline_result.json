@@ -1,0 +1,72 @@
+{
+  "academic_year": "2025-2026",
+  "blocking_findings": 26,
+  "classification_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\classified_evidence.json",
+  "classification_summary": {
+    "completed_at": "2026-07-24T16:02:16.151767Z",
+    "duration_ms": 562,
+    "failure_count": 0,
+    "notes": [],
+    "skipped_count": 0,
+    "stage_name": "classification",
+    "started_at": "2026-07-24T16:02:15.588243Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 2
+  },
+  "collection_summary": {
+    "completed_at": "2026-07-24T16:02:15.541269Z",
+    "duration_ms": 94,
+    "failure_count": 0,
+    "notes": [
+      "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+    ],
+    "skipped_count": 0,
+    "stage_name": "collection",
+    "started_at": "2026-07-24T16:02:15.446068Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 1
+  },
+  "completed_at": "2026-07-24T16:02:16.369947Z",
+  "department_scope": [
+    "CSE"
+  ],
+  "duration_ms": 977,
+  "errors": [],
+  "evidence_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\evidence_registry.json",
+  "integrity_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\integrity_result.json",
+  "integrity_summary": {
+    "completed_at": "2026-07-24T16:02:16.339038Z",
+    "duration_ms": 135,
+    "failure_count": 26,
+    "notes": [],
+    "skipped_count": 0,
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T16:02:16.202822Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 32
+  },
+  "requirement_scope": [
+    "C3.2.1",
+    "C5.1.3",
+    "C6.3.2",
+    "C7.1.1",
+    "C1.2.1"
+  ],
+  "run_id": "RUN-20260724-DE9F",
+  "run_manifest_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\run_manifest.json",
+  "started_at": "2026-07-24T16:02:15.392800Z",
+  "status": "blocked",
+  "total_documents_classified": 15,
+  "total_documents_unresolved": 0,
+  "total_evidence_registered": 15,
+  "total_files_discovered": 16,
+  "total_findings": 20,
+  "total_gaps": 12,
+  "trace_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-DE9F\\pipeline_trace.jsonl",
+  "warnings": [
+    "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+  ]
+}

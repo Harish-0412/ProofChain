@@ -1,0 +1,29 @@
+{
+  "assigned_agent": "evidence_collector",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T16:51:09.735966Z",
+  "deadline": null,
+  "dependencies": [],
+  "failure_conditions": [
+    "No readable evidence is available."
+  ],
+  "goal_id": "GOAL-RUN-20260724-205A-COLLECT",
+  "goal_type": "acquire_evidence",
+  "input_references": [
+    "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+  ],
+  "objective": "Acquire and register all available evidence in the approved source scope.",
+  "parent_goal_id": "GOAL-RUN-20260724-205A-TOP",
+  "priority": "critical",
+  "run_id": "RUN-20260724-205A",
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "success_conditions": [
+    "Every discoverable supported file is registered or explicitly skipped.",
+    "Every registered file has a checksum and immutable source reference."
+  ]
+}

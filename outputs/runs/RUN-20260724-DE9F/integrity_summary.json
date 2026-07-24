@@ -1,0 +1,67 @@
+[
+  {
+    "blocking_findings": 14,
+    "critical_findings": 0,
+    "high_findings": 15,
+    "integrity_score": 0.0,
+    "low_findings": 0,
+    "medium_findings": 5,
+    "scope_id": "CSE:C3.2.1",
+    "scope_type": "department_requirement",
+    "status": "requires_correction",
+    "total_findings": 20,
+    "total_gaps": 7
+  },
+  {
+    "blocking_findings": 2,
+    "critical_findings": 0,
+    "high_findings": 2,
+    "integrity_score": 63.0,
+    "low_findings": 0,
+    "medium_findings": 1,
+    "scope_id": "CSE:C5.1.3",
+    "scope_type": "department_requirement",
+    "status": "requires_correction",
+    "total_findings": 3,
+    "total_gaps": 1
+  },
+  {
+    "blocking_findings": 3,
+    "critical_findings": 0,
+    "high_findings": 3,
+    "integrity_score": 48.0,
+    "low_findings": 0,
+    "medium_findings": 1,
+    "scope_id": "CSE:C6.3.2",
+    "scope_type": "department_requirement",
+    "status": "requires_correction",
+    "total_findings": 4,
+    "total_gaps": 1
+  },
+  {
+    "blocking_findings": 3,
+    "critical_findings": 0,
+    "high_findings": 3,
+    "integrity_score": 48.0,
+    "low_findings": 0,
+    "medium_findings": 1,
+    "scope_id": "CSE:C7.1.1",
+    "scope_type": "department_requirement",
+    "status": "requires_correction",
+    "total_findings": 4,
+    "total_gaps": 1
+  },
+  {
+    "blocking_findings": 4,
+    "critical_findings": 0,
+    "high_findings": 4,
+    "integrity_score": 33.0,
+    "low_findings": 0,
+    "medium_findings": 1,
+    "scope_id": "CSE:C1.2.1",
+    "scope_type": "department_requirement",
+    "status": "requires_correction",
+    "total_findings": 5,
+    "total_gaps": 2
+  }
+]

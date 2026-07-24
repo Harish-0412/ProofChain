@@ -1,0 +1,344 @@
+[
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "A checksum-backed evidence registry and acquisition warnings.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-COLLECT",
+    "plan_id": "PLAN-EVIDENCE_COLLECTOR-0D9E91DCE0-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect approved source scopes, expected evidence coverage, and acquisition constraints.",
+        "proposed_tool": null,
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-0D9E91DCE0-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "A checksum-backed evidence registry and acquisition warnings.",
+        "objective": "Scan approved sources, checksum files, and register immutable evidence identities.",
+        "proposed_tool": "scan_and_register_evidence",
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-0D9E91DCE0-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Assess source coverage, skipped files, acquisition uncertainty, and follow-up needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-0D9E91DCE0-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "A checksum-backed evidence registry and acquisition warnings.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-COLLECT",
+    "plan_id": "PLAN-EVIDENCE_COLLECTOR-0D9E91DCE0-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect approved source scopes, expected evidence coverage, and acquisition constraints.",
+        "proposed_tool": null,
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-0D9E91DCE0-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "A checksum-backed evidence registry and acquisition warnings.",
+        "objective": "Scan approved sources, checksum files, and register immutable evidence identities.",
+        "proposed_tool": "scan_and_register_evidence",
+        "required_inputs": [
+          "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+        ],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-0D9E91DCE0-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Assess source coverage, skipped files, acquisition uncertainty, and follow-up needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-0D9E91DCE0-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLASSIFY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-B422B43BC500",
+    "plan_id": "PLAN-RES-5C019C64B4",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-B0DC476E06"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-371BA431AC0A",
+    "plan_id": "PLAN-RES-E4D2C0B558",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-846027BD17"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-B3CF1B1112FA",
+    "plan_id": "PLAN-RES-73CABFB0C1",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-183CF14E09"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-D2C1123D4BB8",
+    "plan_id": "PLAN-RES-7937F923F9",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-6A6CDFD5B3"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-048CF17C0AB9",
+    "plan_id": "PLAN-RES-89B37018C9",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-6EB0F7F69C"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-007E91EA63D3",
+    "plan_id": "PLAN-RES-45EE64386C",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-844E27DF61"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-EAB1A3107DEB",
+    "plan_id": "PLAN-RES-71B9248734",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-CE26F5DFD5"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_collector",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-RES-MSG-FE8A7CBFD535",
+    "plan_id": "PLAN-RES-6F0FB49012",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-495BFE0CD1"
+      }
+    ]
+  }
+]

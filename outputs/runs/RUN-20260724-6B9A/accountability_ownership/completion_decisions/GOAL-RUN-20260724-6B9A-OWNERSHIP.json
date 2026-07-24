@@ -1,0 +1,23 @@
+{
+  "agent_name": "accountability_ownership",
+  "blockers": [],
+  "confidence": 0.92,
+  "created_at": "2026-07-24T17:21:19.939959Z",
+  "decision_id": "DEC-2FF212348F1D",
+  "explanation": "Produced 9 assignment recommendations; 0 remain formally unresolved. No task was assigned or messaged without human approval.",
+  "final_status": "completed",
+  "goal_id": "GOAL-RUN-20260724-6B9A-OWNERSHIP",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-6B9A",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every gap has an assignment recommendation or formal unresolved state.",
+    "Permissions, workload, department, and conflicts are checked.",
+    "Human approval requirements and escalation paths are explicit."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\ownership_assignments.json"
+  ],
+  "unresolved_questions": []
+}

@@ -1,0 +1,458 @@
+{
+  "goals": [
+    {
+      "assigned_agent": "supervisor",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833091Z",
+      "deadline": null,
+      "dependencies": [],
+      "failure_conditions": [
+        "No usable evidence can be acquired.",
+        "A technical failure prevents deterministic validation."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "goal_type": "validate_requirement_defensibility",
+      "input_references": [
+        "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+      ],
+      "objective": "Determine whether the CSE evidence and institutional claims are audit-ready.",
+      "parent_goal_id": null,
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "All mandatory evidence types are accounted for.",
+        "Blocking integrity findings are resolved or formally disclosed.",
+        "Every mapped document remains traceable to its source.",
+        "A final defensibility decision is produced."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833119Z",
+      "deadline": null,
+      "dependencies": [],
+      "failure_conditions": [
+        "No readable evidence is available."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-COLLECT",
+      "goal_type": "acquire_evidence",
+      "input_references": [
+        "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+      ],
+      "objective": "Acquire and register all available evidence in the approved source scope.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "Every discoverable supported file is registered or explicitly skipped.",
+        "Every registered file has a checksum and immutable source reference."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_classification",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833129Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-COLLECT"
+      ],
+      "failure_conditions": [
+        "No evidence item can be interpreted."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-CLASSIFY",
+      "goal_type": "understand_evidence",
+      "input_references": [],
+      "objective": "Extract, classify, and map every registered evidence item.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "needs_human_review",
+      "success_conditions": [
+        "Every processable item has an extraction state and document type.",
+        "Every item has a requirement mapping or an explicit unresolved state."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_integrity",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833139Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-CLASSIFY"
+      ],
+      "failure_conditions": [
+        "Evidence cannot be bundled or checked."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-INTEGRITY",
+      "goal_type": "verify_defensibility",
+      "input_references": [],
+      "objective": "Verify evidence integrity, sufficiency, and requirement defensibility.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "All applicable deterministic rules are executed.",
+        "Blocking findings and evidence gaps are explicitly disclosed.",
+        "A defensibility state is produced."
+      ]
+    },
+    {
+      "assigned_agent": "claim_intelligence",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833147Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-INTEGRITY"
+      ],
+      "failure_conditions": [
+        "No claim decision can be produced."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-CLAIM",
+      "goal_type": "validate_claim_defensibility",
+      "input_references": [],
+      "objective": "Validate institutional claims at atomic level using supporting and counter-evidence.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "Every atomic claim has a validation state and evidence references.",
+        "Contradictions are resolved or explicitly disclosed.",
+        "A defensible claim decision and lineage are produced."
+      ]
+    },
+    {
+      "assigned_agent": "adaptive_gap_resolution",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833152Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-CLAIM"
+      ],
+      "failure_conditions": [
+        "Blocking gaps lack actionable resolution plans."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-GAP",
+      "goal_type": "plan_gap_resolution",
+      "input_references": [],
+      "objective": "Convert claim and integrity failures into a prioritized resolution and readiness programme.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "Every unresolved finding is represented by one normalized gap.",
+        "Every gap has strategies, closure evidence, and dependencies.",
+        "Readiness impact and priority are calculated."
+      ]
+    },
+    {
+      "assigned_agent": "accountability_ownership",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T17:17:22.833157Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-GAP"
+      ],
+      "failure_conditions": [
+        "A task is assigned without authorization or independent approval."
+      ],
+      "goal_id": "GOAL-RUN-20260724-99EB-OWNERSHIP",
+      "goal_type": "resolve_evidence_ownership",
+      "input_references": [],
+      "objective": "Recommend authorized primary, backup, approval, and escalation responsibility for every resolution gap.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-TOP",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "Every gap has an assignment recommendation or formal unresolved state.",
+        "Permissions, workload, department, and conflicts are checked.",
+        "Human approval requirements and escalation paths are explicit."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:26.650439Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-CLASSIFY"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-F81DC52F68A8",
+      "goal_type": "resolve_information_request",
+      "input_references": [
+        "EVD-CSE-2025-2026-00002",
+        "EVD-CSE-2025-2026-00006",
+        "EVD-CSE-2025-2026-00007"
+      ],
+      "objective": "Classification needs additional source context for unresolved evidence.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-CLASSIFY",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:26.873899Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-INTEGRITY"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-2A1C387E69CF",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-INTEGRITY",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:27.090931Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-INTEGRITY"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-0FC220E490A0",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-INTEGRITY",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:27.316626Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-INTEGRITY"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-A7D61E3043D0",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-INTEGRITY",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:27.511618Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-INTEGRITY"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-AD2055D1D2E5",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-INTEGRITY",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_integrity",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:27.717515Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-CLAIM"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-11BC8C370C5C",
+      "goal_type": "resolve_verification_request",
+      "input_references": [
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00010",
+        "EVD-CSE-2025-2026-00011",
+        "EVD-CSE-2025-2026-00012",
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "objective": "Claim CLM-C3.2.1-001 contains material contradictions.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-CLAIM",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "accountability_ownership",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:27.964942Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-GAP"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-BE44ADB14A66",
+      "goal_type": "resolve_information_request",
+      "input_references": [],
+      "objective": "Resolution tasks require authorized primary, backup, and approval owners.",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-GAP",
+      "priority": "critical",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:28.188847Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-GAP"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-BC44ED1CF235",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Locate and upload authoritative evidence",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-GAP",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:28.401028Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-GAP"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-10FF9E8A13E0",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Locate and upload authoritative evidence",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-GAP",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [],
+      "created_at": "2026-07-24T17:17:28.615589Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-99EB-GAP"
+      ],
+      "failure_conditions": [],
+      "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-F1651FE144E1",
+      "goal_type": "resolve_additional_evidence_request",
+      "input_references": [],
+      "objective": "Locate and upload authoritative evidence",
+      "parent_goal_id": "GOAL-RUN-20260724-99EB-GAP",
+      "priority": "high",
+      "run_id": "RUN-20260724-99EB",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "The peer request is assessed against current committed evidence.",
+        "The resolution or remaining blocker is recorded."
+      ]
+    }
+  ],
+  "run_id": "RUN-20260724-99EB",
+  "schema_version": "1.0.0",
+  "top_level_goal_id": "GOAL-RUN-20260724-99EB-TOP"
+}

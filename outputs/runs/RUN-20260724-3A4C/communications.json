@@ -1,0 +1,203 @@
+[
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0001",
+    "content_hash": "5ecc5f2168dd4f456914b1e0848c41bebd9460054af0fa22f8a8e4516df12d0a",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status",
+      "requirement_id"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0001",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0002",
+    "content_hash": "1447e628575b1c3a2dda714923344765de251b4b3e39c06879cdfc882fdf8d97",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status",
+      "requirement_id"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0002",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0003",
+    "content_hash": "3d41fa0fec1851eaaacd436412809afce695ddbf8cbef59d0dcee4bb08ff14c4",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status",
+      "requirement_id"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0003",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0004",
+    "content_hash": "70ea12ef933f3d2fcdb631b61edfb499bc3547ecec2277b2528a5494354c8320",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status",
+      "requirement_id"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0004",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0005",
+    "content_hash": "46d0596ad73261d2f4bee9f9c0892b9ccec2be1368d28b388f54dcb3dec1a0bf",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status",
+      "requirement_id"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0005",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0006",
+    "content_hash": "1a2cfedaec8c5428b0e4648b0b530d01a9b75b8e3dac8b5c5a8f2327fc3f34ee",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0006",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0007",
+    "content_hash": "d6b0cf843accfbc09bf2fbfcfe8bb7b07be201b8637cd43e3b17e24760512d4a",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0007",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0008",
+    "content_hash": "1a75d28c82500f53c3714426f917d7ab5ddb72ed2faa1ae8b8801a1e55ac19d2",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0008",
+    "template_version": "1.0.0"
+  },
+  {
+    "approval_event_id": null,
+    "channel": "in_app",
+    "communication_id": "COM-TASK-RGAP-0009",
+    "content_hash": "616a7662855876d933e7c8b456028c79c1b1f87cd3da40fdef5055840e7a0c52",
+    "delivery_status": "blocked_by_approval",
+    "disclosure_fields": [
+      "task_id",
+      "gap_id",
+      "required_action",
+      "closure_evidence",
+      "deadline",
+      "blocking_status"
+    ],
+    "message_type": "initial_assignment",
+    "recipient_ids": [
+      "USR-CSE-COORD"
+    ],
+    "sent_at": null,
+    "task_id": "TASK-RGAP-0009",
+    "template_version": "1.0.0"
+  }
+]

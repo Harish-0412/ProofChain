@@ -1,0 +1,169 @@
+[
+  {
+    "agent_name": "accountability_ownership",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-3A4C-GAP"
+    ],
+    "expected_outputs": [
+      "ownership_assignments.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-3A4C-OWNERSHIP",
+    "plan_id": "PLAN-OWNER-E2B0B849-R1",
+    "rationale": "Resolve accountable roles through provenance, authority, workload, and conflict checks.",
+    "revision": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "trace_evidence_provenance returns a bounded assignment artifact.",
+        "objective": "Resolve department and provenance candidates.",
+        "proposed_tool": "trace_evidence_provenance",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-E2B0B849-01"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "match_responsibility returns a bounded assignment artifact.",
+        "objective": "Map gaps to eligible roles and permissions.",
+        "proposed_tool": "match_responsibility",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-E2B0B849-02"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "balance_workload returns a bounded assignment artifact.",
+        "objective": "Select primary, backup, and approver candidates.",
+        "proposed_tool": "balance_workload",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-E2B0B849-03"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "build_escalation_plan returns a bounded assignment artifact.",
+        "objective": "Recommend a controlled escalation path.",
+        "proposed_tool": "build_escalation_plan",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-E2B0B849-04"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "validate_assignments returns a bounded assignment artifact.",
+        "objective": "Check authorization, independence, privacy, and workload.",
+        "proposed_tool": "validate_assignments",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-E2B0B849-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-3A4C-GAP"
+    ],
+    "expected_outputs": [
+      "ownership_assignments.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-3A4C-OWNERSHIP",
+    "plan_id": "PLAN-OWNER-E2B0B849-R1",
+    "rationale": "Resolve accountable roles through provenance, authority, workload, and conflict checks.",
+    "revision": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "trace_evidence_provenance returns a bounded assignment artifact.",
+        "objective": "Resolve department and provenance candidates.",
+        "proposed_tool": "trace_evidence_provenance",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-E2B0B849-01"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "match_responsibility returns a bounded assignment artifact.",
+        "objective": "Map gaps to eligible roles and permissions.",
+        "proposed_tool": "match_responsibility",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-E2B0B849-02"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "balance_workload returns a bounded assignment artifact.",
+        "objective": "Select primary, backup, and approver candidates.",
+        "proposed_tool": "balance_workload",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-E2B0B849-03"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "build_escalation_plan returns a bounded assignment artifact.",
+        "objective": "Recommend a controlled escalation path.",
+        "proposed_tool": "build_escalation_plan",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-E2B0B849-04"
+      },
+      {
+        "completion_condition": "The specialist records a traceable ownership decision.",
+        "expected_observation": "validate_assignments returns a bounded assignment artifact.",
+        "objective": "Check authorization, independence, privacy, and workload.",
+        "proposed_tool": "validate_assignments",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-E2B0B849-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-3A4C-GAP"
+    ],
+    "expected_outputs": [
+      "resolution_tasks.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-3A4C-RES-MSG-85B5520D7AA3",
+    "plan_id": "PLAN-RES-529927F63B",
+    "rationale": "Reopen the requested responsibility using current committed state without modifying original evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The request has a terminal documented outcome.",
+        "expected_observation": "Supervisor recorded the informational request in the audit trace.",
+        "objective": "Assess the peer request and record the bounded resolution.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-RES-A0C060AE2A"
+      }
+    ]
+  }
+]

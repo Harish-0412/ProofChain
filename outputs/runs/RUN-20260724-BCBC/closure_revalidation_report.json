@@ -1,0 +1,506 @@
+{
+  "agent_name": "closure_revalidation",
+  "agent_run_id": "AGNT-CLOS-BCBC-EEBE",
+  "agent_version": "1.0.0",
+  "closure_checks": [
+    {
+      "affected_claims_revalidated": true,
+      "check_id": "CHK-ISS-0001",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0001",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0001"
+    },
+    {
+      "affected_claims_revalidated": true,
+      "check_id": "CHK-ISS-0002",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0002",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0002"
+    },
+    {
+      "affected_claims_revalidated": true,
+      "check_id": "CHK-ISS-0003",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0003",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0003"
+    },
+    {
+      "affected_claims_revalidated": true,
+      "check_id": "CHK-ISS-0004",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0004",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0004"
+    },
+    {
+      "affected_claims_revalidated": true,
+      "check_id": "CHK-ISS-0005",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0005",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0005"
+    },
+    {
+      "affected_claims_revalidated": false,
+      "check_id": "CHK-ISS-0006",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": true,
+      "issue_id": "ISS-0006",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Affected claims are not fully supported."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0006"
+    },
+    {
+      "affected_claims_revalidated": false,
+      "check_id": "CHK-ISS-0007",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0007",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail.",
+        "Affected claims are not fully supported."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0007"
+    },
+    {
+      "affected_claims_revalidated": false,
+      "check_id": "CHK-ISS-0008",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": true,
+      "issue_id": "ISS-0008",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Affected claims are not fully supported."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0008"
+    },
+    {
+      "affected_claims_revalidated": false,
+      "check_id": "CHK-ISS-0009",
+      "classification_complete": true,
+      "closure_policy_satisfied": false,
+      "evidence_registered": true,
+      "evidence_submitted": false,
+      "integrity_rules_passed": false,
+      "issue_id": "ISS-0009",
+      "reasons": [
+        "Closure evidence has not been submitted.",
+        "Targeted integrity checks still fail.",
+        "Affected claims are not fully supported."
+      ],
+      "status": "waiting_for_evidence",
+      "task_id": "TASK-RGAP-0009"
+    }
+  ],
+  "completed_at": "2026-07-24T17:59:05.566449+00:00",
+  "current_verified_readiness": 73.0,
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 0,
+  "input_count": 9,
+  "input_snapshot_hash": "1b7de51245fa230a9165cee18dddbeb6eba31d3d116dae024b25df35b8b2efa8",
+  "issue_transitions": [
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.559770+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0001",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-52A6428AB119"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560219+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0002",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-4B99746DD146"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560301+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0003",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-28DF5C63E4BF"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560373+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0004",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-FD54410E2747"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560441+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0005",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-1FE4424DC1AA"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560505+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0006",
+      "reason": "Closure evidence has not been submitted.; Affected claims are not fully supported.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-C25D5CD9822F"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560549+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0007",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.; Affected claims are not fully supported.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-AF6C853527EB"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560590+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0008",
+      "reason": "Closure evidence has not been submitted.; Affected claims are not fully supported.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-DA9DFDF468E8"
+    },
+    {
+      "authorized_by_event_id": null,
+      "created_at": "2026-07-24T17:59:05.560648+00:00",
+      "from_status": "PLANNED",
+      "issue_id": "ISS-0009",
+      "reason": "Closure evidence has not been submitted.; Targeted integrity checks still fail.; Affected claims are not fully supported.",
+      "run_id": "RUN-20260724-BCBC",
+      "to_status": "ASSIGNED_PENDING_APPROVAL",
+      "transition_id": "TRANS-4973360FF2A1"
+    }
+  ],
+  "run_id": "RUN-20260724-BCBC",
+  "started_at": "2026-07-24T17:59:05.559534+00:00",
+  "status": "completed_with_warnings",
+  "success_count": 0,
+  "updated_issues": [
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [
+        "C5.1.3"
+      ],
+      "blocking": true,
+      "canonical_key": "missing_required_document|C5.1.3||bundle bundle-cse-evt-cse-002 is missing attendance_sheet.",
+      "created_at": "2026-07-24T17:59:04.569418+00:00",
+      "issue_id": "ISS-0001",
+      "issue_type": "missing_required_document",
+      "resolution_task_ids": [
+        "TASK-RGAP-0001"
+      ],
+      "root_cause_id": "ROOT-RGAP-0001",
+      "root_entity_id": "GAP-BCBC-00001",
+      "root_entity_type": "integrity_gap",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [],
+      "source_finding_ids": [
+        "FND-BCBC-000005"
+      ],
+      "source_gap_ids": [
+        "GAP-BCBC-00001"
+      ],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569423+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [
+        "C6.3.2"
+      ],
+      "blocking": true,
+      "canonical_key": "missing_required_document|C6.3.2||bundle bundle-cse-evt-cse-003 is missing approval_document.",
+      "created_at": "2026-07-24T17:59:04.569522+00:00",
+      "issue_id": "ISS-0002",
+      "issue_type": "missing_required_document",
+      "resolution_task_ids": [
+        "TASK-RGAP-0002"
+      ],
+      "root_cause_id": "ROOT-RGAP-0002",
+      "root_entity_id": "GAP-BCBC-00002",
+      "root_entity_type": "integrity_gap",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [],
+      "source_finding_ids": [
+        "FND-BCBC-000006"
+      ],
+      "source_gap_ids": [
+        "GAP-BCBC-00002"
+      ],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569525+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [
+        "C7.1.1"
+      ],
+      "blocking": true,
+      "canonical_key": "missing_required_document|C7.1.1||bundle bundle-cse-evt-cse-004 is missing attendance_sheet.",
+      "created_at": "2026-07-24T17:59:04.569554+00:00",
+      "issue_id": "ISS-0003",
+      "issue_type": "missing_required_document",
+      "resolution_task_ids": [
+        "TASK-RGAP-0003"
+      ],
+      "root_cause_id": "ROOT-RGAP-0003",
+      "root_entity_id": "GAP-BCBC-00003",
+      "root_entity_type": "integrity_gap",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [],
+      "source_finding_ids": [
+        "FND-BCBC-000007"
+      ],
+      "source_gap_ids": [
+        "GAP-BCBC-00003"
+      ],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569555+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [
+        "C1.2.1"
+      ],
+      "blocking": true,
+      "canonical_key": "missing_required_document|C1.2.1||bundle bundle-cse-evt-cse-005 is missing attendance_sheet.",
+      "created_at": "2026-07-24T17:59:04.569580+00:00",
+      "issue_id": "ISS-0004",
+      "issue_type": "missing_required_document",
+      "resolution_task_ids": [
+        "TASK-RGAP-0004"
+      ],
+      "root_cause_id": "ROOT-RGAP-0004",
+      "root_entity_id": "GAP-BCBC-00004",
+      "root_entity_type": "integrity_gap",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [],
+      "source_finding_ids": [
+        "FND-BCBC-000008"
+      ],
+      "source_gap_ids": [
+        "GAP-BCBC-00004"
+      ],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569581+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [
+        "C1.2.1"
+      ],
+      "blocking": true,
+      "canonical_key": "missing_required_document|C1.2.1||bundle bundle-cse-evt-cse-005 is missing certificate.",
+      "created_at": "2026-07-24T17:59:04.569603+00:00",
+      "issue_id": "ISS-0005",
+      "issue_type": "missing_required_document",
+      "resolution_task_ids": [
+        "TASK-RGAP-0005"
+      ],
+      "root_cause_id": "ROOT-RGAP-0005",
+      "root_entity_id": "GAP-BCBC-00005",
+      "root_entity_type": "integrity_gap",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [],
+      "source_finding_ids": [
+        "FND-BCBC-000009"
+      ],
+      "source_gap_ids": [
+        "GAP-BCBC-00005"
+      ],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569605+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [],
+      "blocking": false,
+      "canonical_key": "duplicate_file||CLM-C3.2.1-001|2 evidence records have sha-256 1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a.",
+      "created_at": "2026-07-24T17:59:04.569627+00:00",
+      "issue_id": "ISS-0006",
+      "issue_type": "duplicate_file",
+      "resolution_task_ids": [
+        "TASK-RGAP-0006"
+      ],
+      "root_cause_id": "ROOT-RGAP-0006",
+      "root_entity_id": "FND-BCBC-000001",
+      "root_entity_type": "integrity_finding",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [
+        "CLM-C3.2.1-001"
+      ],
+      "source_finding_ids": [
+        "FND-BCBC-000001"
+      ],
+      "source_gap_ids": [],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569629+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [],
+      "blocking": true,
+      "canonical_key": "missing_signature||CLM-C3.2.1-001|apr_evt-cse-001_approval.pdf does not contain an affirmative signature marker.",
+      "created_at": "2026-07-24T17:59:04.569650+00:00",
+      "issue_id": "ISS-0007",
+      "issue_type": "missing_signature",
+      "resolution_task_ids": [
+        "TASK-RGAP-0007"
+      ],
+      "root_cause_id": "ROOT-RGAP-0007",
+      "root_entity_id": "FND-BCBC-000002",
+      "root_entity_type": "integrity_finding",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [
+        "CLM-C3.2.1-001"
+      ],
+      "source_finding_ids": [
+        "FND-BCBC-000002"
+      ],
+      "source_gap_ids": [],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569651+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [],
+      "blocking": false,
+      "canonical_key": "duplicate_student_row||CLM-C3.2.1-001|repeated roll numbers: cse25005,cse25008.",
+      "created_at": "2026-07-24T17:59:04.569671+00:00",
+      "issue_id": "ISS-0008",
+      "issue_type": "duplicate_student_row",
+      "resolution_task_ids": [
+        "TASK-RGAP-0008"
+      ],
+      "root_cause_id": "ROOT-RGAP-0008",
+      "root_entity_id": "FND-BCBC-000003",
+      "root_entity_type": "integrity_finding",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [
+        "CLM-C3.2.1-001"
+      ],
+      "source_finding_ids": [
+        "FND-BCBC-000003"
+      ],
+      "source_gap_ids": [],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569672+00:00"
+    },
+    {
+      "affected_evidence_ids": [],
+      "affected_requirement_ids": [],
+      "blocking": true,
+      "canonical_key": "participant_count_mismatch||CLM-C3.2.1-001|event report claims 120; attendance contains 108 unique students.",
+      "created_at": "2026-07-24T17:59:04.569690+00:00",
+      "issue_id": "ISS-0009",
+      "issue_type": "participant_count_mismatch",
+      "resolution_task_ids": [
+        "TASK-RGAP-0009"
+      ],
+      "root_cause_id": "ROOT-RGAP-0009",
+      "root_entity_id": "FND-BCBC-000004",
+      "root_entity_type": "integrity_finding",
+      "run_id": "RUN-20260724-BCBC",
+      "severity": "high",
+      "source_claim_ids": [
+        "CLM-C3.2.1-001"
+      ],
+      "source_finding_ids": [
+        "FND-BCBC-000004"
+      ],
+      "source_gap_ids": [],
+      "status": "ASSIGNED_PENDING_APPROVAL",
+      "updated_at": "2026-07-24T17:59:04.569692+00:00"
+    }
+  ],
+  "warning_count": 7,
+  "warnings": [
+    "7 blocking issues remain unresolved after targeted revalidation."
+  ]
+}

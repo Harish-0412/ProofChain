@@ -1,0 +1,25 @@
+{
+  "agent_name": "claim_intelligence",
+  "blockers": [],
+  "confidence": 0.822,
+  "created_at": "2026-07-24T18:34:04.861296Z",
+  "decision_id": "DEC-2F8CDBF4E56C",
+  "explanation": "Validated 1 claims at atomic level; 1 require governed human review.",
+  "final_status": "completed_with_warnings",
+  "goal_id": "GOAL-RUN-20260724-3A4C-CLAIM",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-3A4C",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every atomic claim has a validation state and evidence references.",
+    "Contradictions are resolved or explicitly disclosed.",
+    "A defensible claim decision and lineage are produced."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\claim_decisions.json"
+  ],
+  "unresolved_questions": [
+    "CLM-C3.2.1-001"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-07-24T18:34:02.654818Z",
+  "generated_content_is_evidence": false,
+  "policy_fingerprint": "925316285b385da9439bbd81e717dafbb08f99e905a69578b1675cc782bacb98",
+  "profiles": [
+    {
+      "agent_name": "evidence_collector",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "evidence_classification",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "evidence_integrity",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "claim_intelligence",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "adaptive_gap_resolution",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "accountability_ownership",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "department_liaison",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "closure_revalidation",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "audit_package_composer",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    },
+    {
+      "agent_name": "adversarial_quality_review",
+      "execution_mode": "deterministic",
+      "external_model_calls": 0,
+      "fallback_behavior": "deterministic_only",
+      "high_impact_actions_require_approval": true,
+      "model_id": null,
+      "model_provider": null,
+      "prompt_version": null
+    }
+  ],
+  "run_id": "RUN-20260724-3A4C",
+  "total_external_model_calls": 0,
+  "unconfigured_model_use_is_blocked": true
+}

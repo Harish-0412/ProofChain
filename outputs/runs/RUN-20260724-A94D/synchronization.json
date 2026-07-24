@@ -1,0 +1,56 @@
+[
+  {
+    "completed_at": "2026-07-24T16:46:53.120144Z",
+    "input_sha256": "9b9f4c693a7d8bf035d85856cf47aac2e274c39b26e8ca962aabdd5d7ca49c7c",
+    "output": {
+      "agent_run_id": "AGNT-EVID-A94D-5E5F",
+      "committed_at": "2026-07-24T16:46:53.120144Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A94D\\evidence_registry.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "90b60f216423665bc4c37081d2f76ed9df89f02e98616c5eedf1da7508733383",
+      "stage_name": "collection"
+    },
+    "run_id": "RUN-20260724-A94D",
+    "stage_name": "collection",
+    "started_at": "2026-07-24T16:46:53.041669Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": null
+  },
+  {
+    "completed_at": "2026-07-24T16:46:54.014671Z",
+    "input_sha256": "f995fe5c3ca961eb4d44f6ba1a3e1ef0ebfa961a28fc1b86c522296b1b0ce19e",
+    "output": {
+      "agent_run_id": "AGNT-EVID-A94D-DDE3",
+      "committed_at": "2026-07-24T16:46:54.014671Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A94D\\classified_evidence.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "dc6394785cf9c9cdb9c8133750e1c49b4c88de77a3bf0fba3b6312767593be76",
+      "stage_name": "classification"
+    },
+    "run_id": "RUN-20260724-A94D",
+    "stage_name": "classification",
+    "started_at": "2026-07-24T16:46:53.449089Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "90b60f216423665bc4c37081d2f76ed9df89f02e98616c5eedf1da7508733383"
+  },
+  {
+    "completed_at": "2026-07-24T16:46:54.507388Z",
+    "input_sha256": "8fd506205f98b7ecd4f32e94c6c5060386797a613469dbda9a0ee5f6e3a52faf",
+    "output": {
+      "agent_run_id": "AGNT-EVID-A94D-B969",
+      "committed_at": "2026-07-24T16:46:54.507388Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A94D\\integrity_result.json",
+      "record_count": 14,
+      "schema_version": "1.0.0",
+      "sha256": "9021abda1393682dc34c23e67bf9ad09ff43aef2df0c6e1ee7ddb6ea1a1c59c7",
+      "stage_name": "integrity"
+    },
+    "run_id": "RUN-20260724-A94D",
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T16:46:54.414394Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "dc6394785cf9c9cdb9c8133750e1c49b4c88de77a3bf0fba3b6312767593be76"
+  }
+]

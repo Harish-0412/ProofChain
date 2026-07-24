@@ -1,0 +1,884 @@
+{
+  "agent_name": "accountability_ownership",
+  "agent_run_id": "AGNT-ACCO-6B9A-E3A8",
+  "agent_version": "1.0.0",
+  "assignments": [
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0001",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0001",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0002",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0002",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0003",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0003",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0004",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0004",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0005",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0005",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_required_document.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to duplicate_file.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0006",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to duplicate_file.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 48,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 96,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 144,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0006",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to duplicate_file.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_signature.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0007",
+      "backup_owner": {
+        "confidence": 0.86,
+        "display_name": "Head of CSE Department",
+        "role": "Head of Department",
+        "selection_reasons": [
+          "Role is relevant to missing_signature.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-HOD"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0007",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to missing_signature.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 4,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-HOD",
+            "workload_score": 0.4
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to duplicate_student_row.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0008",
+      "backup_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Event Coordinator",
+        "role": "Event Coordinator",
+        "selection_reasons": [
+          "Role is relevant to duplicate_student_row.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-EVENT"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 48,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 96,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 144,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0008",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to duplicate_student_row.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    },
+    {
+      "approver": {
+        "confidence": 0.65,
+        "display_name": "IQAC Coordinator",
+        "role": "IQAC Coordinator",
+        "selection_reasons": [
+          "Role is relevant to participant_count_mismatch.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-IQAC"
+      },
+      "assignment_confidence": 0.92,
+      "assignment_id": "ASN-RGAP-0009",
+      "backup_owner": {
+        "confidence": 0.88,
+        "display_name": "CSE Event Coordinator",
+        "role": "Event Coordinator",
+        "selection_reasons": [
+          "Role is relevant to participant_count_mismatch.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-EVENT"
+      },
+      "communication_data_scope": [
+        "gap title",
+        "required evidence type",
+        "deadline",
+        "submission instructions"
+      ],
+      "conflict_checks": {
+        "conflict_of_interest": false,
+        "department_match": true,
+        "independent_approver": true,
+        "permission_valid": true,
+        "role_eligible": true,
+        "workload_acceptable": true
+      },
+      "due_date_recommendation": "2026-07-31",
+      "escalation_plan": [
+        {
+          "action": "recommend_reminder",
+          "after_hours": 24,
+          "level": 1,
+          "target_role": "Department Accreditation Coordinator"
+        },
+        {
+          "action": "recommend_delay_review",
+          "after_hours": 48,
+          "level": 2,
+          "target_role": "Head of Department"
+        },
+        {
+          "action": "request_human_intervention",
+          "after_hours": 72,
+          "level": 3,
+          "target_role": "IQAC Coordinator"
+        }
+      ],
+      "gap_id": "RGAP-0009",
+      "human_approval_required": true,
+      "primary_owner": {
+        "confidence": 0.92,
+        "display_name": "CSE Department Accreditation Coordinator",
+        "role": "Department Accreditation Coordinator",
+        "selection_reasons": [
+          "Role is relevant to participant_count_mismatch.",
+          "Member belongs to the responsible department or approval hierarchy.",
+          "Configured permissions and workload were checked."
+        ],
+        "user_id": "USR-CSE-COORD"
+      },
+      "status": "recommended",
+      "workload_assessment": {
+        "candidates": [
+          {
+            "active_tasks": 3,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-COORD",
+            "workload_score": 0.3
+          },
+          {
+            "active_tasks": 5,
+            "recommendation": "eligible",
+            "user_id": "USR-CSE-EVENT",
+            "workload_score": 0.5
+          }
+        ],
+        "threshold": 0.8
+      }
+    }
+  ],
+  "completed_at": "2026-07-24T17:21:19.877048+00:00",
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 0,
+  "input_count": 9,
+  "input_snapshot_hash": "df7a2bbd93ac28cf69a35041765a30a0f663176fea8e4b2387652f2489af39fa",
+  "run_id": "RUN-20260724-6B9A",
+  "started_at": "2026-07-24T17:21:19.875021+00:00",
+  "status": "completed",
+  "success_count": 9,
+  "unresolved_ownership": [],
+  "warning_count": 0,
+  "warnings": []
+}

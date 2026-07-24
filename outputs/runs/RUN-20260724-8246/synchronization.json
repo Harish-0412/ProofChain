@@ -1,0 +1,20 @@
+[
+  {
+    "completed_at": "2026-07-24T16:01:49.492501Z",
+    "input_sha256": "ee44e09d9ba06158f223bc64dc58bc6874f19458f10fa09de2d6e4900fe4039e",
+    "output": {
+      "agent_run_id": "AGNT-EVID-8246-A211",
+      "committed_at": "2026-07-24T16:01:49.492501Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-8246\\evidence_registry.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "7ec9e28705f174e27ee4fc9692d49c0d89721b7ab1774a4da652a48d5fda74c6",
+      "stage_name": "collection"
+    },
+    "run_id": "RUN-20260724-8246",
+    "stage_name": "collection",
+    "started_at": "2026-07-24T16:01:49.345442Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": null
+  }
+]

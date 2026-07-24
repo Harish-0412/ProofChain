@@ -1,0 +1,49 @@
+departments:
+  CSE:
+    members:
+      - user_id: USR-CSE-COORD
+        display_name: CSE Department Accreditation Coordinator
+        role: Department Accreditation Coordinator
+        permissions: [upload_evidence, correct_evidence, manage_department_tasks]
+        active_tasks: 3
+        available: true
+        reports_to: USR-CSE-HOD
+      - user_id: USR-CSE-EVENT
+        display_name: CSE Event Coordinator
+        role: Event Coordinator
+        permissions: [upload_evidence, correct_attendance]
+        active_tasks: 5
+        available: true
+        reports_to: USR-CSE-HOD
+      - user_id: USR-CSE-HOD
+        display_name: Head of CSE Department
+        role: Head of Department
+        permissions: [approve_evidence, approve_claim_revision, manage_department_tasks]
+        active_tasks: 4
+        available: true
+        reports_to: USR-IQAC
+  DEFAULT:
+    members:
+      - user_id: USR-DEPT-COORD
+        display_name: Department Accreditation Coordinator
+        role: Department Accreditation Coordinator
+        permissions: [upload_evidence, correct_evidence, manage_department_tasks]
+        active_tasks: 3
+        available: true
+        reports_to: USR-DEPT-HOD
+      - user_id: USR-DEPT-HOD
+        display_name: Head of Department
+        role: Head of Department
+        permissions: [approve_evidence, approve_claim_revision, manage_department_tasks]
+        active_tasks: 4
+        available: true
+        reports_to: USR-IQAC
+institution:
+  members:
+    - user_id: USR-IQAC
+      display_name: IQAC Coordinator
+      role: IQAC Coordinator
+      department: INSTITUTION
+      permissions: [approve_escalation, review_accreditation_decision]
+      active_tasks: 2
+      available: true

@@ -1,0 +1,14 @@
+[
+  {
+    "agent_name": "supervisor",
+    "error_code": "EVIDENCE_CLASSIFICATION_UNEXPECTED_ERROR",
+    "evidence_id": null,
+    "message": "'<' not supported between instances of 'NoneType' and 'int'",
+    "occurred_at": "2026-07-24T16:01:49.635001Z",
+    "recommended_action": null,
+    "recoverable": false,
+    "severity": "critical",
+    "stage": "FAILED",
+    "technical_details": null
+  }
+]

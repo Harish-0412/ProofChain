@@ -1,0 +1,27 @@
+{
+  "agent_name": "evidence_classification",
+  "blockers": [],
+  "confidence": 0.5,
+  "created_at": "2026-07-24T17:59:02.182681Z",
+  "decision_id": "DEC-AD28DA3EE55A",
+  "explanation": "Processed 15 items, but 3 items remain too ambiguous for an autonomous positive completion claim.",
+  "final_status": "needs_human_review",
+  "goal_id": "GOAL-RUN-20260724-BCBC-CLASSIFY",
+  "goal_satisfied": false,
+  "run_id": "RUN-20260724-BCBC",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every processable item has an extraction state and document type."
+  ],
+  "success_conditions_unmet": [
+    "Every item has a requirement mapping or an explicit unresolved state."
+  ],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\classified_evidence.json"
+  ],
+  "unresolved_questions": [
+    "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00002",
+    "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00006",
+    "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00007"
+  ]
+}

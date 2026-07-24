@@ -1,0 +1,32 @@
+{
+  "assigned_agent": "supervisor",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T17:21:15.919738Z",
+  "deadline": null,
+  "dependencies": [],
+  "failure_conditions": [
+    "No usable evidence can be acquired.",
+    "A technical failure prevents deterministic validation."
+  ],
+  "goal_id": "GOAL-RUN-20260724-6B9A-TOP",
+  "goal_type": "validate_requirement_defensibility",
+  "input_references": [
+    "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+  ],
+  "objective": "Determine whether the CSE evidence and institutional claims are audit-ready.",
+  "parent_goal_id": null,
+  "priority": "critical",
+  "run_id": "RUN-20260724-6B9A",
+  "schema_version": "1.0.0",
+  "status": "created",
+  "success_conditions": [
+    "All mandatory evidence types are accounted for.",
+    "Blocking integrity findings are resolved or formally disclosed.",
+    "Every mapped document remains traceable to its source.",
+    "A final defensibility decision is produced."
+  ]
+}

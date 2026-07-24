@@ -1,0 +1,2877 @@
+{
+  "agent_name": "claim_intelligence",
+  "agent_run_id": "AGNT-CLAI-A127-6D64",
+  "agent_version": "1.0.0",
+  "claims": [
+    {
+      "academic_year": "2025-2026",
+      "atomic_claims": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+          "attribute": "department",
+          "claim_id": "CLM-C3.2.1-001",
+          "expected_value": "CSE",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+          "attribute": "academic_year",
+          "claim_id": "CLM-C3.2.1-001",
+          "expected_value": "2025-2026",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-03",
+          "attribute": "activity_type",
+          "claim_id": "CLM-C3.2.1-001",
+          "expected_value": "industry_programme",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+          "attribute": "event_id",
+          "claim_id": "CLM-C3.2.1-001",
+          "expected_value": "EVT-CSE-001",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {
+            "event_id": "EVT-CSE-001"
+          }
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+          "attribute": "participant_count",
+          "claim_id": "CLM-C3.2.1-001",
+          "expected_value": 120,
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        }
+      ],
+      "claim_id": "CLM-C3.2.1-001",
+      "department": "CSE",
+      "original_claim": "CSE conducted Agentic AI Industry Workshop (EVT-CSE-001) during 2025-2026 involving 120 participants.",
+      "requirement_id": "C3.2.1",
+      "source": "derived_from_evidence"
+    },
+    {
+      "academic_year": "2025-2026",
+      "atomic_claims": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+          "attribute": "department",
+          "claim_id": "CLM-C3.2.1-002",
+          "expected_value": "CSE",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+          "attribute": "academic_year",
+          "claim_id": "CLM-C3.2.1-002",
+          "expected_value": "2025-2026",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-03",
+          "attribute": "activity_type",
+          "claim_id": "CLM-C3.2.1-002",
+          "expected_value": "industry_programme",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+          "attribute": "event_id",
+          "claim_id": "CLM-C3.2.1-002",
+          "expected_value": "EVT-CSE-001",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {
+            "event_id": "EVT-CSE-001"
+          }
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+          "attribute": "participant_count",
+          "claim_id": "CLM-C3.2.1-002",
+          "expected_value": 120,
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        }
+      ],
+      "claim_id": "CLM-C3.2.1-002",
+      "department": "CSE",
+      "original_claim": "CSE conducted Agentic AI Industry Workshop (EVT-CSE-001) during 2025-2026 involving 120 participants.",
+      "requirement_id": "C3.2.1",
+      "source": "derived_from_evidence"
+    },
+    {
+      "academic_year": "2025-2026",
+      "atomic_claims": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+          "attribute": "department",
+          "claim_id": "CLM-C3.2.1-003",
+          "expected_value": "CSE",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+          "attribute": "academic_year",
+          "claim_id": "CLM-C3.2.1-003",
+          "expected_value": "2025-2026",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-03",
+          "attribute": "activity_type",
+          "claim_id": "CLM-C3.2.1-003",
+          "expected_value": "bootcamp",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+          "attribute": "event_id",
+          "claim_id": "CLM-C3.2.1-003",
+          "expected_value": "EVT-CSE-002",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {
+            "event_id": "EVT-CSE-002"
+          }
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-05",
+          "attribute": "participant_count",
+          "claim_id": "CLM-C3.2.1-003",
+          "expected_value": 60,
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        }
+      ],
+      "claim_id": "CLM-C3.2.1-003",
+      "department": "CSE",
+      "original_claim": "CSE conducted Cloud Native Application Bootcamp (EVT-CSE-002) during 2025-2026 involving 60 participants.",
+      "requirement_id": "C5.1.3",
+      "source": "derived_from_evidence"
+    },
+    {
+      "academic_year": "2025-2026",
+      "atomic_claims": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-01",
+          "attribute": "department",
+          "claim_id": "CLM-C3.2.1-004",
+          "expected_value": "CSE",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-02",
+          "attribute": "academic_year",
+          "claim_id": "CLM-C3.2.1-004",
+          "expected_value": "2025-2026",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-03",
+          "attribute": "event_id",
+          "claim_id": "CLM-C3.2.1-004",
+          "expected_value": "EVT-CSE-003",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {
+            "event_id": "EVT-CSE-003"
+          }
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-04",
+          "attribute": "participant_count",
+          "claim_id": "CLM-C3.2.1-004",
+          "expected_value": 66,
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        }
+      ],
+      "claim_id": "CLM-C3.2.1-004",
+      "department": "CSE",
+      "original_claim": "CSE conducted Research Publication Writing Clinic (EVT-CSE-003) during 2025-2026 involving 66 participants.",
+      "requirement_id": "C6.3.2",
+      "source": "derived_from_evidence"
+    },
+    {
+      "academic_year": "2025-2026",
+      "atomic_claims": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-01",
+          "attribute": "department",
+          "claim_id": "CLM-C3.2.1-005",
+          "expected_value": "CSE",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-02",
+          "attribute": "academic_year",
+          "claim_id": "CLM-C3.2.1-005",
+          "expected_value": "2025-2026",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-03",
+          "attribute": "activity_type",
+          "claim_id": "CLM-C3.2.1-005",
+          "expected_value": "outreach",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-04",
+          "attribute": "event_id",
+          "claim_id": "CLM-C3.2.1-005",
+          "expected_value": "EVT-CSE-004",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {
+            "event_id": "EVT-CSE-004"
+          }
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-05",
+          "attribute": "participant_count",
+          "claim_id": "CLM-C3.2.1-005",
+          "expected_value": 72,
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        }
+      ],
+      "claim_id": "CLM-C3.2.1-005",
+      "department": "CSE",
+      "original_claim": "CSE conducted Smart Village Outreach Camp (EVT-CSE-004) during 2025-2026 involving 72 participants.",
+      "requirement_id": "C7.1.1",
+      "source": "derived_from_evidence"
+    },
+    {
+      "academic_year": "2025-2026",
+      "atomic_claims": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-01",
+          "attribute": "department",
+          "claim_id": "CLM-C3.2.1-006",
+          "expected_value": "CSE",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-02",
+          "attribute": "academic_year",
+          "claim_id": "CLM-C3.2.1-006",
+          "expected_value": "2025-2026",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-03",
+          "attribute": "event_id",
+          "claim_id": "CLM-C3.2.1-006",
+          "expected_value": "EVT-CSE-005",
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {
+            "event_id": "EVT-CSE-005"
+          }
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-04",
+          "attribute": "participant_count",
+          "claim_id": "CLM-C3.2.1-006",
+          "expected_value": 78,
+          "mandatory": true,
+          "operator": "equals",
+          "qualifiers": {}
+        }
+      ],
+      "claim_id": "CLM-C3.2.1-006",
+      "department": "CSE",
+      "original_claim": "CSE conducted Data Analytics Value Added Course (EVT-CSE-005) during 2025-2026 involving 78 participants.",
+      "requirement_id": "C1.2.1",
+      "source": "derived_from_evidence"
+    }
+  ],
+  "completed_at": "2026-07-24T17:13:04.981720+00:00",
+  "decisions": [
+    {
+      "atomic_decisions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+          "attribute": "department",
+          "confidence": 0.994,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00001",
+            "EVD-CSE-2025-2026-00003",
+            "EVD-CSE-2025-2026-00004",
+            "EVD-CSE-2025-2026-00005",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009",
+            "EVD-CSE-2025-2026-00014"
+          ],
+          "explanation": "7 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+          "attribute": "academic_year",
+          "confidence": 0.985,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00001",
+            "EVD-CSE-2025-2026-00004",
+            "EVD-CSE-2025-2026-00005",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009"
+          ],
+          "explanation": "5 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "2025-2026",
+            "2025-2026",
+            "2025-2026",
+            "2025-2026",
+            "2025-2026"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-03",
+          "attribute": "activity_type",
+          "confidence": 0.691,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00008"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "industry_programme"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+          "attribute": "event_id",
+          "confidence": 0.994,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00001",
+            "EVD-CSE-2025-2026-00003",
+            "EVD-CSE-2025-2026-00004",
+            "EVD-CSE-2025-2026-00005",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009",
+            "EVD-CSE-2025-2026-00014"
+          ],
+          "explanation": "7 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+          "attribute": "participant_count",
+          "confidence": 0.8565,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00003",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009"
+          ],
+          "explanation": "2 supporting and 1 contradictory evidence links were evaluated.",
+          "observed_values": [
+            108,
+            120,
+            120
+          ],
+          "status": "partially_supported"
+        }
+      ],
+      "claim_fragility_score": 0.3333,
+      "claim_id": "CLM-C3.2.1-001",
+      "confidence": 0.9041,
+      "contradictions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+          "confidence": 0.98,
+          "conflicting_values": [
+            {
+              "authority": "attendance_sheet",
+              "evidence_id": "EVD-CSE-2025-2026-00003",
+              "value": 108
+            },
+            {
+              "authority": "event_report",
+              "evidence_id": "EVD-CSE-2025-2026-00008",
+              "value": 120
+            },
+            {
+              "authority": "event_report",
+              "evidence_id": "EVD-CSE-2025-2026-00009",
+              "value": 120
+            }
+          ],
+          "contradiction_id": "CON-0005",
+          "likely_root_cause": "The report total differs from unique attendance identifiers.",
+          "requires_human_review": true
+        }
+      ],
+      "counter_evidence": [
+        "EVD-CSE-2025-2026-00003"
+      ],
+      "defensible_claim_text": "Evidence currently supports: department=CSE; academic_year=2025-2026; activity_type=industry_programme; event_id=EVT-CSE-001; participant_count=108.",
+      "lineage": {
+        "claim_id": "CLM-C3.2.1-001",
+        "edges": [
+          {
+            "from": "CLM-C3.2.1-001",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-001-01"
+          },
+          {
+            "from": "CLM-C3.2.1-001",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-001-02"
+          },
+          {
+            "from": "CLM-C3.2.1-001",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-001-03"
+          },
+          {
+            "from": "CLM-C3.2.1-001",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-001-04"
+          },
+          {
+            "from": "CLM-C3.2.1-001",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-001-05"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00001"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00003"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00004"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00005"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00014"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00001"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00004"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00005"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-03",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00001"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00003"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00004"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00005"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00014"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00003"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-001-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "CLM-C3.2.1-001",
+            "type": "institutional_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-001-01",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-001-02",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-001-03",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-001-04",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-001-05",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00001",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00003",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00004",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00005",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00008",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00009",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00014",
+            "type": "evidence"
+          }
+        ]
+      },
+      "minimal_defensible_evidence_set": [
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00001",
+        "EVD-CSE-2025-2026-00008"
+      ],
+      "original_claim": "CSE conducted Agentic AI Industry Workshop (EVT-CSE-001) during 2025-2026 involving 120 participants.",
+      "recommended_actions": [
+        "Revise activity_type to 'industry_programme' or provide authoritative counter-evidence.",
+        "Revise participant_count to 108 or provide authoritative counter-evidence."
+      ],
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "status": "partially_supported",
+      "supporting_evidence": [
+        "EVD-CSE-2025-2026-00001",
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00004",
+        "EVD-CSE-2025-2026-00005",
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00009",
+        "EVD-CSE-2025-2026-00014"
+      ]
+    },
+    {
+      "atomic_decisions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+          "attribute": "department",
+          "confidence": 0.994,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00001",
+            "EVD-CSE-2025-2026-00003",
+            "EVD-CSE-2025-2026-00004",
+            "EVD-CSE-2025-2026-00005",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009",
+            "EVD-CSE-2025-2026-00014"
+          ],
+          "explanation": "7 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+          "attribute": "academic_year",
+          "confidence": 0.985,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00001",
+            "EVD-CSE-2025-2026-00004",
+            "EVD-CSE-2025-2026-00005",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009"
+          ],
+          "explanation": "5 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "2025-2026",
+            "2025-2026",
+            "2025-2026",
+            "2025-2026",
+            "2025-2026"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-03",
+          "attribute": "activity_type",
+          "confidence": 0.691,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00008"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "industry_programme"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+          "attribute": "event_id",
+          "confidence": 0.994,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00001",
+            "EVD-CSE-2025-2026-00003",
+            "EVD-CSE-2025-2026-00004",
+            "EVD-CSE-2025-2026-00005",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009",
+            "EVD-CSE-2025-2026-00014"
+          ],
+          "explanation": "7 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001",
+            "EVT-CSE-001"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+          "attribute": "participant_count",
+          "confidence": 0.8565,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00003",
+            "EVD-CSE-2025-2026-00008",
+            "EVD-CSE-2025-2026-00009"
+          ],
+          "explanation": "2 supporting and 1 contradictory evidence links were evaluated.",
+          "observed_values": [
+            108,
+            120,
+            120
+          ],
+          "status": "partially_supported"
+        }
+      ],
+      "claim_fragility_score": 0.3333,
+      "claim_id": "CLM-C3.2.1-002",
+      "confidence": 0.9041,
+      "contradictions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+          "confidence": 0.98,
+          "conflicting_values": [
+            {
+              "authority": "attendance_sheet",
+              "evidence_id": "EVD-CSE-2025-2026-00003",
+              "value": 108
+            },
+            {
+              "authority": "event_report",
+              "evidence_id": "EVD-CSE-2025-2026-00008",
+              "value": 120
+            },
+            {
+              "authority": "event_report",
+              "evidence_id": "EVD-CSE-2025-2026-00009",
+              "value": 120
+            }
+          ],
+          "contradiction_id": "CON-0010",
+          "likely_root_cause": "The report total differs from unique attendance identifiers.",
+          "requires_human_review": true
+        }
+      ],
+      "counter_evidence": [
+        "EVD-CSE-2025-2026-00003"
+      ],
+      "defensible_claim_text": "Evidence currently supports: department=CSE; academic_year=2025-2026; activity_type=industry_programme; event_id=EVT-CSE-001; participant_count=108.",
+      "lineage": {
+        "claim_id": "CLM-C3.2.1-002",
+        "edges": [
+          {
+            "from": "CLM-C3.2.1-002",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-002-01"
+          },
+          {
+            "from": "CLM-C3.2.1-002",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-002-02"
+          },
+          {
+            "from": "CLM-C3.2.1-002",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-002-03"
+          },
+          {
+            "from": "CLM-C3.2.1-002",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-002-04"
+          },
+          {
+            "from": "CLM-C3.2.1-002",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-002-05"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00001"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00003"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00004"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00005"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00014"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00001"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00004"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00005"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-03",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00001"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00003"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00004"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00005"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00014"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00003"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00008"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-002-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00009"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "CLM-C3.2.1-002",
+            "type": "institutional_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-002-01",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-002-02",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-002-03",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-002-04",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-002-05",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00001",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00003",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00004",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00005",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00008",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00009",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00014",
+            "type": "evidence"
+          }
+        ]
+      },
+      "minimal_defensible_evidence_set": [
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00001",
+        "EVD-CSE-2025-2026-00008"
+      ],
+      "original_claim": "CSE conducted Agentic AI Industry Workshop (EVT-CSE-001) during 2025-2026 involving 120 participants.",
+      "recommended_actions": [
+        "Revise activity_type to 'industry_programme' or provide authoritative counter-evidence.",
+        "Revise participant_count to 108 or provide authoritative counter-evidence."
+      ],
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "status": "partially_supported",
+      "supporting_evidence": [
+        "EVD-CSE-2025-2026-00001",
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00004",
+        "EVD-CSE-2025-2026-00005",
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00009",
+        "EVD-CSE-2025-2026-00014"
+      ]
+    },
+    {
+      "atomic_decisions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+          "attribute": "department",
+          "confidence": 0.985,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00002",
+            "EVD-CSE-2025-2026-00006",
+            "EVD-CSE-2025-2026-00007",
+            "EVD-CSE-2025-2026-00010"
+          ],
+          "explanation": "4 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "CSE",
+            "CSE",
+            "CSE",
+            "CSE"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+          "attribute": "academic_year",
+          "confidence": 0.985,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00002",
+            "EVD-CSE-2025-2026-00006",
+            "EVD-CSE-2025-2026-00007",
+            "EVD-CSE-2025-2026-00010"
+          ],
+          "explanation": "4 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "2025-2026",
+            "2025-2026",
+            "2025-2026",
+            "2025-2026"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-03",
+          "attribute": "activity_type",
+          "confidence": 0.691,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00010"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "bootcamp"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+          "attribute": "event_id",
+          "confidence": 0.985,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00002",
+            "EVD-CSE-2025-2026-00006",
+            "EVD-CSE-2025-2026-00007",
+            "EVD-CSE-2025-2026-00010"
+          ],
+          "explanation": "4 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "EVT-CSE-002",
+            "EVT-CSE-002",
+            "EVT-CSE-002",
+            "EVT-CSE-002"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-003-05",
+          "attribute": "participant_count",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00010"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            60
+          ],
+          "status": "partially_supported"
+        }
+      ],
+      "claim_fragility_score": 0.5,
+      "claim_id": "CLM-C3.2.1-003",
+      "confidence": 0.8734,
+      "contradictions": [],
+      "counter_evidence": [],
+      "defensible_claim_text": "Evidence currently supports: department=CSE; academic_year=2025-2026; activity_type=bootcamp; event_id=EVT-CSE-002; participant_count=60.",
+      "lineage": {
+        "claim_id": "CLM-C3.2.1-003",
+        "edges": [
+          {
+            "from": "CLM-C3.2.1-003",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-003-01"
+          },
+          {
+            "from": "CLM-C3.2.1-003",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-003-02"
+          },
+          {
+            "from": "CLM-C3.2.1-003",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-003-03"
+          },
+          {
+            "from": "CLM-C3.2.1-003",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-003-04"
+          },
+          {
+            "from": "CLM-C3.2.1-003",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-003-05"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00002"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00006"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00007"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00010"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00002"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00006"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00007"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00010"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-03",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00010"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00002"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00006"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00007"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00010"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-003-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00010"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "CLM-C3.2.1-003",
+            "type": "institutional_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-003-01",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-003-02",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-003-03",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-003-04",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-003-05",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00002",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00006",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00007",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00010",
+            "type": "evidence"
+          }
+        ]
+      },
+      "minimal_defensible_evidence_set": [
+        "EVD-CSE-2025-2026-00002",
+        "EVD-CSE-2025-2026-00010"
+      ],
+      "original_claim": "CSE conducted Cloud Native Application Bootcamp (EVT-CSE-002) during 2025-2026 involving 60 participants.",
+      "recommended_actions": [
+        "Revise activity_type to 'bootcamp' or provide authoritative counter-evidence.",
+        "Revise participant_count to 60 or provide authoritative counter-evidence."
+      ],
+      "requirement_id": "C5.1.3",
+      "requires_human_review": true,
+      "status": "partially_supported",
+      "supporting_evidence": [
+        "EVD-CSE-2025-2026-00002",
+        "EVD-CSE-2025-2026-00006",
+        "EVD-CSE-2025-2026-00007",
+        "EVD-CSE-2025-2026-00010"
+      ]
+    },
+    {
+      "atomic_decisions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-01",
+          "attribute": "department",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00011"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "CSE"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-02",
+          "attribute": "academic_year",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00011"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "2025-2026"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-03",
+          "attribute": "event_id",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00011"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "EVT-CSE-003"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-004-04",
+          "attribute": "participant_count",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00011"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            66
+          ],
+          "status": "partially_supported"
+        }
+      ],
+      "claim_fragility_score": 1.0,
+      "claim_id": "CLM-C3.2.1-004",
+      "confidence": 0.721,
+      "contradictions": [],
+      "counter_evidence": [],
+      "defensible_claim_text": "Evidence currently supports: department=CSE; academic_year=2025-2026; event_id=EVT-CSE-003; participant_count=66.",
+      "lineage": {
+        "claim_id": "CLM-C3.2.1-004",
+        "edges": [
+          {
+            "from": "CLM-C3.2.1-004",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-004-01"
+          },
+          {
+            "from": "CLM-C3.2.1-004",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-004-02"
+          },
+          {
+            "from": "CLM-C3.2.1-004",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-004-03"
+          },
+          {
+            "from": "CLM-C3.2.1-004",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-004-04"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-004-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00011"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-004-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00011"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-004-03",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00011"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-004-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00011"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "CLM-C3.2.1-004",
+            "type": "institutional_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-004-01",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-004-02",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-004-03",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-004-04",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00011",
+            "type": "evidence"
+          }
+        ]
+      },
+      "minimal_defensible_evidence_set": [
+        "EVD-CSE-2025-2026-00011"
+      ],
+      "original_claim": "CSE conducted Research Publication Writing Clinic (EVT-CSE-003) during 2025-2026 involving 66 participants.",
+      "recommended_actions": [
+        "Revise department to 'CSE' or provide authoritative counter-evidence.",
+        "Revise academic_year to '2025-2026' or provide authoritative counter-evidence.",
+        "Revise event_id to 'EVT-CSE-003' or provide authoritative counter-evidence.",
+        "Revise participant_count to 66 or provide authoritative counter-evidence."
+      ],
+      "requirement_id": "C6.3.2",
+      "requires_human_review": true,
+      "status": "partially_supported",
+      "supporting_evidence": [
+        "EVD-CSE-2025-2026-00011"
+      ]
+    },
+    {
+      "atomic_decisions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-01",
+          "attribute": "department",
+          "confidence": 0.946,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00012",
+            "EVD-CSE-2025-2026-00015"
+          ],
+          "explanation": "2 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "CSE",
+            "CSE"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-02",
+          "attribute": "academic_year",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00012"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "2025-2026"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-03",
+          "attribute": "activity_type",
+          "confidence": 0.691,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00012"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "outreach"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-04",
+          "attribute": "event_id",
+          "confidence": 0.946,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00012",
+            "EVD-CSE-2025-2026-00015"
+          ],
+          "explanation": "2 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "EVT-CSE-004",
+            "EVT-CSE-004"
+          ],
+          "status": "supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-005-05",
+          "attribute": "participant_count",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00012"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            72
+          ],
+          "status": "partially_supported"
+        }
+      ],
+      "claim_fragility_score": 1.0,
+      "claim_id": "CLM-C3.2.1-005",
+      "confidence": 0.805,
+      "contradictions": [],
+      "counter_evidence": [],
+      "defensible_claim_text": "Evidence currently supports: department=CSE; academic_year=2025-2026; activity_type=outreach; event_id=EVT-CSE-004; participant_count=72.",
+      "lineage": {
+        "claim_id": "CLM-C3.2.1-005",
+        "edges": [
+          {
+            "from": "CLM-C3.2.1-005",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-005-01"
+          },
+          {
+            "from": "CLM-C3.2.1-005",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-005-02"
+          },
+          {
+            "from": "CLM-C3.2.1-005",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-005-03"
+          },
+          {
+            "from": "CLM-C3.2.1-005",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-005-04"
+          },
+          {
+            "from": "CLM-C3.2.1-005",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-005-05"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00012"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00015"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00012"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-03",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00012"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00012"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00015"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-005-05",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00012"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "CLM-C3.2.1-005",
+            "type": "institutional_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-005-01",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-005-02",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-005-03",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-005-04",
+            "status": "supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-005-05",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00012",
+            "type": "evidence"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00015",
+            "type": "evidence"
+          }
+        ]
+      },
+      "minimal_defensible_evidence_set": [
+        "EVD-CSE-2025-2026-00012"
+      ],
+      "original_claim": "CSE conducted Smart Village Outreach Camp (EVT-CSE-004) during 2025-2026 involving 72 participants.",
+      "recommended_actions": [
+        "Revise academic_year to '2025-2026' or provide authoritative counter-evidence.",
+        "Revise activity_type to 'outreach' or provide authoritative counter-evidence.",
+        "Revise participant_count to 72 or provide authoritative counter-evidence."
+      ],
+      "requirement_id": "C7.1.1",
+      "requires_human_review": true,
+      "status": "partially_supported",
+      "supporting_evidence": [
+        "EVD-CSE-2025-2026-00012",
+        "EVD-CSE-2025-2026-00015"
+      ]
+    },
+    {
+      "atomic_decisions": [
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-01",
+          "attribute": "department",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00013"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "CSE"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-02",
+          "attribute": "academic_year",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00013"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "2025-2026"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-03",
+          "attribute": "event_id",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00013"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            "EVT-CSE-005"
+          ],
+          "status": "partially_supported"
+        },
+        {
+          "atomic_claim_id": "ACL-CLM-C3.2.1-006-04",
+          "attribute": "participant_count",
+          "confidence": 0.721,
+          "evidence_ids": [
+            "EVD-CSE-2025-2026-00013"
+          ],
+          "explanation": "1 supporting and 0 contradictory evidence links were evaluated.",
+          "observed_values": [
+            78
+          ],
+          "status": "partially_supported"
+        }
+      ],
+      "claim_fragility_score": 1.0,
+      "claim_id": "CLM-C3.2.1-006",
+      "confidence": 0.721,
+      "contradictions": [],
+      "counter_evidence": [],
+      "defensible_claim_text": "Evidence currently supports: department=CSE; academic_year=2025-2026; event_id=EVT-CSE-005; participant_count=78.",
+      "lineage": {
+        "claim_id": "CLM-C3.2.1-006",
+        "edges": [
+          {
+            "from": "CLM-C3.2.1-006",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-006-01"
+          },
+          {
+            "from": "CLM-C3.2.1-006",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-006-02"
+          },
+          {
+            "from": "CLM-C3.2.1-006",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-006-03"
+          },
+          {
+            "from": "CLM-C3.2.1-006",
+            "relation": "DECOMPOSES_TO",
+            "to": "ACL-CLM-C3.2.1-006-04"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-006-01",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00013"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-006-02",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00013"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-006-03",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00013"
+          },
+          {
+            "from": "ACL-CLM-C3.2.1-006-04",
+            "relation": "VALIDATED_BY",
+            "to": "EVD-CSE-2025-2026-00013"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "CLM-C3.2.1-006",
+            "type": "institutional_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-006-01",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-006-02",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-006-03",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "ACL-CLM-C3.2.1-006-04",
+            "status": "partially_supported",
+            "type": "atomic_claim"
+          },
+          {
+            "id": "EVD-CSE-2025-2026-00013",
+            "type": "evidence"
+          }
+        ]
+      },
+      "minimal_defensible_evidence_set": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "original_claim": "CSE conducted Data Analytics Value Added Course (EVT-CSE-005) during 2025-2026 involving 78 participants.",
+      "recommended_actions": [
+        "Revise department to 'CSE' or provide authoritative counter-evidence.",
+        "Revise academic_year to '2025-2026' or provide authoritative counter-evidence.",
+        "Revise event_id to 'EVT-CSE-005' or provide authoritative counter-evidence.",
+        "Revise participant_count to 78 or provide authoritative counter-evidence."
+      ],
+      "requirement_id": "C1.2.1",
+      "requires_human_review": true,
+      "status": "partially_supported",
+      "supporting_evidence": [
+        "EVD-CSE-2025-2026-00013"
+      ]
+    }
+  ],
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 0,
+  "input_count": 6,
+  "input_snapshot_hash": "a0e8a9c3076e8e8c953d0d792296fc988023db9691711e1f109d370ef3226662",
+  "run_id": "RUN-20260724-A127",
+  "started_at": "2026-07-24T17:13:04.974238+00:00",
+  "status": "completed_with_warnings",
+  "success_count": 6,
+  "sufficiency_assessments": [
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority_score": 0.98,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.994,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+      "authority_score": 0.95,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.985,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-03",
+      "authority_score": 0.72,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.691,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority_score": 0.98,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.994,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+      "authority_score": 0.98,
+      "consistency_score": 0.45,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.8565,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority_score": 0.98,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.994,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+      "authority_score": 0.95,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.985,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-03",
+      "authority_score": 0.72,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.691,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority_score": 0.98,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.994,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+      "authority_score": 0.98,
+      "consistency_score": 0.45,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.8565,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+      "authority_score": 0.95,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.985,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+      "authority_score": 0.95,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.985,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-03",
+      "authority_score": 0.72,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.691,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+      "authority_score": 0.95,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.985,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-05",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-01",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-02",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-03",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-04",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-01",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.946,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-02",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-03",
+      "authority_score": 0.72,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.691,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-04",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 1.0,
+      "independence_score": 1.0,
+      "overall_sufficiency": 0.946,
+      "reason": "Evidence is sufficiently authoritative and consistent.",
+      "sufficient": true
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-05",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-01",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-02",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-03",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-04",
+      "authority_score": 0.82,
+      "consistency_score": 1.0,
+      "coverage_score": 0.5,
+      "independence_score": 0.5,
+      "overall_sufficiency": 0.721,
+      "reason": "Coverage, independence, or consistency is below policy.",
+      "sufficient": false
+    }
+  ],
+  "support_links": [
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00001",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "attendance_sheet",
+      "evidence_id": "EVD-CSE-2025-2026-00003",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.98
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00004",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00005",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-01",
+      "authority": "photograph",
+      "evidence_id": "EVD-CSE-2025-2026-00014",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.55
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00001",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00004",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00005",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-03",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": null,
+      "observed_value": "industry_programme",
+      "reason": "The activity type is supported by title and requirement context.",
+      "relation": "partially_supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00001",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "attendance_sheet",
+      "evidence_id": "EVD-CSE-2025-2026-00003",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.98
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00004",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00005",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-04",
+      "authority": "photograph",
+      "evidence_id": "EVD-CSE-2025-2026-00014",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.55
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+      "authority": "attendance_sheet",
+      "evidence_id": "EVD-CSE-2025-2026-00003",
+      "extracted_field_id": "unique_student_count",
+      "observed_value": 108,
+      "reason": "unique_student_count=108 conflicts with expected 120.",
+      "relation": "contradicts",
+      "strength": 0.98
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 120,
+      "reason": "reported_participant_count=120 matches expected 120.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-001-05",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 120,
+      "reason": "reported_participant_count=120 matches expected 120.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00001",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "attendance_sheet",
+      "evidence_id": "EVD-CSE-2025-2026-00003",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.98
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00004",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00005",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-01",
+      "authority": "photograph",
+      "evidence_id": "EVD-CSE-2025-2026-00014",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.55
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00001",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00004",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00005",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-03",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": null,
+      "observed_value": "industry_programme",
+      "reason": "The activity type is supported by title and requirement context.",
+      "relation": "partially_supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00001",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "attendance_sheet",
+      "evidence_id": "EVD-CSE-2025-2026-00003",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.98
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00004",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00005",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-04",
+      "authority": "photograph",
+      "evidence_id": "EVD-CSE-2025-2026-00014",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-001",
+      "reason": "event_id='EVT-CSE-001' matches expected 'EVT-CSE-001'.",
+      "relation": "supports",
+      "strength": 0.55
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+      "authority": "attendance_sheet",
+      "evidence_id": "EVD-CSE-2025-2026-00003",
+      "extracted_field_id": "unique_student_count",
+      "observed_value": 108,
+      "reason": "unique_student_count=108 conflicts with expected 120.",
+      "relation": "contradicts",
+      "strength": 0.98
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00008",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 120,
+      "reason": "reported_participant_count=120 matches expected 120.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-002-05",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00009",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 120,
+      "reason": "reported_participant_count=120 matches expected 120.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00002",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00006",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00007",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00010",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00002",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00006",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00007",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00010",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-03",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00010",
+      "extracted_field_id": null,
+      "observed_value": "bootcamp",
+      "reason": "The activity type is supported by title and requirement context.",
+      "relation": "partially_supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+      "authority": "approval_document",
+      "evidence_id": "EVD-CSE-2025-2026-00002",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-002",
+      "reason": "event_id='EVT-CSE-002' matches expected 'EVT-CSE-002'.",
+      "relation": "supports",
+      "strength": 0.95
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00006",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-002",
+      "reason": "event_id='EVT-CSE-002' matches expected 'EVT-CSE-002'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+      "authority": "certificate",
+      "evidence_id": "EVD-CSE-2025-2026-00007",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-002",
+      "reason": "event_id='EVT-CSE-002' matches expected 'EVT-CSE-002'.",
+      "relation": "supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00010",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-002",
+      "reason": "event_id='EVT-CSE-002' matches expected 'EVT-CSE-002'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-003-05",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00010",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 60,
+      "reason": "reported_participant_count=60 matches expected 60.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00011",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00011",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-03",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00011",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-003",
+      "reason": "event_id='EVT-CSE-003' matches expected 'EVT-CSE-003'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-004-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00011",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 66,
+      "reason": "reported_participant_count=66 matches expected 66.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00012",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-01",
+      "authority": "photograph",
+      "evidence_id": "EVD-CSE-2025-2026-00015",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.55
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00012",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-03",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00012",
+      "extracted_field_id": null,
+      "observed_value": "outreach",
+      "reason": "The activity type is supported by title and requirement context.",
+      "relation": "partially_supports",
+      "strength": 0.72
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00012",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-004",
+      "reason": "event_id='EVT-CSE-004' matches expected 'EVT-CSE-004'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-04",
+      "authority": "photograph",
+      "evidence_id": "EVD-CSE-2025-2026-00015",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-004",
+      "reason": "event_id='EVT-CSE-004' matches expected 'EVT-CSE-004'.",
+      "relation": "supports",
+      "strength": 0.55
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-005-05",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00012",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 72,
+      "reason": "reported_participant_count=72 matches expected 72.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-01",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00013",
+      "extracted_field_id": "department",
+      "observed_value": "CSE",
+      "reason": "department='CSE' matches expected 'CSE'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-02",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00013",
+      "extracted_field_id": "academic_year",
+      "observed_value": "2025-2026",
+      "reason": "academic_year='2025-2026' matches expected '2025-2026'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-03",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00013",
+      "extracted_field_id": "event_id",
+      "observed_value": "EVT-CSE-005",
+      "reason": "event_id='EVT-CSE-005' matches expected 'EVT-CSE-005'.",
+      "relation": "supports",
+      "strength": 0.82
+    },
+    {
+      "atomic_claim_id": "ACL-CLM-C3.2.1-006-04",
+      "authority": "event_report",
+      "evidence_id": "EVD-CSE-2025-2026-00013",
+      "extracted_field_id": "reported_participant_count",
+      "observed_value": 78,
+      "reason": "reported_participant_count=78 matches expected 78.",
+      "relation": "supports",
+      "strength": 0.82
+    }
+  ],
+  "warning_count": 6,
+  "warnings": [
+    "CLM-C3.2.1-001 requires human review.",
+    "CLM-C3.2.1-002 requires human review.",
+    "CLM-C3.2.1-003 requires human review.",
+    "CLM-C3.2.1-004 requires human review.",
+    "CLM-C3.2.1-005 requires human review.",
+    "CLM-C3.2.1-006 requires human review."
+  ]
+}

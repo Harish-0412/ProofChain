@@ -1,0 +1,104 @@
+[
+  {
+    "academic_year": "2025-2026",
+    "bundle_id": "BUNDLE-CSE-EVT-CSE-001",
+    "bundle_type": "event",
+    "department": "CSE",
+    "document_types_present": [
+      "approval_document",
+      "attendance_sheet",
+      "certificate",
+      "event_report",
+      "photograph"
+    ],
+    "event_id": "EVT-CSE-001",
+    "event_title": "Agentic AI Industry Workshop",
+    "evidence_ids": [
+      "EVD-CSE-2025-2026-00001",
+      "EVD-CSE-2025-2026-00003",
+      "EVD-CSE-2025-2026-00004",
+      "EVD-CSE-2025-2026-00005",
+      "EVD-CSE-2025-2026-00008",
+      "EVD-CSE-2025-2026-00009",
+      "EVD-CSE-2025-2026-00014"
+    ],
+    "grouping_confidence": 1.0,
+    "grouping_method": "event_id",
+    "run_id": "RUN-20260724-3A4C"
+  },
+  {
+    "academic_year": "2025-2026",
+    "bundle_id": "BUNDLE-CSE-EVT-CSE-002",
+    "bundle_type": "event",
+    "department": "CSE",
+    "document_types_present": [
+      "approval_document",
+      "certificate",
+      "event_report"
+    ],
+    "event_id": "EVT-CSE-002",
+    "event_title": "Cloud Native Application Bootcamp",
+    "evidence_ids": [
+      "EVD-CSE-2025-2026-00002",
+      "EVD-CSE-2025-2026-00006",
+      "EVD-CSE-2025-2026-00007",
+      "EVD-CSE-2025-2026-00010"
+    ],
+    "grouping_confidence": 1.0,
+    "grouping_method": "event_id",
+    "run_id": "RUN-20260724-3A4C"
+  },
+  {
+    "academic_year": "2025-2026",
+    "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+    "bundle_type": "event",
+    "department": "CSE",
+    "document_types_present": [
+      "event_report"
+    ],
+    "event_id": "EVT-CSE-003",
+    "event_title": "Research Publication Writing Clinic",
+    "evidence_ids": [
+      "EVD-CSE-2025-2026-00011"
+    ],
+    "grouping_confidence": 1.0,
+    "grouping_method": "event_id",
+    "run_id": "RUN-20260724-3A4C"
+  },
+  {
+    "academic_year": "2025-2026",
+    "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+    "bundle_type": "event",
+    "department": "CSE",
+    "document_types_present": [
+      "event_report",
+      "photograph"
+    ],
+    "event_id": "EVT-CSE-004",
+    "event_title": "Smart Village Outreach Camp",
+    "evidence_ids": [
+      "EVD-CSE-2025-2026-00012",
+      "EVD-CSE-2025-2026-00015"
+    ],
+    "grouping_confidence": 1.0,
+    "grouping_method": "event_id",
+    "run_id": "RUN-20260724-3A4C"
+  },
+  {
+    "academic_year": "2025-2026",
+    "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+    "bundle_type": "event",
+    "department": "CSE",
+    "document_types_present": [
+      "event_report"
+    ],
+    "event_id": "EVT-CSE-005",
+    "event_title": "Data Analytics Value Added Course",
+    "evidence_ids": [
+      "EVD-CSE-2025-2026-00013"
+    ],
+    "grouping_confidence": 1.0,
+    "grouping_method": "event_id",
+    "run_id": "RUN-20260724-3A4C"
+  }
+]

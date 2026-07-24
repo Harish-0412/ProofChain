@@ -1,0 +1,30 @@
+{
+  "assigned_agent": "adaptive_gap_resolution",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T17:59:00.834008Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-BCBC-CLAIM"
+  ],
+  "failure_conditions": [
+    "Blocking gaps lack actionable resolution plans."
+  ],
+  "goal_id": "GOAL-RUN-20260724-BCBC-GAP",
+  "goal_type": "plan_gap_resolution",
+  "input_references": [],
+  "objective": "Convert claim and integrity failures into a prioritized resolution and readiness programme.",
+  "parent_goal_id": "GOAL-RUN-20260724-BCBC-TOP",
+  "priority": "high",
+  "run_id": "RUN-20260724-BCBC",
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "success_conditions": [
+    "Every unresolved finding is represented by one normalized gap.",
+    "Every gap has strategies, closure evidence, and dependencies.",
+    "Readiness impact and priority are calculated."
+  ]
+}

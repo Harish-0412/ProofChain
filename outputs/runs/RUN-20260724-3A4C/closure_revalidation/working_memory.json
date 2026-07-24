@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 6
+  },
+  "goal_id": "GOAL-RUN-20260724-3A4C-CLOSURE",
+  "goal_status": "executing",
+  "plan_id": "PLAN-CLOSURE-603186AA-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-425B14E5242E",
+    "OBS-8F08B3CD9C9A",
+    "OBS-75280C2E62E3",
+    "OBS-EBC30C150E61",
+    "OBS-224CC77E5F81"
+  ]
+}

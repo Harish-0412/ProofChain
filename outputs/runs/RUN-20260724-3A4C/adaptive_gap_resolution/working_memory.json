@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 5
+  },
+  "goal_id": "GOAL-RUN-20260724-3A4C-GAP",
+  "goal_status": "executing",
+  "plan_id": "PLAN-GAP-D731E1C7-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-B0EE31B469AF",
+    "OBS-579392B6CA19",
+    "OBS-0B06E8E61EE8",
+    "OBS-5F818C2280A3",
+    "OBS-F62CE53A9A2C"
+  ]
+}

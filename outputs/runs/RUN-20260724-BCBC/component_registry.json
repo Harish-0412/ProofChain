@@ -1,0 +1,535 @@
+{
+  "components": [
+    {
+      "can_replan": true,
+      "component_id": "evidence_collector",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "evidence_classification",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "evidence_integrity",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "claim_intelligence",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "adaptive_gap_resolution",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "accountability_ownership",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "department_liaison",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "closure_revalidation",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "audit_package_composer",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": true,
+      "component_id": "adversarial_quality_review",
+      "component_type": "goal_agent",
+      "description": "Primary ProofChain governed goal agent.",
+      "has_independent_goal": true,
+      "has_memory": true,
+      "has_plan": true,
+      "parent_agent": null
+    },
+    {
+      "can_replan": false,
+      "component_id": "claim_decomposer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "claim_intelligence"
+    },
+    {
+      "can_replan": false,
+      "component_id": "evidence_retriever",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "claim_intelligence"
+    },
+    {
+      "can_replan": false,
+      "component_id": "contradiction_investigator",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "claim_intelligence"
+    },
+    {
+      "can_replan": false,
+      "component_id": "sufficiency_evaluator",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "claim_intelligence"
+    },
+    {
+      "can_replan": false,
+      "component_id": "defensibility_judge",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "claim_intelligence"
+    },
+    {
+      "can_replan": false,
+      "component_id": "gap_detector",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adaptive_gap_resolution"
+    },
+    {
+      "can_replan": false,
+      "component_id": "root_cause_analyzer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adaptive_gap_resolution"
+    },
+    {
+      "can_replan": false,
+      "component_id": "resolution_planner",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adaptive_gap_resolution"
+    },
+    {
+      "can_replan": false,
+      "component_id": "readiness_simulator",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adaptive_gap_resolution"
+    },
+    {
+      "can_replan": false,
+      "component_id": "gap_prioritizer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adaptive_gap_resolution"
+    },
+    {
+      "can_replan": false,
+      "component_id": "provenance_resolver",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "accountability_ownership"
+    },
+    {
+      "can_replan": false,
+      "component_id": "responsibility_matcher",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "accountability_ownership"
+    },
+    {
+      "can_replan": false,
+      "component_id": "workload_balancer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "accountability_ownership"
+    },
+    {
+      "can_replan": false,
+      "component_id": "escalation_planner",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "accountability_ownership"
+    },
+    {
+      "can_replan": false,
+      "component_id": "assignment_validator",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "accountability_ownership"
+    },
+    {
+      "can_replan": false,
+      "component_id": "communication_scope",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "task_composer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "message_drafter",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "approval_gate",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "dispatcher",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "response_intake",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "sla_escalation",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "department_liaison"
+    },
+    {
+      "can_replan": false,
+      "component_id": "submission_intake",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "closure_revalidation"
+    },
+    {
+      "can_replan": false,
+      "component_id": "evidence_difference",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "closure_revalidation"
+    },
+    {
+      "can_replan": false,
+      "component_id": "targeted_revalidation",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "closure_revalidation"
+    },
+    {
+      "can_replan": false,
+      "component_id": "closure_verifier",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "closure_revalidation"
+    },
+    {
+      "can_replan": false,
+      "component_id": "regression_detector",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "closure_revalidation"
+    },
+    {
+      "can_replan": false,
+      "component_id": "issue_state_decider",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "closure_revalidation"
+    },
+    {
+      "can_replan": false,
+      "component_id": "scope_resolver",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "evidence_selector",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "evidence_orderer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "narrative_composer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "index_builder",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "privacy_redactor",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "package_assembler",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "package_integrity",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "audit_package_composer"
+    },
+    {
+      "can_replan": false,
+      "component_id": "completeness_reviewer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    },
+    {
+      "can_replan": false,
+      "component_id": "reference_reviewer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    },
+    {
+      "can_replan": false,
+      "component_id": "claim_challenger",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    },
+    {
+      "can_replan": false,
+      "component_id": "reuse_auditor",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    },
+    {
+      "can_replan": false,
+      "component_id": "policy_reviewer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    },
+    {
+      "can_replan": false,
+      "component_id": "reviewer_simulator",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    },
+    {
+      "can_replan": false,
+      "component_id": "risk_scorer",
+      "component_type": "deterministic_specialist_module",
+      "description": "Deterministic specialist module executed inside its parent goal agent.",
+      "has_independent_goal": false,
+      "has_memory": false,
+      "has_plan": false,
+      "parent_agent": "adversarial_quality_review"
+    }
+  ],
+  "run_id": "RUN-20260724-BCBC"
+}

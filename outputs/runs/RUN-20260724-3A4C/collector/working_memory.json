@@ -1,0 +1,15 @@
+{
+  "extra": {
+    "action_rounds": 3
+  },
+  "goal_id": "GOAL-RUN-20260724-3A4C-COLLECT",
+  "goal_status": "executing",
+  "plan_id": "PLAN-EVIDENCE_COLLECTOR-FAF326EC42-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-D940459AB3E6",
+    "OBS-E5E01A592778",
+    "OBS-ABF999EAA0C7"
+  ]
+}

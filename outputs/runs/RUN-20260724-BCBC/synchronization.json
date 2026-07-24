@@ -1,0 +1,182 @@
+[
+  {
+    "completed_at": "2026-07-24T17:59:01.214009Z",
+    "input_sha256": "55c2cabff9d6f4eee8a9f960e57481780d3b3a18db4972622d9fc7337a3e0118",
+    "output": {
+      "agent_run_id": "AGNT-EVID-BCBC-50E4",
+      "committed_at": "2026-07-24T17:59:01.214009Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\evidence_registry.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "346696dcf7a02559945caa80215a583d94d2e43a04622c0388bff2b239f74cf0",
+      "stage_name": "collection"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "collection",
+    "started_at": "2026-07-24T17:59:01.138587Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": null
+  },
+  {
+    "completed_at": "2026-07-24T17:59:02.117826Z",
+    "input_sha256": "4c58aa90800f4682c67e03d4d90ed4ce554d014e1b5a8c0cfc844d95455e3e31",
+    "output": {
+      "agent_run_id": "AGNT-EVID-BCBC-6425",
+      "committed_at": "2026-07-24T17:59:02.117826Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\classified_evidence.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "6d28b664c0afaf3b9209dae3a7adf3a0fb3085c328140d714a4f3aad13eaf155",
+      "stage_name": "classification"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "classification",
+    "started_at": "2026-07-24T17:59:01.607139Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "346696dcf7a02559945caa80215a583d94d2e43a04622c0388bff2b239f74cf0"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:02.675580Z",
+    "input_sha256": "0aa850491fd377f472b88840df07825f0fcea9102cf045e15d3b16a9e21b4a88",
+    "output": {
+      "agent_run_id": "AGNT-EVID-BCBC-947C",
+      "committed_at": "2026-07-24T17:59:02.675580Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\integrity_result.json",
+      "record_count": 14,
+      "schema_version": "1.0.0",
+      "sha256": "3b41d6c8b0b099b2cdb134c8b81204b7b2ae9105f9a6286c53aadfe79745ca5d",
+      "stage_name": "integrity"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T17:59:02.577076Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "6d28b664c0afaf3b9209dae3a7adf3a0fb3085c328140d714a4f3aad13eaf155"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:03.270013Z",
+    "input_sha256": "d6a954759cacfb2ae925f01737e47b54af8ff6caef38ceeb4c247a2a1dcb79f1",
+    "output": {
+      "agent_run_id": "AGNT-CLAI-BCBC-51B6",
+      "committed_at": "2026-07-24T17:59:03.270013Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\claim_decisions.json",
+      "record_count": 1,
+      "schema_version": "1.0.0",
+      "sha256": "a9f04cae132cb59792878a457b70b601c553a08580057644a799390133af8f56",
+      "stage_name": "claim_intelligence"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "claim_intelligence",
+    "started_at": "2026-07-24T17:59:03.267797Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "3b41d6c8b0b099b2cdb134c8b81204b7b2ae9105f9a6286c53aadfe79745ca5d"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:03.747497Z",
+    "input_sha256": "fb75fa35cc23f2eb1a7292756fbd66e96b37afb46dbf28f4576b609c5e3293bb",
+    "output": {
+      "agent_run_id": "AGNT-ADAP-BCBC-2D29",
+      "committed_at": "2026-07-24T17:59:03.747497Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\gap_resolution_portfolio.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "c44f038044f8f0792f37071f90fa31b065bd321ba07325d3c064b066f052780c",
+      "stage_name": "adaptive_gap_resolution"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "adaptive_gap_resolution",
+    "started_at": "2026-07-24T17:59:03.746907Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "a9f04cae132cb59792878a457b70b601c553a08580057644a799390133af8f56"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:04.331989Z",
+    "input_sha256": "84f11923b7e108bfe082a21bc2f8436a7d1117fbe1a3a4278b4906f05621b137",
+    "output": {
+      "agent_run_id": "AGNT-ACCO-BCBC-000D",
+      "committed_at": "2026-07-24T17:59:04.331989Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\ownership_assignments.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "311a363d9954bfc10aba3b5cfe3ae61cbf13c77749b8f16f1a8eba815886fa27",
+      "stage_name": "accountability_ownership"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "accountability_ownership",
+    "started_at": "2026-07-24T17:59:04.330714Z",
+    "status": "completed",
+    "upstream_sha256": "c44f038044f8f0792f37071f90fa31b065bd321ba07325d3c064b066f052780c"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:04.900905Z",
+    "input_sha256": "46d54b3483ce87047ed3458c71e6d664db847f826f144b249ba83a1af056b18f",
+    "output": {
+      "agent_run_id": "AGNT-DEPA-BCBC-78C2",
+      "committed_at": "2026-07-24T17:59:04.900905Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\resolution_tasks_detailed.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "03b59a95d4a8bfc3ce19242afdc7152e5aeb1d0d5810825afffd3873a64f4a80",
+      "stage_name": "department_liaison"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "department_liaison",
+    "started_at": "2026-07-24T17:59:04.900011Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "311a363d9954bfc10aba3b5cfe3ae61cbf13c77749b8f16f1a8eba815886fa27"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:05.566449Z",
+    "input_sha256": "1b7de51245fa230a9165cee18dddbeb6eba31d3d116dae024b25df35b8b2efa8",
+    "output": {
+      "agent_run_id": "AGNT-CLOS-BCBC-EEBE",
+      "committed_at": "2026-07-24T17:59:05.566449Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\closure_revalidation_report.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "c1a5e2570bf745e03517023d1acf160ababc6c2c1c0e428d79662b1dc4d1d647",
+      "stage_name": "closure_revalidation"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "closure_revalidation",
+    "started_at": "2026-07-24T17:59:05.559534Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "03b59a95d4a8bfc3ce19242afdc7152e5aeb1d0d5810825afffd3873a64f4a80"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:06.269355Z",
+    "input_sha256": "7e4d1e396824508c3b5f7cd791997f56f8d23b26d0543db6594dc20e7610dcb2",
+    "output": {
+      "agent_run_id": "AGNT-AUDI-BCBC-7885",
+      "committed_at": "2026-07-24T17:59:06.269355Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\audit_package_manifest.json",
+      "record_count": 14,
+      "schema_version": "1.0.0",
+      "sha256": "8c37c1be8ba50dadc0e5bfe23d6439492ecaec5019ccf829e56d808a98b8a260",
+      "stage_name": "audit_package_composer"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "audit_package_composer",
+    "started_at": "2026-07-24T17:59:06.267498Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "c1a5e2570bf745e03517023d1acf160ababc6c2c1c0e428d79662b1dc4d1d647"
+  },
+  {
+    "completed_at": "2026-07-24T17:59:06.832038Z",
+    "input_sha256": "1a9122e7f092bd616d1541e947e62335e58bddc8f3bbe863e0f272f6c9734028",
+    "output": {
+      "agent_run_id": "AGNT-ADVE-BCBC-4958",
+      "committed_at": "2026-07-24T17:59:06.832038Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\quality_review_report.json",
+      "record_count": 1,
+      "schema_version": "1.0.0",
+      "sha256": "c5386abfe1a377db6f03b5ebe780bd87bd915582b9ac3ad98bd9e5fd2ea9d41b",
+      "stage_name": "adversarial_quality_review"
+    },
+    "run_id": "RUN-20260724-BCBC",
+    "stage_name": "adversarial_quality_review",
+    "started_at": "2026-07-24T17:59:06.831482Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "8c37c1be8ba50dadc0e5bfe23d6439492ecaec5019ccf829e56d808a98b8a260"
+  }
+]

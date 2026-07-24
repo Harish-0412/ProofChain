@@ -1,0 +1,226 @@
+{
+  "academic_year": "2025-2026",
+  "assignments": [
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0001",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0002",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0003",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0004",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0005",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0006",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "Head of CSE Department",
+      "gap_id": "RGAP-0007",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "CSE Event Coordinator",
+      "gap_id": "RGAP-0008",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    },
+    {
+      "approver": "IQAC Coordinator",
+      "assignment_confidence": 0.92,
+      "backup_owner": "CSE Event Coordinator",
+      "gap_id": "RGAP-0009",
+      "primary_owner": "CSE Department Accreditation Coordinator",
+      "status": "recommended"
+    }
+  ],
+  "claim_assessment": {
+    "overall_claim_confidence": 0.822,
+    "partially_supported": 1,
+    "total_claims": 1
+  },
+  "claim_details": [
+    {
+      "blocking_reasons": [
+        "Independent evidence sources contain inconsistent extracted values.",
+        "The report total differs from unique attendance identifiers."
+      ],
+      "claim_id": "CLM-C3.2.1-001",
+      "confidence": 0.822,
+      "defensible_version": "Evidence currently supports: department=CSE; academic_year=2025-2026; activity_type=industry_programme; activity_count=1; participant_count=108.",
+      "status": "partially_supported"
+    }
+  ],
+  "criterion_ids": [
+    "C3.2.1",
+    "C5.1.3",
+    "C6.3.2",
+    "C7.1.1",
+    "C1.2.1"
+  ],
+  "departments": [
+    "CSE"
+  ],
+  "gap_assessment": {
+    "blocking_canonical_issues": 7,
+    "blocking_gaps": 7,
+    "canonical_issues": 9,
+    "claim_failures": 1,
+    "current_verified_readiness": 73.0,
+    "evidence_debt_score": 76.34,
+    "not_an_approval": true,
+    "projected_readiness": 96.0,
+    "projection_assumptions": [
+      "All recommended closure evidence is accepted.",
+      "No new contradictions are introduced.",
+      "All blocking gaps pass revalidation."
+    ],
+    "projection_confidence": 0.78,
+    "projection_type": "counterfactual",
+    "projection_unresolved_dependencies": [
+      "acquire_evidence",
+      "classify_evidence",
+      "reverify_integrity",
+      "human_approval",
+      "revalidate_claim"
+    ],
+    "raw_findings": 9,
+    "raw_gaps": 5,
+    "resolution_tasks": 9,
+    "scenario_bands": {
+      "conservative": 100.0,
+      "expected": 96.0,
+      "optimistic": 100.0
+    },
+    "total_gaps": 9
+  },
+  "generated_at": "2026-07-24T17:59:07.060913Z",
+  "human_approval_required": true,
+  "lifecycle_summary": {
+    "active_tasks": 0,
+    "audit_package_status": "DRAFT_READY_FOR_QUALITY_REVIEW",
+    "closure_checks": 9,
+    "quality_required_corrections": 2,
+    "quality_status": "return_for_correction",
+    "resolution_tasks": 9,
+    "resolved_issues": 0
+  },
+  "next_required_actions": [
+    "Locate and upload authoritative evidence",
+    "Correct and revalidate the affected evidence",
+    "Revise the claim to the verified value"
+  ],
+  "overall_status": "not_yet_defensible",
+  "ownership_summary": {
+    "assigned_tasks": 9,
+    "conflicts_detected": 0,
+    "conflicts_resolved": 0,
+    "unresolved_ownership": 0
+  },
+  "resolution_portfolio": [
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0001",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Locate and upload authoritative evidence"
+    },
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0002",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Locate and upload authoritative evidence"
+    },
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0003",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Locate and upload authoritative evidence"
+    },
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0004",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Locate and upload authoritative evidence"
+    },
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0005",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Locate and upload authoritative evidence"
+    },
+    {
+      "blocking": false,
+      "gap_id": "RGAP-0006",
+      "priority": "medium",
+      "readiness_delta": 12.0,
+      "recommended_action": "Correct and revalidate the affected evidence"
+    },
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0007",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Locate and upload authoritative evidence"
+    },
+    {
+      "blocking": false,
+      "gap_id": "RGAP-0008",
+      "priority": "medium",
+      "readiness_delta": 12.0,
+      "recommended_action": "Revise the claim to the verified value"
+    },
+    {
+      "blocking": true,
+      "gap_id": "RGAP-0009",
+      "priority": "high",
+      "readiness_delta": 16.0,
+      "recommended_action": "Revise the claim to the verified value"
+    }
+  ],
+  "run_id": "RUN-20260724-BCBC"
+}

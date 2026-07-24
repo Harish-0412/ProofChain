@@ -1,0 +1,35 @@
+schema_version: "1.0.0"
+policy_id: approval-authorization
+default_effect: deny
+approval_permissions:
+  claim_revision: approve_claim_revision
+  gap_resolution_strategy: approve_gap_resolution
+  ownership_assignment: approve_ownership_assignment
+  escalation: approve_escalation
+actors:
+  iqac-chair:
+    role: institutional_approver
+    scopes: [institution]
+    permissions:
+      - approve_claim_revision
+      - approve_gap_resolution
+      - approve_ownership_assignment
+      - approve_escalation
+  USR-IQAC:
+    role: institutional_approver
+    scopes: [institution]
+    permissions:
+      - approve_claim_revision
+      - approve_gap_resolution
+      - approve_ownership_assignment
+      - approve_escalation
+  USR-CSE-HOD:
+    role: department_approver
+    scopes: [CSE]
+    permissions:
+      - approve_claim_revision
+      - approve_gap_resolution
+      - approve_ownership_assignment
+dual_approval:
+  required_for: [waive_critical_issue, external_package_submission]
+  minimum_distinct_approvers: 2

@@ -1,0 +1,50 @@
+{
+  "academic_year": "2025-2026",
+  "blocking_findings": 0,
+  "classification_output_path": null,
+  "classification_summary": null,
+  "collection_summary": {
+    "completed_at": "2026-07-24T16:05:00.755753Z",
+    "duration_ms": 109,
+    "failure_count": 0,
+    "notes": [
+      "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+    ],
+    "skipped_count": 0,
+    "stage_name": "collection",
+    "started_at": "2026-07-24T16:05:00.645997Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 1
+  },
+  "completed_at": "2026-07-24T16:05:00.786861Z",
+  "department_scope": [
+    "CSE"
+  ],
+  "duration_ms": 162,
+  "errors": [],
+  "evidence_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-8C69\\evidence_registry.json",
+  "integrity_output_path": null,
+  "integrity_summary": null,
+  "requirement_scope": [
+    "C3.2.1",
+    "C5.1.3",
+    "C6.3.2",
+    "C7.1.1",
+    "C1.2.1"
+  ],
+  "run_id": "RUN-20260724-8C69",
+  "run_manifest_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-8C69\\run_manifest.json",
+  "started_at": "2026-07-24T16:05:00.624399Z",
+  "status": "completed_with_warnings",
+  "total_documents_classified": 0,
+  "total_documents_unresolved": 0,
+  "total_evidence_registered": 15,
+  "total_files_discovered": 16,
+  "total_findings": 0,
+  "total_gaps": 0,
+  "trace_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-8C69\\pipeline_trace.jsonl",
+  "warnings": [
+    "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+  ]
+}

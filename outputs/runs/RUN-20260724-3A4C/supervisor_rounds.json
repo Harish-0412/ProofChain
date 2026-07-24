@@ -1,0 +1,92 @@
+[
+  {
+    "blocked_dependency_goal_ids": [],
+    "budget_exhausted": false,
+    "circular_goal_ids": [],
+    "created_at": "2026-07-24T18:34:02.672514Z",
+    "deadlock_detected": false,
+    "decision": "activate_runnable_goals",
+    "goal_status_counts": {
+      "created": 10
+    },
+    "messages_processed": 0,
+    "open_message_ids": [],
+    "phase": "preflight",
+    "round_number": 0,
+    "run_id": "RUN-20260724-3A4C",
+    "runnable_goal_ids": [
+      "GOAL-RUN-20260724-3A4C-COLLECT"
+    ],
+    "waiting_goal_ids": [
+      "GOAL-RUN-20260724-3A4C-CLASSIFY",
+      "GOAL-RUN-20260724-3A4C-INTEGRITY",
+      "GOAL-RUN-20260724-3A4C-CLAIM",
+      "GOAL-RUN-20260724-3A4C-GAP",
+      "GOAL-RUN-20260724-3A4C-OWNERSHIP",
+      "GOAL-RUN-20260724-3A4C-LIAISON",
+      "GOAL-RUN-20260724-3A4C-CLOSURE",
+      "GOAL-RUN-20260724-3A4C-PACKAGE",
+      "GOAL-RUN-20260724-3A4C-QUALITY"
+    ]
+  },
+  {
+    "blocked_dependency_goal_ids": [],
+    "budget_exhausted": false,
+    "circular_goal_ids": [],
+    "created_at": "2026-07-24T18:34:10.654231Z",
+    "deadlock_detected": false,
+    "decision": "terminal_or_no_pending_work",
+    "goal_status_counts": {
+      "blocked": 9,
+      "completed": 10,
+      "needs_human_review": 1
+    },
+    "messages_processed": 10,
+    "open_message_ids": [],
+    "phase": "coordination",
+    "round_number": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "runnable_goal_ids": [],
+    "waiting_goal_ids": []
+  },
+  {
+    "blocked_dependency_goal_ids": [],
+    "budget_exhausted": false,
+    "circular_goal_ids": [],
+    "created_at": "2026-07-24T18:34:10.681760Z",
+    "deadlock_detected": false,
+    "decision": "terminal_or_no_pending_work",
+    "goal_status_counts": {
+      "blocked": 9,
+      "completed": 10,
+      "needs_human_review": 1
+    },
+    "messages_processed": 0,
+    "open_message_ids": [],
+    "phase": "coordination",
+    "round_number": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "runnable_goal_ids": [],
+    "waiting_goal_ids": []
+  },
+  {
+    "blocked_dependency_goal_ids": [],
+    "budget_exhausted": false,
+    "circular_goal_ids": [],
+    "created_at": "2026-07-24T18:34:10.814576Z",
+    "deadlock_detected": false,
+    "decision": "terminal_or_no_pending_work",
+    "goal_status_counts": {
+      "blocked": 10,
+      "completed": 10,
+      "needs_human_review": 1
+    },
+    "messages_processed": 0,
+    "open_message_ids": [],
+    "phase": "terminal",
+    "round_number": 1,
+    "run_id": "RUN-20260724-3A4C",
+    "runnable_goal_ids": [],
+    "waiting_goal_ids": []
+  }
+]

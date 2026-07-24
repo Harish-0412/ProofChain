@@ -1,0 +1,16 @@
+[
+  {
+    "approval_id": "APR-FEB16027005B",
+    "approval_type": "claim_revision",
+    "decided_at": "2026-07-24T17:21:58.280194Z",
+    "decided_by": "validation-operator",
+    "decision": "approved",
+    "evidence_references": [
+      "EVD-CSE-2025-2026-00003"
+    ],
+    "reason": "Synthetic validation approval for the evidence-backed 108-participant revision; original evidence remains unchanged.",
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "target_id": "CLM-C3.2.1-001"
+  }
+]

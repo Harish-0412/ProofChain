@@ -1,0 +1,27 @@
+{
+  "agent_name": "adversarial_quality_review",
+  "blockers": [
+    "The claim requires human review and cannot pass package quality.",
+    "Unresolved issues are disclosed and require reviewer attention."
+  ],
+  "confidence": 0.9,
+  "created_at": "2026-07-24T17:59:06.885881Z",
+  "decision_id": "DEC-5C2CED0D4CCA",
+  "explanation": "Quality status is return_for_correction; the package was challenged and not externally approved.",
+  "final_status": "completed_with_warnings",
+  "goal_id": "GOAL-RUN-20260724-BCBC-QUALITY",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-BCBC",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every material claim is challenged.",
+    "Package references are tested.",
+    "Omissions, reuse risks, and reviewer friction are scored.",
+    "A quality status and correction route are produced."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\quality_review_report.json"
+  ],
+  "unresolved_questions": []
+}

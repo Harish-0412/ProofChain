@@ -1,0 +1,110 @@
+[
+  {
+    "completed_at": "2026-07-24T17:21:16.313112Z",
+    "input_sha256": "73366c8b567a198f39c349e5d8a62696c05c18259329c1980ae459703254db94",
+    "output": {
+      "agent_run_id": "AGNT-EVID-6B9A-CCF0",
+      "committed_at": "2026-07-24T17:21:16.313112Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\evidence_registry.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "c3619d6333d2de4358724a3a4b885acf51107698d2a9f7111b71c1dd9e3bff50",
+      "stage_name": "collection"
+    },
+    "run_id": "RUN-20260724-6B9A",
+    "stage_name": "collection",
+    "started_at": "2026-07-24T17:21:16.182651Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": null
+  },
+  {
+    "completed_at": "2026-07-24T17:21:17.246582Z",
+    "input_sha256": "659c5f62e31abca19f12539abfb6bae24f742a20d2732059931d47ee390a94ac",
+    "output": {
+      "agent_run_id": "AGNT-EVID-6B9A-2DFF",
+      "committed_at": "2026-07-24T17:21:17.246582Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\classified_evidence.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "022a6c7280b4294dff28d16cdf1def8fa16f5eb2de21ee4cc60ae9525781a347",
+      "stage_name": "classification"
+    },
+    "run_id": "RUN-20260724-6B9A",
+    "stage_name": "classification",
+    "started_at": "2026-07-24T17:21:16.767773Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "c3619d6333d2de4358724a3a4b885acf51107698d2a9f7111b71c1dd9e3bff50"
+  },
+  {
+    "completed_at": "2026-07-24T17:21:17.919923Z",
+    "input_sha256": "14a991b96ee0a014648990e9433fdc6b7bee7511edc4748153faeebead4f8d49",
+    "output": {
+      "agent_run_id": "AGNT-EVID-6B9A-1A93",
+      "committed_at": "2026-07-24T17:21:17.919923Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\integrity_result.json",
+      "record_count": 14,
+      "schema_version": "1.0.0",
+      "sha256": "898e919c3e0af12fe60d37f90c7201c494ea092d036f2a1f76f72e8fb072e67f",
+      "stage_name": "integrity"
+    },
+    "run_id": "RUN-20260724-6B9A",
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T17:21:17.788737Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "022a6c7280b4294dff28d16cdf1def8fa16f5eb2de21ee4cc60ae9525781a347"
+  },
+  {
+    "completed_at": "2026-07-24T17:21:18.539141Z",
+    "input_sha256": "43eca01583f769de768275d916d1c2b42d9aa65723336c1cef7f1bd914092f6b",
+    "output": {
+      "agent_run_id": "AGNT-CLAI-6B9A-E83D",
+      "committed_at": "2026-07-24T17:21:18.539141Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\claim_decisions.json",
+      "record_count": 1,
+      "schema_version": "1.0.0",
+      "sha256": "c9d66e90b7321374cbac447f076569cb0eac898e5e2cbd665db3a84b3b4b8381",
+      "stage_name": "claim_intelligence"
+    },
+    "run_id": "RUN-20260724-6B9A",
+    "stage_name": "claim_intelligence",
+    "started_at": "2026-07-24T17:21:18.534409Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "898e919c3e0af12fe60d37f90c7201c494ea092d036f2a1f76f72e8fb072e67f"
+  },
+  {
+    "completed_at": "2026-07-24T17:21:19.225469Z",
+    "input_sha256": "112a91e589056f570508c2f6a78bcf8e7682589b4a7de2f1bcef386be01860bf",
+    "output": {
+      "agent_run_id": "AGNT-ADAP-6B9A-6FB9",
+      "committed_at": "2026-07-24T17:21:19.225469Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\gap_resolution_portfolio.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "f58b27b16c1f5d413139993a87862bc6bf2d905cc397a20e6c46e025cbe6ff80",
+      "stage_name": "adaptive_gap_resolution"
+    },
+    "run_id": "RUN-20260724-6B9A",
+    "stage_name": "adaptive_gap_resolution",
+    "started_at": "2026-07-24T17:21:19.224422Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "c9d66e90b7321374cbac447f076569cb0eac898e5e2cbd665db3a84b3b4b8381"
+  },
+  {
+    "completed_at": "2026-07-24T17:21:19.877048Z",
+    "input_sha256": "df7a2bbd93ac28cf69a35041765a30a0f663176fea8e4b2387652f2489af39fa",
+    "output": {
+      "agent_run_id": "AGNT-ACCO-6B9A-E3A8",
+      "committed_at": "2026-07-24T17:21:19.877048Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\ownership_assignments.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "a24d7f8b4b213ece3d70ebf84c5e6c47cb5f539002eb9cff3a826b75487ec186",
+      "stage_name": "accountability_ownership"
+    },
+    "run_id": "RUN-20260724-6B9A",
+    "stage_name": "accountability_ownership",
+    "started_at": "2026-07-24T17:21:19.875021Z",
+    "status": "completed",
+    "upstream_sha256": "f58b27b16c1f5d413139993a87862bc6bf2d905cc397a20e6c46e025cbe6ff80"
+  }
+]

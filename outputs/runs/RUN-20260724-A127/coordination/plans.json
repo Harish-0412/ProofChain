@@ -1,0 +1,382 @@
+[
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-A127-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-59AE2AD76A-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-59AE2AD76A-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-59AE2AD76A-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-59AE2AD76A-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [],
+    "expected_outputs": [
+      "Evidence bundles, findings, gaps, and defensibility summaries.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-A127-INTEGRITY",
+    "plan_id": "PLAN-EVIDENCE_INTEGRITY-59AE2AD76A-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect requirement scope and plan applicable deterministic verification rules.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-59AE2AD76A-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Evidence bundles, findings, gaps, and defensibility summaries.",
+        "objective": "Bundle related evidence, execute integrity rules, and calculate readiness results.",
+        "proposed_tool": "bundle_and_validate_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-59AE2AD76A-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Interpret findings, identify root blockers, and create upstream resolution requests.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-59AE2AD76A-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-A127-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "claim_decisions.json",
+      "claim lineage"
+    ],
+    "goal_id": "GOAL-RUN-20260724-A127-CLAIM",
+    "plan_id": "PLAN-CLAIM-4C0BD0DA-R1",
+    "rationale": "Validate atomic claims using two-sided evidence and explicit specialist boundaries.",
+    "revision": 1,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "decompose_claim returns a typed, auditable result.",
+        "objective": "Decompose claims into atomic assertions.",
+        "proposed_tool": "decompose_claim",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-4C0BD0DA-01"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "retrieve_claim_evidence returns a typed, auditable result.",
+        "objective": "Retrieve supporting and counter-evidence.",
+        "proposed_tool": "retrieve_claim_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-4C0BD0DA-02"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "investigate_contradictions returns a typed, auditable result.",
+        "objective": "Explain material value contradictions.",
+        "proposed_tool": "investigate_contradictions",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-4C0BD0DA-03"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "evaluate_claim_sufficiency returns a typed, auditable result.",
+        "objective": "Score coverage, authority, consistency, and independence.",
+        "proposed_tool": "evaluate_claim_sufficiency",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-4C0BD0DA-04"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "judge_claim_defensibility returns a typed, auditable result.",
+        "objective": "Produce claim decisions, repair proposals, and lineage.",
+        "proposed_tool": "judge_claim_defensibility",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-4C0BD0DA-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-A127-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "claim_decisions.json",
+      "claim lineage"
+    ],
+    "goal_id": "GOAL-RUN-20260724-A127-CLAIM",
+    "plan_id": "PLAN-CLAIM-4C0BD0DA-R1",
+    "rationale": "Validate atomic claims using two-sided evidence and explicit specialist boundaries.",
+    "revision": 1,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "decompose_claim returns a typed, auditable result.",
+        "objective": "Decompose claims into atomic assertions.",
+        "proposed_tool": "decompose_claim",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-4C0BD0DA-01"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "retrieve_claim_evidence returns a typed, auditable result.",
+        "objective": "Retrieve supporting and counter-evidence.",
+        "proposed_tool": "retrieve_claim_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-4C0BD0DA-02"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "investigate_contradictions returns a typed, auditable result.",
+        "objective": "Explain material value contradictions.",
+        "proposed_tool": "investigate_contradictions",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-4C0BD0DA-03"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "evaluate_claim_sufficiency returns a typed, auditable result.",
+        "objective": "Score coverage, authority, consistency, and independence.",
+        "proposed_tool": "evaluate_claim_sufficiency",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-4C0BD0DA-04"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "judge_claim_defensibility returns a typed, auditable result.",
+        "objective": "Produce claim decisions, repair proposals, and lineage.",
+        "proposed_tool": "judge_claim_defensibility",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-4C0BD0DA-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-A127-CLAIM"
+    ],
+    "expected_outputs": [
+      "gap_resolution_portfolio.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-A127-GAP",
+    "plan_id": "PLAN-GAP-85D307B1-R1",
+    "rationale": "Turn every disclosed failure into a unique, actionable, measurable plan.",
+    "revision": 1,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "detect_gaps returns typed gap-planning state.",
+        "objective": "Normalize findings and unsupported claim components.",
+        "proposed_tool": "detect_gaps",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-85D307B1-01"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "analyze_root_causes returns typed gap-planning state.",
+        "objective": "Generate evidence-backed root-cause hypotheses.",
+        "proposed_tool": "analyze_root_causes",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-85D307B1-02"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "generate_resolution_options returns typed gap-planning state.",
+        "objective": "Create alternative governed strategies.",
+        "proposed_tool": "generate_resolution_options",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-85D307B1-03"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "simulate_readiness returns typed gap-planning state.",
+        "objective": "Estimate readiness deltas without closing gaps.",
+        "proposed_tool": "simulate_readiness",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-85D307B1-04"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "prioritize_gaps returns typed gap-planning state.",
+        "objective": "Build the ordered resolution portfolio.",
+        "proposed_tool": "prioritize_gaps",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-85D307B1-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-A127-CLAIM"
+    ],
+    "expected_outputs": [
+      "gap_resolution_portfolio.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-A127-GAP",
+    "plan_id": "PLAN-GAP-85D307B1-R1",
+    "rationale": "Turn every disclosed failure into a unique, actionable, measurable plan.",
+    "revision": 1,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "detect_gaps returns typed gap-planning state.",
+        "objective": "Normalize findings and unsupported claim components.",
+        "proposed_tool": "detect_gaps",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-85D307B1-01"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "analyze_root_causes returns typed gap-planning state.",
+        "objective": "Generate evidence-backed root-cause hypotheses.",
+        "proposed_tool": "analyze_root_causes",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-85D307B1-02"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "generate_resolution_options returns typed gap-planning state.",
+        "objective": "Create alternative governed strategies.",
+        "proposed_tool": "generate_resolution_options",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-85D307B1-03"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "simulate_readiness returns typed gap-planning state.",
+        "objective": "Estimate readiness deltas without closing gaps.",
+        "proposed_tool": "simulate_readiness",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-85D307B1-04"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "prioritize_gaps returns typed gap-planning state.",
+        "objective": "Build the ordered resolution portfolio.",
+        "proposed_tool": "prioritize_gaps",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-85D307B1-05"
+      }
+    ]
+  }
+]

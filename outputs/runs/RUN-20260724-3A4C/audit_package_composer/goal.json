@@ -1,0 +1,30 @@
+{
+  "assigned_agent": "audit_package_composer",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T18:34:02.527226Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-3A4C-CLOSURE"
+  ],
+  "failure_conditions": [
+    "A package includes rejected or missing evidence."
+  ],
+  "goal_id": "GOAL-RUN-20260724-3A4C-PACKAGE",
+  "goal_type": "compose_audit_package",
+  "input_references": [],
+  "objective": "Generate a reproducible draft audit package manifest with eligibility, lineage, exclusions, and warnings.",
+  "parent_goal_id": "GOAL-RUN-20260724-3A4C-TOP",
+  "priority": "high",
+  "run_id": "RUN-20260724-3A4C",
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "success_conditions": [
+    "Package scope is frozen.",
+    "Only eligible evidence is included.",
+    "Manifest, checksums, lineage, exclusions, and unresolved warnings are present."
+  ]
+}

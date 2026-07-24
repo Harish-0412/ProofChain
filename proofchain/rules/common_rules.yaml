@@ -1,0 +1,134 @@
+rule_sets:
+  - id: common-v1
+    version: "1.0.0"
+    description: "Common file-level rules applied to all document types"
+
+  - id: event-evidence-v1
+    version: "1.0.0"
+    description: "Cross-document rules for event evidence bundles"
+
+rules:
+  - id: FILE-EMPTY-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Empty document detection"
+    category: file_level
+    severity: high
+    description: "Flags documents where no text could be extracted"
+    applies_to: ["event_report", "approval_document", "attendance_sheet"]
+    blocking: false
+
+  - id: SIGN-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Approval signature check"
+    category: file_level
+    severity: high
+    description: "Checks that approval documents contain a signature marker"
+    applies_to: ["approval_document"]
+    field: signature_present
+    expected: "Yes"
+    blocking: true
+    on_failure:
+      finding_type: missing_signature
+      recommended_action: "Upload a signed approval document or obtain HoD signature."
+
+  - id: DATE-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Academic year validation"
+    category: file_level
+    severity: medium
+    description: "Ensures event date falls within the configured academic year"
+    applies_to: ["event_report"]
+    blocking: false
+    on_failure:
+      finding_type: academic_year_mismatch
+      recommended_action: "Upload evidence from the correct academic year."
+
+  - id: EVT-COUNT-001
+    version: "1.0.0"
+    rule_set: event-evidence-v1
+    name: "Participant count reconciliation"
+    category: cross_document
+    severity: high
+    description: "Compares reported participant count in event report with unique student count in attendance sheet"
+    applies_when:
+      bundle_type: event
+      required_document_types:
+        - event_report
+        - attendance_sheet
+    values:
+      expected:
+        document_type: event_report
+        field: reported_participant_count
+      observed:
+        document_type: attendance_sheet
+        field: unique_student_count
+    condition:
+      operator: equals
+    blocking: true
+    on_failure:
+      finding_type: participant_count_mismatch
+      recommended_action: "Correct the attendance record or revise the claim."
+
+  - id: DUP-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Exact duplicate detection"
+    category: file_level
+    severity: high
+    description: "Flags when multiple files with identical checksums exist"
+    blocking: false
+    on_failure:
+      finding_type: duplicate_file
+      recommended_action: "Remove the duplicate file or confirm which is the correct version."
+
+  - id: DUP-STUDENT-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Duplicate attendance row detection"
+    category: file_level
+    severity: high
+    description: "Flags repeated student roll numbers in an attendance sheet"
+    applies_to: ["attendance_sheet"]
+    blocking: false
+    on_failure:
+      finding_type: duplicate_student_row
+      recommended_action: "Remove repeated attendance rows and verify the unique participant count."
+
+  - id: DOC-001
+    version: "1.0.0"
+    rule_set: event-evidence-v1
+    name: "Required evidence checklist"
+    category: requirement_level
+    severity: high
+    description: "Checks that all required document types are present for each requirement"
+    blocking: true
+    on_failure:
+      finding_type: missing_required_field
+      recommended_action: "Upload the missing required document."
+
+  - id: DEPT-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Department consistency check"
+    category: cross_document
+    severity: high
+    description: "Ensures all documents in a bundle claim the same department"
+    blocking: false
+    on_failure:
+      finding_type: department_mismatch
+      recommended_action: "Verify that all documents belong to the same department."
+
+  - id: REUSE-001
+    version: "1.0.0"
+    rule_set: common-v1
+    name: "Evidence reuse across claims"
+    category: cross_claim
+    severity: medium
+    description: "Detects the same file being mapped to multiple unrelated accreditation claims"
+    blocking: false
+    on_failure:
+      finding_type: evidence_reuse
+      recommended_action: "Confirm that this evidence is valid for all mapped claims."

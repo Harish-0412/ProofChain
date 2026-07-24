@@ -1,0 +1,29 @@
+{
+  "assigned_agent": "evidence_classification",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T17:59:00.833990Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-BCBC-COLLECT"
+  ],
+  "failure_conditions": [
+    "No evidence item can be interpreted."
+  ],
+  "goal_id": "GOAL-RUN-20260724-BCBC-CLASSIFY",
+  "goal_type": "understand_evidence",
+  "input_references": [],
+  "objective": "Extract, classify, and map every registered evidence item.",
+  "parent_goal_id": "GOAL-RUN-20260724-BCBC-TOP",
+  "priority": "high",
+  "run_id": "RUN-20260724-BCBC",
+  "schema_version": "1.0.0",
+  "status": "needs_human_review",
+  "success_conditions": [
+    "Every processable item has an extraction state and document type.",
+    "Every item has a requirement mapping or an explicit unresolved state."
+  ]
+}

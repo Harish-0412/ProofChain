@@ -1,0 +1,29 @@
+rule_set:
+  id: academic-year-v1
+  version: "1.0.0"
+  description: "Rules for validating academic year consistency in evidence"
+
+rules:
+  - id: DATE-001
+    version: "1.0.0"
+    name: "Academic year validation"
+    category: file_level
+    severity: medium
+    description: "Ensures the event date falls within the configured academic year range"
+    applies_to: ["event_report"]
+    academic_year_format: "YYYY-YYYY"
+    blocking: false
+    on_failure:
+      finding_type: academic_year_mismatch
+      recommended_action: "Upload evidence from the correct academic year."
+
+  - id: DATE-CROSS-001
+    version: "1.0.0"
+    name: "Academic year consistency across bundle"
+    category: cross_document
+    severity: medium
+    description: "Ensures all documents in a bundle reference the same academic year"
+    blocking: false
+    on_failure:
+      finding_type: academic_year_mismatch
+      recommended_action: "Verify all documents in the bundle belong to the same academic year."

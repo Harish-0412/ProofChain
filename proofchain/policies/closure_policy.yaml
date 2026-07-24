@@ -1,0 +1,11 @@
+schema_version: "1.0.0"
+policy_id: evidence-closure
+required_checks:
+  - closure_evidence_submitted
+  - evidence_registered
+  - classification_completed
+  - targeted_integrity_rules_passed
+  - affected_claims_revalidated
+  - regression_check_passed
+upload_alone_closes_issue: false
+critical_issue_waiver_requires_dual_approval: true

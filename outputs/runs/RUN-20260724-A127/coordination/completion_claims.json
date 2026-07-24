@@ -1,0 +1,91 @@
+[
+  {
+    "agent_name": "evidence_integrity",
+    "blockers": [
+      "SIGN-001: Approval signature is missing",
+      "EVT-COUNT-001: Participant count does not reconcile",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "C5.1.3: Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "C6.3.2: Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "C7.1.1: Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "C1.2.1: Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "C1.2.1: Bundle BUNDLE-CSE-EVT-CSE-005 is missing certificate."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:13:04.441134Z",
+    "decision_id": "DEC-DB8C1D0DDA6C",
+    "explanation": "All applicable checks ran and produced a not-yet-defensible decision with 12 disclosed blocking issues.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-A127-INTEGRITY",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "All applicable deterministic rules are executed.",
+      "Blocking findings and evidence gaps are explicitly disclosed.",
+      "A defensibility state is produced."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A127\\integrity_result.json"
+    ],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "blockers": [],
+    "confidence": 0.721,
+    "created_at": "2026-07-24T17:13:05.112829Z",
+    "decision_id": "DEC-A3A5E31FFFC7",
+    "explanation": "Validated 6 claims at atomic level; 6 require governed human review.",
+    "final_status": "completed_with_warnings",
+    "goal_id": "GOAL-RUN-20260724-A127-CLAIM",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every atomic claim has a validation state and evidence references.",
+      "Contradictions are resolved or explicitly disclosed.",
+      "A defensible claim decision and lineage are produced."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A127\\claim_decisions.json"
+    ],
+    "unresolved_questions": [
+      "CLM-C3.2.1-001",
+      "CLM-C3.2.1-002",
+      "CLM-C3.2.1-003",
+      "CLM-C3.2.1-004",
+      "CLM-C3.2.1-005",
+      "CLM-C3.2.1-006"
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "blockers": [],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:13:05.737748Z",
+    "decision_id": "DEC-DD11825AB68D",
+    "explanation": "Planned 9 unique gaps with priorities, dependencies, closure evidence, and readiness impact.",
+    "final_status": "completed_with_warnings",
+    "goal_id": "GOAL-RUN-20260724-A127-GAP",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-A127",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every unresolved finding is represented by one normalized gap.",
+      "Every gap has strategies, closure evidence, and dependencies.",
+      "Readiness impact and priority are calculated."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A127\\gap_resolution_portfolio.json"
+    ],
+    "unresolved_questions": []
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 8
+  },
+  "goal_id": "GOAL-RUN-20260724-3A4C-PACKAGE",
+  "goal_status": "executing",
+  "plan_id": "PLAN-PACKAGE-B95C2B27-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-416A63016392",
+    "OBS-83A659DD3951",
+    "OBS-EBEA8F9B4DA6",
+    "OBS-05EB6837EFDD",
+    "OBS-8569E66566FE"
+  ]
+}

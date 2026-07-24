@@ -1,0 +1,50 @@
+{
+  "loaded_at": "2026-07-24T18:34:02.641212Z",
+  "policies": [
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\agent_permissions.yaml",
+      "policy_id": "agent-permissions",
+      "schema_version": "1.0.0",
+      "sha256": "7c2c446de96c8ea0f5b2ed2ddbd5cd9cc7bba7e7e2c57539a6df73ed7d2e7219"
+    },
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\approval_policy.yaml",
+      "policy_id": "approval-authorization",
+      "schema_version": "1.0.0",
+      "sha256": "bc72824539485bf25a0dcc74cbd1abb4393b9df9fe88ae331600c63eef0379a4"
+    },
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\communication_policy.yaml",
+      "policy_id": "least-disclosure-communications",
+      "schema_version": "1.0.0",
+      "sha256": "acfa15bee514bef9251ad23d541b9ce088396ef51daf6909c9fa7c890e66ecb7"
+    },
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\closure_policy.yaml",
+      "policy_id": "evidence-closure",
+      "schema_version": "1.0.0",
+      "sha256": "642b67c82159c7acd76d24010cccad021aa488a80ef37a3ce9b7fe171db50336"
+    },
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\package_policy.yaml",
+      "policy_id": "audit-package",
+      "schema_version": "1.0.0",
+      "sha256": "2df3164388269447a1aa1063deed5b87c62241f1bd8baf203f649a12e10cdd18"
+    },
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\security_policy.yaml",
+      "policy_id": "untrusted-content-security",
+      "schema_version": "1.0.0",
+      "sha256": "201c0fc3b3388868cba99fa8581fb48c1f97066b6959c51346dd38181157095e"
+    },
+    {
+      "path": "C:\\SideQuest\\ProofChain\\proofchain\\policies\\retention_policy.yaml",
+      "policy_id": "evidence-retention",
+      "schema_version": "1.0.0",
+      "sha256": "f579e58c63557cd4c79675c11a1b37cd7cff1a28df0bccc51860503062278745"
+    }
+  ],
+  "policy_fingerprint": "925316285b385da9439bbd81e717dafbb08f99e905a69578b1675cc782bacb98",
+  "policy_set_version": "1.0.0",
+  "run_id": "RUN-20260724-3A4C"
+}

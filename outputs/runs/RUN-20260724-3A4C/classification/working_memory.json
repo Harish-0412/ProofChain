@@ -1,0 +1,15 @@
+{
+  "extra": {
+    "action_rounds": 3
+  },
+  "goal_id": "GOAL-RUN-20260724-3A4C-CLASSIFY",
+  "goal_status": "executing",
+  "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-BBACC26731-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-4584FF988E65",
+    "OBS-C624B5568EF6",
+    "OBS-26062978156F"
+  ]
+}

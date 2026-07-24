@@ -1,0 +1,371 @@
+{
+  "agent_name": "department_liaison",
+  "agent_run_id": "AGNT-DEPA-3A4C-3151",
+  "agent_version": "1.0.0",
+  "completed_at": "2026-07-24T18:34:06.400860+00:00",
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 0,
+  "input_count": 9,
+  "input_snapshot_hash": "26f109006acb6e18ba33aabed4a9d0ace7c4d7f14b80d3cfc822597e5f7fdac5",
+  "responses": [],
+  "run_id": "RUN-20260724-3A4C",
+  "started_at": "2026-07-24T18:34:06.399100+00:00",
+  "status": "completed_with_warnings",
+  "success_count": 0,
+  "tasks": [
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0001-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248339+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status",
+        "requirement_id"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248274+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0001",
+      "issue_id": "ISS-0001",
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Search approved department and institutional sources.",
+        "Verify document identity, date, and authorization.",
+        "Upload the authoritative signed document.",
+        "Rerun classification and integrity validation."
+      ],
+      "required_closure_evidence": [
+        "Authorized evidence document",
+        "Approval identity and date",
+        "Passing integrity revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0001",
+      "title": "Locate and upload authoritative evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0002-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248390+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status",
+        "requirement_id"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248374+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0002",
+      "issue_id": "ISS-0002",
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Search approved department and institutional sources.",
+        "Verify document identity, date, and authorization.",
+        "Upload the authoritative signed document.",
+        "Rerun classification and integrity validation."
+      ],
+      "required_closure_evidence": [
+        "Authorized evidence document",
+        "Approval identity and date",
+        "Passing integrity revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0002",
+      "title": "Locate and upload authoritative evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0003-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248414+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status",
+        "requirement_id"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248404+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0003",
+      "issue_id": "ISS-0003",
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Search approved department and institutional sources.",
+        "Verify document identity, date, and authorization.",
+        "Upload the authoritative signed document.",
+        "Rerun classification and integrity validation."
+      ],
+      "required_closure_evidence": [
+        "Authorized evidence document",
+        "Approval identity and date",
+        "Passing integrity revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0003",
+      "title": "Locate and upload authoritative evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0004-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248434+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status",
+        "requirement_id"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248425+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0004",
+      "issue_id": "ISS-0004",
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Search approved department and institutional sources.",
+        "Verify document identity, date, and authorization.",
+        "Upload the authoritative signed document.",
+        "Rerun classification and integrity validation."
+      ],
+      "required_closure_evidence": [
+        "Authorized evidence document",
+        "Approval identity and date",
+        "Passing integrity revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0004",
+      "title": "Locate and upload authoritative evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0005-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248454+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status",
+        "requirement_id"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248444+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0005",
+      "issue_id": "ISS-0005",
+      "objective": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing certificate.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Search approved department and institutional sources.",
+        "Verify document identity, date, and authorization.",
+        "Upload the authoritative signed document.",
+        "Rerun classification and integrity validation."
+      ],
+      "required_closure_evidence": [
+        "Authorized evidence document",
+        "Approval identity and date",
+        "Passing integrity revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0005",
+      "title": "Locate and upload authoritative evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0006-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248473+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-31T18:34:06.248463+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0006",
+      "issue_id": "ISS-0006",
+      "objective": "2 evidence records have SHA-256 1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "medium",
+      "required_actions": [
+        "Identify the authoritative source.",
+        "Correct or replace the defective evidence.",
+        "Rerun the affected deterministic checks."
+      ],
+      "required_closure_evidence": [
+        "Corrected evidence",
+        "Passing affected-rule result"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0006",
+      "title": "Correct and revalidate the affected evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0007-A",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-HOD",
+      "created_at": "2026-07-24T18:34:06.248492+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248483+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0007",
+      "issue_id": "ISS-0007",
+      "objective": "APR_EVT-CSE-001_approval.pdf does not contain an affirmative signature marker.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Search approved department and institutional sources.",
+        "Verify document identity, date, and authorization.",
+        "Upload the authoritative signed document.",
+        "Rerun classification and integrity validation."
+      ],
+      "required_closure_evidence": [
+        "Authorized evidence document",
+        "Approval identity and date",
+        "Passing integrity revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0007",
+      "title": "Locate and upload authoritative evidence"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0008-B",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-EVENT",
+      "created_at": "2026-07-24T18:34:06.248509+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-31T18:34:06.248501+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0008",
+      "issue_id": "ISS-0008",
+      "objective": "Repeated roll numbers: CSE25005,CSE25008.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "medium",
+      "required_actions": [
+        "Use the strongest authoritative observed value.",
+        "Obtain human approval for the revised claim.",
+        "Rerun claim defensibility validation."
+      ],
+      "required_closure_evidence": [
+        "Corrected attendance or approved revised claim",
+        "Human approval record",
+        "Passing claim revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0008",
+      "title": "Revise the claim to the verified value"
+    },
+    {
+      "approval_event_ids": [],
+      "approved_strategy_id": "STR-RGAP-0009-B",
+      "approver_id": "USR-IQAC",
+      "backup_owner_id": "USR-CSE-EVENT",
+      "created_at": "2026-07-24T18:34:06.248527+00:00",
+      "delivery_status": "not_sent",
+      "disclosure_scope": [
+        "task_id",
+        "gap_id",
+        "required_action",
+        "closure_evidence",
+        "deadline",
+        "blocking_status"
+      ],
+      "dispatch_channel": "in_app",
+      "due_at": "2026-07-27T18:34:06.248518+00:00",
+      "escalation_policy_id": "default-gap-sla",
+      "gap_id": "RGAP-0009",
+      "issue_id": "ISS-0009",
+      "objective": "Event report claims 120; attendance contains 108 unique students.",
+      "primary_owner_id": "USR-CSE-COORD",
+      "priority": "critical",
+      "required_actions": [
+        "Use the strongest authoritative observed value.",
+        "Obtain human approval for the revised claim.",
+        "Rerun claim defensibility validation."
+      ],
+      "required_closure_evidence": [
+        "Corrected attendance or approved revised claim",
+        "Human approval record",
+        "Passing claim revalidation"
+      ],
+      "status": "approval_required",
+      "task_id": "TASK-RGAP-0009",
+      "title": "Revise the claim to the verified value"
+    }
+  ],
+  "warning_count": 9,
+  "warnings": [
+    "TASK-RGAP-0001: Task has no approval event.",
+    "TASK-RGAP-0002: Task has no approval event.",
+    "TASK-RGAP-0003: Task has no approval event.",
+    "TASK-RGAP-0004: Task has no approval event.",
+    "TASK-RGAP-0005: Task has no approval event.",
+    "TASK-RGAP-0006: Task has no approval event.",
+    "TASK-RGAP-0007: Task has no approval event.",
+    "TASK-RGAP-0008: Task has no approval event.",
+    "TASK-RGAP-0009: Task has no approval event."
+  ]
+}

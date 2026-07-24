@@ -1,0 +1,9 @@
+schema_version: "1.0.0"
+policy_id: audit-package
+internal_bundle_format: zip
+include_original_evidence: true
+external_submission_enabled: false
+generated_narrative_is_evidence: false
+disclose_unresolved_issues: true
+stable_archive_timestamps: true
+required_index_formats: [json, csv]

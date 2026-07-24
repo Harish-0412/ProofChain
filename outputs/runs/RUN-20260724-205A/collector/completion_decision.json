@@ -1,0 +1,24 @@
+{
+  "agent_name": "evidence_collector",
+  "blockers": [],
+  "confidence": 0.9,
+  "created_at": "2026-07-24T16:51:10.162728Z",
+  "decision_id": "DEC-AD0BF3A89A72",
+  "explanation": "Registered 15 evidence records with checksums. 1 acquisition warnings remain disclosed.",
+  "final_status": "completed_with_warnings",
+  "goal_id": "GOAL-RUN-20260724-205A-COLLECT",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-205A",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every discoverable supported file is registered or explicitly skipped.",
+    "Every registered file has a checksum and immutable source reference."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-205A\\evidence_registry.json"
+  ],
+  "unresolved_questions": [
+    "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+  ]
+}

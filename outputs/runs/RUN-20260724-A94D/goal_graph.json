@@ -1,0 +1,127 @@
+{
+  "goals": [
+    {
+      "assigned_agent": "supervisor",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T16:46:52.812829Z",
+      "deadline": null,
+      "dependencies": [],
+      "failure_conditions": [
+        "No usable evidence can be acquired.",
+        "A technical failure prevents deterministic validation."
+      ],
+      "goal_id": "GOAL-RUN-20260724-A94D-TOP",
+      "goal_type": "validate_requirement_defensibility",
+      "input_references": [
+        "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+      ],
+      "objective": "Determine whether the CSE evidence set is defensible and disclose every unresolved blocker.",
+      "parent_goal_id": null,
+      "priority": "critical",
+      "run_id": "RUN-20260724-A94D",
+      "schema_version": "1.0.0",
+      "status": "created",
+      "success_conditions": [
+        "All mandatory evidence types are accounted for.",
+        "Blocking integrity findings are resolved or formally disclosed.",
+        "Every mapped document remains traceable to its source.",
+        "A final defensibility decision is produced."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_collector",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T16:46:52.812859Z",
+      "deadline": null,
+      "dependencies": [],
+      "failure_conditions": [
+        "No readable evidence is available."
+      ],
+      "goal_id": "GOAL-RUN-20260724-A94D-COLLECT",
+      "goal_type": "acquire_evidence",
+      "input_references": [
+        "C:\\SideQuest\\ProofChain\\sample_data\\departments"
+      ],
+      "objective": "Acquire and register all available evidence in the approved source scope.",
+      "parent_goal_id": "GOAL-RUN-20260724-A94D-TOP",
+      "priority": "critical",
+      "run_id": "RUN-20260724-A94D",
+      "schema_version": "1.0.0",
+      "status": "completed",
+      "success_conditions": [
+        "Every discoverable supported file is registered or explicitly skipped.",
+        "Every registered file has a checksum and immutable source reference."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_classification",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T16:46:52.812873Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-A94D-COLLECT"
+      ],
+      "failure_conditions": [
+        "No evidence item can be interpreted."
+      ],
+      "goal_id": "GOAL-RUN-20260724-A94D-CLASSIFY",
+      "goal_type": "understand_evidence",
+      "input_references": [],
+      "objective": "Extract, classify, and map every registered evidence item.",
+      "parent_goal_id": "GOAL-RUN-20260724-A94D-TOP",
+      "priority": "high",
+      "run_id": "RUN-20260724-A94D",
+      "schema_version": "1.0.0",
+      "status": "needs_human_review",
+      "success_conditions": [
+        "Every processable item has an extraction state and document type.",
+        "Every item has a requirement mapping or an explicit unresolved state."
+      ]
+    },
+    {
+      "assigned_agent": "evidence_integrity",
+      "constraints": [
+        "Do not modify original evidence files.",
+        "Maximum supervisor rounds: 12.",
+        "Maximum replans per agent: 3."
+      ],
+      "created_at": "2026-07-24T16:46:52.812880Z",
+      "deadline": null,
+      "dependencies": [
+        "GOAL-RUN-20260724-A94D-CLASSIFY"
+      ],
+      "failure_conditions": [
+        "Evidence cannot be bundled or checked."
+      ],
+      "goal_id": "GOAL-RUN-20260724-A94D-INTEGRITY",
+      "goal_type": "verify_defensibility",
+      "input_references": [],
+      "objective": "Verify evidence integrity, sufficiency, and requirement defensibility.",
+      "parent_goal_id": "GOAL-RUN-20260724-A94D-TOP",
+      "priority": "critical",
+      "run_id": "RUN-20260724-A94D",
+      "schema_version": "1.0.0",
+      "status": "blocked",
+      "success_conditions": [
+        "All applicable deterministic rules are executed.",
+        "Blocking findings and evidence gaps are explicitly disclosed.",
+        "A defensibility state is produced."
+      ]
+    }
+  ],
+  "run_id": "RUN-20260724-A94D",
+  "schema_version": "1.0.0",
+  "top_level_goal_id": "GOAL-RUN-20260724-A94D-TOP"
+}

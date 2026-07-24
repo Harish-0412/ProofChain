@@ -1,0 +1,30 @@
+{
+  "assigned_agent": "claim_intelligence",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T17:13:03.743929Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-A127-INTEGRITY"
+  ],
+  "failure_conditions": [
+    "No claim decision can be produced."
+  ],
+  "goal_id": "GOAL-RUN-20260724-A127-CLAIM",
+  "goal_type": "validate_claim_defensibility",
+  "input_references": [],
+  "objective": "Validate institutional claims at atomic level using supporting and counter-evidence.",
+  "parent_goal_id": "GOAL-RUN-20260724-A127-TOP",
+  "priority": "critical",
+  "run_id": "RUN-20260724-A127",
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "success_conditions": [
+    "Every atomic claim has a validation state and evidence references.",
+    "Contradictions are resolved or explicitly disclosed.",
+    "A defensible claim decision and lineage are produced."
+  ]
+}

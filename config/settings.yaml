@@ -1,0 +1,42 @@
+pipeline:
+  default_academic_year: "2025-2026"
+  allowed_extensions:
+    - ".pdf"
+    - ".xlsx"
+    - ".csv"
+    - ".docx"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+  supported_departments:
+    - CSE
+    - AIML
+    - AIDS
+    - Mechanical
+    - ECE
+    - EEE
+
+confidence_thresholds:
+  auto_accept: 0.90
+  warn: 0.75
+  human_review: 0.50
+
+integrity:
+  severity_penalties:
+    critical: 30
+    high: 15
+    medium: 7
+    low: 2
+  max_score: 100.0
+
+extraction:
+  version: "1.0.0"
+  classifier_version: "1.0.0"
+
+rules:
+  version: "1.0.0"
+  active_rule_sets:
+    - common-v1
+    - event-evidence-v1
+    - academic-year-v1
+    - required-document-v1

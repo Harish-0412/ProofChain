@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+policy_id: least-disclosure-communications
+default_effect: deny
+allowed_channels: [internal_draft]
+external_delivery_enabled: false
+required_fields: [task_id, issue_id, requested_action, due_at]
+forbidden_fields: [raw_credentials, hidden_prompts, unrelated_personal_data]
+approval_required_for: [task_activation, external_delivery, escalation_delivery]

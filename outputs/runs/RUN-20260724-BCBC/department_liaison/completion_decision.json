@@ -1,0 +1,33 @@
+{
+  "agent_name": "department_liaison",
+  "blockers": [],
+  "confidence": 0.85,
+  "created_at": "2026-07-24T17:59:05.035130Z",
+  "decision_id": "DEC-328CADF2FFE3",
+  "explanation": "Prepared 9 governed resolution tasks; unapproved tasks remain paused and original artifacts were not modified.",
+  "final_status": "completed_with_warnings",
+  "goal_id": "GOAL-RUN-20260724-BCBC-LIAISON",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-BCBC",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every canonical issue has a task decision.",
+    "Unapproved work remains paused.",
+    "Communication records use least-disclosure scope."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\resolution_tasks_detailed.json"
+  ],
+  "unresolved_questions": [
+    "TASK-RGAP-0001: Task has no approval event.",
+    "TASK-RGAP-0002: Task has no approval event.",
+    "TASK-RGAP-0003: Task has no approval event.",
+    "TASK-RGAP-0004: Task has no approval event.",
+    "TASK-RGAP-0005: Task has no approval event.",
+    "TASK-RGAP-0006: Task has no approval event.",
+    "TASK-RGAP-0007: Task has no approval event.",
+    "TASK-RGAP-0008: Task has no approval event.",
+    "TASK-RGAP-0009: Task has no approval event."
+  ]
+}

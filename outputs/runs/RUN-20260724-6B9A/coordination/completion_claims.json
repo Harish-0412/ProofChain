@@ -1,0 +1,431 @@
+[
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [],
+    "confidence": 0.9,
+    "created_at": "2026-07-24T17:21:16.384191Z",
+    "decision_id": "DEC-2B561EFD8A36",
+    "explanation": "Registered 15 evidence records with checksums. 1 acquisition warnings remain disclosed.",
+    "final_status": "completed_with_warnings",
+    "goal_id": "GOAL-RUN-20260724-6B9A-COLLECT",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every discoverable supported file is registered or explicitly skipped.",
+      "Every registered file has a checksum and immutable source reference."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\evidence_registry.json"
+    ],
+    "unresolved_questions": [
+      "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+    ]
+  },
+  {
+    "agent_name": "evidence_classification",
+    "blockers": [],
+    "confidence": 0.5,
+    "created_at": "2026-07-24T17:21:17.321813Z",
+    "decision_id": "DEC-E73D93E13669",
+    "explanation": "Processed 15 items, but 3 items remain too ambiguous for an autonomous positive completion claim.",
+    "final_status": "needs_human_review",
+    "goal_id": "GOAL-RUN-20260724-6B9A-CLASSIFY",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every processable item has an extraction state and document type."
+    ],
+    "success_conditions_unmet": [
+      "Every item has a requirement mapping or an explicit unresolved state."
+    ],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\classified_evidence.json"
+    ],
+    "unresolved_questions": [
+      "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00002",
+      "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00006",
+      "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00007"
+    ]
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "blockers": [
+      "SIGN-001: Approval signature is missing",
+      "EVT-COUNT-001: Participant count does not reconcile",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "C5.1.3: Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "C6.3.2: Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "C7.1.1: Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "C1.2.1: Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "C1.2.1: Bundle BUNDLE-CSE-EVT-CSE-005 is missing certificate."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:18.055524Z",
+    "decision_id": "DEC-901B85597B9D",
+    "explanation": "All applicable checks ran and produced a not-yet-defensible decision with 12 disclosed blocking issues.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-INTEGRITY",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "All applicable deterministic rules are executed.",
+      "Blocking findings and evidence gaps are explicitly disclosed.",
+      "A defensibility state is produced."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\integrity_result.json"
+    ],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "blockers": [],
+    "confidence": 0.822,
+    "created_at": "2026-07-24T17:21:18.631015Z",
+    "decision_id": "DEC-69FC8D5C01F2",
+    "explanation": "Validated 1 claims at atomic level; 1 require governed human review.",
+    "final_status": "completed_with_warnings",
+    "goal_id": "GOAL-RUN-20260724-6B9A-CLAIM",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every atomic claim has a validation state and evidence references.",
+      "Contradictions are resolved or explicitly disclosed.",
+      "A defensible claim decision and lineage are produced."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\claim_decisions.json"
+    ],
+    "unresolved_questions": [
+      "CLM-C3.2.1-001"
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "blockers": [],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:19.366213Z",
+    "decision_id": "DEC-ACAC56D21D70",
+    "explanation": "Planned 9 unique gaps with priorities, dependencies, closure evidence, and readiness impact.",
+    "final_status": "completed_with_warnings",
+    "goal_id": "GOAL-RUN-20260724-6B9A-GAP",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every unresolved finding is represented by one normalized gap.",
+      "Every gap has strategies, closure evidence, and dependencies.",
+      "Readiness impact and priority are calculated."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\gap_resolution_portfolio.json"
+    ],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "blockers": [],
+    "confidence": 0.92,
+    "created_at": "2026-07-24T17:21:19.939959Z",
+    "decision_id": "DEC-2FF212348F1D",
+    "explanation": "Produced 9 assignment recommendations; 0 remain formally unresolved. No task was assigned or messaged without human approval.",
+    "final_status": "completed",
+    "goal_id": "GOAL-RUN-20260724-6B9A-OWNERSHIP",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "Every gap has an assignment recommendation or formal unresolved state.",
+      "Permissions, workload, department, and conflicts are checked.",
+      "Human approval requirements and escalation paths are explicit."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\ownership_assignments.json"
+    ],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:20.330533Z",
+    "decision_id": "DEC-136FBEA921CD",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-43BE9CB6A80F",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [
+      "EVD-CSE-2025-2026-00002",
+      "EVD-CSE-2025-2026-00006",
+      "EVD-CSE-2025-2026-00007"
+    ],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:20.565664Z",
+    "decision_id": "DEC-37E017F5E0C2",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-4546F4C3934D",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:20.793227Z",
+    "decision_id": "DEC-7E3BAD66F871",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-F330ECD00B9E",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:21.023124Z",
+    "decision_id": "DEC-8809ED5BCA6E",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-AF25DBCADE9F",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:21.323582Z",
+    "decision_id": "DEC-8A654C2B196D",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-9D535843452B",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_integrity",
+    "blockers": [],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:21.586403Z",
+    "decision_id": "DEC-31DE0DA71181",
+    "explanation": "Supervisor recorded the informational request in the audit trace.",
+    "final_status": "completed",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-234EBA45AE28",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [
+      "EVD-CSE-2025-2026-00003",
+      "EVD-CSE-2025-2026-00008"
+    ],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "accountability_ownership",
+    "blockers": [],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:21.859116Z",
+    "decision_id": "DEC-5C22B4E0F4CD",
+    "explanation": "Supervisor recorded the informational request in the audit trace.",
+    "final_status": "completed",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-E90A84B0735A",
+    "goal_satisfied": true,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "success_conditions_unmet": [],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:22.095874Z",
+    "decision_id": "DEC-1C210FDA3DED",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-6D28E747CE90",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:22.325877Z",
+    "decision_id": "DEC-1A575DA46EB0",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-38FEE9BC0154",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "evidence_collector",
+    "blockers": [
+      "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+    ],
+    "confidence": 1.0,
+    "created_at": "2026-07-24T17:21:22.594522Z",
+    "decision_id": "DEC-B1307F69E4B7",
+    "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-04FF2CA143DB",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "The peer request is assessed against current committed evidence.",
+      "The resolution or remaining blocker is recorded."
+    ],
+    "supporting_artifacts": [],
+    "unresolved_questions": []
+  },
+  {
+    "agent_name": "supervisor",
+    "blockers": [
+      "SIGN-001: Approval signature is missing",
+      "EVT-COUNT-001: Participant count does not reconcile",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "DOC-001: Required evidence document is missing",
+      "C5.1.3: Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "C6.3.2: Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "C7.1.1: Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "C1.2.1: Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "C1.2.1: Bundle BUNDLE-CSE-EVT-CSE-005 is missing certificate."
+    ],
+    "confidence": 0.5,
+    "created_at": "2026-07-24T17:21:22.676826Z",
+    "decision_id": "DEC-9FB93B9FFAF2",
+    "explanation": "Supervisor evaluated 6 agent completion claims, 9 blocked goals, and 0 open peer requests.",
+    "final_status": "blocked",
+    "goal_id": "GOAL-RUN-20260724-6B9A-TOP",
+    "goal_satisfied": false,
+    "run_id": "RUN-20260724-6B9A",
+    "schema_version": "1.0.0",
+    "success_conditions_met": [],
+    "success_conditions_unmet": [
+      "All mandatory evidence types are accounted for.",
+      "Blocking integrity findings are resolved or formally disclosed.",
+      "Every mapped document remains traceable to its source.",
+      "A final defensibility decision is produced."
+    ],
+    "supporting_artifacts": [
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\evidence_registry.json",
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\classified_evidence.json",
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\integrity_result.json",
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\claim_decisions.json",
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\gap_resolution_portfolio.json",
+      "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\ownership_assignments.json"
+    ],
+    "unresolved_questions": [
+      "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md",
+      "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00002",
+      "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00006",
+      "Resolve classification or mapping ambiguity for EVD-CSE-2025-2026-00007",
+      "CLM-C3.2.1-001"
+    ]
+  }
+]

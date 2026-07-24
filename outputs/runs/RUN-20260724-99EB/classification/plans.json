@@ -1,0 +1,108 @@
+[
+  {
+    "agent_name": "evidence_classification",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-99EB-COLLECT"
+    ],
+    "expected_outputs": [
+      "Classified evidence with extraction and mapping confidence.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-99EB-CLASSIFY",
+    "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-7382EA81F6-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-99EB",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect committed evidence identities and choose bounded extraction strategies.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-7382EA81F6-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Classified evidence with extraction and mapping confidence.",
+        "objective": "Extract content, classify document hypotheses, and map evidence to requirements.",
+        "proposed_tool": "extract_classify_and_map_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-7382EA81F6-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Compare confidence, unresolved hypotheses, source references, and escalation needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-7382EA81F6-03"
+      }
+    ]
+  },
+  {
+    "agent_name": "evidence_classification",
+    "assumptions": [
+      "Original evidence remains immutable.",
+      "Committed upstream hashes identify the exact input snapshot."
+    ],
+    "dependencies": [
+      "GOAL-RUN-20260724-99EB-COLLECT"
+    ],
+    "expected_outputs": [
+      "Classified evidence with extraction and mapping confidence.",
+      "completion_decision.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-99EB-CLASSIFY",
+    "plan_id": "PLAN-EVIDENCE_CLASSIFICATION-7382EA81F6-R1",
+    "rationale": "Use an auditable prepare-execute-reflect plan while delegating evidence processing to deterministic services.",
+    "revision": 1,
+    "run_id": "RUN-20260724-99EB",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The agent has enough bounded context to execute.",
+        "expected_observation": "Scope, constraints, and dependencies are explicit.",
+        "objective": "Inspect committed evidence identities and choose bounded extraction strategies.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-7382EA81F6-01"
+      },
+      {
+        "completion_condition": "The deterministic tool returns a validated artifact.",
+        "expected_observation": "Classified evidence with extraction and mapping confidence.",
+        "objective": "Extract content, classify document hypotheses, and map evidence to requirements.",
+        "proposed_tool": "extract_classify_and_map_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-7382EA81F6-02"
+      },
+      {
+        "completion_condition": "A policy-based completion claim can be produced.",
+        "expected_observation": "Success conditions, uncertainty, and blockers are evaluated.",
+        "objective": "Compare confidence, unresolved hypotheses, source references, and escalation needs.",
+        "proposed_tool": null,
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-7382EA81F6-03"
+      }
+    ]
+  }
+]

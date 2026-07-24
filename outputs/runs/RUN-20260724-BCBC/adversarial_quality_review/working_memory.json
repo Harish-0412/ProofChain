@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 7
+  },
+  "goal_id": "GOAL-RUN-20260724-BCBC-QUALITY",
+  "goal_status": "executing",
+  "plan_id": "PLAN-QUALITY-0A859418-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-D472146BA75C",
+    "OBS-D8D3C5D7867B",
+    "OBS-C36DE3B35C5D",
+    "OBS-292D24F266D9",
+    "OBS-ED20AFCDA255"
+  ]
+}

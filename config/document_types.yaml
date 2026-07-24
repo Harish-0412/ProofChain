@@ -1,0 +1,77 @@
+document_types:
+  event_report:
+    keywords:
+      - "Event Report"
+      - "Activity Report"
+      - "Workshop Report"
+      - "Programme Report"
+    filename_patterns:
+      - "_event_report"
+      - "_report"
+      - "EVT-"
+    folder_hints:
+      - "event_reports"
+      - "reports"
+    required_fields:
+      - event_title
+      - event_date
+      - department
+      - reported_participant_count
+
+  attendance_sheet:
+    keywords:
+      - "Attendance"
+      - "Roll Number"
+      - "Student List"
+      - "Participant List"
+    filename_patterns:
+      - "_attendance"
+      - "ATT_"
+    folder_hints:
+      - "attendance_sheets"
+      - "attendance"
+    required_fields:
+      - event_title
+      - department
+      - unique_student_count
+
+  approval_document:
+    keywords:
+      - "Approval Document"
+      - "Approval Letter"
+      - "HoD Approval"
+      - "Principal Approval"
+      - "Approval Status"
+    filename_patterns:
+      - "_approval"
+      - "APR_"
+    folder_hints:
+      - "approval_documents"
+      - "approvals"
+    required_fields:
+      - approval_status
+      - signature_present
+
+  certificate:
+    keywords:
+      - "Certificate of Participation"
+      - "Certificate"
+      - "Awarded to"
+      - "Certify"
+    filename_patterns:
+      - "CERT_"
+      - "_certificate"
+    folder_hints:
+      - "certificates"
+    required_fields:
+      - event_title
+
+  photograph:
+    file_extensions:
+      - ".jpg"
+      - ".jpeg"
+      - ".png"
+    folder_hints:
+      - "photos"
+      - "photographs"
+    required_fields: []

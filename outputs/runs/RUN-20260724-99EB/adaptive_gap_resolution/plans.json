@@ -1,0 +1,140 @@
+[
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-99EB-CLAIM"
+    ],
+    "expected_outputs": [
+      "gap_resolution_portfolio.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-99EB-GAP",
+    "plan_id": "PLAN-GAP-E1B333A2-R1",
+    "rationale": "Turn every disclosed failure into a unique, actionable, measurable plan.",
+    "revision": 1,
+    "run_id": "RUN-20260724-99EB",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "detect_gaps returns typed gap-planning state.",
+        "objective": "Normalize findings and unsupported claim components.",
+        "proposed_tool": "detect_gaps",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-E1B333A2-01"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "analyze_root_causes returns typed gap-planning state.",
+        "objective": "Generate evidence-backed root-cause hypotheses.",
+        "proposed_tool": "analyze_root_causes",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-E1B333A2-02"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "generate_resolution_options returns typed gap-planning state.",
+        "objective": "Create alternative governed strategies.",
+        "proposed_tool": "generate_resolution_options",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-E1B333A2-03"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "simulate_readiness returns typed gap-planning state.",
+        "objective": "Estimate readiness deltas without closing gaps.",
+        "proposed_tool": "simulate_readiness",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-E1B333A2-04"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "prioritize_gaps returns typed gap-planning state.",
+        "objective": "Build the ordered resolution portfolio.",
+        "proposed_tool": "prioritize_gaps",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-E1B333A2-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "adaptive_gap_resolution",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-99EB-CLAIM"
+    ],
+    "expected_outputs": [
+      "gap_resolution_portfolio.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-99EB-GAP",
+    "plan_id": "PLAN-GAP-E1B333A2-R1",
+    "rationale": "Turn every disclosed failure into a unique, actionable, measurable plan.",
+    "revision": 1,
+    "run_id": "RUN-20260724-99EB",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "detect_gaps returns typed gap-planning state.",
+        "objective": "Normalize findings and unsupported claim components.",
+        "proposed_tool": "detect_gaps",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-E1B333A2-01"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "analyze_root_causes returns typed gap-planning state.",
+        "objective": "Generate evidence-backed root-cause hypotheses.",
+        "proposed_tool": "analyze_root_causes",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-E1B333A2-02"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "generate_resolution_options returns typed gap-planning state.",
+        "objective": "Create alternative governed strategies.",
+        "proposed_tool": "generate_resolution_options",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-E1B333A2-03"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "simulate_readiness returns typed gap-planning state.",
+        "objective": "Estimate readiness deltas without closing gaps.",
+        "proposed_tool": "simulate_readiness",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-E1B333A2-04"
+      },
+      {
+        "completion_condition": "The specialist output covers every open gap.",
+        "expected_observation": "prioritize_gaps returns typed gap-planning state.",
+        "objective": "Build the ordered resolution portfolio.",
+        "proposed_tool": "prioritize_gaps",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-E1B333A2-05"
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "completed_at": "2026-07-24T18:34:02.924348Z",
+    "input_sha256": "fec7d1a0bf9848e206e1408fdea00d7fe5699128732bc2a2ef1f7620474ce73f",
+    "output": {
+      "agent_run_id": "AGNT-EVID-3A4C-E27C",
+      "committed_at": "2026-07-24T18:34:02.924348Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\evidence_registry.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "f264d9ecf83b7bffc604c2f87b5f52cbc032142a98401924abba0d4346c8fdbf",
+      "stage_name": "collection"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "collection",
+    "started_at": "2026-07-24T18:34:02.857867Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": null
+  },
+  {
+    "completed_at": "2026-07-24T18:34:03.727124Z",
+    "input_sha256": "2aae981f9058981b58db24898f80c97d02e3da7191d815ee883fcfbd7e7d63f1",
+    "output": {
+      "agent_run_id": "AGNT-EVID-3A4C-8576",
+      "committed_at": "2026-07-24T18:34:03.727124Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\classified_evidence.json",
+      "record_count": 15,
+      "schema_version": "1.0.0",
+      "sha256": "df530240421f7cb55153a67cea17a2cd159659ee467f1dba32496e37a586f582",
+      "stage_name": "classification"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "classification",
+    "started_at": "2026-07-24T18:34:03.294640Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "f264d9ecf83b7bffc604c2f87b5f52cbc032142a98401924abba0d4346c8fdbf"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:04.254000Z",
+    "input_sha256": "1a2ab051be971dc9eb49e7f64c6e272b3feff09d5469d09adbd2e0651d09dfb7",
+    "output": {
+      "agent_run_id": "AGNT-EVID-3A4C-9C2C",
+      "committed_at": "2026-07-24T18:34:04.254000Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\integrity_result.json",
+      "record_count": 14,
+      "schema_version": "1.0.0",
+      "sha256": "2b5b614a2351161aa59c52f4658ee974814b0f8e5fd67b56ac89ea4eb96d719f",
+      "stage_name": "integrity"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T18:34:04.168339Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "df530240421f7cb55153a67cea17a2cd159659ee467f1dba32496e37a586f582"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:04.804212Z",
+    "input_sha256": "2dcfbd927e368410bfaa275324e6c6a6d5298df46f43957c48db51f6055d9969",
+    "output": {
+      "agent_run_id": "AGNT-CLAI-3A4C-4340",
+      "committed_at": "2026-07-24T18:34:04.804212Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\claim_decisions.json",
+      "record_count": 1,
+      "schema_version": "1.0.0",
+      "sha256": "01197cb94042f1b535c87026abe0bd36770bf0fb2eb7fa27a3a2e199406d4c2a",
+      "stage_name": "claim_intelligence"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "claim_intelligence",
+    "started_at": "2026-07-24T18:34:04.801400Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "2b5b614a2351161aa59c52f4658ee974814b0f8e5fd67b56ac89ea4eb96d719f"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:05.302912Z",
+    "input_sha256": "04f38e8eaff8e3b793b12df68b9604b8c033c0621187b5cad88cf96fe9ef4176",
+    "output": {
+      "agent_run_id": "AGNT-ADAP-3A4C-5EDF",
+      "committed_at": "2026-07-24T18:34:05.302912Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\gap_resolution_portfolio.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "5835d8f99e4991388509963cb84b49434e6a65653272319fb1def806214ccd2d",
+      "stage_name": "adaptive_gap_resolution"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "adaptive_gap_resolution",
+    "started_at": "2026-07-24T18:34:05.302085Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "01197cb94042f1b535c87026abe0bd36770bf0fb2eb7fa27a3a2e199406d4c2a"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:05.828506Z",
+    "input_sha256": "92c6c2bc53fe7e3105c4251222aa699f878c4f6a4f9dafef80cd02109b2d2928",
+    "output": {
+      "agent_run_id": "AGNT-ACCO-3A4C-6369",
+      "committed_at": "2026-07-24T18:34:05.828506Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\ownership_assignments.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "e8249fa1a2c58ee96ebb3b83b00697a471eea46b23ac2f6cc60b1a83f9ef5af3",
+      "stage_name": "accountability_ownership"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "accountability_ownership",
+    "started_at": "2026-07-24T18:34:05.827757Z",
+    "status": "completed",
+    "upstream_sha256": "5835d8f99e4991388509963cb84b49434e6a65653272319fb1def806214ccd2d"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:06.400860Z",
+    "input_sha256": "26f109006acb6e18ba33aabed4a9d0ace7c4d7f14b80d3cfc822597e5f7fdac5",
+    "output": {
+      "agent_run_id": "AGNT-DEPA-3A4C-3151",
+      "committed_at": "2026-07-24T18:34:06.400860Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\resolution_tasks_detailed.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "b5896102d2a5984ae82b28d20e771cf1e337b105a0ebeed89166f9789863b32f",
+      "stage_name": "department_liaison"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "department_liaison",
+    "started_at": "2026-07-24T18:34:06.399100Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "e8249fa1a2c58ee96ebb3b83b00697a471eea46b23ac2f6cc60b1a83f9ef5af3"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:07.026952Z",
+    "input_sha256": "1c2bb2f0e1663825563853e76c7b7513078645f7d43f6019ac942478bafe8cdd",
+    "output": {
+      "agent_run_id": "AGNT-CLOS-3A4C-E196",
+      "committed_at": "2026-07-24T18:34:07.026952Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\closure_revalidation_report.json",
+      "record_count": 9,
+      "schema_version": "1.0.0",
+      "sha256": "63ca5a275264bec2875794bf5ec9ff8ee77a471913e9708470f08c1a4e38768c",
+      "stage_name": "closure_revalidation"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "closure_revalidation",
+    "started_at": "2026-07-24T18:34:07.024027Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "b5896102d2a5984ae82b28d20e771cf1e337b105a0ebeed89166f9789863b32f"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:07.692145Z",
+    "input_sha256": "5bf2e560b711aab234bc23165fc88810996d60040fa5ae989d9dabd6e93cd08c",
+    "output": {
+      "agent_run_id": "AGNT-AUDI-3A4C-6F34",
+      "committed_at": "2026-07-24T18:34:07.692145Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\audit_package_manifest.json",
+      "record_count": 14,
+      "schema_version": "1.0.0",
+      "sha256": "788f4129cd2678d5c04ed08e49ee8f3f7ff3f26c65b26fba8427e2a8e5f750a5",
+      "stage_name": "audit_package_composer"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "audit_package_composer",
+    "started_at": "2026-07-24T18:34:07.689499Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "63ca5a275264bec2875794bf5ec9ff8ee77a471913e9708470f08c1a4e38768c"
+  },
+  {
+    "completed_at": "2026-07-24T18:34:08.207350Z",
+    "input_sha256": "d9eef2db83ca51b1060ab71447ef1e0a6aa261de28ac120a495bbaf012664191",
+    "output": {
+      "agent_run_id": "AGNT-ADVE-3A4C-1868",
+      "committed_at": "2026-07-24T18:34:08.207350Z",
+      "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-3A4C\\quality_review_report.json",
+      "record_count": 1,
+      "schema_version": "1.0.0",
+      "sha256": "218bccf31b0534c2f3fe72f93d76dbb0a12ef163c779098442df098455689243",
+      "stage_name": "adversarial_quality_review"
+    },
+    "run_id": "RUN-20260724-3A4C",
+    "stage_name": "adversarial_quality_review",
+    "started_at": "2026-07-24T18:34:08.206896Z",
+    "status": "completed_with_warnings",
+    "upstream_sha256": "788f4129cd2678d5c04ed08e49ee8f3f7ff3f26c65b26fba8427e2a8e5f750a5"
+  }
+]

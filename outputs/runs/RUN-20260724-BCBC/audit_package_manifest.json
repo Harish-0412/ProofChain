@@ -1,0 +1,171 @@
+{
+  "agent_name": "audit_package_composer",
+  "agent_run_id": "AGNT-AUDI-BCBC-7885",
+  "agent_version": "1.0.0",
+  "completed_at": "2026-07-24T17:59:06.269355+00:00",
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 0,
+  "input_count": 15,
+  "input_snapshot_hash": "7e4d1e396824508c3b5f7cd791997f56f8d23b26d0543db6594dc20e7610dcb2",
+  "manifest": {
+    "academic_year": "2025-2026",
+    "claim_ids": [
+      "CLM-C3.2.1-001"
+    ],
+    "departments": [
+      "CSE"
+    ],
+    "eligible_evidence": [
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00001",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "da22a2a354df27eba126f3938db6f9e15de670750204b9cb9395f6bca3e2e80b",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-001_approval.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00002",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "832364160135bb33ba92eafa658deb8a42c2c046b8532fad2a871e95c0eb1b98",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-002_approval.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00003",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "9e300e23a46d51f17da2414ef31043d2e3dabc4f21a85e7dab554c361fdb41ed",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\attendance_sheets\\EVT-CSE-001_attendance.xlsx"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00004",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "c99ea0171f91e26146dc740fee3c6877980b1e858ed949521caceb5a0eccc99a",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-001_Aishwarya_Prasad.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00005",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "14152fa1caa99899ac995a1f4e5186443f96a5bb664c3dd4056d8a1307a6b5bd",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-001_Darshan_Prakash.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00006",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "c18353eb1c7801c102018e477b8ed3d1904224ccbbe337255c96e5cf96ecf5bc",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-002_Aishwarya_Prasad.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00007",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "5752f9121cf73c17af029ee1e1dde2ce6b72b374979cd464f47c7c3d82a81896",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-002_Harini_Subramanian.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00008",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00010",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "99e1efb567bcb54757b4061d1d860ced3278f2159bc2be609a6769198ac4c6a6",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-002_CSE_C5.1.3_event_report.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00011",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "4826cfbddfcd1f11e9773a97a081cbd843286980c2dcc8171649f5325dea2803",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-003_CSE_C6.3.2_event_report.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00012",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "17cba42808ad9a40e78492ddffcc47674920f13fc02dd4648a119733368c1df5",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-004_CSE_C7.1.1_event_report.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00013",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "1c951f2530664d6250c050b415346e79eeb65f9e266159ab4438d6288630abb6",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-005_CSE_C1.2.1_event_report.pdf"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00014",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "e2cd303538dded0e7945f868c38d990b6b99636e92461acbadc949dbb7745506",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-001.png"
+      },
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00015",
+        "included": true,
+        "reason": "current registered evidence",
+        "sha256": "7ab1116a3de7675dc3cb2a4a11c34361c42183e27de8901412ea50d286417984",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-004.png"
+      }
+    ],
+    "excluded_evidence": [
+      {
+        "evidence_id": "EVD-CSE-2025-2026-00009",
+        "included": false,
+        "reason": "duplicate content excluded",
+        "sha256": "1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a",
+        "source_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_duplicate_event_report.pdf"
+      }
+    ],
+    "generated_at": "2026-07-24T17:59:06.233675+00:00",
+    "package_hash": "6f76d6b145d39337ae5ae28e55e99a1d66d5979ddbf633a481e23b64b5542f61",
+    "package_id": "PKG-RUN-20260724-BCBC",
+    "package_lineage": {
+      "CLM-C3.2.1-001": [
+        "EVD-CSE-2025-2026-00001",
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00004",
+        "EVD-CSE-2025-2026-00005",
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00009",
+        "EVD-CSE-2025-2026-00014"
+      ]
+    },
+    "requirement_ids": [
+      "C3.2.1",
+      "C5.1.3",
+      "C6.3.2",
+      "C7.1.1",
+      "C1.2.1"
+    ],
+    "run_id": "RUN-20260724-BCBC",
+    "status": "DRAFT_READY_FOR_QUALITY_REVIEW",
+    "unresolved_warning_issue_ids": [
+      "ISS-0001",
+      "ISS-0002",
+      "ISS-0003",
+      "ISS-0004",
+      "ISS-0005",
+      "ISS-0006",
+      "ISS-0007",
+      "ISS-0008",
+      "ISS-0009"
+    ]
+  },
+  "run_id": "RUN-20260724-BCBC",
+  "started_at": "2026-07-24T17:59:06.267498+00:00",
+  "status": "completed_with_warnings",
+  "success_count": 14,
+  "warning_count": 1,
+  "warnings": [
+    "Package contains unresolved warning disclosures."
+  ]
+}

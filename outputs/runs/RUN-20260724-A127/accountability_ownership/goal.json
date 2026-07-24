@@ -1,0 +1,30 @@
+{
+  "assigned_agent": "accountability_ownership",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T17:13:03.743958Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-A127-GAP"
+  ],
+  "failure_conditions": [
+    "A task is assigned without authorization or independent approval."
+  ],
+  "goal_id": "GOAL-RUN-20260724-A127-OWNERSHIP",
+  "goal_type": "resolve_evidence_ownership",
+  "input_references": [],
+  "objective": "Recommend authorized primary, backup, approval, and escalation responsibility for every resolution gap.",
+  "parent_goal_id": "GOAL-RUN-20260724-A127-TOP",
+  "priority": "high",
+  "run_id": "RUN-20260724-A127",
+  "schema_version": "1.0.0",
+  "status": "planning",
+  "success_conditions": [
+    "Every gap has an assignment recommendation or formal unresolved state.",
+    "Permissions, workload, department, and conflicts are checked.",
+    "Human approval requirements and escalation paths are explicit."
+  ]
+}

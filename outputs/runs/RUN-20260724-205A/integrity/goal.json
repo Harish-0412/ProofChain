@@ -1,0 +1,30 @@
+{
+  "assigned_agent": "evidence_integrity",
+  "constraints": [
+    "Do not modify original evidence files.",
+    "Maximum supervisor rounds: 12.",
+    "Maximum replans per agent: 3."
+  ],
+  "created_at": "2026-07-24T16:51:09.736038Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-205A-CLASSIFY"
+  ],
+  "failure_conditions": [
+    "Evidence cannot be bundled or checked."
+  ],
+  "goal_id": "GOAL-RUN-20260724-205A-INTEGRITY",
+  "goal_type": "verify_defensibility",
+  "input_references": [],
+  "objective": "Verify evidence integrity, sufficiency, and requirement defensibility.",
+  "parent_goal_id": "GOAL-RUN-20260724-205A-TOP",
+  "priority": "critical",
+  "run_id": "RUN-20260724-205A",
+  "schema_version": "1.0.0",
+  "status": "blocked",
+  "success_conditions": [
+    "All applicable deterministic rules are executed.",
+    "Blocking findings and evidence gaps are explicitly disclosed.",
+    "A defensibility state is produced."
+  ]
+}

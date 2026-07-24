@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 5
+  },
+  "goal_id": "GOAL-RUN-20260724-BCBC-CLAIM",
+  "goal_status": "executing",
+  "plan_id": "PLAN-CLAIM-139EDC57-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-A5F098F47C0E",
+    "OBS-D93F8E0B9049",
+    "OBS-EF55B628328E",
+    "OBS-D3A0EAFC87EB",
+    "OBS-B1F1F27B316C"
+  ]
+}

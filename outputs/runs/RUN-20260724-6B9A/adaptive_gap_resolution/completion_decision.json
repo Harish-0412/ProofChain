@@ -1,0 +1,23 @@
+{
+  "agent_name": "adaptive_gap_resolution",
+  "blockers": [],
+  "confidence": 1.0,
+  "created_at": "2026-07-24T17:21:19.366213Z",
+  "decision_id": "DEC-ACAC56D21D70",
+  "explanation": "Planned 9 unique gaps with priorities, dependencies, closure evidence, and readiness impact.",
+  "final_status": "completed_with_warnings",
+  "goal_id": "GOAL-RUN-20260724-6B9A-GAP",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-6B9A",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "Every unresolved finding is represented by one normalized gap.",
+    "Every gap has strategies, closure evidence, and dependencies.",
+    "Readiness impact and priority are calculated."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-6B9A\\gap_resolution_portfolio.json"
+  ],
+  "unresolved_questions": []
+}

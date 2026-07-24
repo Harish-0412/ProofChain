@@ -1,0 +1,3972 @@
+[
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-001_approval.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.605212Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "approval_document",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Approval Document, Approval Status."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00001",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "approval_status": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "approval_status",
+        "normalized_value": "Approved",
+        "page_number": 1,
+        "raw_value": "Approved",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-09-11",
+        "page_number": 1,
+        "raw_value": "2025-09-11",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": null,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Agentic AI Industry Workshop",
+        "page_number": 1,
+        "raw_value": "Agentic AI Industry Workshop",
+        "sheet_name": null
+      },
+      "signature_present": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "signature_present",
+        "normalized_value": "No",
+        "page_number": 1,
+        "raw_value": "No",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00001",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Approval Document - Agentic AI Industry Workshop\nField Value\nApproval ID APR-EVT-CSE-001\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nApproved By Head of Department\nApproval Status Ap"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Approval ID",
+              "APR-EVT-CSE-001"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Agentic AI Industry Workshop"
+            ],
+            [
+              "Event Date",
+              "2025-09-11"
+            ],
+            [
+              "Approved By",
+              "Head of Department"
+            ],
+            [
+              "Approval Status",
+              "Approved"
+            ],
+            [
+              "Signature Present",
+              "No"
+            ],
+            [
+              "Approver Name",
+              "CSE HoD"
+            ]
+          ]
+        }
+      ],
+      "text": "Approval Document - Agentic AI Industry Workshop\nField Value\nApproval ID APR-EVT-CSE-001\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nApproved By Head of Department\nApproval Status Approved\nSignature Present No\nApprover Name CSE HoD\nSignature block: Signature field intentionally left blank.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "APR_EVT-CSE-001_approval.pdf",
+    "overall_confidence": 0.92,
+    "processing_status": "completed_with_warnings",
+    "relative_path": "sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-001_approval.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.78,
+        "confidence_level": "medium",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: industry, workshop.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00001",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Approval Document - Agentic AI Industry Workshop\nField Value\nApproval ID APR-EVT-CSE-001\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nApproved "
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "da22a2a354df27eba126f3938db6f9e15de670750204b9cb9395f6bca3e2e80b",
+    "version_id": "VER-00001-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-002_approval.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.630668Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "approval_document",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Approval Document, Approval Status."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00002",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "approval_status": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "approval_status",
+        "normalized_value": "Approved",
+        "page_number": 1,
+        "raw_value": "Approved",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-10-12",
+        "page_number": 1,
+        "raw_value": "2025-10-12",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-002",
+        "page_number": null,
+        "raw_value": "EVT-CSE-002",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Cloud Native Application Bootcamp",
+        "page_number": 1,
+        "raw_value": "Cloud Native Application Bootcamp",
+        "sheet_name": null
+      },
+      "signature_present": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "signature_present",
+        "normalized_value": "Yes",
+        "page_number": 1,
+        "raw_value": "Yes",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00002",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Approval Document - Cloud Native Application Bootcamp\nField Value\nApproval ID APR-EVT-CSE-002\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nApproved By Head of Department\nApproval"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Approval ID",
+              "APR-EVT-CSE-002"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Cloud Native Application Bootcamp"
+            ],
+            [
+              "Event Date",
+              "2025-10-12"
+            ],
+            [
+              "Approved By",
+              "Head of Department"
+            ],
+            [
+              "Approval Status",
+              "Approved"
+            ],
+            [
+              "Signature Present",
+              "Yes"
+            ],
+            [
+              "Approver Name",
+              "CSE HoD"
+            ]
+          ]
+        }
+      ],
+      "text": "Approval Document - Cloud Native Application Bootcamp\nField Value\nApproval ID APR-EVT-CSE-002\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nApproved By Head of Department\nApproval Status Approved\nSignature Present Yes\nApprover Name CSE HoD\nSignature block: Signed and sealed by HoD.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "APR_EVT-CSE-002_approval.pdf",
+    "overall_confidence": 0.9033,
+    "processing_status": "requires_human_review",
+    "relative_path": "sample_data\\departments\\CSE\\approval_documents\\APR_EVT-CSE-002_approval.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.7300000000000001,
+        "confidence_level": "low",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: bootcamp.",
+        "requirement_id": "C5.1.3",
+        "requires_human_review": true,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00002",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Approval Document - Cloud Native Application Bootcamp\nField Value\nApproval ID APR-EVT-CSE-002\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": true,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "832364160135bb33ba92eafa658deb8a42c2c046b8532fad2a871e95c0eb1b98",
+    "version_id": "VER-00002-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\attendance_sheets\\EVT-CSE-001_attendance.xlsx",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.671725Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "structure_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "attendance_sheet",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Spreadsheet structure matched attendance data."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00003",
+    "extracted_fields": {
+      "attendance_rows": {
+        "cell_range": null,
+        "confidence": 0.99,
+        "confidence_level": "high",
+        "extraction_method": "row_count",
+        "field_name": "attendance_rows",
+        "normalized_value": 110,
+        "page_number": null,
+        "raw_value": "110",
+        "sheet_name": "Attendance"
+      },
+      "department": {
+        "cell_range": "Department:Department",
+        "confidence": 0.98,
+        "confidence_level": "high",
+        "extraction_method": "spreadsheet_column",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": null,
+        "raw_value": "CSE",
+        "sheet_name": "Attendance"
+      },
+      "duplicate_roll_numbers": {
+        "cell_range": null,
+        "confidence": 0.99,
+        "confidence_level": "high",
+        "extraction_method": "duplicate_scan",
+        "field_name": "duplicate_roll_numbers",
+        "normalized_value": "CSE25005,CSE25008",
+        "page_number": null,
+        "raw_value": "CSE25005,CSE25008",
+        "sheet_name": "Attendance"
+      },
+      "event_id": {
+        "cell_range": "Event ID:Event ID",
+        "confidence": 0.98,
+        "confidence_level": "high",
+        "extraction_method": "spreadsheet_column",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": null,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": "Attendance"
+      },
+      "event_title": {
+        "cell_range": "Event Title:Event Title",
+        "confidence": 0.98,
+        "confidence_level": "high",
+        "extraction_method": "spreadsheet_column",
+        "field_name": "event_title",
+        "normalized_value": "Agentic AI Industry Workshop",
+        "page_number": null,
+        "raw_value": "Agentic AI Industry Workshop",
+        "sheet_name": "Attendance"
+      },
+      "unique_student_count": {
+        "cell_range": null,
+        "confidence": 0.99,
+        "confidence_level": "high",
+        "extraction_method": "distinct_count",
+        "field_name": "unique_student_count",
+        "normalized_value": 108,
+        "page_number": null,
+        "raw_value": "108",
+        "sheet_name": "Attendance"
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.99,
+      "extraction_status": "success",
+      "extractor_used": "openpyxl",
+      "page_count": null,
+      "page_references": [
+        {
+          "cell_range": "A1:H113",
+          "document": "EVD-CSE-2025-2026-00003",
+          "page_number": null,
+          "sheet_name": "Attendance",
+          "text_snippet": null
+        }
+      ],
+      "sheet_names": [
+        "Attendance"
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001",
+              "CSE Attendance Sheet - EVT-CSE-001"
+            ],
+            [],
+            [
+              "S.No",
+              "Roll Number",
+              "Student Name",
+              "Department",
+              "Event ID",
+              "Event Title",
+              "Attendance Status",
+              "Signature"
+            ],
+            [
+              "1",
+              "CSE25001",
+              "Arjun Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "2",
+              "CSE25002",
+              "Kishore Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Raman"
+            ],
+            [
+              "3",
+              "CSE25003",
+              "Aishwarya Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "4",
+              "CSE25004",
+              "Charvi Natarajan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "C. Natarajan"
+            ],
+            [
+              "5",
+              "CSE25005",
+              "Rithika Anand",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Anand"
+            ],
+            [
+              "6",
+              "CSE25006",
+              "Vikram Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "V. Raman"
+            ],
+            [
+              "7",
+              "CSE25007",
+              "Ishaan Raghavan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "I. Raghavan"
+            ],
+            [
+              "8",
+              "CSE25008",
+              "Rithika Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Raman"
+            ],
+            [
+              "9",
+              "CSE25009",
+              "Meghana Rajendran",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Rajendran"
+            ],
+            [
+              "10",
+              "CSE25010",
+              "Akshay Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "11",
+              "CSE25011",
+              "Madhav Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Raman"
+            ],
+            [
+              "12",
+              "CSE25012",
+              "Diya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Raman"
+            ],
+            [
+              "13",
+              "CSE25013",
+              "Sai Charan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Charan"
+            ],
+            [
+              "14",
+              "CSE25014",
+              "Aadhya Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "15",
+              "CSE25015",
+              "Rohan Subbu",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Subbu"
+            ],
+            [
+              "16",
+              "CSE25016",
+              "Bharath Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "B. Raman"
+            ],
+            [
+              "17",
+              "CSE25017",
+              "Nandhini Venkataraman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Venkataraman"
+            ],
+            [
+              "18",
+              "CSE25018",
+              "Charvi Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "C. Suresh"
+            ],
+            [
+              "19",
+              "CSE25019",
+              "Gautham Menon",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "G. Menon"
+            ],
+            [
+              "20",
+              "CSE25020",
+              "Shruthi Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "21",
+              "CSE25021",
+              "Harini Subramanian",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "H. Subramanian"
+            ],
+            [
+              "22",
+              "CSE25022",
+              "Pavithra Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "P. Raman"
+            ],
+            [
+              "23",
+              "CSE25023",
+              "Madhav Seshadri",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Seshadri"
+            ],
+            [
+              "24",
+              "CSE25024",
+              "Harini Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "H. Raman"
+            ],
+            [
+              "25",
+              "CSE25025",
+              "Aishwarya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "26",
+              "CSE25026",
+              "Yamini Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "Y. Raman"
+            ],
+            [
+              "27",
+              "CSE25027",
+              "Raghav Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Raman"
+            ],
+            [
+              "28",
+              "CSE25028",
+              "Raghavendra Mani",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Mani"
+            ],
+            [
+              "29",
+              "CSE25029",
+              "Tejas Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "T. Raman"
+            ],
+            [
+              "30",
+              "CSE25030",
+              "Abhinav Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "31",
+              "CSE25031",
+              "Abhinav Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "32",
+              "CSE25032",
+              "Lavanya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "L. Raman"
+            ],
+            [
+              "33",
+              "CSE25033",
+              "Gautham Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "G. Raman"
+            ],
+            [
+              "34",
+              "CSE25034",
+              "Sanjay Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "35",
+              "CSE25035",
+              "Akshay Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "36",
+              "CSE25036",
+              "Ananya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "37",
+              "CSE25037",
+              "Sandhya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "38",
+              "CSE25038",
+              "Sreeja Balasubramaniam",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Balasubramaniam"
+            ],
+            [
+              "39",
+              "CSE25039",
+              "Lakshmi Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "L. Raman"
+            ],
+            [
+              "40",
+              "CSE25040",
+              "Sahana Vivek",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Vivek"
+            ],
+            [
+              "41",
+              "CSE25041",
+              "Ashwin Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "42",
+              "CSE25042",
+              "Ashwin Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "43",
+              "CSE25043",
+              "Keerthana Ravi",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Ravi"
+            ],
+            [
+              "44",
+              "CSE25044",
+              "Darshan Prakash",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Prakash"
+            ],
+            [
+              "45",
+              "CSE25045",
+              "Nithya Shankar",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Shankar"
+            ],
+            [
+              "46",
+              "CSE25046",
+              "Aishwarya Prasad",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Prasad"
+            ],
+            [
+              "47",
+              "CSE25047",
+              "Janani Gopal",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "J. Gopal"
+            ],
+            [
+              "48",
+              "CSE25048",
+              "Tarun Elango",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "T. Elango"
+            ],
+            [
+              "49",
+              "CSE25049",
+              "Advik Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "50",
+              "CSE25050",
+              "Yashika Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "Y. Raman"
+            ],
+            [
+              "51",
+              "CSE25051",
+              "Shruthi Ganesan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Ganesan"
+            ],
+            [
+              "52",
+              "CSE25052",
+              "Nithya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Raman"
+            ],
+            [
+              "53",
+              "CSE25053",
+              "Tejas Nandakumar",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "T. Nandakumar"
+            ],
+            [
+              "54",
+              "CSE25054",
+              "Karthik Narayan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Narayan"
+            ],
+            [
+              "55",
+              "CSE25055",
+              "Diya Chandran",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Chandran"
+            ],
+            [
+              "56",
+              "CSE25056",
+              "Advik Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "57",
+              "CSE25057",
+              "Ishaan Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "I. Raman"
+            ],
+            [
+              "58",
+              "CSE25058",
+              "Kavin Senthil",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Senthil"
+            ],
+            [
+              "59",
+              "CSE25059",
+              "Rakesh Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Raman"
+            ],
+            [
+              "60",
+              "CSE25060",
+              "Sneha Vaidyanathan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Vaidyanathan"
+            ],
+            [
+              "61",
+              "CSE25061",
+              "Mithun Ramesh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Ramesh"
+            ],
+            [
+              "62",
+              "CSE25062",
+              "Janani Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "J. Raman"
+            ],
+            [
+              "63",
+              "CSE25063",
+              "Rohan Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Raman"
+            ],
+            [
+              "64",
+              "CSE25064",
+              "Rahul Vishwanath",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Vishwanath"
+            ],
+            [
+              "65",
+              "CSE25065",
+              "Varsha Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "V. Raman"
+            ],
+            [
+              "66",
+              "CSE25066",
+              "Lakshmi Varun",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "L. Varun"
+            ],
+            [
+              "67",
+              "CSE25067",
+              "Naveen Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Raman"
+            ],
+            [
+              "68",
+              "CSE25068",
+              "Nandhini Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Raman"
+            ],
+            [
+              "69",
+              "CSE25069",
+              "Keerthana Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Raman"
+            ],
+            [
+              "70",
+              "CSE25070",
+              "Deepika Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Raman"
+            ],
+            [
+              "71",
+              "CSE25071",
+              "Aadhya Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "72",
+              "CSE25072",
+              "Sneha Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "73",
+              "CSE25073",
+              "Tarun Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "T. Raman"
+            ],
+            [
+              "74",
+              "CSE25074",
+              "Pranav Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "P. Raman"
+            ],
+            [
+              "75",
+              "CSE25075",
+              "Nila Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Raman"
+            ],
+            [
+              "76",
+              "CSE25076",
+              "Karthik Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Raman"
+            ],
+            [
+              "77",
+              "CSE25077",
+              "Advik Rajan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Rajan"
+            ],
+            [
+              "78",
+              "CSE25078",
+              "Arjun Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Raman"
+            ],
+            [
+              "79",
+              "CSE25079",
+              "Darshan Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Suresh"
+            ],
+            [
+              "80",
+              "CSE25080",
+              "Yamini Sekhar",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "Y. Sekhar"
+            ],
+            [
+              "81",
+              "CSE25081",
+              "Sahana Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "82",
+              "CSE25082",
+              "Siddharth Mohan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Mohan"
+            ],
+            [
+              "83",
+              "CSE25083",
+              "Ananya Murali",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Murali"
+            ],
+            [
+              "84",
+              "CSE25084",
+              "Bharath Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "B. Suresh"
+            ],
+            [
+              "85",
+              "CSE25085",
+              "Mithun Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Raman"
+            ],
+            [
+              "86",
+              "CSE25086",
+              "Ananya Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Suresh"
+            ],
+            [
+              "87",
+              "CSE25087",
+              "Deepika Iyer",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Iyer"
+            ],
+            [
+              "88",
+              "CSE25088",
+              "Akshay Venkatesh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Venkatesh"
+            ],
+            [
+              "89",
+              "CSE25089",
+              "Arjun Balaji",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Balaji"
+            ],
+            [
+              "90",
+              "CSE25090",
+              "Siddharth Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "91",
+              "CSE25091",
+              "Meghana Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Raman"
+            ],
+            [
+              "92",
+              "CSE25092",
+              "Kavin Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "K. Raman"
+            ],
+            [
+              "93",
+              "CSE25093",
+              "Vignesh Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "V. Raman"
+            ],
+            [
+              "94",
+              "CSE25094",
+              "Ashwin Kumar",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "A. Kumar"
+            ],
+            [
+              "95",
+              "CSE25095",
+              "Manoj Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "M. Raman"
+            ],
+            [
+              "96",
+              "CSE25096",
+              "Naveen Hariharan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Hariharan"
+            ],
+            [
+              "97",
+              "CSE25097",
+              "Sreeja Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "98",
+              "CSE25098",
+              "Pranav Karthikeyan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "P. Karthikeyan"
+            ],
+            [
+              "99",
+              "CSE25099",
+              "Vignesh Aravind",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "V. Aravind"
+            ],
+            [
+              "100",
+              "CSE25100",
+              "Rahul Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Raman"
+            ],
+            [
+              "101",
+              "CSE25101",
+              "Deepika Suresh",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Suresh"
+            ],
+            [
+              "102",
+              "CSE25102",
+              "Bharath Kannan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "B. Kannan"
+            ],
+            [
+              "103",
+              "CSE25103",
+              "Sai Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Raman"
+            ],
+            [
+              "104",
+              "CSE25104",
+              "Varsha Sriram",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "V. Sriram"
+            ],
+            [
+              "105",
+              "CSE25105",
+              "Darshan Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "D. Raman"
+            ],
+            [
+              "106",
+              "CSE25106",
+              "Sanjay Narasimhan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "S. Narasimhan"
+            ],
+            [
+              "107",
+              "CSE25107",
+              "Nila Krishnan",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "N. Krishnan"
+            ],
+            [
+              "108",
+              "CSE25108",
+              "Charvi Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "C. Raman"
+            ],
+            [
+              "5",
+              "CSE25005",
+              "Rithika Anand",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Anand"
+            ],
+            [
+              "8",
+              "CSE25008",
+              "Rithika Raman",
+              "CSE",
+              "EVT-CSE-001",
+              "Agentic AI Industry Workshop",
+              "Present",
+              "R. Raman"
+            ]
+          ],
+          "sheet_name": "Attendance"
+        }
+      ],
+      "text": null,
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-001_attendance.xlsx",
+    "overall_confidence": 0.9633,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\attendance_sheets\\EVT-CSE-001_attendance.xlsx",
+    "requirement_mappings": [
+      {
+        "confidence": 0.9,
+        "confidence_level": "high",
+        "mapping_type": "extracted_field",
+        "reason": "Inherited from unanimous same-department event ID consensus.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00003",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "EVT-CSE-001"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "9e300e23a46d51f17da2414ef31043d2e3dabc4f21a85e7dab554c361fdb41ed",
+    "version_id": "VER-00003-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-001_Aishwarya_Prasad.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.705331Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "certificate",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Certificate of Participation, Certificate."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        },
+        {
+          "confidence": 0.35,
+          "document_type": "attendance_sheet",
+          "reason": "Spreadsheet structure matched attendance data."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00004",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-09-11",
+        "page_number": 1,
+        "raw_value": "2025-09-11",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": null,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Agentic AI Industry Workshop",
+        "page_number": 1,
+        "raw_value": "Agentic AI Industry Workshop",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00004",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-001-AISHWARYA\nStudent Name Aishwarya Prasad\nDepartment CSE\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nAcademic Year 2025-2026\nIssued By Dr. Kavya Srini"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Certificate ID",
+              "CERT-EVT-CSE-001-AISHWARYA"
+            ],
+            [
+              "Student Name",
+              "Aishwarya Prasad"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Event Title",
+              "Agentic AI Industry Workshop"
+            ],
+            [
+              "Event Date",
+              "2025-09-11"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Issued By",
+              "Dr. Kavya Srinivasan"
+            ]
+          ]
+        }
+      ],
+      "text": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-001-AISHWARYA\nStudent Name Aishwarya Prasad\nDepartment CSE\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nAcademic Year 2025-2026\nIssued By Dr. Kavya Srinivasan\nThis certificate is generated as synthetic sample evidence.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "CERT_EVT-CSE-001_Aishwarya_Prasad.pdf",
+    "overall_confidence": 0.92,
+    "processing_status": "completed_with_warnings",
+    "relative_path": "sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-001_Aishwarya_Prasad.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.78,
+        "confidence_level": "medium",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: industry, workshop.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00004",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-001-AISHWARYA\nStudent Name Aishwarya Prasad\nDepartment CSE\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nAcademic "
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "c99ea0171f91e26146dc740fee3c6877980b1e858ed949521caceb5a0eccc99a",
+    "version_id": "VER-00004-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-001_Darshan_Prakash.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.734684Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "certificate",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Certificate of Participation, Certificate."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        },
+        {
+          "confidence": 0.35,
+          "document_type": "attendance_sheet",
+          "reason": "Spreadsheet structure matched attendance data."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00005",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-09-11",
+        "page_number": 1,
+        "raw_value": "2025-09-11",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": null,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Agentic AI Industry Workshop",
+        "page_number": 1,
+        "raw_value": "Agentic AI Industry Workshop",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00005",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-001-DARSHAN\nStudent Name Darshan Prakash\nDepartment CSE\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nAcademic Year 2025-2026\nIssued By Dr. Kavya Srinivas"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Certificate ID",
+              "CERT-EVT-CSE-001-DARSHAN"
+            ],
+            [
+              "Student Name",
+              "Darshan Prakash"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Event Title",
+              "Agentic AI Industry Workshop"
+            ],
+            [
+              "Event Date",
+              "2025-09-11"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Issued By",
+              "Dr. Kavya Srinivasan"
+            ]
+          ]
+        }
+      ],
+      "text": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-001-DARSHAN\nStudent Name Darshan Prakash\nDepartment CSE\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nAcademic Year 2025-2026\nIssued By Dr. Kavya Srinivasan\nThis certificate is generated as synthetic sample evidence.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "CERT_EVT-CSE-001_Darshan_Prakash.pdf",
+    "overall_confidence": 0.92,
+    "processing_status": "completed_with_warnings",
+    "relative_path": "sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-001_Darshan_Prakash.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.78,
+        "confidence_level": "medium",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: industry, workshop.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00005",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-001-DARSHAN\nStudent Name Darshan Prakash\nDepartment CSE\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nAcademic Yea"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "14152fa1caa99899ac995a1f4e5186443f96a5bb664c3dd4056d8a1307a6b5bd",
+    "version_id": "VER-00005-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-002_Aishwarya_Prasad.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.763655Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "certificate",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Certificate of Participation, Certificate."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        },
+        {
+          "confidence": 0.35,
+          "document_type": "attendance_sheet",
+          "reason": "Spreadsheet structure matched attendance data."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00006",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-10-12",
+        "page_number": 1,
+        "raw_value": "2025-10-12",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-002",
+        "page_number": null,
+        "raw_value": "EVT-CSE-002",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Cloud Native Application Bootcamp",
+        "page_number": 1,
+        "raw_value": "Cloud Native Application Bootcamp",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00006",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-002-AISHWARYA\nStudent Name Aishwarya Prasad\nDepartment CSE\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nAcademic Year 2025-2026\nIssued By Dr. Kavya "
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Certificate ID",
+              "CERT-EVT-CSE-002-AISHWARYA"
+            ],
+            [
+              "Student Name",
+              "Aishwarya Prasad"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Event Title",
+              "Cloud Native Application Bootcamp"
+            ],
+            [
+              "Event Date",
+              "2025-10-12"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Issued By",
+              "Dr. Kavya Srinivasan"
+            ]
+          ]
+        }
+      ],
+      "text": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-002-AISHWARYA\nStudent Name Aishwarya Prasad\nDepartment CSE\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nAcademic Year 2025-2026\nIssued By Dr. Kavya Srinivasan\nThis certificate is generated as synthetic sample evidence.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "CERT_EVT-CSE-002_Aishwarya_Prasad.pdf",
+    "overall_confidence": 0.9033,
+    "processing_status": "requires_human_review",
+    "relative_path": "sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-002_Aishwarya_Prasad.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.7300000000000001,
+        "confidence_level": "low",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: bootcamp.",
+        "requirement_id": "C5.1.3",
+        "requires_human_review": true,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00006",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-002-AISHWARYA\nStudent Name Aishwarya Prasad\nDepartment CSE\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nAcad"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": true,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "c18353eb1c7801c102018e477b8ed3d1904224ccbbe337255c96e5cf96ecf5bc",
+    "version_id": "VER-00006-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-002_Harini_Subramanian.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.789419Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "certificate",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Certificate of Participation, Certificate."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        },
+        {
+          "confidence": 0.35,
+          "document_type": "attendance_sheet",
+          "reason": "Spreadsheet structure matched attendance data."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00007",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-10-12",
+        "page_number": 1,
+        "raw_value": "2025-10-12",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-002",
+        "page_number": null,
+        "raw_value": "EVT-CSE-002",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Cloud Native Application Bootcamp",
+        "page_number": 1,
+        "raw_value": "Cloud Native Application Bootcamp",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00007",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-002-HARINI\nStudent Name Harini Subramanian\nDepartment CSE\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nAcademic Year 2025-2026\nIssued By Dr. Kavya S"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Certificate ID",
+              "CERT-EVT-CSE-002-HARINI"
+            ],
+            [
+              "Student Name",
+              "Harini Subramanian"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Event Title",
+              "Cloud Native Application Bootcamp"
+            ],
+            [
+              "Event Date",
+              "2025-10-12"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Issued By",
+              "Dr. Kavya Srinivasan"
+            ]
+          ]
+        }
+      ],
+      "text": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-002-HARINI\nStudent Name Harini Subramanian\nDepartment CSE\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nAcademic Year 2025-2026\nIssued By Dr. Kavya Srinivasan\nThis certificate is generated as synthetic sample evidence.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "CERT_EVT-CSE-002_Harini_Subramanian.pdf",
+    "overall_confidence": 0.9033,
+    "processing_status": "requires_human_review",
+    "relative_path": "sample_data\\departments\\CSE\\certificates\\CERT_EVT-CSE-002_Harini_Subramanian.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.7300000000000001,
+        "confidence_level": "low",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: bootcamp.",
+        "requirement_id": "C5.1.3",
+        "requires_human_review": true,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00007",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Certificate of Participation\nField Value\nCertificate ID CERT-EVT-CSE-002-HARINI\nStudent Name Harini Subramanian\nDepartment CSE\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nAcade"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": true,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "5752f9121cf73c17af029ee1e1dde2ce6b72b374979cd464f47c7c3d82a81896",
+    "version_id": "VER-00007-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.835868Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "event_report",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Event Report."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.12,
+          "document_type": "attendance_sheet",
+          "reason": "Content keywords matched: Attendance."
+        },
+        {
+          "confidence": 0.12,
+          "document_type": "certificate",
+          "reason": "Content keywords matched: Certificate."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": "EVD-CSE-2025-2026-00009",
+    "evidence_id": "EVD-CSE-2025-2026-00008",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "coordinator": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "coordinator",
+        "normalized_value": "Dr. Kavya Srinivasan",
+        "page_number": 1,
+        "raw_value": "Dr. Kavya Srinivasan",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-09-11",
+        "page_number": 1,
+        "raw_value": "2025-09-11",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": 1,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Agentic AI Industry Workshop",
+        "page_number": 1,
+        "raw_value": "Agentic AI Industry Workshop",
+        "sheet_name": null
+      },
+      "mapped_requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "mapped_requirement_id",
+        "normalized_value": "C3.2.1 - Industry interaction activities",
+        "page_number": 1,
+        "raw_value": "C3.2.1 - Industry interaction activities",
+        "sheet_name": null
+      },
+      "reported_participant_count": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "reported_participant_count",
+        "normalized_value": 120,
+        "page_number": 1,
+        "raw_value": "120",
+        "sheet_name": null
+      },
+      "requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "requirement_id",
+        "normalized_value": "C3.2.1 - Industry interaction activities",
+        "page_number": 1,
+        "raw_value": "C3.2.1 - Industry interaction activities",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00008",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Event Report - Agentic AI Industry Workshop\nField Value\nEvent ID EVT-CSE-001\nAccreditation Requirement C3.2.1 - Industry interaction activities\nMapped Requirement C3.2.1 - Industry interaction activities\nDepartment CSE\nAcademic Year 2025-20"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Event ID",
+              "EVT-CSE-001"
+            ],
+            [
+              "Accreditation Requirement",
+              "C3.2.1 - Industry interaction activities"
+            ],
+            [
+              "Mapped Requirement",
+              "C3.2.1 - Industry interaction activities"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Agentic AI Industry Workshop"
+            ],
+            [
+              "Event Date",
+              "2025-09-11"
+            ],
+            [
+              "Coordinator",
+              "Dr. Kavya Srinivasan"
+            ],
+            [
+              "Reported Participant Count",
+              "120"
+            ],
+            [
+              "Venue",
+              "Seminar Hall B, Main Academic Block"
+            ],
+            [
+              "Industry / Partner",
+              "Chennai Tech Leaders Forum"
+            ]
+          ]
+        }
+      ],
+      "text": "Event Report - Agentic AI Industry Workshop\nField Value\nEvent ID EVT-CSE-001\nAccreditation Requirement C3.2.1 - Industry interaction activities\nMapped Requirement C3.2.1 - Industry interaction activities\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nCoordinator Dr. Kavya Srinivasan\nReported Participant Count 120\nVenue Seminar Hall B, Main Academic Block\nIndustry / Partner Chennai Tech Leaders Forum\nSummary: The session included expert talks, hands-on exercises, and a feedback round. Participants signed the\nattendance sheet before receiving completion certificates.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-001_CSE_C3.2.1_event_report.pdf",
+    "overall_confidence": 0.98,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "mapping_type": "filename",
+        "reason": "Requirement ID matched the filename.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00008",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Event Report - Agentic AI Industry Workshop\nField Value\nEvent ID EVT-CSE-001\nAccreditation Requirement C3.2.1 - Industry interaction activities\nMapped Requirement C3.2.1 - Industry interaction activit"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a",
+    "version_id": "VER-00008-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_duplicate_event_report.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.899763Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "event_report",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Event Report."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.12,
+          "document_type": "attendance_sheet",
+          "reason": "Content keywords matched: Attendance."
+        },
+        {
+          "confidence": 0.12,
+          "document_type": "certificate",
+          "reason": "Content keywords matched: Certificate."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": "EVD-CSE-2025-2026-00008",
+    "evidence_id": "EVD-CSE-2025-2026-00009",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "coordinator": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "coordinator",
+        "normalized_value": "Dr. Kavya Srinivasan",
+        "page_number": 1,
+        "raw_value": "Dr. Kavya Srinivasan",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-09-11",
+        "page_number": 1,
+        "raw_value": "2025-09-11",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": 1,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Agentic AI Industry Workshop",
+        "page_number": 1,
+        "raw_value": "Agentic AI Industry Workshop",
+        "sheet_name": null
+      },
+      "mapped_requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "mapped_requirement_id",
+        "normalized_value": "C3.2.1 - Industry interaction activities",
+        "page_number": 1,
+        "raw_value": "C3.2.1 - Industry interaction activities",
+        "sheet_name": null
+      },
+      "reported_participant_count": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "reported_participant_count",
+        "normalized_value": 120,
+        "page_number": 1,
+        "raw_value": "120",
+        "sheet_name": null
+      },
+      "requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "requirement_id",
+        "normalized_value": "C3.2.1 - Industry interaction activities",
+        "page_number": 1,
+        "raw_value": "C3.2.1 - Industry interaction activities",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00009",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Event Report - Agentic AI Industry Workshop\nField Value\nEvent ID EVT-CSE-001\nAccreditation Requirement C3.2.1 - Industry interaction activities\nMapped Requirement C3.2.1 - Industry interaction activities\nDepartment CSE\nAcademic Year 2025-20"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Event ID",
+              "EVT-CSE-001"
+            ],
+            [
+              "Accreditation Requirement",
+              "C3.2.1 - Industry interaction activities"
+            ],
+            [
+              "Mapped Requirement",
+              "C3.2.1 - Industry interaction activities"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Agentic AI Industry Workshop"
+            ],
+            [
+              "Event Date",
+              "2025-09-11"
+            ],
+            [
+              "Coordinator",
+              "Dr. Kavya Srinivasan"
+            ],
+            [
+              "Reported Participant Count",
+              "120"
+            ],
+            [
+              "Venue",
+              "Seminar Hall B, Main Academic Block"
+            ],
+            [
+              "Industry / Partner",
+              "Chennai Tech Leaders Forum"
+            ]
+          ]
+        }
+      ],
+      "text": "Event Report - Agentic AI Industry Workshop\nField Value\nEvent ID EVT-CSE-001\nAccreditation Requirement C3.2.1 - Industry interaction activities\nMapped Requirement C3.2.1 - Industry interaction activities\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Agentic AI Industry Workshop\nEvent Date 2025-09-11\nCoordinator Dr. Kavya Srinivasan\nReported Participant Count 120\nVenue Seminar Hall B, Main Academic Block\nIndustry / Partner Chennai Tech Leaders Forum\nSummary: The session included expert talks, hands-on exercises, and a feedback round. Participants signed the\nattendance sheet before receiving completion certificates.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-001_duplicate_event_report.pdf",
+    "overall_confidence": 0.9367,
+    "processing_status": "completed_with_warnings",
+    "relative_path": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-001_duplicate_event_report.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.8300000000000001,
+        "confidence_level": "medium",
+        "mapping_type": "keyword",
+        "reason": "Requirement keywords matched: industry, workshop, interaction.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00009",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Event Report - Agentic AI Industry Workshop\nField Value\nEvent ID EVT-CSE-001\nAccreditation Requirement C3.2.1 - Industry interaction activities\nMapped Requirement C3.2.1 - Industry interaction activit"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a",
+    "version_id": "VER-00009-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-002_CSE_C5.1.3_event_report.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.948969Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "event_report",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Event Report."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.47,
+          "document_type": "attendance_sheet",
+          "reason": "Content keywords matched: Attendance.; Spreadsheet structure matched attendance data."
+        },
+        {
+          "confidence": 0.12,
+          "document_type": "certificate",
+          "reason": "Content keywords matched: Certificate."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00010",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "coordinator": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "coordinator",
+        "normalized_value": "Dr. Kavya Srinivasan",
+        "page_number": 1,
+        "raw_value": "Dr. Kavya Srinivasan",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-10-12",
+        "page_number": 1,
+        "raw_value": "2025-10-12",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-002",
+        "page_number": 1,
+        "raw_value": "EVT-CSE-002",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Cloud Native Application Bootcamp",
+        "page_number": 1,
+        "raw_value": "Cloud Native Application Bootcamp",
+        "sheet_name": null
+      },
+      "mapped_requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "mapped_requirement_id",
+        "normalized_value": "C5.1.3 - Student enrichment programmes",
+        "page_number": 1,
+        "raw_value": "C5.1.3 - Student enrichment programmes",
+        "sheet_name": null
+      },
+      "reported_participant_count": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "reported_participant_count",
+        "normalized_value": 60,
+        "page_number": 1,
+        "raw_value": "60",
+        "sheet_name": null
+      },
+      "requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "requirement_id",
+        "normalized_value": "C5.1.3 - Student enrichment programmes",
+        "page_number": 1,
+        "raw_value": "C5.1.3 - Student enrichment programmes",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00010",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Event Report - Cloud Native Application Bootcamp\nField Value\nEvent ID EVT-CSE-002\nAccreditation Requirement C5.1.3 - Student enrichment programmes\nMapped Requirement C5.1.3 - Student enrichment programmes\nDepartment CSE\nAcademic Year 2025-2"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Event ID",
+              "EVT-CSE-002"
+            ],
+            [
+              "Accreditation Requirement",
+              "C5.1.3 - Student enrichment programmes"
+            ],
+            [
+              "Mapped Requirement",
+              "C5.1.3 - Student enrichment programmes"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Cloud Native Application Bootcamp"
+            ],
+            [
+              "Event Date",
+              "2025-10-12"
+            ],
+            [
+              "Coordinator",
+              "Dr. Kavya Srinivasan"
+            ],
+            [
+              "Reported Participant Count",
+              "60"
+            ],
+            [
+              "Venue",
+              "Seminar Hall B, Main Academic Block"
+            ],
+            [
+              "Industry / Partner",
+              "Chennai Tech Leaders Forum"
+            ]
+          ]
+        }
+      ],
+      "text": "Event Report - Cloud Native Application Bootcamp\nField Value\nEvent ID EVT-CSE-002\nAccreditation Requirement C5.1.3 - Student enrichment programmes\nMapped Requirement C5.1.3 - Student enrichment programmes\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Cloud Native Application Bootcamp\nEvent Date 2025-10-12\nCoordinator Dr. Kavya Srinivasan\nReported Participant Count 60\nVenue Seminar Hall B, Main Academic Block\nIndustry / Partner Chennai Tech Leaders Forum\nSummary: The session included expert talks, hands-on exercises, and a feedback round. Participants signed the\nattendance sheet before receiving completion certificates.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-002_CSE_C5.1.3_event_report.pdf",
+    "overall_confidence": 0.98,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-002_CSE_C5.1.3_event_report.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "mapping_type": "filename",
+        "reason": "Requirement ID matched the filename.",
+        "requirement_id": "C5.1.3",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00010",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Event Report - Cloud Native Application Bootcamp\nField Value\nEvent ID EVT-CSE-002\nAccreditation Requirement C5.1.3 - Student enrichment programmes\nMapped Requirement C5.1.3 - Student enrichment progra"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "99e1efb567bcb54757b4061d1d860ced3278f2159bc2be609a6769198ac4c6a6",
+    "version_id": "VER-00010-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-003_CSE_C6.3.2_event_report.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:23.996742Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "event_report",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Event Report."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.12,
+          "document_type": "attendance_sheet",
+          "reason": "Content keywords matched: Attendance."
+        },
+        {
+          "confidence": 0.12,
+          "document_type": "certificate",
+          "reason": "Content keywords matched: Certificate."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00011",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "coordinator": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "coordinator",
+        "normalized_value": "Dr. Kavya Srinivasan",
+        "page_number": 1,
+        "raw_value": "Dr. Kavya Srinivasan",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-11-13",
+        "page_number": 1,
+        "raw_value": "2025-11-13",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-003",
+        "page_number": 1,
+        "raw_value": "EVT-CSE-003",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Research Publication Writing Clinic",
+        "page_number": 1,
+        "raw_value": "Research Publication Writing Clinic",
+        "sheet_name": null
+      },
+      "mapped_requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "mapped_requirement_id",
+        "normalized_value": "C6.3.2 - Faculty development activities",
+        "page_number": 1,
+        "raw_value": "C6.3.2 - Faculty development activities",
+        "sheet_name": null
+      },
+      "reported_participant_count": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "reported_participant_count",
+        "normalized_value": 66,
+        "page_number": 1,
+        "raw_value": "66",
+        "sheet_name": null
+      },
+      "requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "requirement_id",
+        "normalized_value": "C6.3.2 - Faculty development activities",
+        "page_number": 1,
+        "raw_value": "C6.3.2 - Faculty development activities",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00011",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Event Report - Research Publication Writing Clinic\nField Value\nEvent ID EVT-CSE-003\nAccreditation Requirement C6.3.2 - Faculty development activities\nMapped Requirement C6.3.2 - Faculty development activities\nDepartment CSE\nAcademic Year 20"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Event ID",
+              "EVT-CSE-003"
+            ],
+            [
+              "Accreditation Requirement",
+              "C6.3.2 - Faculty development activities"
+            ],
+            [
+              "Mapped Requirement",
+              "C6.3.2 - Faculty development activities"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Research Publication Writing Clinic"
+            ],
+            [
+              "Event Date",
+              "2025-11-13"
+            ],
+            [
+              "Coordinator",
+              "Dr. Kavya Srinivasan"
+            ],
+            [
+              "Reported Participant Count",
+              "66"
+            ],
+            [
+              "Venue",
+              "Seminar Hall B, Main Academic Block"
+            ],
+            [
+              "Industry / Partner",
+              "Chennai Tech Leaders Forum"
+            ]
+          ]
+        }
+      ],
+      "text": "Event Report - Research Publication Writing Clinic\nField Value\nEvent ID EVT-CSE-003\nAccreditation Requirement C6.3.2 - Faculty development activities\nMapped Requirement C6.3.2 - Faculty development activities\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Research Publication Writing Clinic\nEvent Date 2025-11-13\nCoordinator Dr. Kavya Srinivasan\nReported Participant Count 66\nVenue Seminar Hall B, Main Academic Block\nIndustry / Partner Chennai Tech Leaders Forum\nSummary: The session included expert talks, hands-on exercises, and a feedback round. Participants signed the\nattendance sheet before receiving completion certificates.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-003_CSE_C6.3.2_event_report.pdf",
+    "overall_confidence": 0.98,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-003_CSE_C6.3.2_event_report.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "mapping_type": "filename",
+        "reason": "Requirement ID matched the filename.",
+        "requirement_id": "C6.3.2",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00011",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Event Report - Research Publication Writing Clinic\nField Value\nEvent ID EVT-CSE-003\nAccreditation Requirement C6.3.2 - Faculty development activities\nMapped Requirement C6.3.2 - Faculty development ac"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "4826cfbddfcd1f11e9773a97a081cbd843286980c2dcc8171649f5325dea2803",
+    "version_id": "VER-00011-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-004_CSE_C7.1.1_event_report.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:24.034150Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "event_report",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Event Report."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.12,
+          "document_type": "attendance_sheet",
+          "reason": "Content keywords matched: Attendance."
+        },
+        {
+          "confidence": 0.12,
+          "document_type": "certificate",
+          "reason": "Content keywords matched: Certificate."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00012",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "coordinator": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "coordinator",
+        "normalized_value": "Dr. Kavya Srinivasan",
+        "page_number": 1,
+        "raw_value": "Dr. Kavya Srinivasan",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2025-12-14",
+        "page_number": 1,
+        "raw_value": "2025-12-14",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-004",
+        "page_number": 1,
+        "raw_value": "EVT-CSE-004",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Smart Village Outreach Camp",
+        "page_number": 1,
+        "raw_value": "Smart Village Outreach Camp",
+        "sheet_name": null
+      },
+      "mapped_requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "mapped_requirement_id",
+        "normalized_value": "C7.1.1 - Extension and outreach activities",
+        "page_number": 1,
+        "raw_value": "C7.1.1 - Extension and outreach activities",
+        "sheet_name": null
+      },
+      "reported_participant_count": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "reported_participant_count",
+        "normalized_value": 72,
+        "page_number": 1,
+        "raw_value": "72",
+        "sheet_name": null
+      },
+      "requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "requirement_id",
+        "normalized_value": "C7.1.1 - Extension and outreach activities",
+        "page_number": 1,
+        "raw_value": "C7.1.1 - Extension and outreach activities",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00012",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Event Report - Smart Village Outreach Camp\nField Value\nEvent ID EVT-CSE-004\nAccreditation Requirement C7.1.1 - Extension and outreach activities\nMapped Requirement C7.1.1 - Extension and outreach activities\nDepartment CSE\nAcademic Year 2025"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Event ID",
+              "EVT-CSE-004"
+            ],
+            [
+              "Accreditation Requirement",
+              "C7.1.1 - Extension and outreach activities"
+            ],
+            [
+              "Mapped Requirement",
+              "C7.1.1 - Extension and outreach activities"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Smart Village Outreach Camp"
+            ],
+            [
+              "Event Date",
+              "2025-12-14"
+            ],
+            [
+              "Coordinator",
+              "Dr. Kavya Srinivasan"
+            ],
+            [
+              "Reported Participant Count",
+              "72"
+            ],
+            [
+              "Venue",
+              "Seminar Hall B, Main Academic Block"
+            ],
+            [
+              "Industry / Partner",
+              "Chennai Tech Leaders Forum"
+            ]
+          ]
+        }
+      ],
+      "text": "Event Report - Smart Village Outreach Camp\nField Value\nEvent ID EVT-CSE-004\nAccreditation Requirement C7.1.1 - Extension and outreach activities\nMapped Requirement C7.1.1 - Extension and outreach activities\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Smart Village Outreach Camp\nEvent Date 2025-12-14\nCoordinator Dr. Kavya Srinivasan\nReported Participant Count 72\nVenue Seminar Hall B, Main Academic Block\nIndustry / Partner Chennai Tech Leaders Forum\nSummary: The session included expert talks, hands-on exercises, and a feedback round. Participants signed the\nattendance sheet before receiving completion certificates.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-004_CSE_C7.1.1_event_report.pdf",
+    "overall_confidence": 0.98,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-004_CSE_C7.1.1_event_report.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "mapping_type": "filename",
+        "reason": "Requirement ID matched the filename.",
+        "requirement_id": "C7.1.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00012",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Event Report - Smart Village Outreach Camp\nField Value\nEvent ID EVT-CSE-004\nAccreditation Requirement C7.1.1 - Extension and outreach activities\nMapped Requirement C7.1.1 - Extension and outreach acti"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "17cba42808ad9a40e78492ddffcc47674920f13fc02dd4648a119733368c1df5",
+    "version_id": "VER-00012-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\event_reports\\EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:24.078830Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "filename_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "event_report",
+      "reasons": [
+        "Parent folder matched.",
+        "Filename pattern matched.",
+        "Content keywords matched: Event Report."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.12,
+          "document_type": "attendance_sheet",
+          "reason": "Content keywords matched: Attendance."
+        },
+        {
+          "confidence": 0.12,
+          "document_type": "certificate",
+          "reason": "Content keywords matched: Certificate."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00013",
+    "extracted_fields": {
+      "academic_year": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "academic_year",
+        "normalized_value": "2025-2026",
+        "page_number": 1,
+        "raw_value": "2025-2026",
+        "sheet_name": null
+      },
+      "coordinator": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "coordinator",
+        "normalized_value": "Dr. Kavya Srinivasan",
+        "page_number": 1,
+        "raw_value": "Dr. Kavya Srinivasan",
+        "sheet_name": null
+      },
+      "department": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": 1,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_date": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_date",
+        "normalized_value": "2026-01-15",
+        "page_number": 1,
+        "raw_value": "2026-01-15",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-005",
+        "page_number": 1,
+        "raw_value": "EVT-CSE-005",
+        "sheet_name": null
+      },
+      "event_title": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "event_title",
+        "normalized_value": "Data Analytics Value Added Course",
+        "page_number": 1,
+        "raw_value": "Data Analytics Value Added Course",
+        "sheet_name": null
+      },
+      "mapped_requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "mapped_requirement_id",
+        "normalized_value": "C1.2.1 - Value-added courses",
+        "page_number": 1,
+        "raw_value": "C1.2.1 - Value-added courses",
+        "sheet_name": null
+      },
+      "reported_participant_count": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "reported_participant_count",
+        "normalized_value": 78,
+        "page_number": 1,
+        "raw_value": "78",
+        "sheet_name": null
+      },
+      "requirement_id": {
+        "cell_range": null,
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "extraction_method": "label_regex",
+        "field_name": "requirement_id",
+        "normalized_value": "C1.2.1 - Value-added courses",
+        "page_number": 1,
+        "raw_value": "C1.2.1 - Value-added courses",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 0.98,
+      "extraction_status": "success",
+      "extractor_used": "pdfplumber",
+      "page_count": 1,
+      "page_references": [
+        {
+          "cell_range": null,
+          "document": "EVD-CSE-2025-2026-00013",
+          "page_number": 1,
+          "sheet_name": null,
+          "text_snippet": "Event Report - Data Analytics Value Added Course\nField Value\nEvent ID EVT-CSE-005\nAccreditation Requirement C1.2.1 - Value-added courses\nMapped Requirement C1.2.1 - Value-added courses\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Data"
+        }
+      ],
+      "sheet_names": [],
+      "tables": [
+        {
+          "page_number": 1,
+          "rows": [
+            [
+              "Field",
+              "Value"
+            ],
+            [
+              "Event ID",
+              "EVT-CSE-005"
+            ],
+            [
+              "Accreditation Requirement",
+              "C1.2.1 - Value-added courses"
+            ],
+            [
+              "Mapped Requirement",
+              "C1.2.1 - Value-added courses"
+            ],
+            [
+              "Department",
+              "CSE"
+            ],
+            [
+              "Academic Year",
+              "2025-2026"
+            ],
+            [
+              "Event Title",
+              "Data Analytics Value Added Course"
+            ],
+            [
+              "Event Date",
+              "2026-01-15"
+            ],
+            [
+              "Coordinator",
+              "Dr. Kavya Srinivasan"
+            ],
+            [
+              "Reported Participant Count",
+              "78"
+            ],
+            [
+              "Venue",
+              "Seminar Hall B, Main Academic Block"
+            ],
+            [
+              "Industry / Partner",
+              "Chennai Tech Leaders Forum"
+            ]
+          ]
+        }
+      ],
+      "text": "Event Report - Data Analytics Value Added Course\nField Value\nEvent ID EVT-CSE-005\nAccreditation Requirement C1.2.1 - Value-added courses\nMapped Requirement C1.2.1 - Value-added courses\nDepartment CSE\nAcademic Year 2025-2026\nEvent Title Data Analytics Value Added Course\nEvent Date 2026-01-15\nCoordinator Dr. Kavya Srinivasan\nReported Participant Count 78\nVenue Seminar Hall B, Main Academic Block\nIndustry / Partner Chennai Tech Leaders Forum\nSummary: The session included expert talks, hands-on exercises, and a feedback round. Participants signed the\nattendance sheet before receiving completion certificates.\nGenerated for ProofChain MVP synthetic testing. Names and records are fictional.",
+      "warnings": []
+    },
+    "original_filename": "EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+    "overall_confidence": 0.98,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\event_reports\\EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+    "requirement_mappings": [
+      {
+        "confidence": 0.96,
+        "confidence_level": "high",
+        "mapping_type": "filename",
+        "reason": "Requirement ID matched the filename.",
+        "requirement_id": "C1.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00013",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "Event Report - Data Analytics Value Added Course\nField Value\nEvent ID EVT-CSE-005\nAccreditation Requirement C1.2.1 - Value-added courses\nMapped Requirement C1.2.1 - Value-added courses\nDepartment CSE\n"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "1c951f2530664d6250c050b415346e79eeb65f9e266159ab4438d6288630abb6",
+    "version_id": "VER-00013-01",
+    "warnings": []
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-001.png",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:24.080852Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "folder_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "photograph",
+      "reasons": [
+        "Extension .png is configured for photograph.",
+        "Parent folder matched."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00014",
+    "extracted_fields": {
+      "department": {
+        "cell_range": null,
+        "confidence": 0.9,
+        "confidence_level": "high",
+        "extraction_method": "collector_metadata",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": null,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-001",
+        "page_number": null,
+        "raw_value": "EVT-CSE-001",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 1.0,
+      "extraction_status": "success",
+      "extractor_used": "image_metadata",
+      "page_count": null,
+      "page_references": [],
+      "sheet_names": [],
+      "tables": [],
+      "text": null,
+      "warnings": [
+        "Image OCR is outside the deterministic MVP boundary."
+      ]
+    },
+    "original_filename": "PHOTO_EVT-CSE-001.png",
+    "overall_confidence": 0.9667,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-001.png",
+    "requirement_mappings": [
+      {
+        "confidence": 0.9,
+        "confidence_level": "high",
+        "mapping_type": "extracted_field",
+        "reason": "Inherited from unanimous same-department event ID consensus.",
+        "requirement_id": "C3.2.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00014",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "EVT-CSE-001"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "e2cd303538dded0e7945f868c38d990b6b99636e92461acbadc949dbb7745506",
+    "version_id": "VER-00014-01",
+    "warnings": [
+      "Image OCR is outside the deterministic MVP boundary."
+    ]
+  },
+  {
+    "absolute_path": "C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-004.png",
+    "academic_year": "2025-2026",
+    "agent_run_id": "AGNT-EVID-99EB-7089",
+    "classified_at": "2026-07-24T17:17:24.083073Z",
+    "department": "CSE",
+    "document_type": {
+      "classification_method": "folder_rule",
+      "confidence": 1.0,
+      "confidence_level": "high",
+      "primary_type": "photograph",
+      "reasons": [
+        "Extension .png is configured for photograph.",
+        "Parent folder matched."
+      ],
+      "requires_human_review": false,
+      "secondary_types": [
+        {
+          "confidence": 0.45,
+          "document_type": "event_report",
+          "reason": "Filename pattern matched."
+        }
+      ]
+    },
+    "duplicate_of_evidence_id": null,
+    "evidence_id": "EVD-CSE-2025-2026-00015",
+    "extracted_fields": {
+      "department": {
+        "cell_range": null,
+        "confidence": 0.9,
+        "confidence_level": "high",
+        "extraction_method": "collector_metadata",
+        "field_name": "department",
+        "normalized_value": "CSE",
+        "page_number": null,
+        "raw_value": "CSE",
+        "sheet_name": null
+      },
+      "event_id": {
+        "cell_range": null,
+        "confidence": 0.95,
+        "confidence_level": "high",
+        "extraction_method": "filename_regex",
+        "field_name": "event_id",
+        "normalized_value": "EVT-CSE-004",
+        "page_number": null,
+        "raw_value": "EVT-CSE-004",
+        "sheet_name": null
+      }
+    },
+    "extraction": {
+      "extraction_confidence": 1.0,
+      "extraction_status": "success",
+      "extractor_used": "image_metadata",
+      "page_count": null,
+      "page_references": [],
+      "sheet_names": [],
+      "tables": [],
+      "text": null,
+      "warnings": [
+        "Image OCR is outside the deterministic MVP boundary."
+      ]
+    },
+    "original_filename": "PHOTO_EVT-CSE-004.png",
+    "overall_confidence": 0.9667,
+    "processing_status": "completed",
+    "relative_path": "sample_data\\departments\\CSE\\photos\\PHOTO_EVT-CSE-004.png",
+    "requirement_mappings": [
+      {
+        "confidence": 0.9,
+        "confidence_level": "high",
+        "mapping_type": "extracted_field",
+        "reason": "Inherited from unanimous same-department event ID consensus.",
+        "requirement_id": "C7.1.1",
+        "requires_human_review": false,
+        "source_references": [
+          {
+            "cell_range": null,
+            "document": "EVD-CSE-2025-2026-00015",
+            "page_number": null,
+            "sheet_name": null,
+            "text_snippet": "EVT-CSE-004"
+          }
+        ]
+      }
+    ],
+    "requires_human_review": false,
+    "run_id": "RUN-20260724-99EB",
+    "sha256_checksum": "7ab1116a3de7675dc3cb2a4a11c34361c42183e27de8901412ea50d286417984",
+    "version_id": "VER-00015-01",
+    "warnings": [
+      "Image OCR is outside the deterministic MVP boundary."
+    ]
+  }
+]

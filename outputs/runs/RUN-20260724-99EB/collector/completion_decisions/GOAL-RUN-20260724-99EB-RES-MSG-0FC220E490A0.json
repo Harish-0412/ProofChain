@@ -1,0 +1,22 @@
+{
+  "agent_name": "evidence_collector",
+  "blockers": [
+    "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker."
+  ],
+  "confidence": 1.0,
+  "created_at": "2026-07-24T17:17:27.233697Z",
+  "decision_id": "DEC-1077A45FB9C1",
+  "explanation": "Collector source scope was reopened for assessment, but all currently approved files were already registered. The missing evidence remains a disclosed blocker.",
+  "final_status": "blocked",
+  "goal_id": "GOAL-RUN-20260724-99EB-RES-MSG-0FC220E490A0",
+  "goal_satisfied": false,
+  "run_id": "RUN-20260724-99EB",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [],
+  "success_conditions_unmet": [
+    "The peer request is assessed against current committed evidence.",
+    "The resolution or remaining blocker is recorded."
+  ],
+  "supporting_artifacts": [],
+  "unresolved_questions": []
+}

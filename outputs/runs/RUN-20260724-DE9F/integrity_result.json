@@ -1,0 +1,884 @@
+{
+  "bundles": [
+    {
+      "academic_year": "2025-2026",
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-001",
+      "bundle_type": "event",
+      "department": "CSE",
+      "document_types_present": [
+        "approval_document",
+        "attendance_sheet",
+        "certificate",
+        "event_report",
+        "photograph"
+      ],
+      "event_id": "EVT-CSE-001",
+      "event_title": "Agentic AI Industry Workshop",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00001",
+        "EVD-CSE-2025-2026-00003",
+        "EVD-CSE-2025-2026-00004",
+        "EVD-CSE-2025-2026-00005",
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00009",
+        "EVD-CSE-2025-2026-00014"
+      ],
+      "grouping_confidence": 1.0,
+      "grouping_method": "event_id",
+      "run_id": "RUN-20260724-DE9F"
+    },
+    {
+      "academic_year": "2025-2026",
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-002",
+      "bundle_type": "event",
+      "department": "CSE",
+      "document_types_present": [
+        "approval_document",
+        "certificate",
+        "event_report"
+      ],
+      "event_id": "EVT-CSE-002",
+      "event_title": "Cloud Native Application Bootcamp",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00002",
+        "EVD-CSE-2025-2026-00006",
+        "EVD-CSE-2025-2026-00007",
+        "EVD-CSE-2025-2026-00010"
+      ],
+      "grouping_confidence": 1.0,
+      "grouping_method": "event_id",
+      "run_id": "RUN-20260724-DE9F"
+    },
+    {
+      "academic_year": "2025-2026",
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "bundle_type": "event",
+      "department": "CSE",
+      "document_types_present": [
+        "event_report"
+      ],
+      "event_id": "EVT-CSE-003",
+      "event_title": "Research Publication Writing Clinic",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00011"
+      ],
+      "grouping_confidence": 1.0,
+      "grouping_method": "event_id",
+      "run_id": "RUN-20260724-DE9F"
+    },
+    {
+      "academic_year": "2025-2026",
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "bundle_type": "event",
+      "department": "CSE",
+      "document_types_present": [
+        "event_report",
+        "photograph"
+      ],
+      "event_id": "EVT-CSE-004",
+      "event_title": "Smart Village Outreach Camp",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00012",
+        "EVD-CSE-2025-2026-00015"
+      ],
+      "grouping_confidence": 1.0,
+      "grouping_method": "event_id",
+      "run_id": "RUN-20260724-DE9F"
+    },
+    {
+      "academic_year": "2025-2026",
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "bundle_type": "event",
+      "department": "CSE",
+      "document_types_present": [
+        "event_report"
+      ],
+      "event_id": "EVT-CSE-005",
+      "event_title": "Data Analytics Value Added Course",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "grouping_confidence": 1.0,
+      "grouping_method": "event_id",
+      "run_id": "RUN-20260724-DE9F"
+    }
+  ],
+  "findings": [
+    {
+      "blocking": false,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.203100Z",
+      "description": "2 evidence records have SHA-256 1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00009"
+      ],
+      "expected_value": null,
+      "finding_id": "FND-DE9F-000001",
+      "finding_type": "duplicate_file",
+      "observed_value": 2,
+      "recommended_action": "Remove the duplicate file or confirm which is the correct version.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "DUP-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Exact duplicate evidence detected"
+    },
+    {
+      "blocking": true,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.203631Z",
+      "description": "APR_EVT-CSE-001_approval.pdf does not contain an affirmative signature marker.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00001"
+      ],
+      "expected_value": "Yes",
+      "finding_id": "FND-DE9F-000002",
+      "finding_type": "missing_signature",
+      "observed_value": "No",
+      "recommended_action": "Upload a signed approval document or obtain HoD signature.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "SIGN-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Approval signature is missing"
+    },
+    {
+      "blocking": false,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.204104Z",
+      "description": "Repeated roll numbers: CSE25005,CSE25008.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00003"
+      ],
+      "expected_value": null,
+      "finding_id": "FND-DE9F-000003",
+      "finding_type": "duplicate_student_row",
+      "observed_value": "CSE25005,CSE25008",
+      "recommended_action": "",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "DUP-STUDENT-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "medium",
+      "source_references": [],
+      "status": "open",
+      "title": "Duplicate attendance rows detected"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-001",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.204621Z",
+      "description": "Event report claims 120; attendance contains 108 unique students.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00008",
+        "EVD-CSE-2025-2026-00003"
+      ],
+      "expected_value": 120,
+      "finding_id": "FND-DE9F-000004",
+      "finding_type": "participant_count_mismatch",
+      "observed_value": 108,
+      "recommended_action": "Correct the attendance record or revise the institutional claim.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "EVT-COUNT-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Participant count does not reconcile"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-002",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.205136Z",
+      "description": "attendance_sheet is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00002",
+        "EVD-CSE-2025-2026-00006",
+        "EVD-CSE-2025-2026-00007",
+        "EVD-CSE-2025-2026-00010"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000005",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-002",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.205587Z",
+      "description": "attendance_sheet is required for C5.1.3.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00002",
+        "EVD-CSE-2025-2026-00006",
+        "EVD-CSE-2025-2026-00007",
+        "EVD-CSE-2025-2026-00010"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000006",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C5.1.3",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.206099Z",
+      "description": "attendance_sheet is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00011"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000007",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.206514Z",
+      "description": "approval_document is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00011"
+      ],
+      "expected_value": "approval_document",
+      "finding_id": "FND-DE9F-000008",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.206959Z",
+      "description": "approval_document is required for C6.3.2.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00011"
+      ],
+      "expected_value": "approval_document",
+      "finding_id": "FND-DE9F-000009",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C6.3.2",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.207418Z",
+      "description": "attendance_sheet is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00012",
+        "EVD-CSE-2025-2026-00015"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000010",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.207795Z",
+      "description": "approval_document is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00012",
+        "EVD-CSE-2025-2026-00015"
+      ],
+      "expected_value": "approval_document",
+      "finding_id": "FND-DE9F-000011",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.208237Z",
+      "description": "attendance_sheet is required for C7.1.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00012",
+        "EVD-CSE-2025-2026-00015"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000012",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C7.1.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.208947Z",
+      "description": "attendance_sheet is required for C1.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000013",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C1.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.209814Z",
+      "description": "certificate is required for C1.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "expected_value": "certificate",
+      "finding_id": "FND-DE9F-000014",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C1.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.210323Z",
+      "description": "attendance_sheet is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "expected_value": "attendance_sheet",
+      "finding_id": "FND-DE9F-000015",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.210788Z",
+      "description": "approval_document is required for C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "expected_value": "approval_document",
+      "finding_id": "FND-DE9F-000016",
+      "finding_type": "missing_required_field",
+      "observed_value": null,
+      "recommended_action": "Upload the missing required document.",
+      "requirement_id": "C3.2.1",
+      "requires_human_review": true,
+      "rule_id": "DOC-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "source_references": [],
+      "status": "open",
+      "title": "Required evidence document is missing"
+    },
+    {
+      "blocking": false,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.211286Z",
+      "description": "Mapped requirements: C3.2.1, C5.1.3.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00010"
+      ],
+      "expected_value": null,
+      "finding_id": "FND-DE9F-000017",
+      "finding_type": "evidence_reuse",
+      "observed_value": "C3.2.1, C5.1.3",
+      "recommended_action": "Confirm that this evidence is valid for all mapped claims.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "REUSE-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "medium",
+      "source_references": [],
+      "status": "open",
+      "title": "Evidence is reused across multiple claims"
+    },
+    {
+      "blocking": false,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.211801Z",
+      "description": "Mapped requirements: C3.2.1, C6.3.2.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00011"
+      ],
+      "expected_value": null,
+      "finding_id": "FND-DE9F-000018",
+      "finding_type": "evidence_reuse",
+      "observed_value": "C3.2.1, C6.3.2",
+      "recommended_action": "Confirm that this evidence is valid for all mapped claims.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "REUSE-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "medium",
+      "source_references": [],
+      "status": "open",
+      "title": "Evidence is reused across multiple claims"
+    },
+    {
+      "blocking": false,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.212352Z",
+      "description": "Mapped requirements: C3.2.1, C7.1.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00012"
+      ],
+      "expected_value": null,
+      "finding_id": "FND-DE9F-000019",
+      "finding_type": "evidence_reuse",
+      "observed_value": "C3.2.1, C7.1.1",
+      "recommended_action": "Confirm that this evidence is valid for all mapped claims.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "REUSE-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "medium",
+      "source_references": [],
+      "status": "open",
+      "title": "Evidence is reused across multiple claims"
+    },
+    {
+      "blocking": false,
+      "bundle_id": null,
+      "confidence": 1.0,
+      "created_at": "2026-07-24T16:02:16.212920Z",
+      "description": "Mapped requirements: C1.2.1, C3.2.1.",
+      "evidence_ids": [
+        "EVD-CSE-2025-2026-00013"
+      ],
+      "expected_value": null,
+      "finding_id": "FND-DE9F-000020",
+      "finding_type": "evidence_reuse",
+      "observed_value": "C1.2.1, C3.2.1",
+      "recommended_action": "Confirm that this evidence is valid for all mapped claims.",
+      "requirement_id": null,
+      "requires_human_review": true,
+      "rule_id": "REUSE-001",
+      "rule_version": "1.0.0",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "medium",
+      "source_references": [],
+      "status": "open",
+      "title": "Evidence is reused across multiple claims"
+    }
+  ],
+  "gaps": [
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-002",
+      "created_at": "2026-07-24T16:02:16.205547Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00001",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000005"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-002",
+      "created_at": "2026-07-24T16:02:16.206047Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00002",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000006"
+      ],
+      "requirement_id": "C5.1.3",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "created_at": "2026-07-24T16:02:16.206489Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00003",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000007"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "created_at": "2026-07-24T16:02:16.206927Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "gap_id": "GAP-DE9F-00004",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "approval_document",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000008"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-003",
+      "created_at": "2026-07-24T16:02:16.207360Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+      "gap_id": "GAP-DE9F-00005",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "approval_document",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000009"
+      ],
+      "requirement_id": "C6.3.2",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "created_at": "2026-07-24T16:02:16.207774Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00006",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000010"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "created_at": "2026-07-24T16:02:16.208211Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing approval_document.",
+      "gap_id": "GAP-DE9F-00007",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "approval_document",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000011"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-004",
+      "created_at": "2026-07-24T16:02:16.208854Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00008",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000012"
+      ],
+      "requirement_id": "C7.1.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "created_at": "2026-07-24T16:02:16.209775Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00009",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000013"
+      ],
+      "requirement_id": "C1.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "created_at": "2026-07-24T16:02:16.210286Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing certificate.",
+      "gap_id": "GAP-DE9F-00010",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "certificate",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000014"
+      ],
+      "requirement_id": "C1.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "created_at": "2026-07-24T16:02:16.210758Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+      "gap_id": "GAP-DE9F-00011",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "attendance_sheet",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000015"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "blocking": true,
+      "bundle_id": "BUNDLE-CSE-EVT-CSE-005",
+      "created_at": "2026-07-24T16:02:16.211219Z",
+      "department": "CSE",
+      "description": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing approval_document.",
+      "gap_id": "GAP-DE9F-00012",
+      "gap_type": "missing_required_document",
+      "missing_evidence_type": "approval_document",
+      "recommended_action": "Upload or correct the evidence, then rerun integrity validation.",
+      "related_findings": [
+        "FND-DE9F-000016"
+      ],
+      "requirement_id": "C3.2.1",
+      "run_id": "RUN-20260724-DE9F",
+      "severity": "high",
+      "status": "open"
+    }
+  ],
+  "summaries": [
+    {
+      "blocking_findings": 14,
+      "critical_findings": 0,
+      "high_findings": 15,
+      "integrity_score": 0.0,
+      "low_findings": 0,
+      "medium_findings": 5,
+      "scope_id": "CSE:C3.2.1",
+      "scope_type": "department_requirement",
+      "status": "requires_correction",
+      "total_findings": 20,
+      "total_gaps": 7
+    },
+    {
+      "blocking_findings": 2,
+      "critical_findings": 0,
+      "high_findings": 2,
+      "integrity_score": 63.0,
+      "low_findings": 0,
+      "medium_findings": 1,
+      "scope_id": "CSE:C5.1.3",
+      "scope_type": "department_requirement",
+      "status": "requires_correction",
+      "total_findings": 3,
+      "total_gaps": 1
+    },
+    {
+      "blocking_findings": 3,
+      "critical_findings": 0,
+      "high_findings": 3,
+      "integrity_score": 48.0,
+      "low_findings": 0,
+      "medium_findings": 1,
+      "scope_id": "CSE:C6.3.2",
+      "scope_type": "department_requirement",
+      "status": "requires_correction",
+      "total_findings": 4,
+      "total_gaps": 1
+    },
+    {
+      "blocking_findings": 3,
+      "critical_findings": 0,
+      "high_findings": 3,
+      "integrity_score": 48.0,
+      "low_findings": 0,
+      "medium_findings": 1,
+      "scope_id": "CSE:C7.1.1",
+      "scope_type": "department_requirement",
+      "status": "requires_correction",
+      "total_findings": 4,
+      "total_gaps": 1
+    },
+    {
+      "blocking_findings": 4,
+      "critical_findings": 0,
+      "high_findings": 4,
+      "integrity_score": 33.0,
+      "low_findings": 0,
+      "medium_findings": 1,
+      "scope_id": "CSE:C1.2.1",
+      "scope_type": "department_requirement",
+      "status": "requires_correction",
+      "total_findings": 5,
+      "total_gaps": 2
+    }
+  ]
+}

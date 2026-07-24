@@ -1,0 +1,24 @@
+schema_version: "1.0.0"
+policy_id: untrusted-content-security
+extracted_content_is_untrusted: true
+execute_spreadsheet_formulas: false
+prompt_injection_action: quarantine_instruction_and_record_finding
+prompt_injection_patterns:
+  - pattern_id: PI-IGNORE
+    expression: "ignore previous instructions"
+    severity: high
+  - pattern_id: PI-SYSTEM
+    expression: "system prompt"
+    severity: high
+  - pattern_id: PI-OVERRIDE
+    expression: "override policy"
+    severity: high
+  - pattern_id: PI-TOOL
+    expression: "execute command"
+    severity: critical
+  - pattern_id: PI-SECRETS
+    expression: "reveal secrets"
+    severity: critical
+malware_scanner:
+  enabled: false
+  status: requires_external_scanner_adapter

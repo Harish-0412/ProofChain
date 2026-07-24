@@ -1,0 +1,87 @@
+requirements:
+  C3.2.1:
+    name: "Industry interaction activities"
+    keywords:
+      - "industry"
+      - "workshop"
+      - "interaction"
+      - "industry expert"
+      - "corporate"
+      - "guest lecture"
+    required_document_types:
+      - event_report
+      - attendance_sheet
+      - approval_document
+    optional_document_types:
+      - certificate
+      - photograph
+    filename_patterns:
+      - "C3.2.1"
+
+  C5.1.3:
+    name: "Student enrichment programmes"
+    keywords:
+      - "enrichment"
+      - "training"
+      - "programme"
+      - "skill development"
+      - "bootcamp"
+    required_document_types:
+      - event_report
+      - attendance_sheet
+      - certificate
+    optional_document_types:
+      - approval_document
+      - photograph
+    filename_patterns:
+      - "C5.1.3"
+
+  C6.3.2:
+    name: "Faculty development activities"
+    keywords:
+      - "FDP"
+      - "faculty development"
+      - "STTP"
+      - "faculty training"
+      - "professional development"
+    required_document_types:
+      - event_report
+      - approval_document
+    optional_document_types:
+      - certificate
+    filename_patterns:
+      - "C6.3.2"
+
+  C7.1.1:
+    name: "Extension and outreach activities"
+    keywords:
+      - "outreach"
+      - "extension"
+      - "community"
+      - "NSS"
+      - "social activity"
+    required_document_types:
+      - event_report
+      - attendance_sheet
+    optional_document_types:
+      - photograph
+      - approval_document
+    filename_patterns:
+      - "C7.1.1"
+
+  C1.2.1:
+    name: "Value-added courses"
+    keywords:
+      - "value added"
+      - "value-added"
+      - "add-on course"
+      - "short course"
+      - "certification course"
+    required_document_types:
+      - event_report
+      - attendance_sheet
+      - certificate
+    optional_document_types:
+      - approval_document
+    filename_patterns:
+      - "C1.2.1"

@@ -1,0 +1,56 @@
+rule_set:
+  id: event-evidence-v1
+  version: "1.0.0"
+  description: "Rules specific to event evidence bundles (workshops, FDPs, outreach activities)"
+
+rules:
+  - id: EVT-COUNT-001
+    version: "1.0.0"
+    name: "Participant count reconciliation"
+    category: cross_document
+    severity: high
+    applies_when:
+      bundle_type: event
+      required_document_types:
+        - event_report
+        - attendance_sheet
+    values:
+      expected:
+        document_type: event_report
+        field: reported_participant_count
+      observed:
+        document_type: attendance_sheet
+        field: unique_student_count
+    condition:
+      operator: equals
+    blocking: true
+    on_failure:
+      finding_type: participant_count_mismatch
+      recommended_action: "Correct the attendance record or revise the institutional claim."
+
+  - id: EVT-DATE-CONSISTENCY-001
+    version: "1.0.0"
+    name: "Event date consistency across documents"
+    category: cross_document
+    severity: medium
+    applies_when:
+      bundle_type: event
+      required_document_types:
+        - event_report
+        - approval_document
+    blocking: false
+    on_failure:
+      finding_type: date_inconsistency
+      recommended_action: "Ensure the event date is consistent across all submitted documents."
+
+  - id: EVT-DEPT-CONSISTENCY-001
+    version: "1.0.0"
+    name: "Department consistency across bundle"
+    category: cross_document
+    severity: high
+    applies_when:
+      bundle_type: event
+    blocking: false
+    on_failure:
+      finding_type: department_mismatch
+      recommended_action: "All documents in an event bundle must belong to the same department."

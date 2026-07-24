@@ -1,0 +1,813 @@
+{
+  "agent_name": "adaptive_gap_resolution",
+  "agent_run_id": "AGNT-ADAP-3A4C-5EDF",
+  "agent_version": "1.0.0",
+  "completed_at": "2026-07-24T18:34:05.302912+00:00",
+  "duration_ms": 0,
+  "errors": [],
+  "failure_count": 0,
+  "input_count": 14,
+  "input_snapshot_hash": "04f38e8eaff8e3b793b12df68b9604b8c033c0621187b5cad88cf96fe9ef4176",
+  "portfolio": {
+    "current_readiness": 73.0,
+    "current_verified_readiness": 73.0,
+    "dependency_graph": {
+      "RGAP-0001": [
+        "acquire_evidence",
+        "classify_evidence",
+        "reverify_integrity"
+      ],
+      "RGAP-0002": [
+        "acquire_evidence",
+        "classify_evidence",
+        "reverify_integrity"
+      ],
+      "RGAP-0003": [
+        "acquire_evidence",
+        "classify_evidence",
+        "reverify_integrity"
+      ],
+      "RGAP-0004": [
+        "acquire_evidence",
+        "classify_evidence",
+        "reverify_integrity"
+      ],
+      "RGAP-0005": [
+        "acquire_evidence",
+        "classify_evidence",
+        "reverify_integrity"
+      ],
+      "RGAP-0006": [
+        "reverify_integrity"
+      ],
+      "RGAP-0007": [
+        "acquire_evidence",
+        "classify_evidence",
+        "reverify_integrity"
+      ],
+      "RGAP-0008": [
+        "human_approval",
+        "revalidate_claim"
+      ],
+      "RGAP-0009": [
+        "human_approval",
+        "revalidate_claim"
+      ]
+    },
+    "evidence_debt_score": 76.34,
+    "gaps": [
+      {
+        "affected_claims": [],
+        "affected_requirements": [
+          "C5.1.3"
+        ],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182210+00:00",
+        "department": "CSE",
+        "description": "Bundle BUNDLE-CSE-EVT-CSE-002 is missing attendance_sheet.",
+        "gap_id": "RGAP-0001",
+        "gap_type": "missing_required_document",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The required document was not found in any approved source scope.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The required document was not found in any approved source scope.",
+            "confidence": 0.9,
+            "recommended_investigation": "Check departmental source folders and the approval register."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "GAP-3A4C-00001",
+          "FND-3A4C-000005"
+        ],
+        "source_type": "integrity_gap",
+        "status": "open"
+      },
+      {
+        "affected_claims": [],
+        "affected_requirements": [
+          "C6.3.2"
+        ],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182232+00:00",
+        "department": "CSE",
+        "description": "Bundle BUNDLE-CSE-EVT-CSE-003 is missing approval_document.",
+        "gap_id": "RGAP-0002",
+        "gap_type": "missing_required_document",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The required document was not found in any approved source scope.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The required document was not found in any approved source scope.",
+            "confidence": 0.9,
+            "recommended_investigation": "Check departmental source folders and the approval register."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "GAP-3A4C-00002",
+          "FND-3A4C-000006"
+        ],
+        "source_type": "integrity_gap",
+        "status": "open"
+      },
+      {
+        "affected_claims": [],
+        "affected_requirements": [
+          "C7.1.1"
+        ],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182240+00:00",
+        "department": "CSE",
+        "description": "Bundle BUNDLE-CSE-EVT-CSE-004 is missing attendance_sheet.",
+        "gap_id": "RGAP-0003",
+        "gap_type": "missing_required_document",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The required document was not found in any approved source scope.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The required document was not found in any approved source scope.",
+            "confidence": 0.9,
+            "recommended_investigation": "Check departmental source folders and the approval register."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "GAP-3A4C-00003",
+          "FND-3A4C-000007"
+        ],
+        "source_type": "integrity_gap",
+        "status": "open"
+      },
+      {
+        "affected_claims": [],
+        "affected_requirements": [
+          "C1.2.1"
+        ],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182247+00:00",
+        "department": "CSE",
+        "description": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing attendance_sheet.",
+        "gap_id": "RGAP-0004",
+        "gap_type": "missing_required_document",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The required document was not found in any approved source scope.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The required document was not found in any approved source scope.",
+            "confidence": 0.9,
+            "recommended_investigation": "Check departmental source folders and the approval register."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "GAP-3A4C-00004",
+          "FND-3A4C-000008"
+        ],
+        "source_type": "integrity_gap",
+        "status": "open"
+      },
+      {
+        "affected_claims": [],
+        "affected_requirements": [
+          "C1.2.1"
+        ],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182254+00:00",
+        "department": "CSE",
+        "description": "Bundle BUNDLE-CSE-EVT-CSE-005 is missing certificate.",
+        "gap_id": "RGAP-0005",
+        "gap_type": "missing_required_document",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The required document was not found in any approved source scope.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The required document was not found in any approved source scope.",
+            "confidence": 0.9,
+            "recommended_investigation": "Check departmental source folders and the approval register."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "GAP-3A4C-00005",
+          "FND-3A4C-000009"
+        ],
+        "source_type": "integrity_gap",
+        "status": "open"
+      },
+      {
+        "affected_claims": [
+          "CLM-C3.2.1-001"
+        ],
+        "affected_requirements": [],
+        "blocking": false,
+        "created_at": "2026-07-24T18:34:05.182266+00:00",
+        "department": null,
+        "description": "2 evidence records have SHA-256 1b6b7047f3aba0ecaaf3c559e30310f50c035fa10a1542f4336d52e70943f03a.",
+        "gap_id": "RGAP-0006",
+        "gap_type": "duplicate_file",
+        "issue_id": null,
+        "readiness_impact": 12.0,
+        "root_cause": "The same evidence content was registered from more than one path.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The same evidence content was registered from more than one path.",
+            "confidence": 0.9,
+            "recommended_investigation": "Confirm the authoritative copy and disclose cross-claim reuse."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "FND-3A4C-000001"
+        ],
+        "source_type": "integrity_finding",
+        "status": "open"
+      },
+      {
+        "affected_claims": [
+          "CLM-C3.2.1-001"
+        ],
+        "affected_requirements": [],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182275+00:00",
+        "department": null,
+        "description": "APR_EVT-CSE-001_approval.pdf does not contain an affirmative signature marker.",
+        "gap_id": "RGAP-0007",
+        "gap_type": "missing_signature",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The approval workflow is incomplete or the signed version was not uploaded.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The approval workflow is incomplete or the signed version was not uploaded.",
+            "confidence": 0.9,
+            "recommended_investigation": "Locate the signed version or obtain authorized retrospective approval."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "FND-3A4C-000002"
+        ],
+        "source_type": "integrity_finding",
+        "status": "open"
+      },
+      {
+        "affected_claims": [
+          "CLM-C3.2.1-001"
+        ],
+        "affected_requirements": [],
+        "blocking": false,
+        "created_at": "2026-07-24T18:34:05.182282+00:00",
+        "department": null,
+        "description": "Repeated roll numbers: CSE25005,CSE25008.",
+        "gap_id": "RGAP-0008",
+        "gap_type": "duplicate_student_row",
+        "issue_id": null,
+        "readiness_impact": 12.0,
+        "root_cause": "Duplicate participant identifiers were entered in the attendance record.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "Duplicate participant identifiers were entered in the attendance record.",
+            "confidence": 0.9,
+            "recommended_investigation": "Deduplicate by institutional register number and verify the corrected total."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "FND-3A4C-000003"
+        ],
+        "source_type": "integrity_finding",
+        "status": "open"
+      },
+      {
+        "affected_claims": [
+          "CLM-C3.2.1-001"
+        ],
+        "affected_requirements": [],
+        "blocking": true,
+        "created_at": "2026-07-24T18:34:05.182288+00:00",
+        "department": null,
+        "description": "Event report claims 120; attendance contains 108 unique students.",
+        "gap_id": "RGAP-0009",
+        "gap_type": "participant_count_mismatch",
+        "issue_id": null,
+        "readiness_impact": 16.0,
+        "root_cause": "The reported total was not calculated from unique participant identifiers.",
+        "root_cause_hypotheses": [
+          {
+            "cause": "The reported total was not calculated from unique participant identifiers.",
+            "confidence": 0.9,
+            "recommended_investigation": "Compare total rows, duplicate identifiers, and participant categories."
+          }
+        ],
+        "severity": "high",
+        "source_ids": [
+          "FND-3A4C-000004"
+        ],
+        "source_type": "integrity_finding",
+        "status": "open"
+      }
+    ],
+    "human_approval_required": true,
+    "minimal_resolution_set": [
+      "RGAP-0009",
+      "RGAP-0007",
+      "RGAP-0001",
+      "RGAP-0002",
+      "RGAP-0003",
+      "RGAP-0004",
+      "RGAP-0005"
+    ],
+    "not_an_approval": true,
+    "plans": [
+      {
+        "dependencies": [
+          "acquire_evidence",
+          "classify_evidence",
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0001",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0001",
+        "recommended_strategy_id": "STR-RGAP-0001-A",
+        "required_completion_evidence": [
+          "Authorized evidence document",
+          "Approval identity and date",
+          "Passing integrity revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Search approved department and institutional sources.",
+              "Verify document identity, date, and authorization.",
+              "Upload the authoritative signed document.",
+              "Rerun classification and integrity validation."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.95,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0001-A",
+            "title": "Locate and upload authoritative evidence"
+          },
+          {
+            "actions": [
+              "Confirm original evidence is unavailable.",
+              "Obtain approval under institutional policy.",
+              "Record the replacement provenance and human approval."
+            ],
+            "estimated_effort": "high",
+            "expected_resolution_confidence": 0.8,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0001-B",
+            "title": "Obtain governed replacement approval"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "acquire_evidence",
+          "classify_evidence",
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0002",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0002",
+        "recommended_strategy_id": "STR-RGAP-0002-A",
+        "required_completion_evidence": [
+          "Authorized evidence document",
+          "Approval identity and date",
+          "Passing integrity revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Search approved department and institutional sources.",
+              "Verify document identity, date, and authorization.",
+              "Upload the authoritative signed document.",
+              "Rerun classification and integrity validation."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.95,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0002-A",
+            "title": "Locate and upload authoritative evidence"
+          },
+          {
+            "actions": [
+              "Confirm original evidence is unavailable.",
+              "Obtain approval under institutional policy.",
+              "Record the replacement provenance and human approval."
+            ],
+            "estimated_effort": "high",
+            "expected_resolution_confidence": 0.8,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0002-B",
+            "title": "Obtain governed replacement approval"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "acquire_evidence",
+          "classify_evidence",
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0003",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0003",
+        "recommended_strategy_id": "STR-RGAP-0003-A",
+        "required_completion_evidence": [
+          "Authorized evidence document",
+          "Approval identity and date",
+          "Passing integrity revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Search approved department and institutional sources.",
+              "Verify document identity, date, and authorization.",
+              "Upload the authoritative signed document.",
+              "Rerun classification and integrity validation."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.95,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0003-A",
+            "title": "Locate and upload authoritative evidence"
+          },
+          {
+            "actions": [
+              "Confirm original evidence is unavailable.",
+              "Obtain approval under institutional policy.",
+              "Record the replacement provenance and human approval."
+            ],
+            "estimated_effort": "high",
+            "expected_resolution_confidence": 0.8,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0003-B",
+            "title": "Obtain governed replacement approval"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "acquire_evidence",
+          "classify_evidence",
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0004",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0004",
+        "recommended_strategy_id": "STR-RGAP-0004-A",
+        "required_completion_evidence": [
+          "Authorized evidence document",
+          "Approval identity and date",
+          "Passing integrity revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Search approved department and institutional sources.",
+              "Verify document identity, date, and authorization.",
+              "Upload the authoritative signed document.",
+              "Rerun classification and integrity validation."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.95,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0004-A",
+            "title": "Locate and upload authoritative evidence"
+          },
+          {
+            "actions": [
+              "Confirm original evidence is unavailable.",
+              "Obtain approval under institutional policy.",
+              "Record the replacement provenance and human approval."
+            ],
+            "estimated_effort": "high",
+            "expected_resolution_confidence": 0.8,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0004-B",
+            "title": "Obtain governed replacement approval"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "acquire_evidence",
+          "classify_evidence",
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0005",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0005",
+        "recommended_strategy_id": "STR-RGAP-0005-A",
+        "required_completion_evidence": [
+          "Authorized evidence document",
+          "Approval identity and date",
+          "Passing integrity revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Search approved department and institutional sources.",
+              "Verify document identity, date, and authorization.",
+              "Upload the authoritative signed document.",
+              "Rerun classification and integrity validation."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.95,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0005-A",
+            "title": "Locate and upload authoritative evidence"
+          },
+          {
+            "actions": [
+              "Confirm original evidence is unavailable.",
+              "Obtain approval under institutional policy.",
+              "Record the replacement provenance and human approval."
+            ],
+            "estimated_effort": "high",
+            "expected_resolution_confidence": 0.8,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0005-B",
+            "title": "Obtain governed replacement approval"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 12.0,
+        "gap_id": "RGAP-0006",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0006",
+        "recommended_strategy_id": "STR-RGAP-0006-A",
+        "required_completion_evidence": [
+          "Corrected evidence",
+          "Passing affected-rule result"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Identify the authoritative source.",
+              "Correct or replace the defective evidence.",
+              "Rerun the affected deterministic checks."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.85,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0006-A",
+            "title": "Correct and revalidate the affected evidence"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "acquire_evidence",
+          "classify_evidence",
+          "reverify_integrity"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0007",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0007",
+        "recommended_strategy_id": "STR-RGAP-0007-A",
+        "required_completion_evidence": [
+          "Authorized evidence document",
+          "Approval identity and date",
+          "Passing integrity revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Search approved department and institutional sources.",
+              "Verify document identity, date, and authorization.",
+              "Upload the authoritative signed document.",
+              "Rerun classification and integrity validation."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.95,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0007-A",
+            "title": "Locate and upload authoritative evidence"
+          },
+          {
+            "actions": [
+              "Confirm original evidence is unavailable.",
+              "Obtain approval under institutional policy.",
+              "Record the replacement provenance and human approval."
+            ],
+            "estimated_effort": "high",
+            "expected_resolution_confidence": 0.8,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0007-B",
+            "title": "Obtain governed replacement approval"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "human_approval",
+          "revalidate_claim"
+        ],
+        "expected_readiness_delta": 12.0,
+        "gap_id": "RGAP-0008",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0008",
+        "recommended_strategy_id": "STR-RGAP-0008-B",
+        "required_completion_evidence": [
+          "Corrected attendance or approved revised claim",
+          "Human approval record",
+          "Passing claim revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Remove duplicate participant identifiers.",
+              "Verify participant categories and unique totals.",
+              "Obtain coordinator confirmation.",
+              "Upload and revalidate the corrected record."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.93,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0008-A",
+            "title": "Correct the underlying attendance evidence"
+          },
+          {
+            "actions": [
+              "Use the strongest authoritative observed value.",
+              "Obtain human approval for the revised claim.",
+              "Rerun claim defensibility validation."
+            ],
+            "estimated_effort": "low",
+            "expected_resolution_confidence": 0.98,
+            "requires_claim_revision": true,
+            "requires_new_evidence": false,
+            "strategy_id": "STR-RGAP-0008-B",
+            "title": "Revise the claim to the verified value"
+          }
+        ]
+      },
+      {
+        "dependencies": [
+          "human_approval",
+          "revalidate_claim"
+        ],
+        "expected_readiness_delta": 16.0,
+        "gap_id": "RGAP-0009",
+        "human_approval_required": true,
+        "plan_id": "RPLAN-RGAP-0009",
+        "recommended_strategy_id": "STR-RGAP-0009-B",
+        "required_completion_evidence": [
+          "Corrected attendance or approved revised claim",
+          "Human approval record",
+          "Passing claim revalidation"
+        ],
+        "strategies": [
+          {
+            "actions": [
+              "Remove duplicate participant identifiers.",
+              "Verify participant categories and unique totals.",
+              "Obtain coordinator confirmation.",
+              "Upload and revalidate the corrected record."
+            ],
+            "estimated_effort": "medium",
+            "expected_resolution_confidence": 0.93,
+            "requires_claim_revision": false,
+            "requires_new_evidence": true,
+            "strategy_id": "STR-RGAP-0009-A",
+            "title": "Correct the underlying attendance evidence"
+          },
+          {
+            "actions": [
+              "Use the strongest authoritative observed value.",
+              "Obtain human approval for the revised claim.",
+              "Rerun claim defensibility validation."
+            ],
+            "estimated_effort": "low",
+            "expected_resolution_confidence": 0.98,
+            "requires_claim_revision": true,
+            "requires_new_evidence": false,
+            "strategy_id": "STR-RGAP-0009-B",
+            "title": "Revise the claim to the verified value"
+          }
+        ]
+      }
+    ],
+    "portfolio_id": "PORT-RUN-20260724-3A4C",
+    "priorities": [
+      {
+        "gap_id": "RGAP-0009",
+        "priority": "high",
+        "priority_score": 79.05,
+        "reason": "severity=high, blocking=True, affected_claims=1"
+      },
+      {
+        "gap_id": "RGAP-0007",
+        "priority": "high",
+        "priority_score": 78.75,
+        "reason": "severity=high, blocking=True, affected_claims=1"
+      },
+      {
+        "gap_id": "RGAP-0001",
+        "priority": "high",
+        "priority_score": 76.25,
+        "reason": "severity=high, blocking=True, affected_claims=0"
+      },
+      {
+        "gap_id": "RGAP-0002",
+        "priority": "high",
+        "priority_score": 76.25,
+        "reason": "severity=high, blocking=True, affected_claims=0"
+      },
+      {
+        "gap_id": "RGAP-0003",
+        "priority": "high",
+        "priority_score": 76.25,
+        "reason": "severity=high, blocking=True, affected_claims=0"
+      },
+      {
+        "gap_id": "RGAP-0004",
+        "priority": "high",
+        "priority_score": 76.25,
+        "reason": "severity=high, blocking=True, affected_claims=0"
+      },
+      {
+        "gap_id": "RGAP-0005",
+        "priority": "high",
+        "priority_score": 76.25,
+        "reason": "severity=high, blocking=True, affected_claims=0"
+      },
+      {
+        "gap_id": "RGAP-0008",
+        "priority": "medium",
+        "priority_score": 52.3,
+        "reason": "severity=high, blocking=False, affected_claims=1"
+      },
+      {
+        "gap_id": "RGAP-0006",
+        "priority": "medium",
+        "priority_score": 51.0,
+        "reason": "severity=high, blocking=False, affected_claims=1"
+      }
+    ],
+    "projected_readiness": 96.0,
+    "projection_assumptions": [
+      "All recommended closure evidence is accepted.",
+      "No new contradictions are introduced.",
+      "All blocking gaps pass revalidation."
+    ],
+    "projection_confidence": 0.78,
+    "projection_type": "counterfactual",
+    "projection_unresolved_dependencies": [
+      "acquire_evidence",
+      "classify_evidence",
+      "reverify_integrity",
+      "human_approval",
+      "revalidate_claim"
+    ],
+    "run_id": "RUN-20260724-3A4C",
+    "scenario_bands": {
+      "conservative": 100.0,
+      "expected": 96.0,
+      "optimistic": 100.0
+    },
+    "target_readiness": 90.0
+  },
+  "run_id": "RUN-20260724-3A4C",
+  "started_at": "2026-07-24T18:34:05.302085+00:00",
+  "status": "completed_with_warnings",
+  "success_count": 9,
+  "warning_count": 7,
+  "warnings": [
+    "7 blocking gaps require approved resolution."
+  ]
+}

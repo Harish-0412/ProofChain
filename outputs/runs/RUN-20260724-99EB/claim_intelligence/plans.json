@@ -1,0 +1,142 @@
+[
+  {
+    "agent_name": "claim_intelligence",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-99EB-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "claim_decisions.json",
+      "claim lineage"
+    ],
+    "goal_id": "GOAL-RUN-20260724-99EB-CLAIM",
+    "plan_id": "PLAN-CLAIM-D774E245-R1",
+    "rationale": "Validate atomic claims using two-sided evidence and explicit specialist boundaries.",
+    "revision": 1,
+    "run_id": "RUN-20260724-99EB",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "decompose_claim returns a typed, auditable result.",
+        "objective": "Decompose claims into atomic assertions.",
+        "proposed_tool": "decompose_claim",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-D774E245-01"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "retrieve_claim_evidence returns a typed, auditable result.",
+        "objective": "Retrieve supporting and counter-evidence.",
+        "proposed_tool": "retrieve_claim_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-D774E245-02"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "investigate_contradictions returns a typed, auditable result.",
+        "objective": "Explain material value contradictions.",
+        "proposed_tool": "investigate_contradictions",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-D774E245-03"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "evaluate_claim_sufficiency returns a typed, auditable result.",
+        "objective": "Score coverage, authority, consistency, and independence.",
+        "proposed_tool": "evaluate_claim_sufficiency",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-D774E245-04"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "judge_claim_defensibility returns a typed, auditable result.",
+        "objective": "Produce claim decisions, repair proposals, and lineage.",
+        "proposed_tool": "judge_claim_defensibility",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-D774E245-05"
+      }
+    ]
+  },
+  {
+    "agent_name": "claim_intelligence",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-99EB-INTEGRITY"
+    ],
+    "expected_outputs": [
+      "claim_decisions.json",
+      "claim lineage"
+    ],
+    "goal_id": "GOAL-RUN-20260724-99EB-CLAIM",
+    "plan_id": "PLAN-CLAIM-D774E245-R1",
+    "rationale": "Validate atomic claims using two-sided evidence and explicit specialist boundaries.",
+    "revision": 1,
+    "run_id": "RUN-20260724-99EB",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "decompose_claim returns a typed, auditable result.",
+        "objective": "Decompose claims into atomic assertions.",
+        "proposed_tool": "decompose_claim",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-D774E245-01"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "retrieve_claim_evidence returns a typed, auditable result.",
+        "objective": "Retrieve supporting and counter-evidence.",
+        "proposed_tool": "retrieve_claim_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-D774E245-02"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "investigate_contradictions returns a typed, auditable result.",
+        "objective": "Explain material value contradictions.",
+        "proposed_tool": "investigate_contradictions",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-D774E245-03"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "evaluate_claim_sufficiency returns a typed, auditable result.",
+        "objective": "Score coverage, authority, consistency, and independence.",
+        "proposed_tool": "evaluate_claim_sufficiency",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-D774E245-04"
+      },
+      {
+        "completion_condition": "The specialist output is persisted in working memory.",
+        "expected_observation": "judge_claim_defensibility returns a typed, auditable result.",
+        "objective": "Produce claim decisions, repair proposals, and lineage.",
+        "proposed_tool": "judge_claim_defensibility",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-D774E245-05"
+      }
+    ]
+  }
+]

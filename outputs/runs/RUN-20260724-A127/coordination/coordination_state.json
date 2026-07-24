@@ -1,0 +1,43 @@
+{
+  "active_goals": [
+    "GOAL-RUN-20260724-A127-OWNERSHIP"
+  ],
+  "blocked_goals": [
+    "GOAL-RUN-20260724-A127-INTEGRITY"
+  ],
+  "blockers": [],
+  "completed_goals": [
+    "GOAL-RUN-20260724-A127-CLAIM",
+    "GOAL-RUN-20260724-A127-GAP"
+  ],
+  "completion_claims": [
+    "DEC-DB8C1D0DDA6C",
+    "DEC-A3A5E31FFFC7",
+    "DEC-DD11825AB68D"
+  ],
+  "current_plans": {
+    "GOAL-RUN-20260724-A127-CLAIM": "PLAN-CLAIM-4C0BD0DA-R1",
+    "GOAL-RUN-20260724-A127-GAP": "PLAN-GAP-85D307B1-R1",
+    "GOAL-RUN-20260724-A127-INTEGRITY": "PLAN-EVIDENCE_INTEGRITY-59AE2AD76A-R1"
+  },
+  "human_review_goals": [],
+  "open_messages": [
+    "MSG-379AD7869113",
+    "MSG-BFC839871432",
+    "MSG-B7C8F44D2FA5",
+    "MSG-A813E6D7D91D",
+    "MSG-4F864E7D01CC",
+    "MSG-4112279D34F7",
+    "MSG-7AFE92BCD6EF",
+    "MSG-65BB2388D89E",
+    "MSG-A1FDB6F381E0",
+    "MSG-B2E9B342F768"
+  ],
+  "run_id": "RUN-20260724-A127",
+  "schema_version": "1.0.0",
+  "state_version": 23,
+  "supervisor_round": 0,
+  "top_level_goal_id": "GOAL-RUN-20260724-A127-TOP",
+  "unresolved_questions": [],
+  "updated_at": "2026-07-24T17:13:05.910992Z"
+}

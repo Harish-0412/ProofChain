@@ -1,0 +1,10 @@
+{
+  "controls": [
+    "path_traversal_checked_by_source_scope",
+    "unsupported_files_skipped",
+    "extracted_text_treated_as_untrusted_data",
+    "formula_cells_not_executed"
+  ],
+  "run_id": "RUN-20260724-BCBC",
+  "status": "baseline_controls_recorded"
+}

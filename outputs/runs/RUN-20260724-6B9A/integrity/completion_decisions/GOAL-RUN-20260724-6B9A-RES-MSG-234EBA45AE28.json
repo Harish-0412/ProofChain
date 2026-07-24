@@ -1,0 +1,23 @@
+{
+  "agent_name": "evidence_integrity",
+  "blockers": [],
+  "confidence": 1.0,
+  "created_at": "2026-07-24T17:21:21.586403Z",
+  "decision_id": "DEC-31DE0DA71181",
+  "explanation": "Supervisor recorded the informational request in the audit trace.",
+  "final_status": "completed",
+  "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-234EBA45AE28",
+  "goal_satisfied": true,
+  "run_id": "RUN-20260724-6B9A",
+  "schema_version": "1.0.0",
+  "success_conditions_met": [
+    "The peer request is assessed against current committed evidence.",
+    "The resolution or remaining blocker is recorded."
+  ],
+  "success_conditions_unmet": [],
+  "supporting_artifacts": [
+    "EVD-CSE-2025-2026-00003",
+    "EVD-CSE-2025-2026-00008"
+  ],
+  "unresolved_questions": []
+}

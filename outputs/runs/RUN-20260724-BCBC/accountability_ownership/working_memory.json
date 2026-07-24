@@ -1,0 +1,17 @@
+{
+  "extra": {
+    "action_rounds": 5
+  },
+  "goal_id": "GOAL-RUN-20260724-BCBC-OWNERSHIP",
+  "goal_status": "executing",
+  "plan_id": "PLAN-OWNER-D395B1EF-R1",
+  "plan_revision": 1,
+  "plan_status": "executing",
+  "recent_observation_ids": [
+    "OBS-02E546F060B7",
+    "OBS-D8FCC77B704A",
+    "OBS-2594C61329F8",
+    "OBS-0DC9F4357C0A",
+    "OBS-1B0E669B6659"
+  ]
+}

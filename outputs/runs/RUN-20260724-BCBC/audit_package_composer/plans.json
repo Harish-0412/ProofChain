@@ -1,0 +1,200 @@
+[
+  {
+    "agent_name": "audit_package_composer",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLOSURE"
+    ],
+    "expected_outputs": [
+      "audit_package_manifest.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-PACKAGE",
+    "plan_id": "PLAN-PACKAGE-A8D7E23C-R1",
+    "rationale": "Generate a traceable draft audit package using only eligible evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "resolve_package_scope records package state.",
+        "objective": "Freeze department, requirement, year, and claim scope.",
+        "proposed_tool": "resolve_package_scope",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-01"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "select_package_evidence records package state.",
+        "objective": "Select eligible current evidence and explain exclusions.",
+        "proposed_tool": "select_package_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-02"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "order_evidence records package state.",
+        "objective": "Order evidence for reviewer usability.",
+        "proposed_tool": "order_evidence",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-03"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "compose_narrative records package state.",
+        "objective": "Create grounded claim summaries.",
+        "proposed_tool": "compose_narrative",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-04"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "build_cross_reference_index records package state.",
+        "objective": "Build claim-to-evidence lineage.",
+        "proposed_tool": "build_cross_reference_index",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-05"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "apply_redaction_policy records package state.",
+        "objective": "Record privacy policy without changing originals.",
+        "proposed_tool": "apply_redaction_policy",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-06"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "assemble_manifest records package state.",
+        "objective": "Create reproducible package manifest hash.",
+        "proposed_tool": "assemble_manifest",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-07"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "verify_package_integrity records package state.",
+        "objective": "Validate references, files, and lineage.",
+        "proposed_tool": "verify_package_integrity",
+        "required_inputs": [],
+        "sequence": 8,
+        "status": "pending",
+        "step_id": "STEP-A8D7E23C-08"
+      }
+    ]
+  },
+  {
+    "agent_name": "audit_package_composer",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-CLOSURE"
+    ],
+    "expected_outputs": [
+      "audit_package_manifest.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-PACKAGE",
+    "plan_id": "PLAN-PACKAGE-A8D7E23C-R1",
+    "rationale": "Generate a traceable draft audit package using only eligible evidence.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "resolve_package_scope records package state.",
+        "objective": "Freeze department, requirement, year, and claim scope.",
+        "proposed_tool": "resolve_package_scope",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-01"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "select_package_evidence records package state.",
+        "objective": "Select eligible current evidence and explain exclusions.",
+        "proposed_tool": "select_package_evidence",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-02"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "order_evidence records package state.",
+        "objective": "Order evidence for reviewer usability.",
+        "proposed_tool": "order_evidence",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-03"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "compose_narrative records package state.",
+        "objective": "Create grounded claim summaries.",
+        "proposed_tool": "compose_narrative",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-04"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "build_cross_reference_index records package state.",
+        "objective": "Build claim-to-evidence lineage.",
+        "proposed_tool": "build_cross_reference_index",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-05"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "apply_redaction_policy records package state.",
+        "objective": "Record privacy policy without changing originals.",
+        "proposed_tool": "apply_redaction_policy",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-06"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "assemble_manifest records package state.",
+        "objective": "Create reproducible package manifest hash.",
+        "proposed_tool": "assemble_manifest",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-07"
+      },
+      {
+        "completion_condition": "The package manifest remains reproducible.",
+        "expected_observation": "verify_package_integrity records package state.",
+        "objective": "Validate references, files, and lineage.",
+        "proposed_tool": "verify_package_integrity",
+        "required_inputs": [],
+        "sequence": 8,
+        "status": "completed",
+        "step_id": "STEP-A8D7E23C-08"
+      }
+    ]
+  }
+]

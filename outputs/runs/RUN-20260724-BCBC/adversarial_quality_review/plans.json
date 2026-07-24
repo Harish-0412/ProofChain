@@ -1,0 +1,180 @@
+[
+  {
+    "agent_name": "adversarial_quality_review",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-PACKAGE"
+    ],
+    "expected_outputs": [
+      "quality_review_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-QUALITY",
+    "plan_id": "PLAN-QUALITY-0A859418-R1",
+    "rationale": "Challenge the draft package independently before human approval.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "approved",
+    "steps": [
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "check_package_completeness records adversarial review state.",
+        "objective": "Check required package components.",
+        "proposed_tool": "check_package_completeness",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "pending",
+        "step_id": "STEP-0A859418-01"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "resolve_references records adversarial review state.",
+        "objective": "Test evidence paths, checksums, and claim links.",
+        "proposed_tool": "resolve_references",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "pending",
+        "step_id": "STEP-0A859418-02"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "challenge_claims records adversarial review state.",
+        "objective": "Attempt to disprove every material claim.",
+        "proposed_tool": "challenge_claims",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "pending",
+        "step_id": "STEP-0A859418-03"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "audit_duplicate_reuse records adversarial review state.",
+        "objective": "Detect duplicate or reused evidence risks.",
+        "proposed_tool": "audit_duplicate_reuse",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "pending",
+        "step_id": "STEP-0A859418-04"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "review_package_policy records adversarial review state.",
+        "objective": "Check disclosure and eligibility policy.",
+        "proposed_tool": "review_package_policy",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "pending",
+        "step_id": "STEP-0A859418-05"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "simulate_reviewer_journey records adversarial review state.",
+        "objective": "Estimate reviewer friction.",
+        "proposed_tool": "simulate_reviewer_journey",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "pending",
+        "step_id": "STEP-0A859418-06"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "score_quality_risk records adversarial review state.",
+        "objective": "Produce final quality status and correction routing.",
+        "proposed_tool": "score_quality_risk",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "pending",
+        "step_id": "STEP-0A859418-07"
+      }
+    ]
+  },
+  {
+    "agent_name": "adversarial_quality_review",
+    "assumptions": [],
+    "dependencies": [
+      "GOAL-RUN-20260724-BCBC-PACKAGE"
+    ],
+    "expected_outputs": [
+      "quality_review_report.json"
+    ],
+    "goal_id": "GOAL-RUN-20260724-BCBC-QUALITY",
+    "plan_id": "PLAN-QUALITY-0A859418-R1",
+    "rationale": "Challenge the draft package independently before human approval.",
+    "revision": 1,
+    "run_id": "RUN-20260724-BCBC",
+    "schema_version": "1.0.0",
+    "status": "completed",
+    "steps": [
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "check_package_completeness records adversarial review state.",
+        "objective": "Check required package components.",
+        "proposed_tool": "check_package_completeness",
+        "required_inputs": [],
+        "sequence": 1,
+        "status": "completed",
+        "step_id": "STEP-0A859418-01"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "resolve_references records adversarial review state.",
+        "objective": "Test evidence paths, checksums, and claim links.",
+        "proposed_tool": "resolve_references",
+        "required_inputs": [],
+        "sequence": 2,
+        "status": "completed",
+        "step_id": "STEP-0A859418-02"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "challenge_claims records adversarial review state.",
+        "objective": "Attempt to disprove every material claim.",
+        "proposed_tool": "challenge_claims",
+        "required_inputs": [],
+        "sequence": 3,
+        "status": "completed",
+        "step_id": "STEP-0A859418-03"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "audit_duplicate_reuse records adversarial review state.",
+        "objective": "Detect duplicate or reused evidence risks.",
+        "proposed_tool": "audit_duplicate_reuse",
+        "required_inputs": [],
+        "sequence": 4,
+        "status": "completed",
+        "step_id": "STEP-0A859418-04"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "review_package_policy records adversarial review state.",
+        "objective": "Check disclosure and eligibility policy.",
+        "proposed_tool": "review_package_policy",
+        "required_inputs": [],
+        "sequence": 5,
+        "status": "completed",
+        "step_id": "STEP-0A859418-05"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "simulate_reviewer_journey records adversarial review state.",
+        "objective": "Estimate reviewer friction.",
+        "proposed_tool": "simulate_reviewer_journey",
+        "required_inputs": [],
+        "sequence": 6,
+        "status": "completed",
+        "step_id": "STEP-0A859418-06"
+      },
+      {
+        "completion_condition": "Every material claim and reference has been challenged.",
+        "expected_observation": "score_quality_risk records adversarial review state.",
+        "objective": "Produce final quality status and correction routing.",
+        "proposed_tool": "score_quality_risk",
+        "required_inputs": [],
+        "sequence": 7,
+        "status": "completed",
+        "step_id": "STEP-0A859418-07"
+      }
+    ]
+  }
+]

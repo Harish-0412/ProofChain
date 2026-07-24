@@ -1,0 +1,87 @@
+{
+  "checkpoints": [
+    {
+      "completed_at": "2026-07-24T17:13:04.303006Z",
+      "input_sha256": "1962c349426f37cfe11cc6ad2d45fc30027f5aa54850920da6c9bd107f831299",
+      "output": {
+        "agent_run_id": "AGNT-EVID-A127-578B",
+        "committed_at": "2026-07-24T17:13:04.303006Z",
+        "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A127\\integrity_result.json",
+        "record_count": 14,
+        "schema_version": "1.0.0",
+        "sha256": "a17b0447617f6d27b41496f9c37976348d6009c0d74c675f8cfef2b62d617e3c",
+        "stage_name": "integrity"
+      },
+      "run_id": "RUN-20260724-A127",
+      "stage_name": "integrity",
+      "started_at": "2026-07-24T17:13:04.145278Z",
+      "status": "completed_with_warnings",
+      "upstream_sha256": "d1463cc4c3167c6a5488dffc646688444028d1a75109328659f5af1b1743a44f"
+    },
+    {
+      "completed_at": "2026-07-24T17:13:04.981720Z",
+      "input_sha256": "a0e8a9c3076e8e8c953d0d792296fc988023db9691711e1f109d370ef3226662",
+      "output": {
+        "agent_run_id": "AGNT-CLAI-A127-6D64",
+        "committed_at": "2026-07-24T17:13:04.981720Z",
+        "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A127\\claim_decisions.json",
+        "record_count": 6,
+        "schema_version": "1.0.0",
+        "sha256": "0567efb1308560a991a5027d6dcf57c7a3d745a4d037fa8ba5d90f7c451d5201",
+        "stage_name": "claim_intelligence"
+      },
+      "run_id": "RUN-20260724-A127",
+      "stage_name": "claim_intelligence",
+      "started_at": "2026-07-24T17:13:04.974238Z",
+      "status": "completed_with_warnings",
+      "upstream_sha256": "a17b0447617f6d27b41496f9c37976348d6009c0d74c675f8cfef2b62d617e3c"
+    },
+    {
+      "completed_at": "2026-07-24T17:13:05.594120Z",
+      "input_sha256": "0350d2cba7215b5ba50e4053cac90567ab2525b3a1d2fc47211facd85ec60c63",
+      "output": {
+        "agent_run_id": "AGNT-ADAP-A127-5AC3",
+        "committed_at": "2026-07-24T17:13:05.594120Z",
+        "path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-A127\\gap_resolution_portfolio.json",
+        "record_count": 9,
+        "schema_version": "1.0.0",
+        "sha256": "3a86cee7782733630b63266637e9342b6d9388039e6dde3cd57642f5387f8723",
+        "stage_name": "adaptive_gap_resolution"
+      },
+      "run_id": "RUN-20260724-A127",
+      "stage_name": "adaptive_gap_resolution",
+      "started_at": "2026-07-24T17:13:05.593071Z",
+      "status": "completed_with_warnings",
+      "upstream_sha256": "0567efb1308560a991a5027d6dcf57c7a3d745a4d037fa8ba5d90f7c451d5201"
+    }
+  ],
+  "created_at": "2026-07-24T17:13:03.725338+00:00",
+  "run_id": "RUN-20260724-A127",
+  "run_mode": "integrity_only",
+  "schema_version": "1.0.0",
+  "status": "running",
+  "updated_at": "2026-07-24T17:13:05.894713+00:00",
+  "workflow": {
+    "academic_year": "2025-2026",
+    "classifier_version": "1.0.0",
+    "configuration_version": "1.0.0",
+    "correlation_id": "ee23ae5f-1e3d-44c6-be2a-5b07dc429d3a",
+    "current_stage": "CREATED",
+    "department_scope": [
+      "CSE"
+    ],
+    "extractor_version": "1.0.0",
+    "requested_by": "pytest",
+    "requirement_scope": [
+      "C3.2.1",
+      "C5.1.3",
+      "C6.3.2",
+      "C7.1.1",
+      "C1.2.1"
+    ],
+    "rule_version": "1.0.0",
+    "run_id": "RUN-20260724-A127",
+    "started_at": "2026-07-24T17:13:03.724951Z",
+    "upstream_artifact_hash": null
+  }
+}

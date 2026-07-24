@@ -1,0 +1,7 @@
+schema_version: "1.0.0"
+policy_id: evidence-retention
+operational_state_days: 365
+audit_export_days: 2555
+workflow_event_days: 2555
+deletion_requires_human_approval: true
+legal_hold_supported: true

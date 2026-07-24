@@ -1,0 +1,221 @@
+{
+  "academic_year": "2025-2026",
+  "audit_package_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\audit_package_manifest.json",
+  "audit_package_summary": {
+    "completed_at": "2026-07-24T17:59:06.269355Z",
+    "duration_ms": 0,
+    "failure_count": 0,
+    "notes": [
+      "Package contains unresolved warning disclosures."
+    ],
+    "skipped_count": 0,
+    "stage_name": "audit_package_composer",
+    "started_at": "2026-07-24T17:59:06.267498Z",
+    "status": "completed_with_warnings",
+    "success_count": 14,
+    "warning_count": 1
+  },
+  "blocking_canonical_issues": 7,
+  "blocking_findings": 12,
+  "canonical_issues_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\canonical_issues.json",
+  "claim_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\claim_decisions.json",
+  "claim_summary": {
+    "completed_at": "2026-07-24T17:59:03.270013Z",
+    "duration_ms": 0,
+    "failure_count": 0,
+    "notes": [
+      "CLM-C3.2.1-001 requires human review."
+    ],
+    "skipped_count": 0,
+    "stage_name": "claim_intelligence",
+    "started_at": "2026-07-24T17:59:03.267797Z",
+    "status": "completed_with_warnings",
+    "success_count": 1,
+    "warning_count": 1
+  },
+  "claims_requiring_review": 1,
+  "classification_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\classified_evidence.json",
+  "classification_summary": {
+    "completed_at": "2026-07-24T17:59:02.117826Z",
+    "duration_ms": 509,
+    "failure_count": 0,
+    "notes": [],
+    "skipped_count": 0,
+    "stage_name": "classification",
+    "started_at": "2026-07-24T17:59:01.607139Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 2
+  },
+  "closure_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\closure_revalidation_report.json",
+  "closure_summary": {
+    "completed_at": "2026-07-24T17:59:05.566449Z",
+    "duration_ms": 0,
+    "failure_count": 0,
+    "notes": [
+      "7 blocking issues remain unresolved after targeted revalidation."
+    ],
+    "skipped_count": 0,
+    "stage_name": "closure_revalidation",
+    "started_at": "2026-07-24T17:59:05.559534Z",
+    "status": "completed_with_warnings",
+    "success_count": 0,
+    "warning_count": 7
+  },
+  "collection_summary": {
+    "completed_at": "2026-07-24T17:59:01.214009Z",
+    "duration_ms": 74,
+    "failure_count": 0,
+    "notes": [
+      "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md"
+    ],
+    "skipped_count": 0,
+    "stage_name": "collection",
+    "started_at": "2026-07-24T17:59:01.138587Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 1
+  },
+  "communications_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\communications.json",
+  "completed_at": "2026-07-24T17:59:09.417942Z",
+  "component_registry_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\component_registry.json",
+  "coordination_state_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\coordination\\coordination_state.json",
+  "department_scope": [
+    "CSE"
+  ],
+  "duration_ms": 8712,
+  "errors": [],
+  "evidence_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\evidence_registry.json",
+  "extended_report_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\claim_resolution_ownership_report.json",
+  "final_decision_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\final_decision.json",
+  "gap_resolution_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\gap_resolution_portfolio.json",
+  "gap_resolution_summary": {
+    "completed_at": "2026-07-24T17:59:03.747497Z",
+    "duration_ms": 0,
+    "failure_count": 0,
+    "notes": [
+      "7 blocking gaps require approved resolution."
+    ],
+    "skipped_count": 0,
+    "stage_name": "adaptive_gap_resolution",
+    "started_at": "2026-07-24T17:59:03.746907Z",
+    "status": "completed_with_warnings",
+    "success_count": 9,
+    "warning_count": 7
+  },
+  "goal_graph_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\goal_graph.json",
+  "integrity_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\integrity_result.json",
+  "integrity_summary": {
+    "completed_at": "2026-07-24T17:59:02.675580Z",
+    "duration_ms": 97,
+    "failure_count": 12,
+    "notes": [],
+    "skipped_count": 0,
+    "stage_name": "integrity",
+    "started_at": "2026-07-24T17:59:02.577076Z",
+    "status": "completed_with_warnings",
+    "success_count": 15,
+    "warning_count": 14
+  },
+  "liaison_summary": {
+    "completed_at": "2026-07-24T17:59:04.900905Z",
+    "duration_ms": 0,
+    "failure_count": 0,
+    "notes": [
+      "TASK-RGAP-0001: Task has no approval event.",
+      "TASK-RGAP-0002: Task has no approval event.",
+      "TASK-RGAP-0003: Task has no approval event.",
+      "TASK-RGAP-0004: Task has no approval event.",
+      "TASK-RGAP-0005: Task has no approval event.",
+      "TASK-RGAP-0006: Task has no approval event.",
+      "TASK-RGAP-0007: Task has no approval event.",
+      "TASK-RGAP-0008: Task has no approval event.",
+      "TASK-RGAP-0009: Task has no approval event."
+    ],
+    "skipped_count": 0,
+    "stage_name": "department_liaison",
+    "started_at": "2026-07-24T17:59:04.900011Z",
+    "status": "completed_with_warnings",
+    "success_count": 0,
+    "warning_count": 9
+  },
+  "liaison_tasks_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\resolution_tasks_detailed.json",
+  "ownership_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\ownership_assignments.json",
+  "ownership_summary": {
+    "completed_at": "2026-07-24T17:59:04.331989Z",
+    "duration_ms": 0,
+    "failure_count": 0,
+    "notes": [],
+    "skipped_count": 0,
+    "stage_name": "accountability_ownership",
+    "started_at": "2026-07-24T17:59:04.330714Z",
+    "status": "completed",
+    "success_count": 9,
+    "warning_count": 0
+  },
+  "package_eligible_evidence": 14,
+  "quality_required_corrections": 2,
+  "quality_review_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\quality_review_report.json",
+  "quality_review_summary": {
+    "completed_at": "2026-07-24T17:59:06.832038Z",
+    "duration_ms": 0,
+    "failure_count": 1,
+    "notes": [
+      "The claim requires human review and cannot pass package quality.",
+      "Unresolved issues are disclosed and require reviewer attention."
+    ],
+    "skipped_count": 0,
+    "stage_name": "adversarial_quality_review",
+    "started_at": "2026-07-24T17:59:06.831482Z",
+    "status": "completed_with_warnings",
+    "success_count": 0,
+    "warning_count": 2
+  },
+  "requirement_scope": [
+    "C3.2.1",
+    "C5.1.3",
+    "C6.3.2",
+    "C7.1.1",
+    "C1.2.1"
+  ],
+  "resolved_issues": 0,
+  "run_id": "RUN-20260724-BCBC",
+  "run_manifest_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\run_manifest.json",
+  "started_at": "2026-07-24T17:59:00.813894Z",
+  "status": "blocked",
+  "supervisor_rounds": 1,
+  "top_level_goal_id": "GOAL-RUN-20260724-BCBC-TOP",
+  "total_canonical_issues": 9,
+  "total_claims": 1,
+  "total_closure_checks": 9,
+  "total_documents_classified": 15,
+  "total_documents_unresolved": 0,
+  "total_evidence_registered": 15,
+  "total_files_discovered": 16,
+  "total_findings": 9,
+  "total_gaps": 5,
+  "total_ownership_assignments": 9,
+  "total_resolution_gaps": 9,
+  "total_resolution_tasks": 9,
+  "trace_output_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\pipeline_trace.jsonl",
+  "unresolved_ownership": 0,
+  "warnings": [
+    "Unsupported file skipped: C:\\SideQuest\\ProofChain\\sample_data\\departments\\CSE\\README.md",
+    "CLM-C3.2.1-001 requires human review.",
+    "7 blocking gaps require approved resolution.",
+    "TASK-RGAP-0001: Task has no approval event.",
+    "TASK-RGAP-0002: Task has no approval event.",
+    "TASK-RGAP-0003: Task has no approval event.",
+    "TASK-RGAP-0004: Task has no approval event.",
+    "TASK-RGAP-0005: Task has no approval event.",
+    "TASK-RGAP-0006: Task has no approval event.",
+    "TASK-RGAP-0007: Task has no approval event.",
+    "TASK-RGAP-0008: Task has no approval event.",
+    "TASK-RGAP-0009: Task has no approval event.",
+    "7 blocking issues remain unresolved after targeted revalidation.",
+    "Package contains unresolved warning disclosures.",
+    "The claim requires human review and cannot pass package quality.",
+    "Unresolved issues are disclosed and require reviewer attention."
+  ],
+  "workflow_events_path": "C:\\SideQuest\\ProofChain\\outputs\\runs\\RUN-20260724-BCBC\\workflow_events.jsonl"
+}

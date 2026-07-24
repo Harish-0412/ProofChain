@@ -1,0 +1,23 @@
+{
+  "assigned_agent": "evidence_collector",
+  "constraints": [],
+  "created_at": "2026-07-24T17:21:22.432245Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-6B9A-GAP"
+  ],
+  "failure_conditions": [],
+  "goal_id": "GOAL-RUN-20260724-6B9A-RES-MSG-04FF2CA143DB",
+  "goal_type": "resolve_additional_evidence_request",
+  "input_references": [],
+  "objective": "Locate and upload authoritative evidence",
+  "parent_goal_id": "GOAL-RUN-20260724-6B9A-GAP",
+  "priority": "high",
+  "run_id": "RUN-20260724-6B9A",
+  "schema_version": "1.0.0",
+  "status": "blocked",
+  "success_conditions": [
+    "The peer request is assessed against current committed evidence.",
+    "The resolution or remaining blocker is recorded."
+  ]
+}

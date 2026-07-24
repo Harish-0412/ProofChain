@@ -1,0 +1,23 @@
+{
+  "assigned_agent": "accountability_ownership",
+  "constraints": [],
+  "created_at": "2026-07-24T18:34:09.799521Z",
+  "deadline": null,
+  "dependencies": [
+    "GOAL-RUN-20260724-3A4C-GAP"
+  ],
+  "failure_conditions": [],
+  "goal_id": "GOAL-RUN-20260724-3A4C-RES-MSG-85B5520D7AA3",
+  "goal_type": "resolve_information_request",
+  "input_references": [],
+  "objective": "Resolution tasks require authorized primary, backup, and approval owners.",
+  "parent_goal_id": "GOAL-RUN-20260724-3A4C-GAP",
+  "priority": "critical",
+  "run_id": "RUN-20260724-3A4C",
+  "schema_version": "1.0.0",
+  "status": "completed",
+  "success_conditions": [
+    "The peer request is assessed against current committed evidence.",
+    "The resolution or remaining blocker is recorded."
+  ]
+}
