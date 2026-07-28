@@ -1,0 +1,24 @@
+.scroll-float {
+  margin: 0;
+  overflow: hidden;
+}
+
+.scroll-float__text {
+  display: inline-block;
+}
+
+.scroll-float__word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.scroll-float__char {
+  display: inline-block;
+  will-change: opacity, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-float__char {
+    will-change: auto;
+  }
+}

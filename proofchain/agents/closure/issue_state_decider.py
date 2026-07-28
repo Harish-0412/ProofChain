@@ -28,6 +28,8 @@ class IssueStateDecisionSpecialist:
                 "under_revalidation": "UNDER_REVALIDATION",
                 "waiting_for_evidence": "ASSIGNED_PENDING_APPROVAL",
             }[check.status]
+            if issue.status == "RESOLVED" and check.status != "resolved":
+                to_status = "REOPENED"
             updated_issue = issue.model_copy(update={"status": to_status}, deep=True)
             updated.append(updated_issue)
             transitions.append(

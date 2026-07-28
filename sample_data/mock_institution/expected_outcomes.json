@@ -1,0 +1,23 @@
+{
+  "department_count": 3,
+  "student_count": 90,
+  "students_per_department": 30,
+  "gender_distribution_per_department": {
+    "Female": 15,
+    "Male": 15
+  },
+  "event_count": 15,
+  "evidence_file_count": 75,
+  "expected_event_bundle_count": 15,
+  "expected_missing_required_documents": 0,
+  "expected_participant_count_mismatches": 0,
+  "expected_duplicate_roll_numbers": 0,
+  "expected_unsigned_approvals": 0,
+  "expected_unsupported_files": 0,
+  "expected_rejected_files": 0,
+  "notes": [
+    "Photographs use metadata-only processing and are optional evidence.",
+    "All people, emails, approvals, signatures, and events are synthetic.",
+    "The external-submission adapter remains governed by environment credentials."
+  ]
+}

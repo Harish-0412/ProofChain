@@ -15,6 +15,8 @@ class IngestionStatus(str, Enum):
     REGISTERED = "registered"
     DUPLICATE_DETECTED = "duplicate_detected"
     UNSUPPORTED = "unsupported"
+    QUARANTINED = "quarantined"
+    REJECTED = "rejected"
     CORRUPTED = "corrupted"
     SKIPPED = "skipped"
 

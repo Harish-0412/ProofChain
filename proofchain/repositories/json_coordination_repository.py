@@ -31,6 +31,7 @@ from proofchain.schemas.agentic import (
     ReflectionDecision,
     ToolResult,
 )
+from proofchain.schemas.peer_contracts import AgentRequest
 
 
 class CoordinationVersionConflict(RuntimeError):
@@ -220,6 +221,26 @@ class JsonCoordinationRepository:
             message.run_id,
             CoordinationPatch(add_open_messages=[message.message_id]),
         )
+
+    def append_agent_request(self, request: AgentRequest) -> None:
+        self._append_jsonl(
+            get_coordination_artifact_path(
+                request.run_id, "peer_requests.jsonl"
+            ),
+            request,
+        )
+
+    def get_agent_requests(self, run_id: str) -> list[AgentRequest]:
+        path = get_coordination_artifact_path(run_id, "peer_requests.jsonl")
+        if not path.exists():
+            return []
+        latest: dict[str, AgentRequest] = {}
+        with path.open("r", encoding="utf-8") as handle:
+            for line in handle:
+                if line.strip():
+                    item = AgentRequest.model_validate_json(line)
+                    latest[item.request_id] = item
+        return list(latest.values())
 
     def get_messages(self, run_id: str) -> list[CoordinationMessage]:
         path = get_coordination_artifact_path(run_id, "messages.jsonl")

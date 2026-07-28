@@ -1,0 +1,10 @@
+{
+  "work_start": "09:00",
+  "work_end": "17:30",
+  "lunch_start": "13:30",
+  "lunch_end": "14:00",
+  "default_class_prep_minutes": 30,
+  "preferred_focus_minutes": 45,
+  "transition_buffer_minutes": 10,
+  "communication_style": "clear, short, professional"
+}

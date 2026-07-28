@@ -32,7 +32,7 @@ class FieldExtractor:
         extraction: ExtractionResult,
     ) -> dict[str, ExtractedField]:
         fields = self._from_text(evidence, extraction)
-        if extraction.tables and evidence.file_extension in {".xlsx", ".csv"}:
+        if extraction.tables and evidence.file_extension in {".xlsx", ".csv", ".tsv"}:
             fields.update(self._from_spreadsheet(evidence, extraction))
 
         event_match = re.search(r"EVT-[A-Z]+-\d+", evidence.original_filename, re.IGNORECASE)

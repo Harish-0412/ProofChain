@@ -1,0 +1,14 @@
+schema_version: "1.0.0"
+policy_id: notification-orchestration
+default_effect: deny
+require_approval: true
+require_idempotency_key: true
+require_correlation_token: true
+minimum_disclosure: true
+allowed_channels:
+  - recording
+  - email
+  - teams
+  - slack
+  - webhook
+fallback_enabled: true

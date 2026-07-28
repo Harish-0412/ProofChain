@@ -4,8 +4,22 @@ openpyxl>=3.1
 pyyaml>=6.0
 python-dotenv>=1.0
 
+[api]
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic-settings>=2.2.0
+
 [dev]
 pytest>=7.0
 pytest-cov
 ruff
 mypy
+
+[full]
+psycopg[binary]>=3.1
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic-settings>=2.2.0
+
+[postgres]
+psycopg[binary]>=3.1

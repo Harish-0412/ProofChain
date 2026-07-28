@@ -1,0 +1,17 @@
+Approval Document
+
+Event ID | EVT-CSE-005
+Accreditation Requirement | C1.2.1
+Mapped Requirement | C1.2.1
+Department | CSE
+Academic Year | 2025-2026
+Event Title | Full Stack Development Value-Added Course
+Event Date | 2026-03-13
+Coordinator | Dr. Meera Nair
+Reported Participant Count | 30
+Approval Status | Approved
+Signature Present | Yes
+Approval Number | APR-CSE-005-2025
+Reference Number | REF-EVT-CSE-005
+
+The Head of Department approved this synthetic activity and its evidence plan.

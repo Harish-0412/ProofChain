@@ -9,6 +9,7 @@ from uuid import uuid4
 
 from proofchain.agentic.base_goal_agent import BaseGoalAgent
 from proofchain.agentic.completion_evaluator import evaluate_collector
+from proofchain.core.enums import IngestionStatus
 from proofchain.core.exceptions import DirectoryNotFoundError, SchemaValidationError
 from proofchain.core.paths import ROOT
 from proofchain.repositories.json_evidence_repository import JsonEvidenceRepository
@@ -22,6 +23,7 @@ from proofchain.schemas.agentic import (
 from proofchain.schemas.evidence import CollectorAgentResult, CollectorInput
 from proofchain.services.checksum_service import ChecksumService
 from proofchain.services.file_scanner import FileScanner
+from proofchain.services.ingestion_capabilities import IngestionCapabilityService
 from proofchain.services.metadata_service import MetadataService
 
 
@@ -46,6 +48,7 @@ class EvidenceCollectorAgent(BaseGoalAgent[CollectorInput, CollectorAgentResult]
         scanner: FileScanner | None = None,
         checksum_service: ChecksumService | None = None,
         metadata_service: MetadataService | None = None,
+        capability_service: IngestionCapabilityService | None = None,
         repository: JsonEvidenceRepository | None = None,
         tracer=None,
     ):
@@ -53,6 +56,7 @@ class EvidenceCollectorAgent(BaseGoalAgent[CollectorInput, CollectorAgentResult]
         self.scanner = scanner or FileScanner()
         self.checksum_service = checksum_service or ChecksumService()
         self.metadata_service = metadata_service or MetadataService()
+        self.capability_service = capability_service or IngestionCapabilityService()
         self.repository = repository or JsonEvidenceRepository()
 
     def validate_input(self, input_data: CollectorInput) -> None:
@@ -92,13 +96,32 @@ class EvidenceCollectorAgent(BaseGoalAgent[CollectorInput, CollectorAgentResult]
             )
 
         for candidate in candidates:
-            if not candidate.supported:
-                unsupported_count += 1
-                warnings.append(f"Unsupported file skipped: {candidate.path}")
-                continue
             try:
+                capability = self.capability_service.assess(candidate.path)
+                if not candidate.supported and capability.capability in {
+                    "native_extraction",
+                    "metadata_only",
+                }:
+                    capability = capability.model_copy(
+                        update={
+                            "capability": "unsupported",
+                            "extractor": None,
+                            "reason": "The file type is disabled by the active ingestion policy.",
+                            "downstream_action": "human_conversion_required",
+                        }
+                    )
+                if capability.capability in {"unsupported", "rejected"}:
+                    unsupported_count += 1
+                    warnings.append(
+                        f"{capability.capability.title()} file registered with no "
+                        f"downstream extraction: {candidate.path}"
+                    )
                 metadata = self.metadata_service.inspect(candidate.path)
                 checksum = self.checksum_service.sha256(candidate.path)
+                ingestion_status = {
+                    "unsupported": IngestionStatus.UNSUPPORTED,
+                    "rejected": IngestionStatus.REJECTED,
+                }.get(capability.capability, IngestionStatus.REGISTERED)
                 record = self.repository.register(
                     path=candidate.path,
                     project_root=ROOT,
@@ -111,6 +134,9 @@ class EvidenceCollectorAgent(BaseGoalAgent[CollectorInput, CollectorAgentResult]
                     modified_at=metadata.modified_at,
                     run_id=input_data.workflow.run_id,
                     agent_run_id=self.agent_run_id or "UNKNOWN",
+                    ingestion_status=ingestion_status,
+                    processing_capability=capability.capability,
+                    capability_reason=capability.reason,
                 )
                 records.append(record)
                 if self.tracer:
@@ -120,6 +146,7 @@ class EvidenceCollectorAgent(BaseGoalAgent[CollectorInput, CollectorAgentResult]
                         evidence_id=record.evidence_id,
                         duplicate_status=record.duplicate_status.value,
                         version_id=record.version_id,
+                        processing_capability=record.processing_capability,
                     )
             except (OSError, ValueError) as exc:
                 errors.append(

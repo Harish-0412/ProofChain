@@ -1,0 +1,17 @@
+Certificate of Participation
+
+Event ID | EVT-AIML-005
+Accreditation Requirement | C1.2.1
+Mapped Requirement | C1.2.1
+Department | AIML
+Academic Year | 2025-2026
+Event Title | MLOps Value-Added Certification Course
+Event Date | 2026-03-13
+Coordinator | Dr. Ananya Rao
+Reported Participant Count | 30
+Certificate Register | Complete
+Awarded To | All 30 registered participants
+Signature Present | Yes
+Reference Number | CERT-EVT-AIML-005
+
+This synthetic register confirms completion for the 30 linked attendance records.

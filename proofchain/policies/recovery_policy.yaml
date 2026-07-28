@@ -1,0 +1,11 @@
+schema_version: "1.0.0"
+policy_id: operational-recovery
+event_store:
+  append_only: true
+  validate_hash_chain: true
+  preserve_json_export: true
+recovery:
+  max_retries: 2
+  require_integrity_verification: true
+  critical_integrity_failure_action: pause
+  unrecoverable_action: human_escalation

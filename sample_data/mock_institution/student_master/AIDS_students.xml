@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student_master department="AIDS" academic_year="2025-2026">
+  <student>
+    <roll_number>25AIDS001</roll_number>
+    <full_name>Aisha Khan</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>aisha.khan.aids01@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS002</roll_number>
+    <full_name>Bhavya Jain</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>bhavya.jain.aids02@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS003</roll_number>
+    <full_name>Charvi Shetty</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>charvi.shetty.aids03@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS004</roll_number>
+    <full_name>Deepika Suresh</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>deepika.suresh.aids04@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS005</roll_number>
+    <full_name>Gauri Patil</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>gauri.patil.aids05@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS006</roll_number>
+    <full_name>Janani Krishnan</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>janani.krishnan.aids06@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS007</roll_number>
+    <full_name>Keerthana Ravi</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>keerthana.ravi.aids07@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS008</roll_number>
+    <full_name>Lakshmi Prasad</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>lakshmi.prasad.aids08@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS009</roll_number>
+    <full_name>Navya Kumar</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>navya.kumar.aids09@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS010</roll_number>
+    <full_name>Nithya Sen</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>nithya.sen.aids10@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS011</roll_number>
+    <full_name>Pavithra Anand</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>pavithra.anand.aids11@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS012</roll_number>
+    <full_name>Roshni Thomas</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>roshni.thomas.aids12@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS013</roll_number>
+    <full_name>Shruti Desai</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>shruti.desai.aids13@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS014</roll_number>
+    <full_name>Tanvi Mishra</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>tanvi.mishra.aids14@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS015</roll_number>
+    <full_name>Veda Narayan</full_name>
+    <gender>Female</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>veda.narayan.aids15@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS016</roll_number>
+    <full_name>Abhinav Suresh</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>abhinav.suresh.aids16@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS017</roll_number>
+    <full_name>Anirudh Jain</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>anirudh.jain.aids17@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS018</roll_number>
+    <full_name>Arnav Shetty</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>arnav.shetty.aids18@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS019</roll_number>
+    <full_name>Darshan Pillai</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>darshan.pillai.aids19@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS020</roll_number>
+    <full_name>Gautam Sen</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>gautam.sen.aids20@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS021</roll_number>
+    <full_name>Karthik Ravi</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>karthik.ravi.aids21@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS022</roll_number>
+    <full_name>Manav Bose</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>manav.bose.aids22@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS023</roll_number>
+    <full_name>Neeraj Anand</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>neeraj.anand.aids23@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS024</roll_number>
+    <full_name>Pranav Patil</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>pranav.patil.aids24@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS025</roll_number>
+    <full_name>Rahul Thomas</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>rahul.thomas.aids25@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS026</roll_number>
+    <full_name>Ritvik Krishnan</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>ritvik.krishnan.aids26@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS027</roll_number>
+    <full_name>Siddharth Desai</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>siddharth.desai.aids27@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS028</roll_number>
+    <full_name>Tejas Kulkarni</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>tejas.kulkarni.aids28@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS029</roll_number>
+    <full_name>Varun Mishra</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>varun.mishra.aids29@students.example.invalid</email>
+    <active>true</active>
+  </student>
+  <student>
+    <roll_number>25AIDS030</roll_number>
+    <full_name>Yash Singh</full_name>
+    <gender>Male</gender>
+    <department>AIDS</department>
+    <program>B.Tech Artificial Intelligence and Data Science</program>
+    <semester>2</semester>
+    <batch>2025-2029</batch>
+    <email>yash.singh.aids30@students.example.invalid</email>
+    <active>true</active>
+  </student>
+</student_master>

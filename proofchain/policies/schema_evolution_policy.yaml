@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+policy_id: schema-evolution-governance
+default_effect: deny
+preserve_original_artifacts: true
+require_compatibility_analysis: true
+require_human_approval_for_breaking_deployment: true
+block_unresolved_breaking_changes: true
+

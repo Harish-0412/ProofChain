@@ -24,6 +24,15 @@ REQUIRED_POLICY_FILES = (
     "package_policy.yaml",
     "security_policy.yaml",
     "retention_policy.yaml",
+    "identity_policy.yaml",
+    "notification_policy.yaml",
+    "recovery_policy.yaml",
+    "schema_evolution_policy.yaml",
+    "policy_lifecycle_policy.yaml",
+    "tenant_policy.yaml",
+    "submission_policy.yaml",
+    "evaluation_policy.yaml",
+    "retrieval_policy.yaml",
 )
 
 

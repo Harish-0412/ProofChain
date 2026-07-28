@@ -1,0 +1,17 @@
+Certificate of Participation
+
+Event ID | EVT-CSE-002
+Accreditation Requirement | C5.1.3
+Mapped Requirement | C5.1.3
+Department | CSE
+Academic Year | 2025-2026
+Event Title | Secure Coding Student Enrichment Bootcamp
+Event Date | 2025-10-17
+Coordinator | Dr. Meera Nair
+Reported Participant Count | 30
+Certificate Register | Complete
+Awarded To | All 30 registered participants
+Signature Present | Yes
+Reference Number | CERT-EVT-CSE-002
+
+This synthetic register confirms completion for the 30 linked attendance records.

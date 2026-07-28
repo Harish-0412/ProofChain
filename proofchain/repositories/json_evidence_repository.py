@@ -58,6 +58,9 @@ class JsonEvidenceRepository:
         modified_at: datetime | None,
         run_id: str,
         agent_run_id: str,
+        ingestion_status: IngestionStatus = IngestionStatus.REGISTERED,
+        processing_capability: str = "native_extraction",
+        capability_reason: str | None = None,
     ) -> EvidenceRecord:
         key = self._path_key(path)
         previous = self._records_by_path.get(key)
@@ -119,9 +122,13 @@ class JsonEvidenceRepository:
             sha256_checksum=sha256_checksum,
             created_at=created_at,
             modified_at=modified_at,
-            ingestion_status=IngestionStatus.DUPLICATE_DETECTED
-            if duplicate_owner
-            else IngestionStatus.REGISTERED,
+            ingestion_status=(
+                IngestionStatus.DUPLICATE_DETECTED
+                if duplicate_owner and ingestion_status == IngestionStatus.REGISTERED
+                else ingestion_status
+            ),
+            processing_capability=processing_capability,
+            capability_reason=capability_reason,
             duplicate_status=duplicate_status,
             duplicate_of_evidence_id=duplicate_owner.get("evidence_id")
             if duplicate_owner

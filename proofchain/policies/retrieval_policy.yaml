@@ -1,0 +1,9 @@
+schema_version: "1.0.0"
+policy_id: governed-knowledge-retrieval
+default_effect: deny
+approved_sources_only: true
+citations_required: true
+retrieval_is_advisory: true
+retrieved_content_is_untrusted: true
+cannot_override_deterministic_rules: true
+

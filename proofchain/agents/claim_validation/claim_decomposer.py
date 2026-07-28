@@ -114,15 +114,14 @@ class ClaimDecompositionSpecialist:
         title = str(field_value(report, "event_title") or "institutional activity")
         participant_count = field_value(report, "reported_participant_count")
         text = (
-            f"{report.department} conducted {title} ({event_id}) during "
-            f"{report.academic_year}"
+            f"{report.department} conducted {title} ({event_id}) for requirement "
+            f"{requirement_id} during {report.academic_year}"
         )
         if participant_count is not None:
             text += f" involving {participant_count} participants"
         text += "."
         claim = self._decompose_text(input_data, text, index)
         claim.source = "derived_from_evidence"
-        claim.requirement_id = requirement_id
         return claim
 
     @staticmethod

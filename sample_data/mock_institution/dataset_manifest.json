@@ -1,0 +1,710 @@
+{
+  "dataset_id": "PROOFCHAIN-MOCK-THREE-DEPARTMENT-2025-2026",
+  "schema_version": "1.0.0",
+  "synthetic": true,
+  "academic_year": "2025-2026",
+  "source_root": "C:\\SideQuest\\ProofChain\\sample_data\\mock_institution\\departments",
+  "department_count": 3,
+  "student_count": 90,
+  "female_count": 45,
+  "male_count": 45,
+  "departments": {
+    "AIML": {
+      "name": "Artificial Intelligence and Machine Learning",
+      "student_count": 30,
+      "female_count": 15,
+      "male_count": 15,
+      "event_count": 5
+    },
+    "AIDS": {
+      "name": "Artificial Intelligence and Data Science",
+      "student_count": 30,
+      "female_count": 15,
+      "male_count": 15,
+      "event_count": 5
+    },
+    "CSE": {
+      "name": "Computer Science and Engineering",
+      "student_count": 30,
+      "female_count": 15,
+      "male_count": 15,
+      "event_count": 5
+    }
+  },
+  "requirements": {
+    "C3.2.1": "Industry interaction activities",
+    "C5.1.3": "Student enrichment programmes",
+    "C6.3.2": "Faculty development activities",
+    "C7.1.1": "Extension and outreach activities",
+    "C1.2.1": "Value-added courses"
+  },
+  "event_count": 15,
+  "evidence_file_count": 75,
+  "supported_format_inventory": {
+    ".csv": 7,
+    ".docx": 7,
+    ".html": 6,
+    ".json": 7,
+    ".md": 4,
+    ".pdf": 9,
+    ".png": 15,
+    ".tsv": 6,
+    ".txt": 7,
+    ".xlsx": 4,
+    ".xml": 7
+  },
+  "events": [
+    {
+      "event_id": "EVT-AIML-001",
+      "department": "AIML",
+      "requirement_id": "C3.2.1",
+      "event_title": "Industry Workshop on Production Machine Learning",
+      "event_date": "2025-08-22",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIML\\event_reports\\EVT-AIML-001_AIML_C3.2.1_event_report.pdf",
+        "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-001_AIML_C3.2.1_attendance.xlsx",
+        "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-001_AIML_C3.2.1_approval.pdf",
+        "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-001_AIML_C3.2.1_certificate.pdf",
+        "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-001_C3.2.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIML-002",
+      "department": "AIML",
+      "requirement_id": "C5.1.3",
+      "event_title": "Applied Machine Learning Skills Bootcamp",
+      "event_date": "2025-10-17",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIML\\event_reports\\EVT-AIML-002_AIML_C5.1.3_event_report.docx",
+        "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-002_AIML_C5.1.3_attendance.csv",
+        "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-002_AIML_C5.1.3_approval.docx",
+        "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-002_AIML_C5.1.3_certificate.docx",
+        "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-002_C5.1.3.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIML-003",
+      "department": "AIML",
+      "requirement_id": "C6.3.2",
+      "event_title": "Faculty Development Programme on Responsible AI",
+      "event_date": "2025-12-05",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIML\\event_reports\\EVT-AIML-003_AIML_C6.3.2_event_report.html",
+        "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-003_AIML_C6.3.2_attendance.tsv",
+        "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-003_AIML_C6.3.2_approval.txt",
+        "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-003_AIML_C6.3.2_certificate.html",
+        "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-003_C6.3.2.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIML-004",
+      "department": "AIML",
+      "requirement_id": "C7.1.1",
+      "event_title": "Community AI Literacy Outreach",
+      "event_date": "2026-01-23",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIML\\event_reports\\EVT-AIML-004_AIML_C7.1.1_event_report.md",
+        "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-004_AIML_C7.1.1_attendance.csv",
+        "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-004_AIML_C7.1.1_approval.json",
+        "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-004_AIML_C7.1.1_certificate.md",
+        "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-004_C7.1.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIML-005",
+      "department": "AIML",
+      "requirement_id": "C1.2.1",
+      "event_title": "MLOps Value-Added Certification Course",
+      "event_date": "2026-03-13",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIML\\event_reports\\EVT-AIML-005_AIML_C1.2.1_event_report.json",
+        "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-005_AIML_C1.2.1_attendance.tsv",
+        "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-005_AIML_C1.2.1_approval.xml",
+        "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-005_AIML_C1.2.1_certificate.txt",
+        "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-005_C1.2.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIDS-001",
+      "department": "AIDS",
+      "requirement_id": "C3.2.1",
+      "event_title": "Industry Workshop on Modern Data Engineering",
+      "event_date": "2025-08-22",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-001_AIDS_C3.2.1_event_report.xml",
+        "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-001_AIDS_C3.2.1_attendance.xlsx",
+        "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-001_AIDS_C3.2.1_approval.html",
+        "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-001_AIDS_C3.2.1_certificate.json",
+        "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-001_C3.2.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIDS-002",
+      "department": "AIDS",
+      "requirement_id": "C5.1.3",
+      "event_title": "Analytics and Visualization Skills Bootcamp",
+      "event_date": "2025-10-17",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-002_AIDS_C5.1.3_event_report.txt",
+        "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-002_AIDS_C5.1.3_attendance.tsv",
+        "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-002_AIDS_C5.1.3_approval.pdf",
+        "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-002_AIDS_C5.1.3_certificate.xml",
+        "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-002_C5.1.3.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIDS-003",
+      "department": "AIDS",
+      "requirement_id": "C6.3.2",
+      "event_title": "Faculty Development Programme on Data Governance",
+      "event_date": "2025-12-05",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-003_AIDS_C6.3.2_event_report.pdf",
+        "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-003_AIDS_C6.3.2_attendance.csv",
+        "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-003_AIDS_C6.3.2_approval.docx",
+        "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-003_AIDS_C6.3.2_certificate.pdf",
+        "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-003_C6.3.2.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIDS-004",
+      "department": "AIDS",
+      "requirement_id": "C7.1.1",
+      "event_title": "Community Data Literacy Outreach",
+      "event_date": "2026-01-23",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-004_AIDS_C7.1.1_event_report.docx",
+        "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-004_AIDS_C7.1.1_attendance.tsv",
+        "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-004_AIDS_C7.1.1_approval.txt",
+        "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-004_AIDS_C7.1.1_certificate.docx",
+        "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-004_C7.1.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-AIDS-005",
+      "department": "AIDS",
+      "requirement_id": "C1.2.1",
+      "event_title": "Business Intelligence Value-Added Course",
+      "event_date": "2026-03-13",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-005_AIDS_C1.2.1_event_report.html",
+        "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-005_AIDS_C1.2.1_attendance.csv",
+        "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-005_AIDS_C1.2.1_approval.json",
+        "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-005_AIDS_C1.2.1_certificate.html",
+        "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-005_C1.2.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-001",
+      "department": "CSE",
+      "requirement_id": "C3.2.1",
+      "event_title": "Cloud Native Engineering Industry Workshop",
+      "event_date": "2025-08-22",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.md",
+        "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-001_CSE_C3.2.1_attendance.xlsx",
+        "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-001_CSE_C3.2.1_approval.xml",
+        "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-001_CSE_C3.2.1_certificate.md",
+        "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-001_C3.2.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-002",
+      "department": "CSE",
+      "requirement_id": "C5.1.3",
+      "event_title": "Secure Coding Student Enrichment Bootcamp",
+      "event_date": "2025-10-17",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\CSE\\event_reports\\EVT-CSE-002_CSE_C5.1.3_event_report.json",
+        "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-002_CSE_C5.1.3_attendance.csv",
+        "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-002_CSE_C5.1.3_approval.html",
+        "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-002_CSE_C5.1.3_certificate.txt",
+        "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-002_C5.1.3.png"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-003",
+      "department": "CSE",
+      "requirement_id": "C6.3.2",
+      "event_title": "Faculty Development Programme on Software Architecture",
+      "event_date": "2025-12-05",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\CSE\\event_reports\\EVT-CSE-003_CSE_C6.3.2_event_report.xml",
+        "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-003_CSE_C6.3.2_attendance.tsv",
+        "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-003_CSE_C6.3.2_approval.pdf",
+        "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-003_CSE_C6.3.2_certificate.json",
+        "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-003_C6.3.2.png"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-004",
+      "department": "CSE",
+      "requirement_id": "C7.1.1",
+      "event_title": "Community Cyber Safety Outreach",
+      "event_date": "2026-01-23",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\CSE\\event_reports\\EVT-CSE-004_CSE_C7.1.1_event_report.txt",
+        "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-004_CSE_C7.1.1_attendance.csv",
+        "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-004_CSE_C7.1.1_approval.docx",
+        "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-004_CSE_C7.1.1_certificate.xml",
+        "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-004_C7.1.1.png"
+      }
+    },
+    {
+      "event_id": "EVT-CSE-005",
+      "department": "CSE",
+      "requirement_id": "C1.2.1",
+      "event_title": "Full Stack Development Value-Added Course",
+      "event_date": "2026-03-13",
+      "reported_participant_count": 30,
+      "unique_attendance_count": 30,
+      "expected_status": "defensible",
+      "files": {
+        "event_report": "departments\\CSE\\event_reports\\EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+        "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-005_CSE_C1.2.1_attendance.tsv",
+        "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-005_CSE_C1.2.1_approval.txt",
+        "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-005_CSE_C1.2.1_certificate.pdf",
+        "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-005_C1.2.1.png"
+      }
+    }
+  ],
+  "files": [
+    {
+      "relative_path": "student_master/AIDS_students.xml",
+      "size_bytes": 11995,
+      "sha256": "de609c63c5b46dfb78f05db4ecac697a62f26b84665dd0e123eb66fc5e60e062"
+    },
+    {
+      "relative_path": "student_master/AIML_students.json",
+      "size_bytes": 10549,
+      "sha256": "22900603c0dcc8524e867244eee7a0c6d6163d12754ee305ea4871bec24d3368"
+    },
+    {
+      "relative_path": "student_master/all_students.xlsx",
+      "size_bytes": 11473,
+      "sha256": "b04f1a61b8d63d64aa66d9cbab09defda94e4d264682a996f0c9b0dd785b1cb3"
+    },
+    {
+      "relative_path": "student_master/CSE_students.csv",
+      "size_bytes": 4075,
+      "sha256": "09511341f88ede2f4448190ac038a30556790495a08e9ece94b7f6189e1f910a"
+    },
+    {
+      "relative_path": "departments/AIDS/approval_documents/APR_EVT-AIDS-001_AIDS_C3.2.1_approval.html",
+      "size_bytes": 1080,
+      "sha256": "b570c3ff6cc29fb0754243cb474b8767ac7bdddc50195deb9aa7f24191887a0a"
+    },
+    {
+      "relative_path": "departments/AIDS/approval_documents/APR_EVT-AIDS-002_AIDS_C5.1.3_approval.pdf",
+      "size_bytes": 2750,
+      "sha256": "265aeccac7bdfab6ab4a3ca9a7869a4320bde52832bd9c6e4a61b09546e952a4"
+    },
+    {
+      "relative_path": "departments/AIDS/approval_documents/APR_EVT-AIDS-003_AIDS_C6.3.2_approval.docx",
+      "size_bytes": 37776,
+      "sha256": "8074d20cddd4758345367f7b938239028761c605ef3e3f4d2a18011f914836c5"
+    },
+    {
+      "relative_path": "departments/AIDS/approval_documents/APR_EVT-AIDS-004_AIDS_C7.1.1_approval.txt",
+      "size_bytes": 502,
+      "sha256": "5376854958ab80762d261aa6d38bc3fb0929bfe61368d8d3a469e6bac4f42b4d"
+    },
+    {
+      "relative_path": "departments/AIDS/approval_documents/APR_EVT-AIDS-005_AIDS_C1.2.1_approval.json",
+      "size_bytes": 584,
+      "sha256": "56d3433f5ab5229504949bbb441e68f560668f1da6d84ed624c53db327396f3b"
+    },
+    {
+      "relative_path": "departments/AIDS/attendance_sheets/EVT-AIDS-001_AIDS_C3.2.1_attendance.xlsx",
+      "size_bytes": 6416,
+      "sha256": "32f3f175d08870e7b12d5c0f4a50bd4b3edade37b3cfe27044b2e483605a3b77"
+    },
+    {
+      "relative_path": "departments/AIDS/attendance_sheets/EVT-AIDS-002_AIDS_C5.1.3_attendance.tsv",
+      "size_bytes": 4242,
+      "sha256": "df2848cca0f3be7286e20596a24bbe85b7e93a94621228f68a51d4106d0a636e"
+    },
+    {
+      "relative_path": "departments/AIDS/attendance_sheets/EVT-AIDS-003_AIDS_C6.3.2_attendance.csv",
+      "size_bytes": 4392,
+      "sha256": "2f89f3c8cb2fbbdcf5ea29a2f6d5265dd26b196614c72f334f55c5c04fa510f3"
+    },
+    {
+      "relative_path": "departments/AIDS/attendance_sheets/EVT-AIDS-004_AIDS_C7.1.1_attendance.tsv",
+      "size_bytes": 3912,
+      "sha256": "ae30a72fb2b808271ff14252f840e72a99027d49de7c5db573a2a733e8008ce0"
+    },
+    {
+      "relative_path": "departments/AIDS/attendance_sheets/EVT-AIDS-005_AIDS_C1.2.1_attendance.csv",
+      "size_bytes": 4152,
+      "sha256": "91c24ddc74f8c320739a29373cfd36cf46856c6d065805cc98283581e0140833"
+    },
+    {
+      "relative_path": "departments/AIDS/certificates/CERT_EVT-AIDS-001_AIDS_C3.2.1_certificate.json",
+      "size_bytes": 605,
+      "sha256": "58938dfa93203c038064af8a37699bb914c2a214c4a71c07de9786bf83083150"
+    },
+    {
+      "relative_path": "departments/AIDS/certificates/CERT_EVT-AIDS-002_AIDS_C5.1.3_certificate.xml",
+      "size_bytes": 862,
+      "sha256": "46b976b079ac1950d3b698dd493e4c524ed9e36ef98a22753c6f64dc8b28a68f"
+    },
+    {
+      "relative_path": "departments/AIDS/certificates/CERT_EVT-AIDS-003_AIDS_C6.3.2_certificate.pdf",
+      "size_bytes": 2783,
+      "sha256": "254236182d7edeae204ae8cd72a4340284356bf683fd91e10b3002318412a74a"
+    },
+    {
+      "relative_path": "departments/AIDS/certificates/CERT_EVT-AIDS-004_AIDS_C7.1.1_certificate.docx",
+      "size_bytes": 37785,
+      "sha256": "a110a17194c69dfbfa84b70611de22c5ecad30e7f8ce4dd6f7a27182226f0588"
+    },
+    {
+      "relative_path": "departments/AIDS/certificates/CERT_EVT-AIDS-005_AIDS_C1.2.1_certificate.html",
+      "size_bytes": 1115,
+      "sha256": "0ee617c40ed6cc03e0d38a036e877c58a11d8bc30390069e2be407621aa89983"
+    },
+    {
+      "relative_path": "departments/AIDS/event_reports/EVT-AIDS-001_AIDS_C3.2.1_event_report.xml",
+      "size_bytes": 802,
+      "sha256": "d55b4e06976d3c078b0e5397e684b24de006771be09f0d08daf63e5393412a74"
+    },
+    {
+      "relative_path": "departments/AIDS/event_reports/EVT-AIDS-002_AIDS_C5.1.3_event_report.txt",
+      "size_bytes": 541,
+      "sha256": "264e72368114939da81f5b776b5f65aae76630f54d8d5a973fb56f61d6b09fe9"
+    },
+    {
+      "relative_path": "departments/AIDS/event_reports/EVT-AIDS-003_AIDS_C6.3.2_event_report.pdf",
+      "size_bytes": 2725,
+      "sha256": "12ee139bc57dff9a42f104588373a9addc2b99dfed5b1a1ae491380ef159770f"
+    },
+    {
+      "relative_path": "departments/AIDS/event_reports/EVT-AIDS-004_AIDS_C7.1.1_event_report.docx",
+      "size_bytes": 37786,
+      "sha256": "2ab72c169cfbdcfb730ab3e22c24becd3317ea9f03e17f2428a341bc441571d9"
+    },
+    {
+      "relative_path": "departments/AIDS/event_reports/EVT-AIDS-005_AIDS_C1.2.1_event_report.html",
+      "size_bytes": 1037,
+      "sha256": "c9eddc121f02cd0f7f343d9950e2d2725f6863a5e1a125d938bab2a106a53492"
+    },
+    {
+      "relative_path": "departments/AIDS/photos/PHOTO_EVT-AIDS-001_C3.2.1.png",
+      "size_bytes": 33191,
+      "sha256": "d360379bea77f385c6952927ff52490ddc68de9f8d042dd00e5ef56e32c7efb3"
+    },
+    {
+      "relative_path": "departments/AIDS/photos/PHOTO_EVT-AIDS-002_C5.1.3.png",
+      "size_bytes": 33765,
+      "sha256": "fa697e1c28eb92679c94fd8c192ac6df2391fb13d0fa543ac30d9c29e6583ac1"
+    },
+    {
+      "relative_path": "departments/AIDS/photos/PHOTO_EVT-AIDS-003_C6.3.2.png",
+      "size_bytes": 33171,
+      "sha256": "b26b7daff67973d1c0d78feba8cccf3226747462a5067034019ca9051fe9c17c"
+    },
+    {
+      "relative_path": "departments/AIDS/photos/PHOTO_EVT-AIDS-004_C7.1.1.png",
+      "size_bytes": 31626,
+      "sha256": "96e3b7513d76f927506db8645a27540811becf8cde5e604ba29c257a86ded808"
+    },
+    {
+      "relative_path": "departments/AIDS/photos/PHOTO_EVT-AIDS-005_C1.2.1.png",
+      "size_bytes": 32937,
+      "sha256": "78314a12359d7ee6c008c44e07ae57b84d2c3c7916bd238648b31caf4d769c5c"
+    },
+    {
+      "relative_path": "departments/AIML/approval_documents/APR_EVT-AIML-001_AIML_C3.2.1_approval.pdf",
+      "size_bytes": 2750,
+      "sha256": "7ccc5ac365f5672e3bc590d7a239a6c16256c61f28a7e930be4ca7257e17d15b"
+    },
+    {
+      "relative_path": "departments/AIML/approval_documents/APR_EVT-AIML-002_AIML_C5.1.3_approval.docx",
+      "size_bytes": 37766,
+      "sha256": "c79a2409cfb45ba9c7384c8669f47c52d44d6fc9e90db2b721986feee4420b60"
+    },
+    {
+      "relative_path": "departments/AIML/approval_documents/APR_EVT-AIML-003_AIML_C6.3.2_approval.txt",
+      "size_bytes": 517,
+      "sha256": "fb093c4cdddecc3fc6195921aab5c9428e2b145014a04a47f7b6bc482cc9728a"
+    },
+    {
+      "relative_path": "departments/AIML/approval_documents/APR_EVT-AIML-004_AIML_C7.1.1_approval.json",
+      "size_bytes": 574,
+      "sha256": "3c20dbe1c00772d7c6171072caf2fa332a7831cee2162a663750eea10c80edfa"
+    },
+    {
+      "relative_path": "departments/AIML/approval_documents/APR_EVT-AIML-005_AIML_C1.2.1_approval.xml",
+      "size_bytes": 840,
+      "sha256": "0f2d69b6adf4a76a631f19c11601e214beb7aa088909dae246d2fc57b21efd50"
+    },
+    {
+      "relative_path": "departments/AIML/attendance_sheets/EVT-AIML-001_AIML_C3.2.1_attendance.xlsx",
+      "size_bytes": 6390,
+      "sha256": "39e6c9cf9f7d312265cad7a3583341ea575a34badee0546d87f4da56842e98d2"
+    },
+    {
+      "relative_path": "departments/AIML/attendance_sheets/EVT-AIML-002_AIML_C5.1.3_attendance.csv",
+      "size_bytes": 4107,
+      "sha256": "aa9f9d4393aee78917e9d945327b1f6be99568ca3f555436b5b5319f63c44db2"
+    },
+    {
+      "relative_path": "departments/AIML/attendance_sheets/EVT-AIML-003_AIML_C6.3.2_attendance.tsv",
+      "size_bytes": 4317,
+      "sha256": "7da2996174320fd09a919f6ad8006e5553cc421477f8e34a108c9012371759ce"
+    },
+    {
+      "relative_path": "departments/AIML/attendance_sheets/EVT-AIML-004_AIML_C7.1.1_attendance.csv",
+      "size_bytes": 3807,
+      "sha256": "ec74802ddd8d47e66bb4dd2507151879c6aead79ec3675e86a4af88300339a3f"
+    },
+    {
+      "relative_path": "departments/AIML/attendance_sheets/EVT-AIML-005_AIML_C1.2.1_attendance.tsv",
+      "size_bytes": 4047,
+      "sha256": "8ff9cbb7bbf4e7521c73869298ead55931f639b45dc4c50f7b3ab13ddf849914"
+    },
+    {
+      "relative_path": "departments/AIML/certificates/CERT_EVT-AIML-001_AIML_C3.2.1_certificate.pdf",
+      "size_bytes": 2786,
+      "sha256": "94c980caa02ab08c449b2cf0d787b07f13816c400a6eaf0b0593a2a9913389ae"
+    },
+    {
+      "relative_path": "departments/AIML/certificates/CERT_EVT-AIML-002_AIML_C5.1.3_certificate.docx",
+      "size_bytes": 37790,
+      "sha256": "a601075e20f4dbf89fba352ce3d24e9d8dfee21fc541ad83615b5fcd45781623"
+    },
+    {
+      "relative_path": "departments/AIML/certificates/CERT_EVT-AIML-003_AIML_C6.3.2_certificate.html",
+      "size_bytes": 1122,
+      "sha256": "ffaa66cc49dbf6d54d579a548ed621be6855cdac754ce13ceab6fe4309df0dd9"
+    },
+    {
+      "relative_path": "departments/AIML/certificates/CERT_EVT-AIML-004_AIML_C7.1.1_certificate.md",
+      "size_bytes": 542,
+      "sha256": "43bb73be665f22d79a9097543307c68d0073d9d224fe2332b7886623b53be01d"
+    },
+    {
+      "relative_path": "departments/AIML/certificates/CERT_EVT-AIML-005_AIML_C1.2.1_certificate.txt",
+      "size_bytes": 536,
+      "sha256": "d4e616e567024a6066ea18a037f11d69943a89d48c5e640c40f3d2296a5fe723"
+    },
+    {
+      "relative_path": "departments/AIML/event_reports/EVT-AIML-001_AIML_C3.2.1_event_report.pdf",
+      "size_bytes": 2712,
+      "sha256": "d19bf576a26db69690bdad1ac0d94c6675888bb1d43e38ebe5893efc74d814ea"
+    },
+    {
+      "relative_path": "departments/AIML/event_reports/EVT-AIML-002_AIML_C5.1.3_event_report.docx",
+      "size_bytes": 37792,
+      "sha256": "c6db61e43c2fbf31976bda80cfa2e5d6a6e8c5c4c6807637e7340eebeedfdafc"
+    },
+    {
+      "relative_path": "departments/AIML/event_reports/EVT-AIML-003_AIML_C6.3.2_event_report.html",
+      "size_bytes": 1055,
+      "sha256": "fe98c991a3a436519e20a1fbe6811a59bdf71fcd38dff5790336b8305e33cb14"
+    },
+    {
+      "relative_path": "departments/AIML/event_reports/EVT-AIML-004_AIML_C7.1.1_event_report.md",
+      "size_bytes": 546,
+      "sha256": "1da55ac6c6825bb396bc39e90a665e42e7b23c7db2c8a7704d6c385555cb5ab7"
+    },
+    {
+      "relative_path": "departments/AIML/event_reports/EVT-AIML-005_AIML_C1.2.1_event_report.json",
+      "size_bytes": 581,
+      "sha256": "6e44e94c10cf3ec5b472348c03c09f3770c18b81a5ffbc23a4836c656eb5b649"
+    },
+    {
+      "relative_path": "departments/AIML/photos/PHOTO_EVT-AIML-001_C3.2.1.png",
+      "size_bytes": 32342,
+      "sha256": "754c5887276945476face8b2c4c4fb1524aed684b1eabd714a1d1f51e4ffb734"
+    },
+    {
+      "relative_path": "departments/AIML/photos/PHOTO_EVT-AIML-002_C5.1.3.png",
+      "size_bytes": 32493,
+      "sha256": "b8a1a6831e9f45f3b2601488a565664bf5b33d80948acae06ed0586093465b87"
+    },
+    {
+      "relative_path": "departments/AIML/photos/PHOTO_EVT-AIML-003_C6.3.2.png",
+      "size_bytes": 32680,
+      "sha256": "a4a31fb2300b63995abfad03eafd43577520e4246512306967edcf7d82a210c5"
+    },
+    {
+      "relative_path": "departments/AIML/photos/PHOTO_EVT-AIML-004_C7.1.1.png",
+      "size_bytes": 30412,
+      "sha256": "3f19ffa738bc630c74e484dbf8ee434104cd00fbe195555ac232af88d910874d"
+    },
+    {
+      "relative_path": "departments/AIML/photos/PHOTO_EVT-AIML-005_C1.2.1.png",
+      "size_bytes": 32860,
+      "sha256": "f4662028df8d10748cc0598cbec91970fd529399ccb1776bc40a70ed277743dd"
+    },
+    {
+      "relative_path": "departments/CSE/approval_documents/APR_EVT-CSE-001_CSE_C3.2.1_approval.xml",
+      "size_bytes": 840,
+      "sha256": "a2ca5cadc8a2ca605a46df7755e136c12b2949db7f3ab6b88b0bd2b6049919b9"
+    },
+    {
+      "relative_path": "departments/CSE/approval_documents/APR_EVT-CSE-002_CSE_C5.1.3_approval.html",
+      "size_bytes": 1073,
+      "sha256": "dd98fce3df666512f0cf9c86bd82e0f0122003285843711871eada6348ed9dd8"
+    },
+    {
+      "relative_path": "departments/CSE/approval_documents/APR_EVT-CSE-003_CSE_C6.3.2_approval.pdf",
+      "size_bytes": 2755,
+      "sha256": "2227f45e70642935de43afa424703f0b9e00e0cb66e2ec17ad88d4fb57cc562b"
+    },
+    {
+      "relative_path": "departments/CSE/approval_documents/APR_EVT-CSE-004_CSE_C7.1.1_approval.docx",
+      "size_bytes": 37760,
+      "sha256": "cfa9d9985d9a187e29b01c6ea2bd4b92df89497d9252dff78309142353abcbf8"
+    },
+    {
+      "relative_path": "departments/CSE/approval_documents/APR_EVT-CSE-005_CSE_C1.2.1_approval.txt",
+      "size_bytes": 507,
+      "sha256": "6e931a1adf9aff10b81482e4102bf0e2df27348b06186d78193280bd56ab1461"
+    },
+    {
+      "relative_path": "departments/CSE/attendance_sheets/EVT-CSE-001_CSE_C3.2.1_attendance.xlsx",
+      "size_bytes": 6408,
+      "sha256": "827532f403caabdc1886df73263014709fc500a5287e54ed65b37c75cdbef701"
+    },
+    {
+      "relative_path": "departments/CSE/attendance_sheets/EVT-CSE-002_CSE_C5.1.3_attendance.csv",
+      "size_bytes": 4053,
+      "sha256": "c75825bf359b8c17ca8c257409260b404b0f1bce12d33a1b1d4062a6791d48e0"
+    },
+    {
+      "relative_path": "departments/CSE/attendance_sheets/EVT-CSE-003_CSE_C6.3.2_attendance.tsv",
+      "size_bytes": 4443,
+      "sha256": "903af4b44475f648c01cf5f90e3fdf666ba81f40e258485bcec4712ea0a2b6c7"
+    },
+    {
+      "relative_path": "departments/CSE/attendance_sheets/EVT-CSE-004_CSE_C7.1.1_attendance.csv",
+      "size_bytes": 3753,
+      "sha256": "f1b7864b13a35d71803a12285a37102baf99687300cc100fc1cd89df202176f4"
+    },
+    {
+      "relative_path": "departments/CSE/attendance_sheets/EVT-CSE-005_CSE_C1.2.1_attendance.tsv",
+      "size_bytes": 4053,
+      "sha256": "2ce8e7c78d9fb4a5c4de0bb985ff253b441a50f2527a2e5d6119b65ae61a80d5"
+    },
+    {
+      "relative_path": "departments/CSE/certificates/CERT_EVT-CSE-001_CSE_C3.2.1_certificate.md",
+      "size_bytes": 551,
+      "sha256": "e775ed38262f149624bb0ada54a77b27484aa3996bcdd91d8e39e0c39ab2d3f9"
+    },
+    {
+      "relative_path": "departments/CSE/certificates/CERT_EVT-CSE-002_CSE_C5.1.3_certificate.txt",
+      "size_bytes": 536,
+      "sha256": "f05cbe216e36f1d4e9a6002a227d085cfc07ca550da4463df6b4e5914a856ab7"
+    },
+    {
+      "relative_path": "departments/CSE/certificates/CERT_EVT-CSE-003_CSE_C6.3.2_certificate.json",
+      "size_bytes": 612,
+      "sha256": "6f0d24a7d9ed661da0f201fdb09f458a89a8a30434d0b24094f603e12081aefd"
+    },
+    {
+      "relative_path": "departments/CSE/certificates/CERT_EVT-CSE-004_CSE_C7.1.1_certificate.xml",
+      "size_bytes": 847,
+      "sha256": "f6b585a2c64a62b4d99788a6942ef6b8d38cc82252220b063c752220ece56a94"
+    },
+    {
+      "relative_path": "departments/CSE/certificates/CERT_EVT-CSE-005_CSE_C1.2.1_certificate.pdf",
+      "size_bytes": 2776,
+      "sha256": "3a35c06b6e2dca1d1b3617887d8df882b660473917ed16d8983126fc12e02f59"
+    },
+    {
+      "relative_path": "departments/CSE/event_reports/EVT-CSE-001_CSE_C3.2.1_event_report.md",
+      "size_bytes": 553,
+      "sha256": "079ee714ce6180d984915b3db0511a37ee829c3b991fde8b0c14b5b02faf1448"
+    },
+    {
+      "relative_path": "departments/CSE/event_reports/EVT-CSE-002_CSE_C5.1.3_event_report.json",
+      "size_bytes": 591,
+      "sha256": "d4086938421e10cb5561c55d135b8ee36e5a341b54e9d20e6dc226620c771957"
+    },
+    {
+      "relative_path": "departments/CSE/event_reports/EVT-CSE-003_CSE_C6.3.2_event_report.xml",
+      "size_bytes": 808,
+      "sha256": "3d37f67afbe58dc866d40bc0c785b0fe8d0e6a37664136cd35f459cf7f0ec407"
+    },
+    {
+      "relative_path": "departments/CSE/event_reports/EVT-CSE-004_CSE_C7.1.1_event_report.txt",
+      "size_bytes": 530,
+      "sha256": "1148ba1077442e56994c0be93a95553aef97d835774c854588f0dd5603d0e6be"
+    },
+    {
+      "relative_path": "departments/CSE/event_reports/EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+      "size_bytes": 2720,
+      "sha256": "57b10bc964f1ad80f14e07520cf7533a0fd24ca80280be3392e355a36584afdc"
+    },
+    {
+      "relative_path": "departments/CSE/photos/PHOTO_EVT-CSE-001_C3.2.1.png",
+      "size_bytes": 33195,
+      "sha256": "d699ac370e5c8d8804b2ac690e6fe6d8c4be976478a653af109eec730cfaf4da"
+    },
+    {
+      "relative_path": "departments/CSE/photos/PHOTO_EVT-CSE-002_C5.1.3.png",
+      "size_bytes": 32091,
+      "sha256": "7683dd95d743014e0d048986c1be3040a7bd469501bf40e1631cee20d5b4bc3a"
+    },
+    {
+      "relative_path": "departments/CSE/photos/PHOTO_EVT-CSE-003_C6.3.2.png",
+      "size_bytes": 34484,
+      "sha256": "13f9ed28142db3e0c02efcffd92d199f2b2841b46f389a9023e19babc7d2f02c"
+    },
+    {
+      "relative_path": "departments/CSE/photos/PHOTO_EVT-CSE-004_C7.1.1.png",
+      "size_bytes": 32069,
+      "sha256": "5fae0896d8a7b0b8b4ebf6fd3787139a0fca72f1b64c9ce820e8ef492147c319"
+    },
+    {
+      "relative_path": "departments/CSE/photos/PHOTO_EVT-CSE-005_C1.2.1.png",
+      "size_bytes": 34616,
+      "sha256": "da524b65619b546e327aba5943de8d55fedb444004d31f61bbce6c3866f7045c"
+    }
+  ]
+}

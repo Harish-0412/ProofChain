@@ -1,0 +1,13 @@
+Event Report
+
+Event ID | EVT-CSE-004
+Accreditation Requirement | C7.1.1
+Mapped Requirement | C7.1.1
+Department | CSE
+Academic Year | 2025-2026
+Event Title | Community Cyber Safety Outreach
+Event Date | 2026-01-23
+Coordinator | Dr. Meera Nair
+Reported Participant Count | 30
+
+This synthetic extension and outreach activities record documents a governed activity for CSE. All 30 registered students are listed once in the linked attendance evidence, and all approval and completion records use the same event identity.

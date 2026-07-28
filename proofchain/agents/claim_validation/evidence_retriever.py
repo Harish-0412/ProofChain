@@ -94,24 +94,28 @@ class EvidenceRetrievalSpecialist:
                         )
                     continue
                 if atomic.attribute == "activity_type":
-                    evidence = next(
-                        (
-                            record
-                            for record in candidates
-                            if record.document_type.primary_type.value == "event_report"
-                        ),
-                        None,
-                    )
-                    if evidence:
+                    for evidence in candidates:
+                        observed = self._activity_type(
+                            str(field_value(evidence, "event_title") or "")
+                        )
+                        if observed is None:
+                            continue
+                        equal = observed == atomic.expected_value
                         links.append(
                             EvidenceSupportLink(
                                 atomic_claim_id=atomic.atomic_claim_id,
                                 evidence_id=evidence.evidence_id,
-                                relation="partially_supports",
-                                strength=0.72,
-                                observed_value=atomic.expected_value,
-                                authority="event_report",
-                                reason="The activity type is supported by title and requirement context.",
+                                relation="supports" if equal else "contradicts",
+                                strength=AUTHORITY.get(
+                                    evidence.document_type.primary_type.value,
+                                    0.4,
+                                ),
+                                observed_value=observed,
+                                authority=evidence.document_type.primary_type.value,
+                                reason=(
+                                    "The normalized activity type from the event title "
+                                    f"{'matches' if equal else 'conflicts with'} the claim."
+                                ),
                             )
                         )
                     continue
@@ -130,6 +134,21 @@ class EvidenceRetrievalSpecialist:
                             )
                         )
         return links
+
+    @staticmethod
+    def _activity_type(text: str) -> str | None:
+        lowered = text.casefold()
+        for keyword, value in (
+            ("industry", "industry_programme"),
+            ("workshop", "workshop"),
+            ("bootcamp", "bootcamp"),
+            ("faculty development", "faculty_development"),
+            ("outreach", "outreach"),
+            ("value-added", "value_added_course"),
+        ):
+            if keyword in lowered:
+                return value
+        return None
 
     @staticmethod
     def _link(atomic_id, record, field_name, observed, expected) -> EvidenceSupportLink:

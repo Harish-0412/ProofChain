@@ -64,10 +64,10 @@ def test_full_pipeline_detects_injected_defects_and_validates_sync():
     result = Supervisor().run(request())
     try:
         assert result.status == "blocked"
-        assert result.total_evidence_registered == 15
-        assert result.total_documents_classified == 15
+        assert result.total_evidence_registered == 16
+        assert result.total_documents_classified == 16
         assert result.total_findings == 9
-        assert result.total_gaps == 5
+        assert result.total_gaps == 6
         assert JsonRunRepository().validate(result.run_id) == []
         assert result.top_level_goal_id
         assert result.supervisor_rounds >= 1
@@ -244,7 +244,7 @@ def test_full_pipeline_detects_injected_defects_and_validates_sync():
         policy_manifest = json.loads(
             get_policy_manifest_path(result.run_id).read_text(encoding="utf-8")
         )
-        assert len(policy_manifest["policies"]) == 7
+        assert len(policy_manifest["policies"]) == 16
         assert policy_manifest["policy_fingerprint"]
 
         model_governance = json.loads(
@@ -284,7 +284,7 @@ def test_stage_only_runs_resume_from_committed_artifacts():
         classified = Supervisor().run(
             request(RunMode.CLASSIFY_ONLY, resume_run_id=collected.run_id)
         )
-        assert classified.total_documents_classified == 15
+        assert classified.total_documents_classified == 16
         assert get_classified_evidence_path(classified.run_id).exists()
         assert JsonRunRepository().validate(classified.run_id) == []
 
@@ -292,7 +292,7 @@ def test_stage_only_runs_resume_from_committed_artifacts():
             request(RunMode.INTEGRITY_ONLY, resume_run_id=classified.run_id)
         )
         assert integrity.total_findings == 9
-        assert integrity.total_gaps == 5
+        assert integrity.total_gaps == 6
         assert JsonRunRepository().validate(integrity.run_id) == []
     finally:
         for item in (collected, classified, integrity):

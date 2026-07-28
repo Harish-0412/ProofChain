@@ -1,0 +1,31 @@
+[
+  {
+    "id": "email-001",
+    "sender": "hod@college.edu",
+    "subject": "Internal assessment report required before review",
+    "received_at": "2026-07-28T08:10:00",
+    "summary": "HOD needs the internal assessment report before the 3:30 PM department review.",
+    "due_by": "14:00",
+    "urgency": "critical",
+    "action_required": true
+  },
+  {
+    "id": "email-002",
+    "sender": "project-group-a@college.edu",
+    "subject": "Clarification for project review",
+    "received_at": "2026-07-28T09:20:00",
+    "summary": "Student group asks what documents to bring for today's review.",
+    "due_by": "12:15",
+    "urgency": "high",
+    "action_required": true
+  },
+  {
+    "id": "email-003",
+    "sender": "library@college.edu",
+    "subject": "Monthly library circular",
+    "received_at": "2026-07-28T09:40:00",
+    "summary": "General circular with no immediate action.",
+    "urgency": "low",
+    "action_required": false
+  }
+]

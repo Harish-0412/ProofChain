@@ -1,0 +1,257 @@
+[
+  {
+    "event_id": "EVT-AIML-001",
+    "department": "AIML",
+    "requirement_id": "C3.2.1",
+    "event_title": "Industry Workshop on Production Machine Learning",
+    "event_date": "2025-08-22",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIML\\event_reports\\EVT-AIML-001_AIML_C3.2.1_event_report.pdf",
+      "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-001_AIML_C3.2.1_attendance.xlsx",
+      "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-001_AIML_C3.2.1_approval.pdf",
+      "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-001_AIML_C3.2.1_certificate.pdf",
+      "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-001_C3.2.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIML-002",
+    "department": "AIML",
+    "requirement_id": "C5.1.3",
+    "event_title": "Applied Machine Learning Skills Bootcamp",
+    "event_date": "2025-10-17",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIML\\event_reports\\EVT-AIML-002_AIML_C5.1.3_event_report.docx",
+      "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-002_AIML_C5.1.3_attendance.csv",
+      "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-002_AIML_C5.1.3_approval.docx",
+      "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-002_AIML_C5.1.3_certificate.docx",
+      "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-002_C5.1.3.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIML-003",
+    "department": "AIML",
+    "requirement_id": "C6.3.2",
+    "event_title": "Faculty Development Programme on Responsible AI",
+    "event_date": "2025-12-05",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIML\\event_reports\\EVT-AIML-003_AIML_C6.3.2_event_report.html",
+      "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-003_AIML_C6.3.2_attendance.tsv",
+      "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-003_AIML_C6.3.2_approval.txt",
+      "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-003_AIML_C6.3.2_certificate.html",
+      "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-003_C6.3.2.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIML-004",
+    "department": "AIML",
+    "requirement_id": "C7.1.1",
+    "event_title": "Community AI Literacy Outreach",
+    "event_date": "2026-01-23",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIML\\event_reports\\EVT-AIML-004_AIML_C7.1.1_event_report.md",
+      "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-004_AIML_C7.1.1_attendance.csv",
+      "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-004_AIML_C7.1.1_approval.json",
+      "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-004_AIML_C7.1.1_certificate.md",
+      "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-004_C7.1.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIML-005",
+    "department": "AIML",
+    "requirement_id": "C1.2.1",
+    "event_title": "MLOps Value-Added Certification Course",
+    "event_date": "2026-03-13",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIML\\event_reports\\EVT-AIML-005_AIML_C1.2.1_event_report.json",
+      "attendance_sheet": "departments\\AIML\\attendance_sheets\\EVT-AIML-005_AIML_C1.2.1_attendance.tsv",
+      "approval_document": "departments\\AIML\\approval_documents\\APR_EVT-AIML-005_AIML_C1.2.1_approval.xml",
+      "certificate": "departments\\AIML\\certificates\\CERT_EVT-AIML-005_AIML_C1.2.1_certificate.txt",
+      "photograph": "departments\\AIML\\photos\\PHOTO_EVT-AIML-005_C1.2.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIDS-001",
+    "department": "AIDS",
+    "requirement_id": "C3.2.1",
+    "event_title": "Industry Workshop on Modern Data Engineering",
+    "event_date": "2025-08-22",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-001_AIDS_C3.2.1_event_report.xml",
+      "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-001_AIDS_C3.2.1_attendance.xlsx",
+      "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-001_AIDS_C3.2.1_approval.html",
+      "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-001_AIDS_C3.2.1_certificate.json",
+      "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-001_C3.2.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIDS-002",
+    "department": "AIDS",
+    "requirement_id": "C5.1.3",
+    "event_title": "Analytics and Visualization Skills Bootcamp",
+    "event_date": "2025-10-17",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-002_AIDS_C5.1.3_event_report.txt",
+      "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-002_AIDS_C5.1.3_attendance.tsv",
+      "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-002_AIDS_C5.1.3_approval.pdf",
+      "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-002_AIDS_C5.1.3_certificate.xml",
+      "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-002_C5.1.3.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIDS-003",
+    "department": "AIDS",
+    "requirement_id": "C6.3.2",
+    "event_title": "Faculty Development Programme on Data Governance",
+    "event_date": "2025-12-05",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-003_AIDS_C6.3.2_event_report.pdf",
+      "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-003_AIDS_C6.3.2_attendance.csv",
+      "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-003_AIDS_C6.3.2_approval.docx",
+      "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-003_AIDS_C6.3.2_certificate.pdf",
+      "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-003_C6.3.2.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIDS-004",
+    "department": "AIDS",
+    "requirement_id": "C7.1.1",
+    "event_title": "Community Data Literacy Outreach",
+    "event_date": "2026-01-23",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-004_AIDS_C7.1.1_event_report.docx",
+      "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-004_AIDS_C7.1.1_attendance.tsv",
+      "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-004_AIDS_C7.1.1_approval.txt",
+      "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-004_AIDS_C7.1.1_certificate.docx",
+      "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-004_C7.1.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-AIDS-005",
+    "department": "AIDS",
+    "requirement_id": "C1.2.1",
+    "event_title": "Business Intelligence Value-Added Course",
+    "event_date": "2026-03-13",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\AIDS\\event_reports\\EVT-AIDS-005_AIDS_C1.2.1_event_report.html",
+      "attendance_sheet": "departments\\AIDS\\attendance_sheets\\EVT-AIDS-005_AIDS_C1.2.1_attendance.csv",
+      "approval_document": "departments\\AIDS\\approval_documents\\APR_EVT-AIDS-005_AIDS_C1.2.1_approval.json",
+      "certificate": "departments\\AIDS\\certificates\\CERT_EVT-AIDS-005_AIDS_C1.2.1_certificate.html",
+      "photograph": "departments\\AIDS\\photos\\PHOTO_EVT-AIDS-005_C1.2.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-CSE-001",
+    "department": "CSE",
+    "requirement_id": "C3.2.1",
+    "event_title": "Cloud Native Engineering Industry Workshop",
+    "event_date": "2025-08-22",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\CSE\\event_reports\\EVT-CSE-001_CSE_C3.2.1_event_report.md",
+      "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-001_CSE_C3.2.1_attendance.xlsx",
+      "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-001_CSE_C3.2.1_approval.xml",
+      "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-001_CSE_C3.2.1_certificate.md",
+      "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-001_C3.2.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-CSE-002",
+    "department": "CSE",
+    "requirement_id": "C5.1.3",
+    "event_title": "Secure Coding Student Enrichment Bootcamp",
+    "event_date": "2025-10-17",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\CSE\\event_reports\\EVT-CSE-002_CSE_C5.1.3_event_report.json",
+      "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-002_CSE_C5.1.3_attendance.csv",
+      "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-002_CSE_C5.1.3_approval.html",
+      "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-002_CSE_C5.1.3_certificate.txt",
+      "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-002_C5.1.3.png"
+    }
+  },
+  {
+    "event_id": "EVT-CSE-003",
+    "department": "CSE",
+    "requirement_id": "C6.3.2",
+    "event_title": "Faculty Development Programme on Software Architecture",
+    "event_date": "2025-12-05",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\CSE\\event_reports\\EVT-CSE-003_CSE_C6.3.2_event_report.xml",
+      "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-003_CSE_C6.3.2_attendance.tsv",
+      "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-003_CSE_C6.3.2_approval.pdf",
+      "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-003_CSE_C6.3.2_certificate.json",
+      "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-003_C6.3.2.png"
+    }
+  },
+  {
+    "event_id": "EVT-CSE-004",
+    "department": "CSE",
+    "requirement_id": "C7.1.1",
+    "event_title": "Community Cyber Safety Outreach",
+    "event_date": "2026-01-23",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\CSE\\event_reports\\EVT-CSE-004_CSE_C7.1.1_event_report.txt",
+      "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-004_CSE_C7.1.1_attendance.csv",
+      "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-004_CSE_C7.1.1_approval.docx",
+      "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-004_CSE_C7.1.1_certificate.xml",
+      "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-004_C7.1.1.png"
+    }
+  },
+  {
+    "event_id": "EVT-CSE-005",
+    "department": "CSE",
+    "requirement_id": "C1.2.1",
+    "event_title": "Full Stack Development Value-Added Course",
+    "event_date": "2026-03-13",
+    "reported_participant_count": 30,
+    "unique_attendance_count": 30,
+    "expected_status": "defensible",
+    "files": {
+      "event_report": "departments\\CSE\\event_reports\\EVT-CSE-005_CSE_C1.2.1_event_report.pdf",
+      "attendance_sheet": "departments\\CSE\\attendance_sheets\\EVT-CSE-005_CSE_C1.2.1_attendance.tsv",
+      "approval_document": "departments\\CSE\\approval_documents\\APR_EVT-CSE-005_CSE_C1.2.1_approval.txt",
+      "certificate": "departments\\CSE\\certificates\\CERT_EVT-CSE-005_CSE_C1.2.1_certificate.pdf",
+      "photograph": "departments\\CSE\\photos\\PHOTO_EVT-CSE-005_C1.2.1.png"
+    }
+  }
+]

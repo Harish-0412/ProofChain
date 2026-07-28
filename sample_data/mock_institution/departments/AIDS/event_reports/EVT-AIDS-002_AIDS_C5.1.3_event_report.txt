@@ -1,0 +1,13 @@
+Event Report
+
+Event ID | EVT-AIDS-002
+Accreditation Requirement | C5.1.3
+Mapped Requirement | C5.1.3
+Department | AIDS
+Academic Year | 2025-2026
+Event Title | Analytics and Visualization Skills Bootcamp
+Event Date | 2025-10-17
+Coordinator | Dr. Rohan Iyer
+Reported Participant Count | 30
+
+This synthetic student enrichment programmes record documents a governed activity for AIDS. All 30 registered students are listed once in the linked attendance evidence, and all approval and completion records use the same event identity.

@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+policy_id: multi-tenant-isolation
+default_effect: deny
+tenant_required: true
+department_scope_required: true
+cross_tenant_sharing_requires_approval: true
+expired_shares_denied: true
+

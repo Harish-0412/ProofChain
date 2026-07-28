@@ -47,17 +47,30 @@ class SpreadsheetExtractor:
         )
 
     def extract_csv(self, path: Path, evidence_id: str) -> ExtractionResult:
+        return self.extract_delimited(path, evidence_id, delimiter=",", sheet_name="CSV")
+
+    def extract_tsv(self, path: Path, evidence_id: str) -> ExtractionResult:
+        return self.extract_delimited(path, evidence_id, delimiter="\t", sheet_name="TSV")
+
+    @staticmethod
+    def extract_delimited(
+        path: Path,
+        evidence_id: str,
+        *,
+        delimiter: str,
+        sheet_name: str,
+    ) -> ExtractionResult:
         with path.open("r", encoding="utf-8-sig", newline="") as handle:
-            rows = list(csv.reader(handle))
+            rows = list(csv.reader(handle, delimiter=delimiter))
         return ExtractionResult(
             extraction_status=ExtractionStatus.SUCCESS,
-            extractor_used="csv",
-            tables=[{"sheet_name": "CSV", "rows": rows}],
-            sheet_names=["CSV"],
+            extractor_used="csv" if delimiter == "," else "tsv",
+            tables=[{"sheet_name": sheet_name, "rows": rows}],
+            sheet_names=[sheet_name],
             page_references=[
                 SourceReference(
                     document=evidence_id,
-                    sheet_name="CSV",
+                    sheet_name=sheet_name,
                     cell_range=f"A1:{len(rows)}",
                 )
             ],

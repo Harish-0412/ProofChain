@@ -1,0 +1,17 @@
+Approval Document
+
+Event ID | EVT-AIDS-004
+Accreditation Requirement | C7.1.1
+Mapped Requirement | C7.1.1
+Department | AIDS
+Academic Year | 2025-2026
+Event Title | Community Data Literacy Outreach
+Event Date | 2026-01-23
+Coordinator | Dr. Rohan Iyer
+Reported Participant Count | 30
+Approval Status | Approved
+Signature Present | Yes
+Approval Number | APR-AIDS-004-2025
+Reference Number | REF-EVT-AIDS-004
+
+The Head of Department approved this synthetic activity and its evidence plan.

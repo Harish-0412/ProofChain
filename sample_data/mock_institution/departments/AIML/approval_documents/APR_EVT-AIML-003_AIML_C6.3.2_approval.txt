@@ -1,0 +1,17 @@
+Approval Document
+
+Event ID | EVT-AIML-003
+Accreditation Requirement | C6.3.2
+Mapped Requirement | C6.3.2
+Department | AIML
+Academic Year | 2025-2026
+Event Title | Faculty Development Programme on Responsible AI
+Event Date | 2025-12-05
+Coordinator | Dr. Ananya Rao
+Reported Participant Count | 30
+Approval Status | Approved
+Signature Present | Yes
+Approval Number | APR-AIML-003-2025
+Reference Number | REF-EVT-AIML-003
+
+The Head of Department approved this synthetic activity and its evidence plan.

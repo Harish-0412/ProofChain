@@ -128,7 +128,7 @@ class JsonLifecycleRepository(JsonArtifactRepository):
                 "status": "baseline_controls_recorded",
                 "controls": [
                     "path_traversal_checked_by_source_scope",
-                    "unsupported_files_skipped",
+                    "unsupported_files_registered_and_excluded_from_positive_conclusions",
                     "extracted_text_treated_as_untrusted_data",
                     "formula_cells_not_executed",
                 ],

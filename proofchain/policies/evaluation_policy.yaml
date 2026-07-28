@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+policy_id: continuous-evaluation-governance
+default_effect: deny
+minimum_accuracy: 0.95
+maximum_false_approval_rate: 0.0
+maximum_false_closure_rate: 0.0
+block_regression: true
+

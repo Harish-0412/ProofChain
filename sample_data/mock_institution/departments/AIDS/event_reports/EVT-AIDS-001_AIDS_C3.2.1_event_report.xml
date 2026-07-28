@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proofchain_evidence>
+  <event_id>EVT-AIDS-001</event_id>
+  <accreditation_requirement>C3.2.1</accreditation_requirement>
+  <mapped_requirement>C3.2.1</mapped_requirement>
+  <department>AIDS</department>
+  <academic_year>2025-2026</academic_year>
+  <event_title>Industry Workshop on Modern Data Engineering</event_title>
+  <event_date>2025-08-22</event_date>
+  <coordinator>Dr. Rohan Iyer</coordinator>
+  <reported_participant_count>30</reported_participant_count>
+  <summary>This synthetic industry interaction activities record documents a governed activity for AIDS. All 30 registered students are listed once in the linked attendance evidence, and all approval and completion records use the same event identity.</summary>
+</proofchain_evidence>

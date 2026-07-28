@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proofchain_evidence>
+  <event_id>EVT-AIDS-002</event_id>
+  <accreditation_requirement>C5.1.3</accreditation_requirement>
+  <mapped_requirement>C5.1.3</mapped_requirement>
+  <department>AIDS</department>
+  <academic_year>2025-2026</academic_year>
+  <event_title>Analytics and Visualization Skills Bootcamp</event_title>
+  <event_date>2025-10-17</event_date>
+  <coordinator>Dr. Rohan Iyer</coordinator>
+  <reported_participant_count>30</reported_participant_count>
+  <certificate_register>Complete</certificate_register>
+  <awarded_to>All 30 registered participants</awarded_to>
+  <signature_present>Yes</signature_present>
+  <reference_number>CERT-EVT-AIDS-002</reference_number>
+  <summary>This synthetic register confirms completion for the 30 linked attendance records.</summary>
+</proofchain_evidence>

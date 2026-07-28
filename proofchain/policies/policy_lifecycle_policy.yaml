@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+policy_id: policy-lifecycle-governance
+default_effect: deny
+preserve_historical_decisions: true
+require_conflict_detection: true
+require_historical_simulation: true
+require_human_approval_for_activation: true
+

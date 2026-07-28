@@ -8,6 +8,8 @@ from uuid import uuid4
 
 from proofchain.agentic.goal_manager import GoalManager
 from proofchain.agentic.scheduler import GoalScheduler
+from proofchain.agentic.peer_negotiator import AgentRequestLifecycle, PeerNegotiator
+from proofchain.agentic.global_assurance import GlobalAssuranceService
 from proofchain.agents.evidence_classification import EvidenceClassificationAgent
 from proofchain.agents.evidence_collector import EvidenceCollectorAgent
 from proofchain.agents.evidence_integrity import EvidenceIntegrityAgent
@@ -897,6 +899,7 @@ class Supervisor:
             )
         )
         self.run_repository.complete(result)
+        GlobalAssuranceService(self.store).evaluate(run_id, stage="core")
         tracer.log(
             agent="supervisor",
             event="pipeline_completed",
@@ -1128,6 +1131,36 @@ class Supervisor:
                     },
                 )
                 self._record_resolution_goal(message, resolution)
+                request_contract = next(
+                    (
+                        item
+                        for item in self.coordination.get_agent_requests(
+                            message.run_id
+                        )
+                        if item.request_id == message.message_id
+                    ),
+                    PeerNegotiator().normalize(message),
+                )
+                lifecycle = AgentRequestLifecycle()
+                if request_contract.status == "OPEN":
+                    request_contract = lifecycle.transition(
+                        request_contract, "ACKNOWLEDGED"
+                    )
+                    self.coordination.append_agent_request(request_contract)
+                request_contract = lifecycle.transition(
+                    request_contract, "ACCEPTED"
+                )
+                self.coordination.append_agent_request(request_contract)
+                request_contract = lifecycle.transition(
+                    request_contract, "IN_PROGRESS"
+                )
+                self.coordination.append_agent_request(request_contract)
+                request_contract = lifecycle.transition(
+                    request_contract,
+                    "RESOLVED",
+                    satisfied_conditions=request_contract.acceptance_conditions,
+                )
+                self.coordination.append_agent_request(request_contract)
                 self.coordination.resolve_message(
                     message,
                     status=resolution["message_status"],

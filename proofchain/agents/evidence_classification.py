@@ -11,6 +11,7 @@ from proofchain.agentic.completion_evaluator import evaluate_classification
 from proofchain.core.enums import (
     DocumentType,
     ExtractionStatus,
+    IngestionStatus,
     ProcessingStatus,
 )
 from proofchain.core.exceptions import SchemaValidationError
@@ -89,6 +90,53 @@ class EvidenceClassificationAgent(
         for evidence in input_data.evidence_records:
             path = Path(evidence.absolute_path)
             try:
+                if evidence.ingestion_status in {
+                    IngestionStatus.UNSUPPORTED,
+                    IngestionStatus.QUARANTINED,
+                    IngestionStatus.REJECTED,
+                    IngestionStatus.SKIPPED,
+                }:
+                    warning = (
+                        evidence.capability_reason
+                        or f"Evidence status is {evidence.ingestion_status.value}."
+                    )
+                    record = ClassifiedEvidence(
+                        evidence_id=evidence.evidence_id,
+                        version_id=evidence.version_id,
+                        department=evidence.department,
+                        academic_year=evidence.academic_year,
+                        original_filename=evidence.original_filename,
+                        relative_path=evidence.relative_path,
+                        absolute_path=evidence.absolute_path,
+                        sha256_checksum=evidence.sha256_checksum,
+                        duplicate_of_evidence_id=evidence.duplicate_of_evidence_id,
+                        run_id=input_data.workflow.run_id,
+                        agent_run_id=self.agent_run_id,
+                        extraction=ExtractionResult(
+                            extraction_status=ExtractionStatus.UNSUPPORTED,
+                            extractor_used="none",
+                            extraction_confidence=0.0,
+                            warnings=[warning],
+                        ),
+                        document_type=DocumentTypePrediction(
+                            primary_type=DocumentType.UNKNOWN,
+                            confidence=0.0,
+                            reasons=[warning],
+                        ),
+                        processing_status=ProcessingStatus.SKIPPED,
+                        requires_human_review=True,
+                        warnings=[warning],
+                    )
+                    records.append(record)
+                    if self.tracer:
+                        self.tracer.log(
+                            agent=self.agent_name,
+                            event="evidence_classification_skipped",
+                            evidence_id=evidence.evidence_id,
+                            status=evidence.ingestion_status.value,
+                            capability=evidence.processing_capability,
+                        )
+                    continue
                 if not path.is_file():
                     raise FileNotFoundError(path)
                 actual_checksum = self.checksum_service.sha256(path)

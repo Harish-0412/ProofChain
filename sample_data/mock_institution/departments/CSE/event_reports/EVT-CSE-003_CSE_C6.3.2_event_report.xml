@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proofchain_evidence>
+  <event_id>EVT-CSE-003</event_id>
+  <accreditation_requirement>C6.3.2</accreditation_requirement>
+  <mapped_requirement>C6.3.2</mapped_requirement>
+  <department>CSE</department>
+  <academic_year>2025-2026</academic_year>
+  <event_title>Faculty Development Programme on Software Architecture</event_title>
+  <event_date>2025-12-05</event_date>
+  <coordinator>Dr. Meera Nair</coordinator>
+  <reported_participant_count>30</reported_participant_count>
+  <summary>This synthetic faculty development activities record documents a governed activity for CSE. All 30 registered students are listed once in the linked attendance evidence, and all approval and completion records use the same event identity.</summary>
+</proofchain_evidence>

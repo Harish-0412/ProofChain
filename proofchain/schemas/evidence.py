@@ -41,6 +41,8 @@ class EvidenceRecord(BaseModel):
     modified_at: datetime | None = None
 
     ingestion_status: IngestionStatus = IngestionStatus.REGISTERED
+    processing_capability: str = "native_extraction"
+    capability_reason: str | None = None
     duplicate_status: DuplicateStatus = DuplicateStatus.UNIQUE
     duplicate_of_evidence_id: str | None = None
 
@@ -61,7 +63,22 @@ class CollectorInput(BaseModel):
     workflow: "WorkflowContext"
     source_directories: list[str]
     allowed_extensions: list[str] = Field(
-        default_factory=lambda: [".pdf", ".xlsx", ".csv", ".docx", ".png", ".jpg", ".jpeg"]
+        default_factory=lambda: [
+            ".pdf",
+            ".xlsx",
+            ".csv",
+            ".tsv",
+            ".docx",
+            ".txt",
+            ".md",
+            ".json",
+            ".xml",
+            ".html",
+            ".htm",
+            ".png",
+            ".jpg",
+            ".jpeg",
+        ]
     )
     recursive: bool = True
     rescan_existing: bool = False

@@ -7,6 +7,8 @@ import json
 from pathlib import Path
 
 from proofchain.agents.supervisor import Supervisor
+from proofchain.agentic.agentic_run_validator import AgenticRunValidator
+from proofchain.agentic.experience_memory import ExperienceMemory
 from proofchain.core.enums import RunMode
 from proofchain.core.paths import (
     get_audit_package_manifest_path,
@@ -15,6 +17,7 @@ from proofchain.core.paths import (
     get_ownership_assignments_path,
     get_quality_review_path,
     get_resolution_task_state_path,
+    get_run_dir,
 )
 from proofchain.repositories.json_run_repository import JsonRunRepository
 from proofchain.repositories.json_approval_repository import JsonApprovalRepository
@@ -22,6 +25,12 @@ from proofchain.repositories.json_event_repository import JsonEventRepository
 from proofchain.repositories.json_store import AtomicJsonStore
 from proofchain.schemas.workflow import SupervisorRequest
 from proofchain.schemas.tasks import ResolutionTaskState
+from proofchain.production import PhaseOneSupervisor, PhaseTwoSupervisor
+from proofchain.schemas.institutional import PhaseTwoRequest
+from proofchain.schemas.production import PhaseOneRequest
+from proofchain.services.ingestion_capabilities import IngestionCapabilityService
+from proofchain.services.platform_health import PlatformHealthService
+from proofchain.services.run_projection import RunProjectionService
 
 
 DEFAULT_REQUIREMENTS = ["C3.2.1", "C5.1.3", "C6.3.2", "C7.1.1", "C1.2.1"]
@@ -36,6 +45,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     for command, help_text in (
         ("run-pipeline", "Run collection, classification, and integrity."),
+        ("run-complete", "Run and validate the complete governed 22-agent lifecycle."),
         ("collect", "Collect and register evidence only."),
         ("classify", "Classify evidence from a prior run."),
         ("integrity", "Validate classified evidence from a prior run."),
@@ -62,11 +72,54 @@ def build_parser() -> argparse.ArgumentParser:
         )
         if command in {"classify", "integrity"}:
             child.add_argument("--from-run", required=True)
+        if command == "run-complete":
+            child.add_argument(
+                "--backend",
+                choices=["sqlite", "postgres"],
+                default="sqlite",
+                help="Operational event-store backend.",
+            )
+            child.add_argument("--database-url")
+            child.add_argument("--tenant-id", default="default-institution")
+            child.add_argument("--department-id")
+            child.add_argument(
+                "--query",
+                default="What governance rules apply to accreditation evidence?",
+            )
 
     validate = subparsers.add_parser(
         "validate-run", help="Validate artifact presence, hashes, and synchronization links."
     )
     validate.add_argument("run_id")
+    validate_agentic = subparsers.add_parser(
+        "validate-agentic-run",
+        help="Validate Phase 1 cognition, proof, state, and decision-ledger artifacts.",
+    )
+    validate_agentic.add_argument("run_id")
+    capabilities = subparsers.add_parser(
+        "ingestion-capabilities",
+        help="Report native, metadata-only, unsupported, and rejected file handling.",
+    )
+    capabilities.add_argument("path", nargs="*")
+    health = subparsers.add_parser(
+        "health-check",
+        help="Inspect artifacts, proofs, event chain, database, and adapters.",
+    )
+    health.add_argument("--run-id")
+    project = subparsers.add_parser(
+        "project-run",
+        help="Build the canonical operator projection for a persisted run.",
+    )
+    project.add_argument("run_id")
+    approve_case = subparsers.add_parser(
+        "approve-experience-case",
+        help="Approve a successful cognition case for governed policy-compatible reuse.",
+    )
+    approve_case.add_argument("run_id")
+    approve_case.add_argument("--agent", required=True)
+    approve_case.add_argument("--goal", required=True)
+    approve_case.add_argument("--approved-by", required=True)
+    approve_case.add_argument("--tenant-id")
     approve = subparsers.add_parser(
         "approve-decision",
         help="Record an explicit human approval or rejection for a governed decision.",
@@ -140,17 +193,157 @@ def build_parser() -> argparse.ArgumentParser:
         help="List replayable workflow events for a run.",
     )
     replay.add_argument("run_id")
+    phase_one = subparsers.add_parser(
+        "run-phase-one",
+        help="Attach Agents 11-16 production controls to an existing run.",
+    )
+    phase_one.add_argument("run_id")
+    phase_one.add_argument(
+        "--backend",
+        choices=["sqlite", "postgres"],
+        default="sqlite",
+        help="Operational event-store backend.",
+    )
+    phase_one.add_argument(
+        "--database-url",
+        help="PostgreSQL URL. Prefer PROOFCHAIN_DATABASE_URL in automation.",
+    )
+    phase_one.add_argument(
+        "--changed-reference",
+        action="append",
+        default=[],
+        help="Changed artifact path; repeat to build a partial rerun plan.",
+    )
+    phase_two = subparsers.add_parser(
+        "run-phase-two",
+        help="Attach Agents 17-22 institutional governance to a Phase 1 run.",
+    )
+    phase_two.add_argument("run_id")
+    phase_two.add_argument("--tenant-id", default="default-institution")
+    phase_two.add_argument("--department-id")
+    phase_two.add_argument(
+        "--query",
+        default="What governance rules apply to accreditation evidence?",
+        help="Governed local knowledge-retrieval query.",
+    )
+    phase_two.add_argument(
+        "--backend",
+        choices=["sqlite", "postgres"],
+        default="sqlite",
+        help="Operational event-store backend used for final synchronization.",
+    )
+    phase_two.add_argument("--database-url")
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    if args.command == "ingestion-capabilities":
+        report = IngestionCapabilityService().report(
+            [Path(item).expanduser() for item in args.path]
+        )
+        print(report.model_dump_json(indent=2))
+        return 0
+    if args.command == "health-check":
+        result = PlatformHealthService().inspect(args.run_id)
+        print(json.dumps(result, indent=2))
+        return 1 if result["status"] == "unhealthy" else 0
+    if args.command == "project-run":
+        projector = RunProjectionService()
+        if not projector.run_exists(args.run_id):
+            print(
+                json.dumps(
+                    {"run_id": args.run_id, "available": False, "error": "run_not_found"},
+                    indent=2,
+                )
+            )
+            return 1
+        print(
+            json.dumps(
+                {
+                    "summary": projector.run_summary(args.run_id),
+                    "metrics": projector.dashboard_metrics(args.run_id),
+                    "workflow": projector.workflow_status(args.run_id),
+                    "agents": projector.agents(args.run_id),
+                },
+                indent=2,
+            )
+        )
+        return 0
     if args.command == "validate-run":
         errors = JsonRunRepository().validate(args.run_id)
         if errors:
             print(json.dumps({"run_id": args.run_id, "valid": False, "errors": errors}, indent=2))
             return 1
         print(json.dumps({"run_id": args.run_id, "valid": True}, indent=2))
+        return 0
+    if args.command == "validate-agentic-run":
+        result = AgenticRunValidator().validate(args.run_id)
+        print(json.dumps(result, indent=2))
+        return 0 if result["valid"] else 1
+    if args.command == "approve-experience-case":
+        root = (
+            get_run_dir(args.run_id)
+            / "agents"
+            / args.agent
+            / args.goal
+        )
+        store = AtomicJsonStore()
+        candidate_payload = store.read(root / "experience_candidate.json")
+        proof = store.read(root / "completion_proof.json", default={})
+        context = store.read(root / "context_snapshot.json", default={})
+        if candidate_payload is None:
+            print(
+                json.dumps(
+                    {"approved": False, "error": "experience_candidate_not_found"},
+                    indent=2,
+                )
+            )
+            return 1
+        if not proof.get("proof_valid"):
+            print(
+                json.dumps(
+                    {"approved": False, "error": "completion_proof_invalid"},
+                    indent=2,
+                )
+            )
+            return 1
+        from proofchain.schemas.validated_cases import ValidatedCase
+
+        try:
+            validated = ExperienceMemory(store=store).approve(
+                ValidatedCase.model_validate(candidate_payload),
+                approved_by=args.approved_by,
+                tenant_id=args.tenant_id,
+                policy_fingerprint=context.get("policy_fingerprint", ""),
+            )
+        except ValueError as exc:
+            print(json.dumps({"approved": False, "error": str(exc)}, indent=2))
+            return 1
+        store.write(root / "validated_experience.json", validated)
+        event = JsonEventRepository().append(
+            run_id=args.run_id,
+            event_type="ExperienceCaseValidated",
+            aggregate_type="experience_case",
+            aggregate_id=validated.case_id,
+            actor=args.approved_by,
+            payload={
+                "agent_name": args.agent,
+                "goal_id": args.goal,
+                "tenant_id": args.tenant_id,
+                "policy_fingerprint": validated.policy_fingerprint,
+            },
+        )
+        print(
+            json.dumps(
+                {
+                    "approved": True,
+                    "case_id": validated.case_id,
+                    "event_id": event.event_id,
+                },
+                indent=2,
+            )
+        )
         return 0
     if args.command == "approve-decision":
         try:
@@ -417,6 +610,107 @@ def main(argv: list[str] | None = None) -> int:
             )
         )
         return 0
+    if args.command == "run-phase-one":
+        try:
+            result = PhaseOneSupervisor().run(
+                PhaseOneRequest(
+                    run_id=args.run_id,
+                    backend=args.backend,
+                    database_url=args.database_url,
+                    changed_references=args.changed_reference,
+                )
+            )
+        except (FileNotFoundError, RuntimeError, ValueError) as exc:
+            print(
+                json.dumps(
+                    {"run_id": args.run_id, "completed": False, "error": str(exc)},
+                    indent=2,
+                )
+            )
+            return 1
+        print(result.model_dump_json(indent=2))
+        return 1 if result.status in {"failed", "blocked"} else 0
+    if args.command == "run-phase-two":
+        try:
+            result = PhaseTwoSupervisor().run(
+                PhaseTwoRequest(
+                    run_id=args.run_id,
+                    tenant_id=args.tenant_id,
+                    department_id=args.department_id,
+                    retrieval_query=args.query,
+                    backend=args.backend,
+                    database_url=args.database_url,
+                )
+            )
+        except (FileNotFoundError, RuntimeError, ValueError) as exc:
+            print(
+                json.dumps(
+                    {"run_id": args.run_id, "completed": False, "error": str(exc)},
+                    indent=2,
+                )
+            )
+            return 1
+        print(result.model_dump_json(indent=2))
+        return 1 if result.status in {"failed", "blocked"} else 0
+
+    if args.command == "run-complete":
+        request = _build_supervisor_request(args, RunMode.FULL)
+        try:
+            core_result = Supervisor().run(request)
+            phase_one_result = PhaseOneSupervisor().run(
+                PhaseOneRequest(
+                    run_id=core_result.run_id,
+                    backend=args.backend,
+                    database_url=args.database_url,
+                )
+            )
+            phase_two_result = PhaseTwoSupervisor().run(
+                PhaseTwoRequest(
+                    run_id=core_result.run_id,
+                    tenant_id=args.tenant_id,
+                    department_id=args.department_id
+                    or args.departments[0],
+                    retrieval_query=args.query,
+                    backend=args.backend,
+                    database_url=args.database_url,
+                )
+            )
+            standard_errors = JsonRunRepository().validate(core_result.run_id)
+            agentic_validation = AgenticRunValidator().validate(core_result.run_id)
+            health = PlatformHealthService().inspect(core_result.run_id)
+            projection = RunProjectionService()
+            summary = {
+                "schema_version": "1.0.0",
+                "run_id": core_result.run_id,
+                "core_domain_status": core_result.status,
+                "phase_one_status": phase_one_result.status,
+                "phase_two_status": phase_two_result.status,
+                "primary_agents": len(projection.agents(core_result.run_id)),
+                "persistence_synchronized": phase_two_result.persistence_synchronized,
+                "standard_validation": {
+                    "valid": not standard_errors,
+                    "errors": standard_errors,
+                },
+                "agentic_validation": agentic_validation,
+                "platform_health": health,
+                "workflow": projection.workflow_status(core_result.run_id),
+                "technically_complete": (
+                    not standard_errors
+                    and agentic_validation.get("valid", False)
+                    and health["status"] != "unhealthy"
+                    and phase_one_result.status not in {"failed", "blocked"}
+                    and phase_two_result.status not in {"failed", "blocked"}
+                ),
+                "domain_blocking_is_a_valid_outcome": core_result.status == "blocked",
+            }
+            summary_path = get_run_dir(core_result.run_id) / "complete_run_summary.json"
+            AtomicJsonStore().write(summary_path, summary)
+            summary["summary_path"] = str(summary_path.resolve())
+            print(json.dumps(summary, indent=2))
+            return 0 if summary["technically_complete"] else 1
+        except (FileNotFoundError, RuntimeError, ValueError) as exc:
+            print(json.dumps({"completed": False, "error": str(exc)}, indent=2))
+            return 1
 
     mode = {
         "run-pipeline": RunMode.FULL,
@@ -424,21 +718,7 @@ def main(argv: list[str] | None = None) -> int:
         "classify": RunMode.CLASSIFY_ONLY,
         "integrity": RunMode.INTEGRITY_ONLY,
     }[args.command]
-    sources = [str(Path(source).expanduser().resolve()) for source in args.source]
-    request = SupervisorRequest(
-        source_directories=sources,
-        department_scope=args.departments,
-        academic_year=args.academic_year,
-        requirement_scope=args.requirements,
-        requested_by=args.requested_by,
-        run_mode=mode,
-        objective=args.objective,
-        maximum_agent_rounds=args.max_agent_rounds,
-        maximum_replans_per_agent=args.max_replans,
-        human_approval_for_final_decision=args.require_human_approval,
-        institutional_claims=args.claim,
-        resume_run_id=getattr(args, "from_run", None),
-    )
+    request = _build_supervisor_request(args, mode)
     result = Supervisor().run(request)
     print(
         json.dumps(
@@ -472,6 +752,24 @@ def main(argv: list[str] | None = None) -> int:
         )
     )
     return 1 if result.status == "failed" else 0
+
+
+def _build_supervisor_request(args, mode: RunMode) -> SupervisorRequest:
+    sources = [str(Path(source).expanduser().resolve()) for source in args.source]
+    return SupervisorRequest(
+        source_directories=sources,
+        department_scope=args.departments,
+        academic_year=args.academic_year,
+        requirement_scope=args.requirements,
+        requested_by=args.requested_by,
+        run_mode=mode,
+        objective=args.objective,
+        maximum_agent_rounds=args.max_agent_rounds,
+        maximum_replans_per_agent=args.max_replans,
+        human_approval_for_final_decision=args.require_human_approval,
+        institutional_claims=args.claim,
+        resume_run_id=getattr(args, "from_run", None),
+    )
 
 
 if __name__ == "__main__":

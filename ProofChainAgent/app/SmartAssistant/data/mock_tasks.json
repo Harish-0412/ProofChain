@@ -1,0 +1,51 @@
+[
+  {
+    "id": "task-ia-report",
+    "title": "Complete internal assessment report",
+    "description": "Finalize marks summary, verify missing entries, and prepare the report for the department review.",
+    "deadline": "14:00",
+    "estimated_minutes": 75,
+    "importance": 5,
+    "status": "Pending",
+    "source": "department",
+    "category": "Reports",
+    "dependency": "Department review meeting",
+    "reason": "Required before the 3:30 PM department review."
+  },
+  {
+    "id": "task-evaluation",
+    "title": "Evaluate pending assignments",
+    "description": "Review remaining assignment submissions and record marks.",
+    "deadline": "2026-07-29T17:00:00",
+    "estimated_minutes": 75,
+    "importance": 4,
+    "status": "Pending",
+    "source": "teaching",
+    "category": "Evaluation",
+    "reason": "Useful to complete soon, but not required before today's meeting."
+  },
+  {
+    "id": "task-research",
+    "title": "Research paper reading block",
+    "description": "Read and annotate two related-work papers.",
+    "estimated_minutes": 60,
+    "importance": 2,
+    "status": "Pending",
+    "source": "research",
+    "category": "Research",
+    "reason": "Important long-term work, but lower urgency today."
+  },
+  {
+    "id": "task-meeting-prep",
+    "title": "Prepare department meeting notes",
+    "description": "Collect course completion percentage and unresolved project review points.",
+    "deadline": "15:30",
+    "estimated_minutes": 45,
+    "importance": 4,
+    "status": "Pending",
+    "source": "department",
+    "category": "Meeting Preparation",
+    "dependency": "Department review meeting",
+    "reason": "Needed to participate effectively in the 3:30 PM meeting."
+  }
+]

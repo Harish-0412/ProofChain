@@ -1,0 +1,17 @@
+{
+  "targets": {
+    "FacultyFlowMumbai": {
+      "resources": {
+        "runtimes": {
+          "FacultyFlow": {
+            "runtimeId": "FacultyFlowAgent_FacultyFlow-85mb1RH1p9",
+            "runtimeArn": "arn:aws:bedrock-agentcore:ap-south-1:351405419703:runtime/FacultyFlowAgent_FacultyFlow-85mb1RH1p9",
+            "roleArn": "arn:aws:iam::351405419703:role/AgentCore-FacultyFlowAgen-ApplicationAgentFacultyFl-nz67Z7xsRszJ"
+          }
+        },
+        "stackName": "AgentCore-FacultyFlowAgent-FacultyFlowMumbai",
+        "deployHash": "cf62f337c9174455"
+      }
+    }
+  }
+}

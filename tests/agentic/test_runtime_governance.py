@@ -36,7 +36,7 @@ def make_goal(
 def test_policy_catalog_is_complete_stable_and_deny_by_default():
     first = GovernancePolicyCatalog.load()
     second = GovernancePolicyCatalog.load()
-    assert len(first.records) == 7
+    assert len(first.records) == 16
     assert first.fingerprint == second.fingerprint
     actor = first.approval_actor("IQAC-CHAIR")
     assert actor is not None

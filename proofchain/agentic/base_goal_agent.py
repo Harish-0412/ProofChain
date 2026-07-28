@@ -9,6 +9,8 @@ from typing import Generic, TypeVar
 from uuid import uuid4
 
 from proofchain.agents.base import BaseAgent
+from proofchain.agentic.advanced_cognition_runtime import AdvancedCognitionRuntime
+from proofchain.agentic.cognition_profiles import cognition_profile_for
 from proofchain.agentic.planner import make_plan
 from proofchain.agentic.memory import AgentMemory
 from proofchain.agentic.tool_router import ToolRouter
@@ -67,8 +69,54 @@ class BaseGoalAgent(
         retries: dict[str, int] = {}
         action_rounds = 0
         output: OutputType | None = None
+        cognition: AdvancedCognitionRuntime | None = None
+        tools = self.agentic_tools(input_data)
 
-        self.validate_input(input_data)
+        profile = cognition_profile_for(self.agent_name)
+        if profile.profile_name == "advanced-cognition-platform":
+            cognition = AdvancedCognitionRuntime(goal, coordination)
+            validation_error: Exception | None = None
+            try:
+                self.validate_input(input_data)
+            except Exception as exc:
+                validation_error = exc
+            input_validation = cognition.initialize(
+                input_data,
+                deterministic_error=validation_error,
+            )
+            if not input_validation.valid:
+                plan = AgentPlan(
+                    plan_id=f"PLAN-{uuid4().hex[:12].upper()}",
+                    run_id=goal.run_id,
+                    goal_id=goal.goal_id,
+                    agent_name=self.agent_name,
+                    revision=1,
+                    rationale="Execution was prohibited by the pre-plan input gate.",
+                    steps=[],
+                    status="abandoned",
+                )
+                completion = self._input_gate_completion(
+                    goal,
+                    input_validation.missing_inputs,
+                    validation_error,
+                )
+                completion = cognition.finalize(
+                    plan,
+                    output,
+                    completion,
+                    output_schema_valid=False,
+                )
+                return self._finish(
+                    goal,
+                    plan,
+                    completion,
+                    output,
+                    observations,
+                    reflections,
+                    coordination,
+                )
+        else:
+            self.validate_input(input_data)
         self._agent_run_id = generate_agent_run_id(self.agent_name, goal.run_id)
         goal.status = "planning"
         coordination.save_goal(goal)
@@ -76,13 +124,64 @@ class BaseGoalAgent(
         coordination.save_plan(plan)
         router = ToolRouter(coordination)
         memory = AgentMemory(coordination)
-        for tool_name, function in self.agentic_tools(input_data).items():
+        for tool_name, function in tools.items():
             router.register(
                 name=tool_name,
                 agent_name=self.agent_name,
                 function=function,
                 version=self.agent_version,
             )
+        if cognition:
+            _, critique = cognition.record_plan(
+                plan, allowed_tools=set(tools)
+            )
+            while (
+                not critique.approved
+                and plan.revision < budget.max_plan_revisions
+            ):
+                plan.status = "abandoned"
+                coordination.save_plan(plan)
+                plan = self.create_goal_plan(
+                    goal, input_data, revision=plan.revision + 1
+                )
+                coordination.save_plan(plan)
+                _, critique = cognition.record_plan(
+                    plan, allowed_tools=set(tools)
+                )
+            if not critique.approved:
+                completion = CompletionDecision(
+                    decision_id=f"DEC-{uuid4().hex[:12].upper()}",
+                    run_id=goal.run_id,
+                    goal_id=goal.goal_id,
+                    agent_name=self.agent_name,
+                    goal_satisfied=False,
+                    success_conditions_unmet=goal.success_conditions,
+                    blockers=[
+                        "The plan critic rejected every bounded plan revision.",
+                        *critique.required_revisions,
+                    ],
+                    confidence=0.0,
+                    final_status="needs_human_review",
+                    explanation=(
+                        "Execution was prohibited because the plan did not pass "
+                        "coverage, permission, risk, and policy criticism."
+                    ),
+                )
+                completion = cognition.finalize(
+                    plan,
+                    output,
+                    completion,
+                    output_schema_valid=False,
+                )
+                return self._finish(
+                    goal,
+                    plan,
+                    completion,
+                    output,
+                    observations,
+                    reflections,
+                    coordination,
+                )
         goal.status = "executing"
         plan.status = "executing"
         coordination.save_goal(goal)
@@ -92,6 +191,13 @@ class BaseGoalAgent(
                 completion = self._budget_completion(
                     goal, plan, observations, "Maximum runtime was exhausted."
                 )
+                if cognition:
+                    completion = cognition.finalize(
+                        plan,
+                        output,
+                        completion,
+                        output_schema_valid=output is not None,
+                    )
                 return self._finish(
                     goal, plan, completion, output, observations, reflections, coordination
                 )
@@ -105,18 +211,26 @@ class BaseGoalAgent(
             step.status = "running"
 
             if step.proposed_tool is None:
+                if cognition:
+                    cognition.record_control_action(step.step_id, step.objective)
                 observation = self.observe_control_step(goal, plan, step, output)
             else:
-                action = ActionProposal(
-                    action_id=f"ACT-{uuid4().hex[:12].upper()}",
-                    run_id=goal.run_id,
-                    goal_id=goal.goal_id,
-                    agent_name=self.agent_name,
-                    action_type="execute_tool",
-                    selected_tool=step.proposed_tool,
-                    reason=step.objective,
-                    expected_effect=step.expected_observation,
-                    risk_level="low",
+                action = (
+                    cognition.select_action(
+                        step.step_id, allowed_tools=set(tools)
+                    )
+                    if cognition
+                    else ActionProposal(
+                        action_id=f"ACT-{uuid4().hex[:12].upper()}",
+                        run_id=goal.run_id,
+                        goal_id=goal.goal_id,
+                        agent_name=self.agent_name,
+                        action_type="execute_tool",
+                        selected_tool=step.proposed_tool,
+                        reason=step.objective,
+                        expected_effect=step.expected_observation,
+                        risk_level="low",
+                    )
                 )
                 coordination.append_action(action)
                 try:
@@ -140,9 +254,21 @@ class BaseGoalAgent(
 
             observations.append(observation)
             coordination.append_observation(observation)
+            normalized = (
+                cognition.record_observation(
+                    observation,
+                    source_tool=step.proposed_tool
+                    or "internal_control_assessment",
+                    source_version=self.agent_version,
+                )
+                if cognition
+                else None
+            )
             reflection = self.reflect(goal, plan, step.step_id, observation, output)
             reflections.append(reflection)
             coordination.append_reflection(reflection)
+            if cognition and normalized:
+                cognition.record_reflection(reflection, normalized)
             memory.record_rationale(
                 DecisionRationale(
                     run_id=goal.run_id,
@@ -180,6 +306,13 @@ class BaseGoalAgent(
                     completion = self._budget_completion(
                         goal, plan, observations, "Plan revision budget was exhausted."
                     )
+                    if cognition:
+                        completion = cognition.finalize(
+                            plan,
+                            output,
+                            completion,
+                            output_schema_valid=output is not None,
+                        )
                     return self._finish(
                         goal,
                         plan,
@@ -196,9 +329,48 @@ class BaseGoalAgent(
                 )
                 plan.status = "replanning"
                 coordination.save_plan(plan)
+                if cognition:
+                    _, critique = cognition.record_plan(
+                        plan, allowed_tools=set(tools)
+                    )
+                    if not critique.approved:
+                        completion = CompletionDecision(
+                            decision_id=f"DEC-{uuid4().hex[:12].upper()}",
+                            run_id=goal.run_id,
+                            goal_id=goal.goal_id,
+                            agent_name=self.agent_name,
+                            goal_satisfied=False,
+                            success_conditions_unmet=goal.success_conditions,
+                            blockers=critique.required_revisions,
+                            confidence=0.0,
+                            final_status="needs_human_review",
+                            explanation="The replanned action sequence failed plan criticism.",
+                        )
+                        completion = cognition.finalize(
+                            plan,
+                            output,
+                            completion,
+                            output_schema_valid=output is not None,
+                        )
+                        return self._finish(
+                            goal,
+                            plan,
+                            completion,
+                            output,
+                            observations,
+                            reflections,
+                            coordination,
+                        )
                 continue
             if reflection.decision == "request_human":
                 completion = self._human_review_completion(goal, observations)
+                if cognition:
+                    completion = cognition.finalize(
+                        plan,
+                        output,
+                        completion,
+                        output_schema_valid=output is not None,
+                    )
                 return self._finish(
                     goal, plan, completion, output, observations, reflections, coordination
                 )
@@ -213,7 +385,18 @@ class BaseGoalAgent(
             peer_requests = self.create_peer_requests(goal, output)
             for message in peer_requests[: budget.max_peer_requests]:
                 coordination.append_message(message)
+            if cognition:
+                cognition.record_peer_requests(
+                    peer_requests[: budget.max_peer_requests]
+                )
             completion = self.evaluate_goal_completion(goal, output, observations)
+        if cognition:
+            completion = cognition.finalize(
+                plan,
+                output,
+                completion,
+                output_schema_valid=output is not None,
+            )
         return self._finish(
             goal, plan, completion, output, observations, reflections, coordination
         )
@@ -434,4 +617,29 @@ class BaseGoalAgent(
                 for observation in observations
                 for reference in observation.source_references
             ],
+        )
+
+    def _input_gate_completion(
+        self,
+        goal: Goal,
+        missing_inputs: list[str],
+        validation_error: Exception | None,
+    ) -> CompletionDecision:
+        blockers = list(missing_inputs)
+        if validation_error:
+            blockers.append(str(validation_error))
+        return CompletionDecision(
+            decision_id=f"DEC-{uuid4().hex[:12].upper()}",
+            run_id=goal.run_id,
+            goal_id=goal.goal_id,
+            agent_name=self.agent_name,
+            goal_satisfied=False,
+            success_conditions_unmet=goal.success_conditions,
+            blockers=blockers or ["The pre-plan input gate rejected the request."],
+            confidence=0.0,
+            final_status="blocked",
+            explanation=(
+                "The agent did not plan or execute tools because mandatory input "
+                "validation failed."
+            ),
         )

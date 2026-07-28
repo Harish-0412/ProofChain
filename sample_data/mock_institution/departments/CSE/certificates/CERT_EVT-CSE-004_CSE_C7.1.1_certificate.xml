@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proofchain_evidence>
+  <event_id>EVT-CSE-004</event_id>
+  <accreditation_requirement>C7.1.1</accreditation_requirement>
+  <mapped_requirement>C7.1.1</mapped_requirement>
+  <department>CSE</department>
+  <academic_year>2025-2026</academic_year>
+  <event_title>Community Cyber Safety Outreach</event_title>
+  <event_date>2026-01-23</event_date>
+  <coordinator>Dr. Meera Nair</coordinator>
+  <reported_participant_count>30</reported_participant_count>
+  <certificate_register>Complete</certificate_register>
+  <awarded_to>All 30 registered participants</awarded_to>
+  <signature_present>Yes</signature_present>
+  <reference_number>CERT-EVT-CSE-004</reference_number>
+  <summary>This synthetic register confirms completion for the 30 linked attendance records.</summary>
+</proofchain_evidence>

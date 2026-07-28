@@ -1,0 +1,18 @@
+schema_version: "1.0.0"
+policy_id: enterprise-identity-authorization
+default_effect: deny
+identity:
+  external_verification_required: true
+authorization:
+  enforce_tenant_scope: true
+  enforce_department_scope: true
+  reject_expired_grants: true
+separation_of_duties:
+  prohibit_self_approval: true
+  protected_actions:
+    - approve_evidence
+    - approve_assignment
+    - waive_issue
+    - submit_package
+dual_approval:
+  high_risk_actions_require: 2

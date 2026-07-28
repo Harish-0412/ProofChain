@@ -1,0 +1,91 @@
+{
+  "dataset_id": "PROOFCHAIN-MOCK-THREE-DEPARTMENT-2025-2026",
+  "valid": true,
+  "summary": {
+    "departments": 3,
+    "students": 90,
+    "events": 15,
+    "evidence_files": 75,
+    "checks_passed": 11,
+    "checks_total": 11
+  },
+  "checks": [
+    {
+      "name": "department_scope",
+      "passed": true
+    },
+    {
+      "name": "student_identity_uniqueness",
+      "passed": true
+    },
+    {
+      "name": "aids_student_distribution",
+      "passed": true,
+      "student_count": 30,
+      "female_count": 15,
+      "male_count": 15
+    },
+    {
+      "name": "aiml_student_distribution",
+      "passed": true,
+      "student_count": 30,
+      "female_count": 15,
+      "male_count": 15
+    },
+    {
+      "name": "cse_student_distribution",
+      "passed": true,
+      "student_count": 30,
+      "female_count": 15,
+      "male_count": 15
+    },
+    {
+      "name": "manifest_checksums",
+      "passed": true,
+      "checked_files": 79
+    },
+    {
+      "name": "event_identity",
+      "passed": true
+    },
+    {
+      "name": "attendance_reconciliation",
+      "passed": true,
+      "checked_events": 15
+    },
+    {
+      "name": "evidence_file_count",
+      "passed": true,
+      "count": 75
+    },
+    {
+      "name": "evidence_bundle_shape",
+      "passed": true,
+      "counts": {
+        "approval_documents": 15,
+        "attendance_sheets": 15,
+        "certificates": 15,
+        "event_reports": 15,
+        "photos": 15
+      }
+    },
+    {
+      "name": "native_format_coverage",
+      "passed": true,
+      "formats": [
+        ".csv",
+        ".docx",
+        ".html",
+        ".json",
+        ".md",
+        ".pdf",
+        ".png",
+        ".tsv",
+        ".txt",
+        ".xlsx",
+        ".xml"
+      ]
+    }
+  ],
+  "errors": []
+}

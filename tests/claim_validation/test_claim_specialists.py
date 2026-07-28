@@ -35,12 +35,17 @@ from proofchain.schemas.classification import (
 from proofchain.schemas.workflow import WorkflowContext
 
 
-def record(evidence_id: str, document_type: DocumentType, fields: dict):
+def record(
+    evidence_id: str,
+    document_type: DocumentType,
+    fields: dict,
+    requirement_id: str = "C3.2.1",
+):
     return ClassifiedEvidence(
         evidence_id=evidence_id,
         version_id=f"VER-{evidence_id}-01",
-        department="CSE",
-        academic_year="2025-2026",
+        department=str(fields.get("department", "CSE")),
+        academic_year=str(fields.get("academic_year", "2025-2026")),
         original_filename=f"{evidence_id}.pdf",
         relative_path=f"sample/{evidence_id}.pdf",
         absolute_path=f"C:/sample/{evidence_id}.pdf",
@@ -63,7 +68,7 @@ def record(evidence_id: str, document_type: DocumentType, fields: dict):
             for name, value in fields.items()
         },
         requirement_mappings=[
-            RequirementMapping(requirement_id="C3.2.1", confidence=0.99)
+            RequirementMapping(requirement_id=requirement_id, confidence=0.99)
         ],
         overall_confidence=0.99,
         processing_status=ProcessingStatus.COMPLETED,
@@ -138,3 +143,60 @@ def test_complex_claim_uses_support_and_counter_evidence_and_proposes_repair():
     assert "participant_count=108" in decision.defensible_claim_text
     assert decision.requires_human_review
     assert decision.lineage.edges
+
+
+def test_derived_claim_preserves_requirement_and_uses_independent_activity_evidence():
+    workflow = WorkflowContext(
+        run_id=f"RUN-CLAIM-{uuid.uuid4().hex[:8].upper()}",
+        correlation_id=str(uuid.uuid4()),
+        department_scope=["AIML"],
+        academic_year="2025-2026",
+        requirement_scope=["C3.2.1", "C5.1.3"],
+    )
+    shared = {
+        "event_id": "EVT-AIML-002",
+        "event_title": "Applied Machine Learning Skills Bootcamp",
+        "department": "AIML",
+        "academic_year": "2025-2026",
+    }
+    records = [
+        record(
+            "EVD-REPORT",
+            DocumentType.EVENT_REPORT,
+            {**shared, "reported_participant_count": 30},
+            "C5.1.3",
+        ),
+        record(
+            "EVD-ATTENDANCE",
+            DocumentType.ATTENDANCE_SHEET,
+            {**shared, "unique_student_count": 30},
+            "C5.1.3",
+        ),
+        record(
+            "EVD-APPROVAL",
+            DocumentType.APPROVAL_DOCUMENT,
+            shared,
+            "C5.1.3",
+        ),
+    ]
+    input_data = ClaimValidationInput(
+        workflow=workflow,
+        classified_evidence=records,
+        bundles=[],
+    )
+
+    claims = ClaimDecompositionSpecialist().run(input_data)
+    assert claims[0].claim_id == "CLM-C5.1.3-001"
+    assert claims[0].requirement_id == "C5.1.3"
+
+    links = EvidenceRetrievalSpecialist().run(input_data, claims)
+    contradictions = ContradictionInvestigationSpecialist().run(links)
+    sufficiency = SufficiencyEvaluationSpecialist().run(
+        claims, links, contradictions
+    )
+    decisions = DefensibilityDecisionSpecialist().run(
+        claims, links, contradictions, sufficiency
+    )
+
+    assert decisions[0].status == "supported"
+    assert not decisions[0].requires_human_review

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proofchain_evidence>
+  <event_id>EVT-CSE-001</event_id>
+  <accreditation_requirement>C3.2.1</accreditation_requirement>
+  <mapped_requirement>C3.2.1</mapped_requirement>
+  <department>CSE</department>
+  <academic_year>2025-2026</academic_year>
+  <event_title>Cloud Native Engineering Industry Workshop</event_title>
+  <event_date>2025-08-22</event_date>
+  <coordinator>Dr. Meera Nair</coordinator>
+  <reported_participant_count>30</reported_participant_count>
+  <approval_status>Approved</approval_status>
+  <signature_present>Yes</signature_present>
+  <approval_number>APR-CSE-001-2025</approval_number>
+  <reference_number>REF-EVT-CSE-001</reference_number>
+  <summary>The Head of Department approved this synthetic activity and its evidence plan.</summary>
+</proofchain_evidence>

@@ -2,11 +2,13 @@
 node_modules/
 __pycache__/
 *.py[cod]
+.venv/
 
 # Environment and local config
 .env
 .env.*
 !.env.example
+client_secret*.json
 
 # OS/editor noise
 .DS_Store
@@ -14,6 +16,14 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Tool and build output
+.tmp/
+.pytest_cache/
+.ruff_cache/
+frontend/.next/
+frontend/out/
+outputs/runs/RUN-20*/
+outputs/runs/RUN-TEST-HETEROGENEOUS/
+
 # Generated inspection sidecars
 *.inspect.ndjson
-

@@ -115,10 +115,14 @@ class ActionProposal(BaseModel):
     agent_name: str
     action_type: str
     selected_tool: str
+    step_id: str | None = None
     tool_arguments: dict[str, Any] = Field(default_factory=dict)
+    alternatives: list[str] = Field(default_factory=list)
     reason: str
     expected_effect: str
+    expected_information_gain: float = Field(default=0.5, ge=0.0, le=1.0)
     risk_level: Literal["low", "medium", "high"] = "low"
+    reversible: bool = True
     requires_approval: bool = False
     schema_version: str = SCHEMA_VERSION
 

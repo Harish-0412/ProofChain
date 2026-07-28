@@ -37,7 +37,23 @@ class ProofChainSettings:
             pipeline.get("default_academic_year", "2025-2026"),
         )
         self.allowed_extensions: list[str] = pipeline.get(
-            "allowed_extensions", [".pdf", ".xlsx", ".csv", ".docx", ".png", ".jpg", ".jpeg"]
+            "allowed_extensions",
+            [
+                ".pdf",
+                ".xlsx",
+                ".csv",
+                ".tsv",
+                ".docx",
+                ".txt",
+                ".md",
+                ".json",
+                ".xml",
+                ".html",
+                ".htm",
+                ".png",
+                ".jpg",
+                ".jpeg",
+            ],
         )
         self.supported_departments: list[str] = pipeline.get(
             "supported_departments", ["CSE", "AIML", "AIDS", "Mechanical", "ECE", "EEE"]

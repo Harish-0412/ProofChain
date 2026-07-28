@@ -32,3 +32,39 @@ agents:
   adversarial_quality_review:
     allowed_actions: [challenge_claims, score_risk, require_corrections]
     denied_actions: [modify_package, approve_external_submission]
+  operational_persistence:
+    allowed_actions: [check_database_health, import_events, create_snapshot, rebuild_state]
+    denied_actions: [delete_event_history, rewrite_historical_event, alter_decision]
+  workflow_continuation:
+    allowed_actions: [fingerprint_artifacts, calculate_impact, schedule_partial_rerun]
+    denied_actions: [modify_source_artifact, duplicate_irreversible_action]
+  identity_authorization:
+    allowed_actions: [resolve_identity, evaluate_scope, enforce_separation_of_duties]
+    denied_actions: [grant_role, bypass_dual_approval, alter_identity_provider]
+  integration_notification:
+    allowed_actions: [select_channel, dispatch_approved_message, correlate_response]
+    denied_actions: [send_unapproved_message, disclose_unapproved_fields]
+  security_inspection:
+    allowed_actions: [inspect_file, scan_content, quarantine_derivative]
+    denied_actions: [delete_original, execute_evidence_content, approve_evidence]
+  reliability_incident_response:
+    allowed_actions: [analyze_telemetry, recommend_retry, recommend_failover, pause_source]
+    denied_actions: [rewrite_event_history, exceed_retry_budget, conceal_incident]
+  schema_evolution:
+    allowed_actions: [read_schema, compare_schema, convert_copy, gate_deployment]
+    denied_actions: [modify_historical_artifact, deploy_incompatible_schema]
+  policy_lifecycle:
+    allowed_actions: [parse_policy, detect_conflict, simulate_impact, recommend_activation]
+    denied_actions: [rewrite_historical_decision, activate_without_approval]
+  tenant_governance:
+    allowed_actions: [resolve_tenant, evaluate_scope, validate_share, decide_access]
+    denied_actions: [create_unapproved_share, bypass_tenant_boundary]
+  external_submission:
+    allowed_actions: [validate_package, freeze_hash, submit_approved_package, verify_receipt]
+    denied_actions: [modify_package, bypass_final_confirmation, repeat_submission]
+  continuous_evaluation:
+    allowed_actions: [run_golden_scenarios, calculate_metrics, block_release]
+    denied_actions: [alter_expected_result, approve_failed_release]
+  knowledge_retrieval:
+    allowed_actions: [rank_sources, retrieve_guidance, build_citations]
+    denied_actions: [override_policy, approve_evidence, use_unapproved_source]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proofchain_evidence>
+  <event_id>EVT-AIML-005</event_id>
+  <accreditation_requirement>C1.2.1</accreditation_requirement>
+  <mapped_requirement>C1.2.1</mapped_requirement>
+  <department>AIML</department>
+  <academic_year>2025-2026</academic_year>
+  <event_title>MLOps Value-Added Certification Course</event_title>
+  <event_date>2026-03-13</event_date>
+  <coordinator>Dr. Ananya Rao</coordinator>
+  <reported_participant_count>30</reported_participant_count>
+  <approval_status>Approved</approval_status>
+  <signature_present>Yes</signature_present>
+  <approval_number>APR-AIML-005-2025</approval_number>
+  <reference_number>REF-EVT-AIML-005</reference_number>
+  <summary>The Head of Department approved this synthetic activity and its evidence plan.</summary>
+</proofchain_evidence>

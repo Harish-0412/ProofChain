@@ -1,0 +1,10 @@
+schema_version: "1.0.0"
+policy_id: external-submission-governance
+default_effect: deny
+require_quality_pass: true
+require_package_hash_match: true
+require_independent_approval: true
+require_final_confirmation: true
+require_idempotency_key: true
+immutable_package: true
+
